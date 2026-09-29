@@ -1,0 +1,1239 @@
+{
+  "source": "data/Core Rules.pdf",
+  "rules": {
+    "page": 15,
+    "source_sha256": "4d0e8019cbfddd6f46781d5b4ed31d46fb21eb2d0d10a0f6fabefac0ce054364",
+    "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+    "furniture_refs": [
+      "#/texts/336",
+      "#/texts/337",
+      "#/texts/338",
+      "#/texts/339",
+      "#/texts/340",
+      "#/texts/368"
+    ],
+    "sections": [
+      {
+        "page": 15,
+        "figure_id": "p015_terrain",
+        "figure_title": "Moving over terrain — examples A and B",
+        "image": "images/page_015_terrain.png",
+        "figure_bbox": [
+          336,
+          79,
+          555,
+          374
+        ],
+        "body_refs": [
+          "#/texts/341",
+          "#/texts/342",
+          "#/texts/343",
+          "#/texts/344",
+          "#/texts/345"
+        ],
+        "summary_refs": [],
+        "caption_refs": [
+          "#/texts/351",
+          "#/texts/352",
+          "#/texts/353",
+          "#/texts/354",
+          "#/texts/355",
+          "#/texts/356",
+          "#/texts/357",
+          "#/texts/358",
+          "#/texts/359",
+          "#/texts/360",
+          "#/texts/361",
+          "#/texts/362"
+        ],
+        "caption_groups": [
+          [
+            "#/texts/351",
+            "#/texts/352",
+            "#/texts/353",
+            "#/texts/354",
+            "#/texts/355",
+            "#/texts/356",
+            "#/texts/357"
+          ],
+          [
+            "#/texts/358",
+            "#/texts/359",
+            "#/texts/360",
+            "#/texts/361",
+            "#/texts/362"
+          ]
+        ],
+        "annotation_refs": [
+          "#/texts/363",
+          "#/texts/364",
+          "#/texts/365"
+        ],
+        "furniture_refs": []
+      },
+      {
+        "page": 15,
+        "figure_id": "p015_flying",
+        "figure_title": "Flying — movement through the air",
+        "image": "images/page_015_flying.png",
+        "figure_bbox": [
+          156,
+          548,
+          558,
+          721
+        ],
+        "body_refs": [
+          "#/texts/346",
+          "#/texts/347",
+          "#/texts/348",
+          "#/texts/366",
+          "#/texts/367"
+        ],
+        "summary_refs": [],
+        "caption_refs": [
+          "#/texts/349"
+        ],
+        "caption_groups": [],
+        "annotation_refs": [
+          "#/texts/350"
+        ],
+        "furniture_refs": []
+      }
+    ]
+  },
+  "sections": [
+    {
+      "page": 15,
+      "body": [
+        {
+          "self_ref": "#/texts/341",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 15,
+              "bbox": {
+                "l": 162.0748,
+                "t": 710.3947,
+                "r": 265.1656000000002,
+                "b": 700.8972954198473,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                19
+              ]
+            }
+          ],
+          "orig": "MOVING OVER TERRAIN",
+          "text": "MOVING OVER TERRAIN",
+          "level": 1
+        },
+        {
+          "self_ref": "#/texts/342",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 15,
+              "bbox": {
+                "l": 162.0748,
+                "t": 698.3682,
+                "r": 327.88345000000015,
+                "b": 630.8444836198181,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                332
+              ]
+            }
+          ],
+          "orig": "Warhammer 40,000 battlefields are strewn with a wide variety of obstacles, structures and detritus collectively known as terrain features (see pages 44-48). When a model makes any kind of move, it can be moved over a terrain feature but not through it (so models can't move through a wall, for example, but can climb up or over it).",
+          "text": "Warhammer 40,000 battlefields are strewn with a wide variety of obstacles, structures and detritus collectively known as terrain features (see pages 44-48). When a model makes any kind of move, it can be moved over a terrain feature but not through it (so models can't move through a wall, for example, but can climb up or over it)."
+        },
+        {
+          "self_ref": "#/texts/343",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 15,
+              "bbox": {
+                "l": 162.0748,
+                "t": 618.3917000000001,
+                "r": 326.11545,
+                "b": 530.8759836198183,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                399
+              ]
+            }
+          ],
+          "orig": "A model can be moved over terrain features that are 2\" or less in height as if they were not there. A model can be moved vertically in order to climb up or down any terrain features that are taller than this, counting the vertical distance up and/or down as part of its move. Models cannot end any kind of move mid-climb - if it is not possible to end the move as a result, that move cannot be made.",
+          "text": "A model can be moved over terrain features that are 2\" or less in height as if they were not there. A model can be moved vertically in order to climb up or down any terrain features that are taller than this, counting the vertical distance up and/or down as part of its move. Models cannot end any kind of move mid-climb - if it is not possible to end the move as a result, that move cannot be made."
+        },
+        {
+          "self_ref": "#/texts/344",
+          "parent": {
+            "$ref": "#/groups/15"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 15,
+              "bbox": {
+                "l": 173.4133,
+                "t": 512.6786,
+                "r": 293.5724500000001,
+                "b": 493.4302717557252,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                68
+              ]
+            }
+          ],
+          "orig": "■ Models can move freely over terrain features 2\" or less in height.",
+          "text": "■ Models can move freely over terrain features 2\" or less in height.",
+          "enumerated": false,
+          "marker": ""
+        },
+        {
+          "self_ref": "#/texts/345",
+          "parent": {
+            "$ref": "#/groups/15"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 15,
+              "bbox": {
+                "l": 173.4133,
+                "t": 492.67859999999996,
+                "r": 306.3403,
+                "b": 463.4342717557252,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                93
+              ]
+            }
+          ],
+          "orig": "■ Models cannot move through terrain features taller than 2\", but can climb up and down them.",
+          "text": "■ Models cannot move through terrain features taller than 2\", but can climb up and down them.",
+          "enumerated": false,
+          "marker": ""
+        }
+      ],
+      "summary": [],
+      "figure": {
+        "id": "p015_terrain",
+        "page": 15,
+        "bbox": [
+          336,
+          79,
+          555,
+          374
+        ],
+        "coordinate_system": "PDF points, top-left origin",
+        "image": "images/page_015_terrain.png",
+        "title": "Moving over terrain — examples A and B",
+        "captions": [
+          {
+            "text": "A The Von Ryan's Leaper Advances towards the building. It moves a total of 9\", moving freely over the pipe as it is only 2\" in height.",
+            "source_nodes": [
+              {
+                "self_ref": "#/texts/351",
+                "parent": {
+                  "$ref": "#/pictures/34"
+                },
+                "children": [],
+                "content_layer": "body",
+                "label": "text",
+                "prov": [
+                  {
+                    "page_no": 15,
+                    "bbox": {
+                      "l": 356.8644,
+                      "t": 696.8543,
+                      "r": 408.70030000000014,
+                      "b": 685.3142961832061,
+                      "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                      0,
+                      16
+                    ]
+                  }
+                ],
+                "orig": "A The Von Ryan's",
+                "text": "A The Von Ryan's"
+              },
+              {
+                "self_ref": "#/texts/352",
+                "parent": {
+                  "$ref": "#/pictures/34"
+                },
+                "children": [],
+                "content_layer": "body",
+                "label": "text",
+                "prov": [
+                  {
+                    "page_no": 15,
+                    "bbox": {
+                      "l": 370.453,
+                      "t": 688.3562999999999,
+                      "r": 414.5040000000001,
+                      "b": 682.8113381679389,
+                      "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                      0,
+                      15
+                    ]
+                  }
+                ],
+                "orig": "Leaper Advances",
+                "text": "Leaper Advances"
+              },
+              {
+                "self_ref": "#/texts/353",
+                "parent": {
+                  "$ref": "#/pictures/34"
+                },
+                "children": [],
+                "content_layer": "body",
+                "label": "text",
+                "prov": [
+                  {
+                    "page_no": 15,
+                    "bbox": {
+                      "l": 370.453,
+                      "t": 679.8582999999999,
+                      "r": 423.9883000000001,
+                      "b": 674.3133381679388,
+                      "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                      0,
+                      21
+                    ]
+                  }
+                ],
+                "orig": "towards the building.",
+                "text": "towards the building."
+              },
+              {
+                "self_ref": "#/texts/354",
+                "parent": {
+                  "$ref": "#/pictures/34"
+                },
+                "children": [],
+                "content_layer": "body",
+                "label": "text",
+                "prov": [
+                  {
+                    "page_no": 15,
+                    "bbox": {
+                      "l": 370.453,
+                      "t": 671.3602999999998,
+                      "r": 423.9120000000002,
+                      "b": 665.8153381679388,
+                      "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                      0,
+                      23
+                    ]
+                  }
+                ],
+                "orig": "It moves a total of 9\",",
+                "text": "It moves a total of 9\","
+              },
+              {
+                "self_ref": "#/texts/355",
+                "parent": {
+                  "$ref": "#/pictures/34"
+                },
+                "children": [],
+                "content_layer": "body",
+                "label": "text",
+                "prov": [
+                  {
+                    "page_no": 15,
+                    "bbox": {
+                      "l": 370.453,
+                      "t": 662.8622999999998,
+                      "r": 418.2140000000001,
+                      "b": 657.3173381679387,
+                      "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                      0,
+                      18
+                    ]
+                  }
+                ],
+                "orig": "moving freely over",
+                "text": "moving freely over"
+              },
+              {
+                "self_ref": "#/texts/356",
+                "parent": {
+                  "$ref": "#/pictures/34"
+                },
+                "children": [],
+                "content_layer": "body",
+                "label": "text",
+                "prov": [
+                  {
+                    "page_no": 15,
+                    "bbox": {
+                      "l": 370.453,
+                      "t": 654.3642999999997,
+                      "r": 421.64400000000006,
+                      "b": 648.8193381679387,
+                      "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                      0,
+                      22
+                    ]
+                  }
+                ],
+                "orig": "the pipe as it is only",
+                "text": "the pipe as it is only"
+              },
+              {
+                "self_ref": "#/texts/357",
+                "parent": {
+                  "$ref": "#/pictures/34"
+                },
+                "children": [],
+                "content_layer": "body",
+                "label": "text",
+                "prov": [
+                  {
+                    "page_no": 15,
+                    "bbox": {
+                      "l": 370.453,
+                      "t": 645.8662999999997,
+                      "r": 400.97230000000013,
+                      "b": 640.3213381679386,
+                      "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                      0,
+                      13
+                    ]
+                  }
+                ],
+                "orig": "2\" in height.",
+                "text": "2\" in height."
+              }
+            ],
+            "prov": [
+              {
+                "page_no": 15,
+                "bbox": {
+                  "l": 356.8644,
+                  "t": 696.8543,
+                  "r": 408.70030000000014,
+                  "b": 685.3142961832061,
+                  "coord_origin": "BOTTOMLEFT"
+                },
+                "charspan": [
+                  0,
+                  16
+                ]
+              },
+              {
+                "page_no": 15,
+                "bbox": {
+                  "l": 370.453,
+                  "t": 688.3562999999999,
+                  "r": 414.5040000000001,
+                  "b": 682.8113381679389,
+                  "coord_origin": "BOTTOMLEFT"
+                },
+                "charspan": [
+                  0,
+                  15
+                ]
+              },
+              {
+                "page_no": 15,
+                "bbox": {
+                  "l": 370.453,
+                  "t": 679.8582999999999,
+                  "r": 423.9883000000001,
+                  "b": 674.3133381679388,
+                  "coord_origin": "BOTTOMLEFT"
+                },
+                "charspan": [
+                  0,
+                  21
+                ]
+              },
+              {
+                "page_no": 15,
+                "bbox": {
+                  "l": 370.453,
+                  "t": 671.3602999999998,
+                  "r": 423.9120000000002,
+                  "b": 665.8153381679388,
+                  "coord_origin": "BOTTOMLEFT"
+                },
+                "charspan": [
+                  0,
+                  23
+                ]
+              },
+              {
+                "page_no": 15,
+                "bbox": {
+                  "l": 370.453,
+                  "t": 662.8622999999998,
+                  "r": 418.2140000000001,
+                  "b": 657.3173381679387,
+                  "coord_origin": "BOTTOMLEFT"
+                },
+                "charspan": [
+                  0,
+                  18
+                ]
+              },
+              {
+                "page_no": 15,
+                "bbox": {
+                  "l": 370.453,
+                  "t": 654.3642999999997,
+                  "r": 421.64400000000006,
+                  "b": 648.8193381679387,
+                  "coord_origin": "BOTTOMLEFT"
+                },
+                "charspan": [
+                  0,
+                  22
+                ]
+              },
+              {
+                "page_no": 15,
+                "bbox": {
+                  "l": 370.453,
+                  "t": 645.8662999999997,
+                  "r": 400.97230000000013,
+                  "b": 640.3213381679386,
+                  "coord_origin": "BOTTOMLEFT"
+                },
+                "charspan": [
+                  0,
+                  13
+                ]
+              }
+            ]
+          },
+          {
+            "text": "B The building is taller than 2\" so the vertical distance of 3\" must be counted as part of the move.",
+            "source_nodes": [
+              {
+                "self_ref": "#/texts/358",
+                "parent": {
+                  "$ref": "#/pictures/34"
+                },
+                "children": [],
+                "content_layer": "body",
+                "label": "text",
+                "prov": [
+                  {
+                    "page_no": 15,
+                    "bbox": {
+                      "l": 356.4344,
+                      "t": 631.685,
+                      "r": 421.62300000000005,
+                      "b": 619.8469961832061,
+                      "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                      0,
+                      24
+                    ]
+                  }
+                ],
+                "orig": "B The building is taller",
+                "text": "B The building is taller"
+              },
+              {
+                "self_ref": "#/texts/359",
+                "parent": {
+                  "$ref": "#/pictures/34"
+                },
+                "children": [],
+                "content_layer": "body",
+                "label": "text",
+                "prov": [
+                  {
+                    "page_no": 15,
+                    "bbox": {
+                      "l": 370.453,
+                      "t": 623.1869999999999,
+                      "r": 426.24930000000023,
+                      "b": 617.6420381679388,
+                      "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                      0,
+                      23
+                    ]
+                  }
+                ],
+                "orig": "than 2\" so the vertical",
+                "text": "than 2\" so the vertical"
+              },
+              {
+                "self_ref": "#/texts/360",
+                "parent": {
+                  "$ref": "#/pictures/34"
+                },
+                "children": [],
+                "content_layer": "body",
+                "label": "text",
+                "prov": [
+                  {
+                    "page_no": 15,
+                    "bbox": {
+                      "l": 370.453,
+                      "t": 614.6889999999999,
+                      "r": 420.08300000000014,
+                      "b": 609.1440381679388,
+                      "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                      0,
+                      19
+                    ]
+                  }
+                ],
+                "orig": "distance of 3\" must",
+                "text": "distance of 3\" must"
+              },
+              {
+                "self_ref": "#/texts/361",
+                "parent": {
+                  "$ref": "#/pictures/34"
+                },
+                "children": [],
+                "content_layer": "body",
+                "label": "text",
+                "prov": [
+                  {
+                    "page_no": 15,
+                    "bbox": {
+                      "l": 370.453,
+                      "t": 606.1909999999998,
+                      "r": 424.63160000000016,
+                      "b": 600.6460381679387,
+                      "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                      0,
+                      21
+                    ]
+                  }
+                ],
+                "orig": "be counted as part of",
+                "text": "be counted as part of"
+              },
+              {
+                "self_ref": "#/texts/362",
+                "parent": {
+                  "$ref": "#/pictures/34"
+                },
+                "children": [],
+                "content_layer": "body",
+                "label": "text",
+                "prov": [
+                  {
+                    "page_no": 15,
+                    "bbox": {
+                      "l": 370.453,
+                      "t": 597.6929999999998,
+                      "r": 395.8070000000001,
+                      "b": 592.1480381679387,
+                      "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                      0,
+                      9
+                    ]
+                  }
+                ],
+                "orig": "the move.",
+                "text": "the move."
+              }
+            ],
+            "prov": [
+              {
+                "page_no": 15,
+                "bbox": {
+                  "l": 356.4344,
+                  "t": 631.685,
+                  "r": 421.62300000000005,
+                  "b": 619.8469961832061,
+                  "coord_origin": "BOTTOMLEFT"
+                },
+                "charspan": [
+                  0,
+                  24
+                ]
+              },
+              {
+                "page_no": 15,
+                "bbox": {
+                  "l": 370.453,
+                  "t": 623.1869999999999,
+                  "r": 426.24930000000023,
+                  "b": 617.6420381679388,
+                  "coord_origin": "BOTTOMLEFT"
+                },
+                "charspan": [
+                  0,
+                  23
+                ]
+              },
+              {
+                "page_no": 15,
+                "bbox": {
+                  "l": 370.453,
+                  "t": 614.6889999999999,
+                  "r": 420.08300000000014,
+                  "b": 609.1440381679388,
+                  "coord_origin": "BOTTOMLEFT"
+                },
+                "charspan": [
+                  0,
+                  19
+                ]
+              },
+              {
+                "page_no": 15,
+                "bbox": {
+                  "l": 370.453,
+                  "t": 606.1909999999998,
+                  "r": 424.63160000000016,
+                  "b": 600.6460381679387,
+                  "coord_origin": "BOTTOMLEFT"
+                },
+                "charspan": [
+                  0,
+                  21
+                ]
+              },
+              {
+                "page_no": 15,
+                "bbox": {
+                  "l": 370.453,
+                  "t": 597.6929999999998,
+                  "r": 395.8070000000001,
+                  "b": 592.1480381679387,
+                  "coord_origin": "BOTTOMLEFT"
+                },
+                "charspan": [
+                  0,
+                  9
+                ]
+              }
+            ]
+          }
+        ],
+        "annotations": [
+          {
+            "self_ref": "#/texts/363",
+            "parent": {
+              "$ref": "#/pictures/34"
+            },
+            "children": [],
+            "content_layer": "body",
+            "label": "text",
+            "prov": [
+              {
+                "page_no": 15,
+                "bbox": {
+                  "l": 432.6912,
+                  "t": 478.18940000000003,
+                  "r": 437.1912,
+                  "b": 470.2748961832061,
+                  "coord_origin": "BOTTOMLEFT"
+                },
+                "charspan": [
+                  0,
+                  1
+                ]
+              }
+            ],
+            "orig": "A",
+            "text": "A"
+          },
+          {
+            "self_ref": "#/texts/364",
+            "parent": {
+              "$ref": "#/pictures/34"
+            },
+            "children": [],
+            "content_layer": "body",
+            "label": "text",
+            "prov": [
+              {
+                "page_no": 15,
+                "bbox": {
+                  "l": 502.8791,
+                  "t": 610.3154,
+                  "r": 508.2391,
+                  "b": 602.4008961832061,
+                  "coord_origin": "BOTTOMLEFT"
+                },
+                "charspan": [
+                  0,
+                  1
+                ]
+              }
+            ],
+            "orig": "B",
+            "text": "B"
+          },
+          {
+            "self_ref": "#/texts/365",
+            "parent": {
+              "$ref": "#/pictures/34"
+            },
+            "children": [],
+            "content_layer": "body",
+            "label": "text",
+            "prov": [
+              {
+                "page_no": 15,
+                "bbox": {
+                  "l": 463.6016,
+                  "t": 600.4099,
+                  "r": 471.83160000000004,
+                  "b": 592.4953961832061,
+                  "coord_origin": "BOTTOMLEFT"
+                },
+                "charspan": [
+                  0,
+                  2
+                ]
+              }
+            ],
+            "orig": "3\"",
+            "text": "3\""
+          }
+        ]
+      },
+      "excluded_furniture": []
+    },
+    {
+      "page": 15,
+      "body": [
+        {
+          "self_ref": "#/texts/346",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 15,
+              "bbox": {
+                "l": 161.5748,
+                "t": 400.3947,
+                "r": 193.5848000000001,
+                "b": 390.89729541984735,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                6
+              ]
+            }
+          ],
+          "orig": "FLYING",
+          "text": "FLYING",
+          "level": 1
+        },
+        {
+          "self_ref": "#/texts/347",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 15,
+              "bbox": {
+                "l": 161.5748,
+                "t": 388.3682,
+                "r": 376.7914,
+                "b": 300.85248361981814,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                486
+              ]
+            }
+          ],
+          "orig": "If a model can Fly, then when it makes a Normal, Advance or Fall Back move, it can be moved over enemy models as if they were not there, and can be moved within Engagement Range of enemy models when making such a move. Note this also means that Monster and Vehicle models that can Fly can be moved over other Monster and Vehicle models when making such a move. However, models that can Fly cannot end their move on top of any other models or within Engagement Range of any enemy models.",
+          "text": "If a model can Fly, then when it makes a Normal, Advance or Fall Back move, it can be moved over enemy models as if they were not there, and can be moved within Engagement Range of enemy models when making such a move. Note this also means that Monster and Vehicle models that can Fly can be moved over other Monster and Vehicle models when making such a move. However, models that can Fly cannot end their move on top of any other models or within Engagement Range of any enemy models."
+        },
+        {
+          "self_ref": "#/texts/348",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 15,
+              "bbox": {
+                "l": 161.57480000000007,
+                "t": 288.39970000000017,
+                "r": 385.47925000000015,
+                "b": 250.8639836198182,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                215
+              ]
+            }
+          ],
+          "orig": "When a model that can Fly starts or ends a move on a terrain feature, instead of measuring the path it has moved across the battlefield, you instead measure its path 'through the air', as shown in the diagram below.",
+          "text": "When a model that can Fly starts or ends a move on a terrain feature, instead of measuring the path it has moved across the battlefield, you instead measure its path 'through the air', as shown in the diagram below."
+        },
+        {
+          "self_ref": "#/texts/366",
+          "parent": {
+            "$ref": "#/groups/16"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 15,
+              "bbox": {
+                "l": 405.2126,
+                "t": 384.01709999999997,
+                "r": 521.5541000000001,
+                "b": 354.77677175572524,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                91
+              ]
+            }
+          ],
+          "orig": "■ Fly models can move over enemy models when they make a Normal, Advance or Fall Back move.",
+          "text": "■ Fly models can move over enemy models when they make a Normal, Advance or Fall Back move.",
+          "enumerated": false,
+          "marker": ""
+        },
+        {
+          "self_ref": "#/texts/367",
+          "parent": {
+            "$ref": "#/groups/16"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 15,
+              "bbox": {
+                "l": 405.2126,
+                "t": 354.01709999999997,
+                "r": 536.2931000000002,
+                "b": 314.78077175572525,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                149
+              ]
+            }
+          ],
+          "orig": "■ Fly models that start or end a move on a terrain feature measure distance moved through the air when they make a Normal, Advance or Fall Back move.",
+          "text": "■ Fly models that start or end a move on a terrain feature measure distance moved through the air when they make a Normal, Advance or Fall Back move.",
+          "enumerated": false,
+          "marker": ""
+        }
+      ],
+      "summary": [],
+      "figure": {
+        "id": "p015_flying",
+        "page": 15,
+        "bbox": [
+          156,
+          548,
+          558,
+          721
+        ],
+        "coordinate_system": "PDF points, top-left origin",
+        "image": "images/page_015_flying.png",
+        "title": "Flying — movement through the air",
+        "captions": [
+          {
+            "self_ref": "#/texts/349",
+            "parent": {
+              "$ref": "#/pictures/33"
+            },
+            "children": [],
+            "content_layer": "body",
+            "label": "text",
+            "prov": [
+              {
+                "page_no": 15,
+                "bbox": {
+                  "l": 175.0394,
+                  "t": 228.92920000000004,
+                  "r": 296.02040000000017,
+                  "b": 180.892238167939,
+                  "coord_origin": "BOTTOMLEFT"
+                },
+                "charspan": [
+                  0,
+                  247
+                ]
+              }
+            ],
+            "orig": "In this example the Tyranid Prime makes a Normal move of 12\" to end on top of the ruin. Because it can Fly it can move directly over the enemy Terminators as if they were not there, and it is the diagonal distance through the air that is measured.",
+            "text": "In this example the Tyranid Prime makes a Normal move of 12\" to end on top of the ruin. Because it can Fly it can move directly over the enemy Terminators as if they were not there, and it is the diagonal distance through the air that is measured."
+          }
+        ],
+        "annotations": [
+          {
+            "self_ref": "#/texts/350",
+            "parent": {
+              "$ref": "#/pictures/33"
+            },
+            "children": [],
+            "content_layer": "body",
+            "label": "text",
+            "prov": [
+              {
+                "page_no": 15,
+                "bbox": {
+                  "l": 320.5247,
+                  "t": 133.77999999999997,
+                  "r": 333.1447,
+                  "b": 125.86549618320612,
+                  "coord_origin": "BOTTOMLEFT"
+                },
+                "charspan": [
+                  0,
+                  3
+                ]
+              }
+            ],
+            "orig": "12\"",
+            "text": "12\""
+          }
+        ]
+      },
+      "excluded_furniture": []
+    }
+  ],
+  "excluded_furniture": [
+    {
+      "self_ref": "#/texts/336",
+      "parent": {
+        "$ref": "#/pictures/32"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 15,
+          "bbox": {
+            "l": 62.1818,
+            "t": 717.5597,
+            "r": 69.7868,
+            "b": 705.6879442748092,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "1",
+      "text": "1"
+    },
+    {
+      "self_ref": "#/texts/337",
+      "parent": {
+        "$ref": "#/pictures/32"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 15,
+          "bbox": {
+            "l": 62.1818,
+            "t": 627.5597,
+            "r": 69.7868,
+            "b": 615.6879442748092,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "3",
+      "text": "3"
+    },
+    {
+      "self_ref": "#/texts/338",
+      "parent": {
+        "$ref": "#/pictures/32"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 15,
+          "bbox": {
+            "l": 62.1818,
+            "t": 597.5597,
+            "r": 69.7868,
+            "b": 585.6879442748092,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "4",
+      "text": "4"
+    },
+    {
+      "self_ref": "#/texts/339",
+      "parent": {
+        "$ref": "#/pictures/32"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 15,
+          "bbox": {
+            "l": 62.1818,
+            "t": 567.5597,
+            "r": 69.7868,
+            "b": 555.6879442748092,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "5",
+      "text": "5"
+    },
+    {
+      "self_ref": "#/texts/340",
+      "parent": {
+        "$ref": "#/pictures/32"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 15,
+          "bbox": {
+            "l": 61.2792,
+            "t": 100.24450000000002,
+            "r": 70.68919999999999,
+            "b": 92.32999618320605,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "15",
+      "text": "15"
+    },
+    {
+      "self_ref": "#/texts/368",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 15,
+          "bbox": {
+            "l": 152.8346,
+            "t": 50.00040000000001,
+            "r": 275.2006000000001,
+            "b": 42.08589618320616,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "orig": "CORE RULES | MOVEMENT PHASE",
+      "text": "CORE RULES | MOVEMENT PHASE"
+    }
+  ]
+}

@@ -1,0 +1,2647 @@
+{
+  "page": 27,
+  "source": "data/Core Rules.pdf",
+  "rules": {
+    "page": 27,
+    "source_sha256": "4d0e8019cbfddd6f46781d5b4ed31d46fb21eb2d0d10a0f6fabefac0ce054364",
+    "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+    "blocks": [
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/657"
+        ],
+        "style": "h1"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/658"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "image",
+        "id": "weapon_overview",
+        "title": "Weapon designations — original overview",
+        "bbox": [
+          150.96370362823984,
+          69.32828757196228,
+          564.035529298576,
+          724.1305784156473
+        ],
+        "captions": [],
+        "source_refs": [
+          "#/pictures/59"
+        ]
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/659"
+        ],
+        "style": "h2"
+      },
+      {
+        "type": "image",
+        "id": "weapon_659",
+        "title": "Heavy bolter",
+        "bbox": [
+          198,
+          83,
+          391,
+          204
+        ],
+        "captions": [],
+        "source_refs": [
+          "#/texts/659",
+          "#/pictures/59"
+        ]
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/660"
+        ],
+        "style": "h2"
+      },
+      {
+        "type": "image",
+        "id": "weapon_660",
+        "title": "Force weapon",
+        "bbox": [
+          317,
+          279,
+          391,
+          607
+        ],
+        "captions": [],
+        "source_refs": [
+          "#/texts/660",
+          "#/pictures/59"
+        ]
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/661"
+        ],
+        "style": "h2"
+      },
+      {
+        "type": "image",
+        "id": "weapon_661",
+        "title": "Plasma gun",
+        "bbox": [
+          385,
+          85,
+          554,
+          151
+        ],
+        "captions": [],
+        "source_refs": [
+          "#/texts/661",
+          "#/pictures/59"
+        ]
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/662"
+        ],
+        "style": "h2"
+      },
+      {
+        "type": "image",
+        "id": "weapon_662",
+        "title": "Plasma pistol",
+        "bbox": [
+          167,
+          180,
+          260,
+          256
+        ],
+        "captions": [],
+        "source_refs": [
+          "#/texts/662",
+          "#/pictures/59"
+        ]
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/663"
+        ],
+        "style": "h2"
+      },
+      {
+        "type": "image",
+        "id": "weapon_663",
+        "title": "Sniper rifle",
+        "bbox": [
+          281,
+          179,
+          556,
+          267
+        ],
+        "captions": [],
+        "source_refs": [
+          "#/texts/663",
+          "#/pictures/59"
+        ]
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/664"
+        ],
+        "style": "h2"
+      },
+      {
+        "type": "image",
+        "id": "weapon_664",
+        "title": "Boltgun",
+        "bbox": [
+          168,
+          257,
+          302,
+          353
+        ],
+        "captions": [],
+        "source_refs": [
+          "#/texts/664",
+          "#/pictures/59"
+        ]
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/665"
+        ],
+        "style": "h2"
+      },
+      {
+        "type": "image",
+        "id": "weapon_665",
+        "title": "Astartes chainsword",
+        "bbox": [
+          477,
+          452,
+          548,
+          703
+        ],
+        "captions": [],
+        "source_refs": [
+          "#/texts/665",
+          "#/pictures/59"
+        ]
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/666"
+        ],
+        "style": "h2"
+      },
+      {
+        "type": "image",
+        "id": "weapon_666",
+        "title": "Assault cannon",
+        "bbox": [
+          164,
+          604,
+          434,
+          713
+        ],
+        "captions": [],
+        "source_refs": [
+          "#/texts/666",
+          "#/pictures/59"
+        ]
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/667"
+        ],
+        "style": "h2"
+      },
+      {
+        "type": "image",
+        "id": "weapon_667",
+        "title": "Missile launcher",
+        "bbox": [
+          166,
+          470,
+          335,
+          592
+        ],
+        "captions": [],
+        "source_refs": [
+          "#/texts/667",
+          "#/pictures/59"
+        ]
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/668"
+        ],
+        "style": "h2"
+      },
+      {
+        "type": "image",
+        "id": "weapon_668",
+        "title": "Lightning claw",
+        "bbox": [
+          388,
+          456,
+          477,
+          709
+        ],
+        "captions": [],
+        "source_refs": [
+          "#/texts/668",
+          "#/pictures/59"
+        ]
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/669"
+        ],
+        "style": "h2"
+      },
+      {
+        "type": "image",
+        "id": "weapon_669",
+        "title": "Flamer",
+        "bbox": [
+          392,
+          354,
+          554,
+          456
+        ],
+        "captions": [],
+        "source_refs": [
+          "#/texts/669",
+          "#/pictures/59"
+        ]
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/670"
+        ],
+        "style": "h2"
+      },
+      {
+        "type": "image",
+        "id": "weapon_670",
+        "title": "Astartes shotgun",
+        "bbox": [
+          427,
+          254,
+          553,
+          340
+        ],
+        "captions": [],
+        "source_refs": [
+          "#/texts/670",
+          "#/pictures/59"
+        ]
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/671"
+        ],
+        "style": "h2"
+      },
+      {
+        "type": "image",
+        "id": "weapon_671",
+        "title": "Meltagun",
+        "bbox": [
+          165,
+          363,
+          315,
+          456
+        ],
+        "captions": [],
+        "source_refs": [
+          "#/texts/671",
+          "#/pictures/59"
+        ]
+      }
+    ],
+    "excluded_text": {
+      "#/texts/656": "Page furniture",
+      "#/texts/672": "Page furniture"
+    },
+    "review_notes": [
+      "Each labeled crop is a visual reference only; no weapon statistics are inferred. Overview retained for context. Nearby image fragments may remain in rectangular crops."
+    ]
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/657"
+      ],
+      "style": "h1",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/657",
+          "parent": {
+            "$ref": "#/pictures/59"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 27,
+              "bbox": {
+                "l": 162.472,
+                "t": 712.8347,
+                "r": 275.79200000000003,
+                "b": 706.5030969465649,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                33
+              ]
+            }
+          ],
+          "orig": "IMPERIAL REF: Weapon Designations",
+          "text": "IMPERIAL REF: Weapon Designations"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/658"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/658",
+          "parent": {
+            "$ref": "#/pictures/59"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 27,
+              "bbox": {
+                "l": 162.47199999999998,
+                "t": 702.8347,
+                "r": 234.30800000000008,
+                "b": 696.5030969465649,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                20
+              ]
+            }
+          ],
+          "orig": "FILE: 0-∆XE-15622100",
+          "text": "FILE: 0-∆XE-15622100"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "id": "weapon_overview",
+      "title": "Weapon designations — original overview",
+      "bbox": [
+        150.96370362823984,
+        69.32828757196228,
+        564.035529298576,
+        724.1305784156473
+      ],
+      "captions": [],
+      "source_refs": [
+        "#/pictures/59"
+      ],
+      "source_nodes": [
+        {
+          "self_ref": "#/pictures/59",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [
+            {
+              "$ref": "#/texts/657"
+            },
+            {
+              "$ref": "#/texts/658"
+            },
+            {
+              "$ref": "#/texts/659"
+            },
+            {
+              "$ref": "#/texts/660"
+            },
+            {
+              "$ref": "#/texts/661"
+            },
+            {
+              "$ref": "#/texts/662"
+            },
+            {
+              "$ref": "#/texts/663"
+            },
+            {
+              "$ref": "#/texts/664"
+            },
+            {
+              "$ref": "#/texts/665"
+            },
+            {
+              "$ref": "#/texts/666"
+            },
+            {
+              "$ref": "#/texts/667"
+            },
+            {
+              "$ref": "#/texts/668"
+            },
+            {
+              "$ref": "#/texts/669"
+            },
+            {
+              "$ref": "#/texts/670"
+            },
+            {
+              "$ref": "#/texts/671"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 27,
+              "bbox": {
+                "l": 150.96370362823984,
+                "t": 724.372701197569,
+                "r": 564.035529298576,
+                "b": 69.57041035388397,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "annotations": []
+        }
+      ],
+      "image": "images/page_027_weapon_overview.png",
+      "caption_texts": [],
+      "coordinate_system": "PDF points, top-left origin"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/659"
+      ],
+      "style": "h2",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/659",
+          "parent": {
+            "$ref": "#/pictures/59"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 27,
+              "bbox": {
+                "l": 352.424,
+                "t": 636.7387,
+                "r": 392.072,
+                "b": 630.4070969465649,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                12
+              ]
+            }
+          ],
+          "orig": "Heavy bolter",
+          "text": "Heavy bolter"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "id": "weapon_659",
+      "title": "Heavy bolter",
+      "bbox": [
+        198,
+        83,
+        391,
+        204
+      ],
+      "captions": [],
+      "source_refs": [
+        "#/texts/659",
+        "#/pictures/59"
+      ],
+      "source_nodes": [
+        {
+          "self_ref": "#/pictures/59",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [
+            {
+              "$ref": "#/texts/657"
+            },
+            {
+              "$ref": "#/texts/658"
+            },
+            {
+              "$ref": "#/texts/659"
+            },
+            {
+              "$ref": "#/texts/660"
+            },
+            {
+              "$ref": "#/texts/661"
+            },
+            {
+              "$ref": "#/texts/662"
+            },
+            {
+              "$ref": "#/texts/663"
+            },
+            {
+              "$ref": "#/texts/664"
+            },
+            {
+              "$ref": "#/texts/665"
+            },
+            {
+              "$ref": "#/texts/666"
+            },
+            {
+              "$ref": "#/texts/667"
+            },
+            {
+              "$ref": "#/texts/668"
+            },
+            {
+              "$ref": "#/texts/669"
+            },
+            {
+              "$ref": "#/texts/670"
+            },
+            {
+              "$ref": "#/texts/671"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 27,
+              "bbox": {
+                "l": 150.96370362823984,
+                "t": 724.372701197569,
+                "r": 564.035529298576,
+                "b": 69.57041035388397,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "annotations": []
+        },
+        {
+          "self_ref": "#/texts/659",
+          "parent": {
+            "$ref": "#/pictures/59"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 27,
+              "bbox": {
+                "l": 352.424,
+                "t": 636.7387,
+                "r": 392.072,
+                "b": 630.4070969465649,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                12
+              ]
+            }
+          ],
+          "orig": "Heavy bolter",
+          "text": "Heavy bolter"
+        }
+      ],
+      "image": "images/page_027_weapon_659.png",
+      "caption_texts": [],
+      "coordinate_system": "PDF points, top-left origin"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/660"
+      ],
+      "style": "h2",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/660",
+          "parent": {
+            "$ref": "#/pictures/59"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 27,
+              "bbox": {
+                "l": 300.67199999999997,
+                "t": 355.09870000000006,
+                "r": 343.8168000000002,
+                "b": 348.76709694656495,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                12
+              ]
+            }
+          ],
+          "orig": "Force weapon",
+          "text": "Force weapon"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "id": "weapon_660",
+      "title": "Force weapon",
+      "bbox": [
+        317,
+        279,
+        391,
+        607
+      ],
+      "captions": [],
+      "source_refs": [
+        "#/texts/660",
+        "#/pictures/59"
+      ],
+      "source_nodes": [
+        {
+          "self_ref": "#/pictures/59",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [
+            {
+              "$ref": "#/texts/657"
+            },
+            {
+              "$ref": "#/texts/658"
+            },
+            {
+              "$ref": "#/texts/659"
+            },
+            {
+              "$ref": "#/texts/660"
+            },
+            {
+              "$ref": "#/texts/661"
+            },
+            {
+              "$ref": "#/texts/662"
+            },
+            {
+              "$ref": "#/texts/663"
+            },
+            {
+              "$ref": "#/texts/664"
+            },
+            {
+              "$ref": "#/texts/665"
+            },
+            {
+              "$ref": "#/texts/666"
+            },
+            {
+              "$ref": "#/texts/667"
+            },
+            {
+              "$ref": "#/texts/668"
+            },
+            {
+              "$ref": "#/texts/669"
+            },
+            {
+              "$ref": "#/texts/670"
+            },
+            {
+              "$ref": "#/texts/671"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 27,
+              "bbox": {
+                "l": 150.96370362823984,
+                "t": 724.372701197569,
+                "r": 564.035529298576,
+                "b": 69.57041035388397,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "annotations": []
+        },
+        {
+          "self_ref": "#/texts/660",
+          "parent": {
+            "$ref": "#/pictures/59"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 27,
+              "bbox": {
+                "l": 300.67199999999997,
+                "t": 355.09870000000006,
+                "r": 343.8168000000002,
+                "b": 348.76709694656495,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                12
+              ]
+            }
+          ],
+          "orig": "Force weapon",
+          "text": "Force weapon"
+        }
+      ],
+      "image": "images/page_027_weapon_660.png",
+      "caption_texts": [],
+      "coordinate_system": "PDF points, top-left origin"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/661"
+      ],
+      "style": "h2",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/661",
+          "parent": {
+            "$ref": "#/pictures/59"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 27,
+              "bbox": {
+                "l": 460.19199999999995,
+                "t": 652.8347,
+                "r": 496.31679999999994,
+                "b": 646.5030969465649,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                10
+              ]
+            }
+          ],
+          "orig": "Plasma gun",
+          "text": "Plasma gun"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "id": "weapon_661",
+      "title": "Plasma gun",
+      "bbox": [
+        385,
+        85,
+        554,
+        151
+      ],
+      "captions": [],
+      "source_refs": [
+        "#/texts/661",
+        "#/pictures/59"
+      ],
+      "source_nodes": [
+        {
+          "self_ref": "#/pictures/59",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [
+            {
+              "$ref": "#/texts/657"
+            },
+            {
+              "$ref": "#/texts/658"
+            },
+            {
+              "$ref": "#/texts/659"
+            },
+            {
+              "$ref": "#/texts/660"
+            },
+            {
+              "$ref": "#/texts/661"
+            },
+            {
+              "$ref": "#/texts/662"
+            },
+            {
+              "$ref": "#/texts/663"
+            },
+            {
+              "$ref": "#/texts/664"
+            },
+            {
+              "$ref": "#/texts/665"
+            },
+            {
+              "$ref": "#/texts/666"
+            },
+            {
+              "$ref": "#/texts/667"
+            },
+            {
+              "$ref": "#/texts/668"
+            },
+            {
+              "$ref": "#/texts/669"
+            },
+            {
+              "$ref": "#/texts/670"
+            },
+            {
+              "$ref": "#/texts/671"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 27,
+              "bbox": {
+                "l": 150.96370362823984,
+                "t": 724.372701197569,
+                "r": 564.035529298576,
+                "b": 69.57041035388397,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "annotations": []
+        },
+        {
+          "self_ref": "#/texts/661",
+          "parent": {
+            "$ref": "#/pictures/59"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 27,
+              "bbox": {
+                "l": 460.19199999999995,
+                "t": 652.8347,
+                "r": 496.31679999999994,
+                "b": 646.5030969465649,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                10
+              ]
+            }
+          ],
+          "orig": "Plasma gun",
+          "text": "Plasma gun"
+        }
+      ],
+      "image": "images/page_027_weapon_661.png",
+      "caption_texts": [],
+      "coordinate_system": "PDF points, top-left origin"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/662"
+      ],
+      "style": "h2",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/662",
+          "parent": {
+            "$ref": "#/pictures/59"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 27,
+              "bbox": {
+                "l": 177.26399999999995,
+                "t": 612.6667,
+                "r": 219.4927999999999,
+                "b": 606.3350969465649,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                13
+              ]
+            }
+          ],
+          "orig": "Plasma pistol",
+          "text": "Plasma pistol"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "id": "weapon_662",
+      "title": "Plasma pistol",
+      "bbox": [
+        167,
+        180,
+        260,
+        256
+      ],
+      "captions": [],
+      "source_refs": [
+        "#/texts/662",
+        "#/pictures/59"
+      ],
+      "source_nodes": [
+        {
+          "self_ref": "#/pictures/59",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [
+            {
+              "$ref": "#/texts/657"
+            },
+            {
+              "$ref": "#/texts/658"
+            },
+            {
+              "$ref": "#/texts/659"
+            },
+            {
+              "$ref": "#/texts/660"
+            },
+            {
+              "$ref": "#/texts/661"
+            },
+            {
+              "$ref": "#/texts/662"
+            },
+            {
+              "$ref": "#/texts/663"
+            },
+            {
+              "$ref": "#/texts/664"
+            },
+            {
+              "$ref": "#/texts/665"
+            },
+            {
+              "$ref": "#/texts/666"
+            },
+            {
+              "$ref": "#/texts/667"
+            },
+            {
+              "$ref": "#/texts/668"
+            },
+            {
+              "$ref": "#/texts/669"
+            },
+            {
+              "$ref": "#/texts/670"
+            },
+            {
+              "$ref": "#/texts/671"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 27,
+              "bbox": {
+                "l": 150.96370362823984,
+                "t": 724.372701197569,
+                "r": 564.035529298576,
+                "b": 69.57041035388397,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "annotations": []
+        },
+        {
+          "self_ref": "#/texts/662",
+          "parent": {
+            "$ref": "#/pictures/59"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 27,
+              "bbox": {
+                "l": 177.26399999999995,
+                "t": 612.6667,
+                "r": 219.4927999999999,
+                "b": 606.3350969465649,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                13
+              ]
+            }
+          ],
+          "orig": "Plasma pistol",
+          "text": "Plasma pistol"
+        }
+      ],
+      "image": "images/page_027_weapon_662.png",
+      "caption_texts": [],
+      "coordinate_system": "PDF points, top-left origin"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/663"
+      ],
+      "style": "h2",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/663",
+          "parent": {
+            "$ref": "#/pictures/59"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 27,
+              "bbox": {
+                "l": 452.7679999999999,
+                "t": 612.6667,
+                "r": 486.3023999999999,
+                "b": 606.3350969465649,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                12
+              ]
+            }
+          ],
+          "orig": "Sniper rifle",
+          "text": "Sniper rifle"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "id": "weapon_663",
+      "title": "Sniper rifle",
+      "bbox": [
+        281,
+        179,
+        556,
+        267
+      ],
+      "captions": [],
+      "source_refs": [
+        "#/texts/663",
+        "#/pictures/59"
+      ],
+      "source_nodes": [
+        {
+          "self_ref": "#/pictures/59",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [
+            {
+              "$ref": "#/texts/657"
+            },
+            {
+              "$ref": "#/texts/658"
+            },
+            {
+              "$ref": "#/texts/659"
+            },
+            {
+              "$ref": "#/texts/660"
+            },
+            {
+              "$ref": "#/texts/661"
+            },
+            {
+              "$ref": "#/texts/662"
+            },
+            {
+              "$ref": "#/texts/663"
+            },
+            {
+              "$ref": "#/texts/664"
+            },
+            {
+              "$ref": "#/texts/665"
+            },
+            {
+              "$ref": "#/texts/666"
+            },
+            {
+              "$ref": "#/texts/667"
+            },
+            {
+              "$ref": "#/texts/668"
+            },
+            {
+              "$ref": "#/texts/669"
+            },
+            {
+              "$ref": "#/texts/670"
+            },
+            {
+              "$ref": "#/texts/671"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 27,
+              "bbox": {
+                "l": 150.96370362823984,
+                "t": 724.372701197569,
+                "r": 564.035529298576,
+                "b": 69.57041035388397,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "annotations": []
+        },
+        {
+          "self_ref": "#/texts/663",
+          "parent": {
+            "$ref": "#/pictures/59"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 27,
+              "bbox": {
+                "l": 452.7679999999999,
+                "t": 612.6667,
+                "r": 486.3023999999999,
+                "b": 606.3350969465649,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                12
+              ]
+            }
+          ],
+          "orig": "Sniper rifle",
+          "text": "Sniper rifle"
+        }
+      ],
+      "image": "images/page_027_weapon_663.png",
+      "caption_texts": [],
+      "coordinate_system": "PDF points, top-left origin"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/664"
+      ],
+      "style": "h2",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/664",
+          "parent": {
+            "$ref": "#/pictures/59"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 27,
+              "bbox": {
+                "l": 199.93599999999992,
+                "t": 536.7307,
+                "r": 224.27359999999987,
+                "b": 530.3990969465649,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                7
+              ]
+            }
+          ],
+          "orig": "Boltgun",
+          "text": "Boltgun"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "id": "weapon_664",
+      "title": "Boltgun",
+      "bbox": [
+        168,
+        257,
+        302,
+        353
+      ],
+      "captions": [],
+      "source_refs": [
+        "#/texts/664",
+        "#/pictures/59"
+      ],
+      "source_nodes": [
+        {
+          "self_ref": "#/pictures/59",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [
+            {
+              "$ref": "#/texts/657"
+            },
+            {
+              "$ref": "#/texts/658"
+            },
+            {
+              "$ref": "#/texts/659"
+            },
+            {
+              "$ref": "#/texts/660"
+            },
+            {
+              "$ref": "#/texts/661"
+            },
+            {
+              "$ref": "#/texts/662"
+            },
+            {
+              "$ref": "#/texts/663"
+            },
+            {
+              "$ref": "#/texts/664"
+            },
+            {
+              "$ref": "#/texts/665"
+            },
+            {
+              "$ref": "#/texts/666"
+            },
+            {
+              "$ref": "#/texts/667"
+            },
+            {
+              "$ref": "#/texts/668"
+            },
+            {
+              "$ref": "#/texts/669"
+            },
+            {
+              "$ref": "#/texts/670"
+            },
+            {
+              "$ref": "#/texts/671"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 27,
+              "bbox": {
+                "l": 150.96370362823984,
+                "t": 724.372701197569,
+                "r": 564.035529298576,
+                "b": 69.57041035388397,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "annotations": []
+        },
+        {
+          "self_ref": "#/texts/664",
+          "parent": {
+            "$ref": "#/pictures/59"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 27,
+              "bbox": {
+                "l": 199.93599999999992,
+                "t": 536.7307,
+                "r": 224.27359999999987,
+                "b": 530.3990969465649,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                7
+              ]
+            }
+          ],
+          "orig": "Boltgun",
+          "text": "Boltgun"
+        }
+      ],
+      "image": "images/page_027_weapon_664.png",
+      "caption_texts": [],
+      "coordinate_system": "PDF points, top-left origin"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/665"
+      ],
+      "style": "h2",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/665",
+          "parent": {
+            "$ref": "#/pictures/59"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 27,
+              "bbox": {
+                "l": 487.0879999999999,
+                "t": 342.5307,
+                "r": 551.7455999999997,
+                "b": 336.1990969465649,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                19
+              ]
+            }
+          ],
+          "orig": "Astartes chainsword",
+          "text": "Astartes chainsword"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "id": "weapon_665",
+      "title": "Astartes chainsword",
+      "bbox": [
+        477,
+        452,
+        548,
+        703
+      ],
+      "captions": [],
+      "source_refs": [
+        "#/texts/665",
+        "#/pictures/59"
+      ],
+      "source_nodes": [
+        {
+          "self_ref": "#/pictures/59",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [
+            {
+              "$ref": "#/texts/657"
+            },
+            {
+              "$ref": "#/texts/658"
+            },
+            {
+              "$ref": "#/texts/659"
+            },
+            {
+              "$ref": "#/texts/660"
+            },
+            {
+              "$ref": "#/texts/661"
+            },
+            {
+              "$ref": "#/texts/662"
+            },
+            {
+              "$ref": "#/texts/663"
+            },
+            {
+              "$ref": "#/texts/664"
+            },
+            {
+              "$ref": "#/texts/665"
+            },
+            {
+              "$ref": "#/texts/666"
+            },
+            {
+              "$ref": "#/texts/667"
+            },
+            {
+              "$ref": "#/texts/668"
+            },
+            {
+              "$ref": "#/texts/669"
+            },
+            {
+              "$ref": "#/texts/670"
+            },
+            {
+              "$ref": "#/texts/671"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 27,
+              "bbox": {
+                "l": 150.96370362823984,
+                "t": 724.372701197569,
+                "r": 564.035529298576,
+                "b": 69.57041035388397,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "annotations": []
+        },
+        {
+          "self_ref": "#/texts/665",
+          "parent": {
+            "$ref": "#/pictures/59"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 27,
+              "bbox": {
+                "l": 487.0879999999999,
+                "t": 342.5307,
+                "r": 551.7455999999997,
+                "b": 336.1990969465649,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                19
+              ]
+            }
+          ],
+          "orig": "Astartes chainsword",
+          "text": "Astartes chainsword"
+        }
+      ],
+      "image": "images/page_027_weapon_665.png",
+      "caption_texts": [],
+      "coordinate_system": "PDF points, top-left origin"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/666"
+      ],
+      "style": "h2",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/666",
+          "parent": {
+            "$ref": "#/pictures/59"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 27,
+              "bbox": {
+                "l": 199.94399999999996,
+                "t": 189.05870000000004,
+                "r": 248.15760000000014,
+                "b": 182.72709694656487,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                14
+              ]
+            }
+          ],
+          "orig": "Assault cannon",
+          "text": "Assault cannon"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "id": "weapon_666",
+      "title": "Assault cannon",
+      "bbox": [
+        164,
+        604,
+        434,
+        713
+      ],
+      "captions": [],
+      "source_refs": [
+        "#/texts/666",
+        "#/pictures/59"
+      ],
+      "source_nodes": [
+        {
+          "self_ref": "#/pictures/59",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [
+            {
+              "$ref": "#/texts/657"
+            },
+            {
+              "$ref": "#/texts/658"
+            },
+            {
+              "$ref": "#/texts/659"
+            },
+            {
+              "$ref": "#/texts/660"
+            },
+            {
+              "$ref": "#/texts/661"
+            },
+            {
+              "$ref": "#/texts/662"
+            },
+            {
+              "$ref": "#/texts/663"
+            },
+            {
+              "$ref": "#/texts/664"
+            },
+            {
+              "$ref": "#/texts/665"
+            },
+            {
+              "$ref": "#/texts/666"
+            },
+            {
+              "$ref": "#/texts/667"
+            },
+            {
+              "$ref": "#/texts/668"
+            },
+            {
+              "$ref": "#/texts/669"
+            },
+            {
+              "$ref": "#/texts/670"
+            },
+            {
+              "$ref": "#/texts/671"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 27,
+              "bbox": {
+                "l": 150.96370362823984,
+                "t": 724.372701197569,
+                "r": 564.035529298576,
+                "b": 69.57041035388397,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "annotations": []
+        },
+        {
+          "self_ref": "#/texts/666",
+          "parent": {
+            "$ref": "#/pictures/59"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 27,
+              "bbox": {
+                "l": 199.94399999999996,
+                "t": 189.05870000000004,
+                "r": 248.15760000000014,
+                "b": 182.72709694656487,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                14
+              ]
+            }
+          ],
+          "orig": "Assault cannon",
+          "text": "Assault cannon"
+        }
+      ],
+      "image": "images/page_027_weapon_666.png",
+      "caption_texts": [],
+      "coordinate_system": "PDF points, top-left origin"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/667"
+      ],
+      "style": "h2",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/667",
+          "parent": {
+            "$ref": "#/pictures/59"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 27,
+              "bbox": {
+                "l": 207.73599999999996,
+                "t": 319.4107,
+                "r": 258.3479999999999,
+                "b": 313.0790969465649,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                16
+              ]
+            }
+          ],
+          "orig": "Missile launcher",
+          "text": "Missile launcher"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "id": "weapon_667",
+      "title": "Missile launcher",
+      "bbox": [
+        166,
+        470,
+        335,
+        592
+      ],
+      "captions": [],
+      "source_refs": [
+        "#/texts/667",
+        "#/pictures/59"
+      ],
+      "source_nodes": [
+        {
+          "self_ref": "#/pictures/59",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [
+            {
+              "$ref": "#/texts/657"
+            },
+            {
+              "$ref": "#/texts/658"
+            },
+            {
+              "$ref": "#/texts/659"
+            },
+            {
+              "$ref": "#/texts/660"
+            },
+            {
+              "$ref": "#/texts/661"
+            },
+            {
+              "$ref": "#/texts/662"
+            },
+            {
+              "$ref": "#/texts/663"
+            },
+            {
+              "$ref": "#/texts/664"
+            },
+            {
+              "$ref": "#/texts/665"
+            },
+            {
+              "$ref": "#/texts/666"
+            },
+            {
+              "$ref": "#/texts/667"
+            },
+            {
+              "$ref": "#/texts/668"
+            },
+            {
+              "$ref": "#/texts/669"
+            },
+            {
+              "$ref": "#/texts/670"
+            },
+            {
+              "$ref": "#/texts/671"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 27,
+              "bbox": {
+                "l": 150.96370362823984,
+                "t": 724.372701197569,
+                "r": 564.035529298576,
+                "b": 69.57041035388397,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "annotations": []
+        },
+        {
+          "self_ref": "#/texts/667",
+          "parent": {
+            "$ref": "#/pictures/59"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 27,
+              "bbox": {
+                "l": 207.73599999999996,
+                "t": 319.4107,
+                "r": 258.3479999999999,
+                "b": 313.0790969465649,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                16
+              ]
+            }
+          ],
+          "orig": "Missile launcher",
+          "text": "Missile launcher"
+        }
+      ],
+      "image": "images/page_027_weapon_667.png",
+      "caption_texts": [],
+      "coordinate_system": "PDF points, top-left origin"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/668"
+      ],
+      "style": "h2",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/668",
+          "parent": {
+            "$ref": "#/pictures/59"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 27,
+              "bbox": {
+                "l": 451.64,
+                "t": 96.38670000000002,
+                "r": 496.9167999999997,
+                "b": 90.05509694656484,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                14
+              ]
+            }
+          ],
+          "orig": "Lightning claw",
+          "text": "Lightning claw"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "id": "weapon_668",
+      "title": "Lightning claw",
+      "bbox": [
+        388,
+        456,
+        477,
+        709
+      ],
+      "captions": [],
+      "source_refs": [
+        "#/texts/668",
+        "#/pictures/59"
+      ],
+      "source_nodes": [
+        {
+          "self_ref": "#/pictures/59",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [
+            {
+              "$ref": "#/texts/657"
+            },
+            {
+              "$ref": "#/texts/658"
+            },
+            {
+              "$ref": "#/texts/659"
+            },
+            {
+              "$ref": "#/texts/660"
+            },
+            {
+              "$ref": "#/texts/661"
+            },
+            {
+              "$ref": "#/texts/662"
+            },
+            {
+              "$ref": "#/texts/663"
+            },
+            {
+              "$ref": "#/texts/664"
+            },
+            {
+              "$ref": "#/texts/665"
+            },
+            {
+              "$ref": "#/texts/666"
+            },
+            {
+              "$ref": "#/texts/667"
+            },
+            {
+              "$ref": "#/texts/668"
+            },
+            {
+              "$ref": "#/texts/669"
+            },
+            {
+              "$ref": "#/texts/670"
+            },
+            {
+              "$ref": "#/texts/671"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 27,
+              "bbox": {
+                "l": 150.96370362823984,
+                "t": 724.372701197569,
+                "r": 564.035529298576,
+                "b": 69.57041035388397,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "annotations": []
+        },
+        {
+          "self_ref": "#/texts/668",
+          "parent": {
+            "$ref": "#/pictures/59"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 27,
+              "bbox": {
+                "l": 451.64,
+                "t": 96.38670000000002,
+                "r": 496.9167999999997,
+                "b": 90.05509694656484,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                14
+              ]
+            }
+          ],
+          "orig": "Lightning claw",
+          "text": "Lightning claw"
+        }
+      ],
+      "image": "images/page_027_weapon_668.png",
+      "caption_texts": [],
+      "coordinate_system": "PDF points, top-left origin"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/669"
+      ],
+      "style": "h2",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/669",
+          "parent": {
+            "$ref": "#/pictures/59"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 27,
+              "bbox": {
+                "l": 471.536,
+                "t": 439.2507,
+                "r": 493.0911999999999,
+                "b": 432.9190969465649,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                6
+              ]
+            }
+          ],
+          "orig": "Flamer",
+          "text": "Flamer"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "id": "weapon_669",
+      "title": "Flamer",
+      "bbox": [
+        392,
+        354,
+        554,
+        456
+      ],
+      "captions": [],
+      "source_refs": [
+        "#/texts/669",
+        "#/pictures/59"
+      ],
+      "source_nodes": [
+        {
+          "self_ref": "#/pictures/59",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [
+            {
+              "$ref": "#/texts/657"
+            },
+            {
+              "$ref": "#/texts/658"
+            },
+            {
+              "$ref": "#/texts/659"
+            },
+            {
+              "$ref": "#/texts/660"
+            },
+            {
+              "$ref": "#/texts/661"
+            },
+            {
+              "$ref": "#/texts/662"
+            },
+            {
+              "$ref": "#/texts/663"
+            },
+            {
+              "$ref": "#/texts/664"
+            },
+            {
+              "$ref": "#/texts/665"
+            },
+            {
+              "$ref": "#/texts/666"
+            },
+            {
+              "$ref": "#/texts/667"
+            },
+            {
+              "$ref": "#/texts/668"
+            },
+            {
+              "$ref": "#/texts/669"
+            },
+            {
+              "$ref": "#/texts/670"
+            },
+            {
+              "$ref": "#/texts/671"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 27,
+              "bbox": {
+                "l": 150.96370362823984,
+                "t": 724.372701197569,
+                "r": 564.035529298576,
+                "b": 69.57041035388397,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "annotations": []
+        },
+        {
+          "self_ref": "#/texts/669",
+          "parent": {
+            "$ref": "#/pictures/59"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 27,
+              "bbox": {
+                "l": 471.536,
+                "t": 439.2507,
+                "r": 493.0911999999999,
+                "b": 432.9190969465649,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                6
+              ]
+            }
+          ],
+          "orig": "Flamer",
+          "text": "Flamer"
+        }
+      ],
+      "image": "images/page_027_weapon_669.png",
+      "caption_texts": [],
+      "coordinate_system": "PDF points, top-left origin"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/670"
+      ],
+      "style": "h2",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/670",
+          "parent": {
+            "$ref": "#/pictures/59"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 27,
+              "bbox": {
+                "l": 452.776,
+                "t": 536.7226999999999,
+                "r": 506.9567999999997,
+                "b": 530.3910969465649,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                16
+              ]
+            }
+          ],
+          "orig": "Astartes shotgun",
+          "text": "Astartes shotgun"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "id": "weapon_670",
+      "title": "Astartes shotgun",
+      "bbox": [
+        427,
+        254,
+        553,
+        340
+      ],
+      "captions": [],
+      "source_refs": [
+        "#/texts/670",
+        "#/pictures/59"
+      ],
+      "source_nodes": [
+        {
+          "self_ref": "#/pictures/59",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [
+            {
+              "$ref": "#/texts/657"
+            },
+            {
+              "$ref": "#/texts/658"
+            },
+            {
+              "$ref": "#/texts/659"
+            },
+            {
+              "$ref": "#/texts/660"
+            },
+            {
+              "$ref": "#/texts/661"
+            },
+            {
+              "$ref": "#/texts/662"
+            },
+            {
+              "$ref": "#/texts/663"
+            },
+            {
+              "$ref": "#/texts/664"
+            },
+            {
+              "$ref": "#/texts/665"
+            },
+            {
+              "$ref": "#/texts/666"
+            },
+            {
+              "$ref": "#/texts/667"
+            },
+            {
+              "$ref": "#/texts/668"
+            },
+            {
+              "$ref": "#/texts/669"
+            },
+            {
+              "$ref": "#/texts/670"
+            },
+            {
+              "$ref": "#/texts/671"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 27,
+              "bbox": {
+                "l": 150.96370362823984,
+                "t": 724.372701197569,
+                "r": 564.035529298576,
+                "b": 69.57041035388397,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "annotations": []
+        },
+        {
+          "self_ref": "#/texts/670",
+          "parent": {
+            "$ref": "#/pictures/59"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 27,
+              "bbox": {
+                "l": 452.776,
+                "t": 536.7226999999999,
+                "r": 506.9567999999997,
+                "b": 530.3910969465649,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                16
+              ]
+            }
+          ],
+          "orig": "Astartes shotgun",
+          "text": "Astartes shotgun"
+        }
+      ],
+      "image": "images/page_027_weapon_670.png",
+      "caption_texts": [],
+      "coordinate_system": "PDF points, top-left origin"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/671"
+      ],
+      "style": "h2",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/671",
+          "parent": {
+            "$ref": "#/pictures/59"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 27,
+              "bbox": {
+                "l": 200.88000000000005,
+                "t": 427.90669999999994,
+                "r": 230.02880000000016,
+                "b": 421.5750969465648,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                8
+              ]
+            }
+          ],
+          "orig": "Meltagun",
+          "text": "Meltagun"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "id": "weapon_671",
+      "title": "Meltagun",
+      "bbox": [
+        165,
+        363,
+        315,
+        456
+      ],
+      "captions": [],
+      "source_refs": [
+        "#/texts/671",
+        "#/pictures/59"
+      ],
+      "source_nodes": [
+        {
+          "self_ref": "#/pictures/59",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [
+            {
+              "$ref": "#/texts/657"
+            },
+            {
+              "$ref": "#/texts/658"
+            },
+            {
+              "$ref": "#/texts/659"
+            },
+            {
+              "$ref": "#/texts/660"
+            },
+            {
+              "$ref": "#/texts/661"
+            },
+            {
+              "$ref": "#/texts/662"
+            },
+            {
+              "$ref": "#/texts/663"
+            },
+            {
+              "$ref": "#/texts/664"
+            },
+            {
+              "$ref": "#/texts/665"
+            },
+            {
+              "$ref": "#/texts/666"
+            },
+            {
+              "$ref": "#/texts/667"
+            },
+            {
+              "$ref": "#/texts/668"
+            },
+            {
+              "$ref": "#/texts/669"
+            },
+            {
+              "$ref": "#/texts/670"
+            },
+            {
+              "$ref": "#/texts/671"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 27,
+              "bbox": {
+                "l": 150.96370362823984,
+                "t": 724.372701197569,
+                "r": 564.035529298576,
+                "b": 69.57041035388397,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "annotations": []
+        },
+        {
+          "self_ref": "#/texts/671",
+          "parent": {
+            "$ref": "#/pictures/59"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 27,
+              "bbox": {
+                "l": 200.88000000000005,
+                "t": 427.90669999999994,
+                "r": 230.02880000000016,
+                "b": 421.5750969465648,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                8
+              ]
+            }
+          ],
+          "orig": "Meltagun",
+          "text": "Meltagun"
+        }
+      ],
+      "image": "images/page_027_weapon_671.png",
+      "caption_texts": [],
+      "coordinate_system": "PDF points, top-left origin"
+    }
+  ],
+  "excluded_text": [
+    {
+      "node": {
+        "self_ref": "#/texts/656",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 27,
+            "bbox": {
+              "l": 61.1643,
+              "t": 100.24450000000002,
+              "r": 70.80429999999998,
+              "b": 92.32999618320605,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              2
+            ]
+          }
+        ],
+        "orig": "27",
+        "text": "27"
+      },
+      "reason": "Page furniture"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/672",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "furniture",
+        "label": "page_footer",
+        "prov": [
+          {
+            "page_no": 27,
+            "bbox": {
+              "l": 152.8346,
+              "t": 50.00040000000001,
+              "r": 276.10159999999996,
+              "b": 42.08589618320616,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              29
+            ]
+          }
+        ],
+        "orig": "CORE RULES | WEAPON ABILITIES",
+        "text": "CORE RULES | WEAPON ABILITIES"
+      },
+      "reason": "Page furniture"
+    }
+  ],
+  "review_notes": [
+    "Each labeled crop is a visual reference only; no weapon statistics are inferred. Overview retained for context. Nearby image fragments may remain in rectangular crops."
+  ]
+}

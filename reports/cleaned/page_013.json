@@ -1,0 +1,941 @@
+{
+  "page": 13,
+  "rules": {
+    "page": 13,
+    "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+    "keep_refs": [
+      "#/texts/282",
+      "#/texts/283",
+      "#/texts/284",
+      "#/texts/285",
+      "#/texts/286",
+      "#/texts/287",
+      "#/texts/288",
+      "#/texts/289",
+      "#/texts/290",
+      "#/texts/291",
+      "#/texts/292",
+      "#/texts/293",
+      "#/texts/294",
+      "#/texts/295",
+      "#/texts/296",
+      "#/texts/297"
+    ],
+    "omit_reasons": {
+      "#/texts/277": "Phase-navigation number or page number",
+      "#/texts/278": "Phase-navigation number or page number",
+      "#/texts/279": "Phase-navigation number or page number",
+      "#/texts/280": "Phase-navigation number or page number",
+      "#/texts/281": "Phase-navigation number or page number",
+      "#/texts/298": "Repeated two-step sidebar; main movement sequence is retained",
+      "#/texts/299": "Repeated two-step sidebar; main movement sequence is retained",
+      "#/texts/300": "Repeated two-step sidebar; main movement sequence is retained",
+      "#/texts/301": "Repeated two-step sidebar; main movement sequence is retained",
+      "#/texts/302": "Repeated two-step sidebar; main movement sequence is retained",
+      "#/texts/303": "Page footer"
+    },
+    "heading_overrides": {},
+    "scope": "Remove detached navigation numbers and repeated ending sidebar; retain main text, summaries, numbered MOVE UNITS heading and reference to Reinforcements. Pictures on this page are navigation/illustration, with text retained in main content."
+  },
+  "kept_nodes": [
+    {
+      "self_ref": "#/texts/282",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 13,
+          "bbox": {
+            "l": 153.0708,
+            "t": 718.5147,
+            "r": 418.6428000000002,
+            "b": 689.9482877862596,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "MOVEMENT PHASE",
+      "text": "MOVEMENT PHASE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/283",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 13,
+          "bbox": {
+            "l": 153.0708,
+            "t": 678.8197,
+            "r": 521.3544500000004,
+            "b": 661.2974213740458,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            149
+          ]
+        }
+      ],
+      "orig": "The ground shakes to the tread of marching feet and the growl of engines as armies advance across the battlefield and vie for advantageous positions.",
+      "text": "The ground shakes to the tread of marching feet and the growl of engines as armies advance across the battlefield and vie for advantageous positions."
+    },
+    {
+      "self_ref": "#/texts/284",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 13,
+          "bbox": {
+            "l": 306.1417,
+            "t": 648.8047,
+            "r": 408.92409999999995,
+            "b": 633.7671427480916,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            13
+          ]
+        }
+      ],
+      "orig": "1. MOVE UNITS",
+      "text": "1. MOVE UNITS",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/285",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 13,
+          "bbox": {
+            "l": 306.1417,
+            "t": 628.3682,
+            "r": 508.1076500000002,
+            "b": 610.824483619818,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            98
+          ]
+        }
+      ],
+      "orig": "Start your Movement phase by selecting one unit from your army that is on the battlefield to move:",
+      "text": "Start your Movement phase by selecting one unit from your army that is on the battlefield to move:"
+    },
+    {
+      "self_ref": "#/texts/286",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 13,
+          "bbox": {
+            "l": 306.1417,
+            "t": 598.9207,
+            "r": 513.9850500000002,
+            "b": 570.824483619818,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            127
+          ]
+        }
+      ],
+      "orig": "■ Unless that unit is within Engagement Range of any enemy models, it can make a Normal move, or Advance, or Remain Stationary.",
+      "text": "■ Unless that unit is within Engagement Range of any enemy models, it can make a Normal move, or Advance, or Remain Stationary.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/287",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 13,
+          "bbox": {
+            "l": 306.1417,
+            "t": 568.9207,
+            "r": 496.72240000000016,
+            "b": 550.820483619818,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            108
+          ]
+        }
+      ],
+      "orig": "■ If that unit is within Engagement Range of any enemy models, it can either Remain Stationary or Fall Back.",
+      "text": "■ If that unit is within Engagement Range of any enemy models, it can either Remain Stationary or Fall Back.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/288",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 13,
+          "bbox": {
+            "l": 306.1456,
+            "t": 538.3677,
+            "r": 515.4555500000002,
+            "b": 500.83198361981806,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            242
+          ]
+        }
+      ],
+      "orig": "After you have finished moving that unit, select another unit from your army to move, and so on, until you have done so with all of your units. Once you have moved all of your units, progress to the Reinforcements step of your Movement phase.",
+      "text": "After you have finished moving that unit, select another unit from your army to move, and so on, until you have done so with all of your units. Once you have moved all of your units, progress to the Reinforcements step of your Movement phase."
+    },
+    {
+      "self_ref": "#/texts/289",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 13,
+          "bbox": {
+            "l": 306.1456,
+            "t": 488.3792000000001,
+            "r": 522.1790500000003,
+            "b": 350.8834836198183,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            855
+          ]
+        }
+      ],
+      "orig": "Each time you move a unit, you can move any of its models you choose to. The controlling player chooses the order in which to move their models. Whenever you move a model, you can pivot it and/or change its position on the battlefield along any path, but no part of its base can be moved across an enemy model or cross the edge of the battlefield. It can be moved over friendly models as if they were not there if you wish, but it cannot end its move on top of another model. The only exception to this is when moving Monster or Vehicle models; such models cannot be moved over other friendly Monster or Vehicle models and must be moved around them instead. The distance a model moves is measured using the part of its base that moves furthest along its path. If a model does not have a base, measure using whichever part of that model moves the furthest.",
+      "text": "Each time you move a unit, you can move any of its models you choose to. The controlling player chooses the order in which to move their models. Whenever you move a model, you can pivot it and/or change its position on the battlefield along any path, but no part of its base can be moved across an enemy model or cross the edge of the battlefield. It can be moved over friendly models as if they were not there if you wish, but it cannot end its move on top of another model. The only exception to this is when moving Monster or Vehicle models; such models cannot be moved over other friendly Monster or Vehicle models and must be moved around them instead. The distance a model moves is measured using the part of its base that moves furthest along its path. If a model does not have a base, measure using whichever part of that model moves the furthest."
+    },
+    {
+      "self_ref": "#/texts/290",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 13,
+          "bbox": {
+            "l": 317.4803,
+            "t": 332.67859999999996,
+            "r": 510.1443500000002,
+            "b": 313.4302717557252,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            76
+          ]
+        }
+      ],
+      "orig": "■ When a unit moves it can make a Normal move, Advance or Remain Stationary.",
+      "text": "■ When a unit moves it can make a Normal move, Advance or Remain Stationary.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/291",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 13,
+          "bbox": {
+            "l": 317.4803,
+            "t": 312.67859999999996,
+            "r": 496.2893500000003,
+            "b": 293.4302717557252,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            101
+          ]
+        }
+      ],
+      "orig": "■ Units that are within Engagement Range of any enemy models can only Fall Back or Remain Stationary.",
+      "text": "■ Units that are within Engagement Range of any enemy models can only Fall Back or Remain Stationary.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/292",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 13,
+          "bbox": {
+            "l": 306.1417,
+            "t": 270.39470000000006,
+            "r": 397.87090000000035,
+            "b": 260.8972954198473,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            17
+          ]
+        }
+      ],
+      "orig": "REMAIN STATIONARY",
+      "text": "REMAIN STATIONARY",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/293",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 13,
+          "bbox": {
+            "l": 306.1417,
+            "t": 258.3682,
+            "r": 515.3921500000002,
+            "b": 240.824483619818,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            88
+          ]
+        }
+      ],
+      "orig": "If a unit Remains Stationary, none of its models can be moved for the rest of the phase.",
+      "text": "If a unit Remains Stationary, none of its models can be moved for the rest of the phase."
+    },
+    {
+      "self_ref": "#/texts/294",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 13,
+          "bbox": {
+            "l": 306.1417,
+            "t": 230.39470000000006,
+            "r": 377.9041000000002,
+            "b": 220.8972954198473,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "NORMAL MOVES",
+      "text": "NORMAL MOVES",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/295",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 13,
+          "bbox": {
+            "l": 306.1417,
+            "t": 218.3682,
+            "r": 522.4650000000003,
+            "b": 180.83248361981794,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            215
+          ]
+        }
+      ],
+      "orig": "When a unit makes a Normal move, each model in that unit can move a distance in inches less than or equal to its Move (M) characteristic, but no model can be moved within Engagement Range of any enemy models (pg 7).",
+      "text": "When a unit makes a Normal move, each model in that unit can move a distance in inches less than or equal to its Move (M) characteristic, but no model can be moved within Engagement Range of any enemy models (pg 7)."
+    },
+    {
+      "self_ref": "#/texts/296",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 13,
+          "bbox": {
+            "l": 317.4803,
+            "t": 162.67859999999996,
+            "r": 440.5454999999999,
+            "b": 152.25816660039766,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            36
+          ]
+        }
+      ],
+      "orig": "■ Normal Move: Models move up to M\".",
+      "text": "■ Normal Move: Models move up to M\".",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/297",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 13,
+          "bbox": {
+            "l": 317.4803,
+            "t": 152.67859999999996,
+            "r": 471.67420000000027,
+            "b": 133.43027175572524,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            58
+          ]
+        }
+      ],
+      "orig": "■ Cannot move within Engagement Range of any enemy models.",
+      "text": "■ Cannot move within Engagement Range of any enemy models.",
+      "enumerated": false,
+      "marker": ""
+    }
+  ],
+  "omitted_nodes": [
+    {
+      "node": {
+        "self_ref": "#/texts/277",
+        "parent": {
+          "$ref": "#/pictures/26"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 13,
+            "bbox": {
+              "l": 62.1818,
+              "t": 717.5597,
+              "r": 69.7868,
+              "b": 705.6879442748092,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "1",
+        "text": "1"
+      },
+      "reason": "Phase-navigation number or page number"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/278",
+        "parent": {
+          "$ref": "#/pictures/26"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 13,
+            "bbox": {
+              "l": 62.1818,
+              "t": 627.5597,
+              "r": 69.7868,
+              "b": 615.6879442748092,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "3",
+        "text": "3"
+      },
+      "reason": "Phase-navigation number or page number"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/279",
+        "parent": {
+          "$ref": "#/pictures/26"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 13,
+            "bbox": {
+              "l": 62.1818,
+              "t": 597.5597,
+              "r": 69.7868,
+              "b": 585.6879442748092,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "4",
+        "text": "4"
+      },
+      "reason": "Phase-navigation number or page number"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/280",
+        "parent": {
+          "$ref": "#/pictures/26"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 13,
+            "bbox": {
+              "l": 62.1818,
+              "t": 567.5597,
+              "r": 69.7868,
+              "b": 555.6879442748092,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "5",
+        "text": "5"
+      },
+      "reason": "Phase-navigation number or page number"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/281",
+        "parent": {
+          "$ref": "#/pictures/26"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 13,
+            "bbox": {
+              "l": 61.3492,
+              "t": 100.24450000000002,
+              "r": 70.61919999999999,
+              "b": 92.32999618320605,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              2
+            ]
+          }
+        ],
+        "orig": "13",
+        "text": "13"
+      },
+      "reason": "Phase-navigation number or page number"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/298",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 13,
+            "bbox": {
+              "l": 161.5748,
+              "t": 598.3681,
+              "r": 275.80544999999984,
+              "b": 560.8323836198181,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              111
+            ]
+          }
+        ],
+        "orig": "Your Movement phase is split into two steps. First you can move your units, then you can set up reinforcements.",
+        "text": "Your Movement phase is split into two steps. First you can move your units, then you can set up reinforcements."
+      },
+      "reason": "Repeated two-step sidebar; main movement sequence is retained"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/299",
+        "parent": {
+          "$ref": "#/pictures/27"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 13,
+            "bbox": {
+              "l": 220.8233,
+              "t": 548.3897,
+              "r": 225.89329999999998,
+              "b": 540.4751961832061,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "1",
+        "text": "1"
+      },
+      "reason": "Repeated two-step sidebar; main movement sequence is retained"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/300",
+        "parent": {
+          "$ref": "#/pictures/27"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "section_header",
+        "prov": [
+          {
+            "page_no": 13,
+            "bbox": {
+              "l": 196.4661,
+              "t": 530.3946,
+              "r": 250.6845,
+              "b": 520.8971954198473,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              10
+            ]
+          }
+        ],
+        "orig": "MOVE UNITS",
+        "text": "MOVE UNITS",
+        "level": 1
+      },
+      "reason": "Repeated two-step sidebar; main movement sequence is retained"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/301",
+        "parent": {
+          "$ref": "#/pictures/27"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 13,
+            "bbox": {
+              "l": 220.8233,
+              "t": 508.7805,
+              "r": 225.89329999999998,
+              "b": 500.8659961832061,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "2",
+        "text": "2"
+      },
+      "reason": "Repeated two-step sidebar; main movement sequence is retained"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/302",
+        "parent": {
+          "$ref": "#/pictures/27"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 13,
+            "bbox": {
+              "l": 182.4868,
+              "t": 490.3946,
+              "r": 264.66159999999996,
+              "b": 480.8971954198474,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              14
+            ]
+          }
+        ],
+        "orig": "REINFORCEMENTS",
+        "text": "REINFORCEMENTS"
+      },
+      "reason": "Repeated two-step sidebar; main movement sequence is retained"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/303",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "furniture",
+        "label": "page_footer",
+        "prov": [
+          {
+            "page_no": 13,
+            "bbox": {
+              "l": 152.8346,
+              "t": 50.00040000000001,
+              "r": 275.2006000000001,
+              "b": 42.08589618320616,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              27
+            ]
+          }
+        ],
+        "orig": "CORE RULES | MOVEMENT PHASE",
+        "text": "CORE RULES | MOVEMENT PHASE"
+      },
+      "reason": "Page footer"
+    }
+  ],
+  "omitted_picture_nodes": [
+    {
+      "self_ref": "#/pictures/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/277"
+        },
+        {
+          "$ref": "#/texts/278"
+        },
+        {
+          "$ref": "#/texts/279"
+        },
+        {
+          "$ref": "#/texts/280"
+        },
+        {
+          "$ref": "#/texts/281"
+        }
+      ],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 13,
+          "bbox": {
+            "l": 21.202659235313288,
+            "t": 770.2327881662552,
+            "r": 110.49758042653818,
+            "b": 22.820016612016843,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/299"
+        },
+        {
+          "$ref": "#/texts/300"
+        },
+        {
+          "$ref": "#/texts/301"
+        },
+        {
+          "$ref": "#/texts/302"
+        }
+      ],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 13,
+          "bbox": {
+            "l": 160.09899913765327,
+            "t": 555.3921084308192,
+            "r": 288.12595076278933,
+            "b": 468.95431877093955,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 13,
+          "bbox": {
+            "l": 114.98038972216746,
+            "t": 420.72059710393563,
+            "r": 294.33374774630187,
+            "b": 75.42428420651527,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    }
+  ]
+}

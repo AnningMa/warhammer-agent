@@ -1,0 +1,725 @@
+{
+  "page": 36,
+  "source": "data/Core Rules.pdf",
+  "rules": {
+    "page": 36,
+    "source_sha256": "4d0e8019cbfddd6f46781d5b4ed31d46fb21eb2d0d10a0f6fabefac0ce054364",
+    "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "FIGHT — illustrated example",
+        "style": "h1"
+      },
+      {
+        "type": "image",
+        "id": "fight_ab",
+        "title": "A/B — Pile in and eligible attacks",
+        "bbox": [
+          84.08671258047134,
+          72.62311264226412,
+          457.5957502644523,
+          390.84072881749535
+        ],
+        "captions": [
+          [
+            "#/texts/851"
+          ],
+          [
+            "#/texts/852",
+            "#/texts/853",
+            "#/texts/854",
+            "#/texts/855",
+            "#/texts/856"
+          ]
+        ],
+        "source_refs": [
+          "#/pictures/73"
+        ]
+      },
+      {
+        "type": "image",
+        "id": "fight_c",
+        "title": "C — Consolidation",
+        "bbox": [
+          84.53199634183039,
+          398.8666359925546,
+          457.32149260429003,
+          721.2032754162998
+        ],
+        "captions": [
+          [
+            "#/texts/859",
+            "#/texts/860"
+          ]
+        ],
+        "source_refs": [
+          "#/pictures/74"
+        ]
+      }
+    ],
+    "excluded_text": {
+      "#/texts/857": "A/B/C markers retained in figure and caption",
+      "#/texts/858": "A/B/C markers retained in figure and caption",
+      "#/texts/861": "A/B/C markers retained in figure and caption",
+      "#/texts/862": "Navigation/page furniture",
+      "#/texts/863": "Navigation/page furniture",
+      "#/texts/864": "Navigation/page furniture",
+      "#/texts/865": "Navigation/page furniture",
+      "#/texts/866": "Navigation/page furniture",
+      "#/texts/867": "Navigation/page furniture"
+    },
+    "review_notes": []
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "text": "FIGHT — illustrated example",
+      "style": "h1",
+      "source_nodes": []
+    },
+    {
+      "type": "image",
+      "id": "fight_ab",
+      "title": "A/B — Pile in and eligible attacks",
+      "bbox": [
+        84.08671258047134,
+        72.62311264226412,
+        457.5957502644523,
+        390.84072881749535
+      ],
+      "captions": [
+        [
+          "#/texts/851"
+        ],
+        [
+          "#/texts/852",
+          "#/texts/853",
+          "#/texts/854",
+          "#/texts/855",
+          "#/texts/856"
+        ]
+      ],
+      "source_refs": [
+        "#/pictures/73"
+      ],
+      "source_nodes": [
+        {
+          "self_ref": "#/pictures/73",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [
+            {
+              "$ref": "#/texts/851"
+            },
+            {
+              "$ref": "#/texts/852"
+            },
+            {
+              "$ref": "#/texts/853"
+            },
+            {
+              "$ref": "#/texts/854"
+            },
+            {
+              "$ref": "#/texts/855"
+            },
+            {
+              "$ref": "#/texts/856"
+            },
+            {
+              "$ref": "#/texts/857"
+            },
+            {
+              "$ref": "#/texts/858"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 36,
+              "bbox": {
+                "l": 84.08671258047134,
+                "t": 721.0778761272671,
+                "r": 457.5957502644523,
+                "b": 402.8602599520359,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "annotations": []
+        },
+        {
+          "self_ref": "#/texts/851",
+          "parent": {
+            "$ref": "#/pictures/73"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 36,
+              "bbox": {
+                "l": 107.5925,
+                "t": 496.8543,
+                "r": 259.5137,
+                "b": 448.81933816793895,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                307
+              ]
+            }
+          ],
+          "orig": "A The Termagant unit is selected to fight. First, the unit Piles In and all of its models move up to 3\" in order to end closer to the closest enemy model, and in base-to-base contact if they can. Note that two Termagants are already in base-to-base contact with the foe - these models therefore do not move.",
+          "text": "A The Termagant unit is selected to fight. First, the unit Piles In and all of its models move up to 3\" in order to end closer to the closest enemy model, and in base-to-base contact if they can. Note that two Termagants are already in base-to-base contact with the foe - these models therefore do not move."
+        },
+        {
+          "self_ref": "#/texts/852",
+          "parent": {
+            "$ref": "#/pictures/73"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 36,
+              "bbox": {
+                "l": 286.8082,
+                "t": 496.8543,
+                "r": 411.04609999999997,
+                "b": 485.3142961832061,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                47
+              ]
+            }
+          ],
+          "orig": "B After making their Pile-in moves, five of the",
+          "text": "B After making their Pile-in moves, five of the"
+        },
+        {
+          "self_ref": "#/texts/853",
+          "parent": {
+            "$ref": "#/pictures/73"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 36,
+              "bbox": {
+                "l": 300.8248,
+                "t": 488.35630000000003,
+                "r": 427.93640000000016,
+                "b": 482.81614732824426,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                45
+              ]
+            }
+          ],
+          "orig": "Termagants are within Engagement Range of the",
+          "text": "Termagants are within Engagement Range of the"
+        },
+        {
+          "self_ref": "#/texts/854",
+          "parent": {
+            "$ref": "#/pictures/73"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 36,
+              "bbox": {
+                "l": 300.8248,
+                "t": 479.85830000000004,
+                "r": 437.18970000000024,
+                "b": 474.3133381679389,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                53
+              ]
+            }
+          ],
+          "orig": "Sternguard Veterans, and so will get to make attacks.",
+          "text": "Sternguard Veterans, and so will get to make attacks."
+        },
+        {
+          "self_ref": "#/texts/855",
+          "parent": {
+            "$ref": "#/pictures/73"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 36,
+              "bbox": {
+                "l": 300.8248,
+                "t": 471.36030000000005,
+                "r": 436.6094000000001,
+                "b": 448.8241473282443,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                149
+              ]
+            }
+          ],
+          "orig": "Three other Termagants are in base-to-base contact with models in their unit that are themselves in base-to-base contact with the Sternguard Veterans",
+          "text": "Three other Termagants are in base-to-base contact with models in their unit that are themselves in base-to-base contact with the Sternguard Veterans"
+        },
+        {
+          "self_ref": "#/texts/856",
+          "parent": {
+            "$ref": "#/pictures/73"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 36,
+              "bbox": {
+                "l": 300.8248,
+                "t": 445.8663000000001,
+                "r": 436.6577000000005,
+                "b": 423.325338167939,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                142
+              ]
+            }
+          ],
+          "orig": "- these Termagants will also get to make attacks. The remaining two Termagants are too distant from the foe, and will not get to make attacks.",
+          "text": "- these Termagants will also get to make attacks. The remaining two Termagants are too distant from the foe, and will not get to make attacks."
+        }
+      ],
+      "image": "images/page_036_fight_ab.png",
+      "caption_texts": [
+        "A The Termagant unit is selected to fight. First, the unit Piles In and all of its models move up to 3\" in order to end closer to the closest enemy model, and in base-to-base contact if they can. Note that two Termagants are already in base-to-base contact with the foe - these models therefore do not move.",
+        "B After making their Pile-in moves, five of the Termagants are within Engagement Range of the Sternguard Veterans, and so will get to make attacks. Three other Termagants are in base-to-base contact with models in their unit that are themselves in base-to-base contact with the Sternguard Veterans - these Termagants will also get to make attacks. The remaining two Termagants are too distant from the foe, and will not get to make attacks."
+      ],
+      "coordinate_system": "PDF points, top-left origin"
+    },
+    {
+      "type": "image",
+      "id": "fight_c",
+      "title": "C — Consolidation",
+      "bbox": [
+        84.53199634183039,
+        398.8666359925546,
+        457.32149260429003,
+        721.2032754162998
+      ],
+      "captions": [
+        [
+          "#/texts/859",
+          "#/texts/860"
+        ]
+      ],
+      "source_refs": [
+        "#/pictures/74"
+      ],
+      "source_nodes": [
+        {
+          "self_ref": "#/pictures/74",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [
+            {
+              "$ref": "#/texts/859"
+            },
+            {
+              "$ref": "#/texts/860"
+            },
+            {
+              "$ref": "#/texts/861"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 36,
+              "bbox": {
+                "l": 84.53199634183039,
+                "t": 394.83435277697663,
+                "r": 457.32149260429003,
+                "b": 72.49771335323146,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "annotations": []
+        },
+        {
+          "self_ref": "#/texts/859",
+          "parent": {
+            "$ref": "#/pictures/74"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 36,
+              "bbox": {
+                "l": 107.4226,
+                "t": 117.63409999999999,
+                "r": 416.6035000000007,
+                "b": 95.09313816793895,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                339
+              ]
+            }
+          ],
+          "orig": "C After the Termagants have made all of their attacks, one enemy model has been destroyed. The Termagants now Consolidate; just like when they Piled In, each model must move up to 3\" in order to end closer to the closest enemy model, and in base-to-base contact if they can. Three Termagants are already in base-to-base contact, and so are",
+          "text": "C After the Termagants have made all of their attacks, one enemy model has been destroyed. The Termagants now Consolidate; just like when they Piled In, each model must move up to 3\" in order to end closer to the closest enemy model, and in base-to-base contact if they can. Three Termagants are already in base-to-base contact, and so are"
+        },
+        {
+          "self_ref": "#/texts/860",
+          "parent": {
+            "$ref": "#/pictures/74"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 36,
+              "bbox": {
+                "l": 121.1811,
+                "t": 92.14009999999996,
+                "r": 150.32909999999998,
+                "b": 86.5951381679389,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                10
+              ]
+            }
+          ],
+          "orig": "not moved.",
+          "text": "not moved."
+        }
+      ],
+      "image": "images/page_036_fight_c.png",
+      "caption_texts": [
+        "C After the Termagants have made all of their attacks, one enemy model has been destroyed. The Termagants now Consolidate; just like when they Piled In, each model must move up to 3\" in order to end closer to the closest enemy model, and in base-to-base contact if they can. Three Termagants are already in base-to-base contact, and so are not moved."
+      ],
+      "coordinate_system": "PDF points, top-left origin"
+    }
+  ],
+  "excluded_text": [
+    {
+      "node": {
+        "self_ref": "#/texts/857",
+        "parent": {
+          "$ref": "#/pictures/73"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 36,
+            "bbox": {
+              "l": 101.9232,
+              "t": 705.9847,
+              "r": 106.4232,
+              "b": 698.0701961832061,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "A",
+        "text": "A"
+      },
+      "reason": "A/B/C markers retained in figure and caption"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/858",
+        "parent": {
+          "$ref": "#/pictures/73"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 36,
+            "bbox": {
+              "l": 286.8082,
+              "t": 705.9847,
+              "r": 292.1682,
+              "b": 698.0701961832061,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "B",
+        "text": "B"
+      },
+      "reason": "A/B/C markers retained in figure and caption"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/861",
+        "parent": {
+          "$ref": "#/pictures/74"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 36,
+            "bbox": {
+              "l": 101.7533,
+              "t": 375.98470000000003,
+              "r": 106.5933,
+              "b": 368.0701961832061,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "C",
+        "text": "C"
+      },
+      "reason": "A/B/C markers retained in figure and caption"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/862",
+        "parent": {
+          "$ref": "#/pictures/75"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 36,
+            "bbox": {
+              "l": 539.6622,
+              "t": 717.5597,
+              "r": 547.2672,
+              "b": 705.6879442748092,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "1",
+        "text": "1"
+      },
+      "reason": "Navigation/page furniture"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/863",
+        "parent": {
+          "$ref": "#/pictures/75"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 36,
+            "bbox": {
+              "l": 539.6622,
+              "t": 687.5597,
+              "r": 547.2672,
+              "b": 675.6879442748092,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "2",
+        "text": "2"
+      },
+      "reason": "Navigation/page furniture"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/864",
+        "parent": {
+          "$ref": "#/pictures/75"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 36,
+            "bbox": {
+              "l": 539.6622,
+              "t": 657.5597,
+              "r": 547.2672,
+              "b": 645.6879442748092,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "3",
+        "text": "3"
+      },
+      "reason": "Navigation/page furniture"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/865",
+        "parent": {
+          "$ref": "#/pictures/75"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 36,
+            "bbox": {
+              "l": 539.6622,
+              "t": 627.5597,
+              "r": 547.2672,
+              "b": 615.6879442748092,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "4",
+        "text": "4"
+      },
+      "reason": "Navigation/page furniture"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/866",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "furniture",
+        "label": "page_footer",
+        "prov": [
+          {
+            "page_no": 36,
+            "bbox": {
+              "l": 326.5483,
+              "t": 50.00040000000001,
+              "r": 456.37329999999963,
+              "b": 42.08589618320616,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              32
+            ]
+          }
+        ],
+        "orig": "CORE RULES | FIGHT PHASE | FIGHT",
+        "text": "CORE RULES | FIGHT PHASE | FIGHT"
+      },
+      "reason": "Navigation/page furniture"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/867",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "furniture",
+        "label": "page_footer",
+        "prov": [
+          {
+            "page_no": 36,
+            "bbox": {
+              "l": 538.4545,
+              "t": 100.24450000000002,
+              "r": 548.4745000000001,
+              "b": 92.32999618320605,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              2
+            ]
+          }
+        ],
+        "orig": "36",
+        "text": "36"
+      },
+      "reason": "Navigation/page furniture"
+    }
+  ],
+  "review_notes": []
+}

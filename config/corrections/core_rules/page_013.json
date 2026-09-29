@@ -1,0 +1,39 @@
+{
+  "page": 13,
+  "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+  "keep_refs": [
+    "#/texts/282",
+    "#/texts/283",
+    "#/texts/284",
+    "#/texts/285",
+    "#/texts/286",
+    "#/texts/287",
+    "#/texts/288",
+    "#/texts/289",
+    "#/texts/290",
+    "#/texts/291",
+    "#/texts/292",
+    "#/texts/293",
+    "#/texts/294",
+    "#/texts/295",
+    "#/texts/296",
+    "#/texts/297"
+  ],
+  "omit_reasons": {
+    "#/texts/277": "Phase-navigation number or page number",
+    "#/texts/278": "Phase-navigation number or page number",
+    "#/texts/279": "Phase-navigation number or page number",
+    "#/texts/280": "Phase-navigation number or page number",
+    "#/texts/281": "Phase-navigation number or page number",
+    "#/texts/298": "Repeated two-step sidebar; main movement sequence is retained",
+    "#/texts/299": "Repeated two-step sidebar; main movement sequence is retained",
+    "#/texts/300": "Repeated two-step sidebar; main movement sequence is retained",
+    "#/texts/301": "Repeated two-step sidebar; main movement sequence is retained",
+    "#/texts/302": "Repeated two-step sidebar; main movement sequence is retained",
+    "#/texts/303": "Page footer"
+  },
+  "heading_overrides": {},
+  "scope": "Remove detached navigation numbers and repeated ending sidebar; retain main text, summaries, numbered MOVE UNITS heading and reference to Reinforcements. Pictures on this page are navigation/illustration, with text retained in main content.",
+  "schema_version": 1,
+  "handler": "text"
+}

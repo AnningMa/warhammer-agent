@@ -1,0 +1,144 @@
+{
+  "page": 37,
+  "source_sha256": "4d0e8019cbfddd6f46781d5b4ed31d46fb21eb2d0d10a0f6fabefac0ce054364",
+  "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+  "blocks": [
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/869"
+      ],
+      "style": "h1"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/870"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/871"
+      ],
+      "style": "h2"
+    },
+    {
+      "type": "image",
+      "id": "profiles_abilities",
+      "title": "EXAMPLE DATASHEET (PROFILES AND ABILITIES)",
+      "bbox": [
+        90,
+        145,
+        502,
+        435
+      ],
+      "captions": [],
+      "source_refs": [
+        "#/texts/871",
+        "#/pictures/76"
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/937"
+      ],
+      "style": "h2"
+    },
+    {
+      "type": "image",
+      "id": "wargear_composition",
+      "title": "EXAMPLE DATASHEET (WARGEAR AND COMPOSITION)",
+      "bbox": [
+        180,
+        425,
+        596,
+        711
+      ],
+      "captions": [],
+      "source_refs": [
+        "#/texts/937",
+        "#/pictures/77"
+      ]
+    }
+  ],
+  "excluded_text": {
+    "#/texts/868": "Page furniture",
+    "#/texts/941": "Page furniture",
+    "#/texts/872": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/873": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/874": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/875": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/876": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/877": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/878": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/879": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/880": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/881": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/882": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/883": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/884": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/885": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/886": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/887": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/888": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/889": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/890": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/891": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/892": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/893": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/894": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/895": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/896": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/897": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/898": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/899": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/900": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/901": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/902": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/903": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/904": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/905": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/906": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/907": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/908": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/909": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/910": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/911": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/912": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/913": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/914": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/915": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/916": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/917": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/918": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/919": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/920": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/921": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/922": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/923": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/924": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/925": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/926": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/927": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/928": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/929": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/930": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/931": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/932": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/933": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/934": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/935": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/936": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/938": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/939": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+    "#/texts/940": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+  },
+  "review_notes": [
+    "Image-first presentation per user instruction. Example statistics are not rewritten or treated as actual unit rules; numbered callouts remain visible."
+  ],
+  "schema_version": 1,
+  "handler": "blocks"
+}

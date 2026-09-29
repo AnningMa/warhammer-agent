@@ -1,0 +1,1121 @@
+{
+  "page": 14,
+  "body": [
+    {
+      "self_ref": "#/texts/304",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 14,
+          "bbox": {
+            "l": 85.0394,
+            "t": 720.3947,
+            "r": 159.83540000000002,
+            "b": 710.8972954198473,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            13
+          ]
+        }
+      ],
+      "orig": "ADVANCE MOVES",
+      "text": "ADVANCE MOVES",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/305",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 14,
+          "bbox": {
+            "l": 85.0394,
+            "t": 708.3682,
+            "r": 298.66735,
+            "b": 630.8484836198181,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            443
+          ]
+        }
+      ],
+      "orig": "When a unit Advances, make an Advance roll for that unit by rolling one D6. Add the result in inches to the Move characteristic of each model in that unit until the end of the phase. Each model in that unit can then make an Advance move by moving a distance in inches less than or equal to this total, but no model can be moved within Engagement Range of enemy models. A unit cannot shoot or declare a charge in the same turn that it Advanced.",
+      "text": "When a unit Advances, make an Advance roll for that unit by rolling one D6. Add the result in inches to the Move characteristic of each model in that unit until the end of the phase. Each model in that unit can then make an Advance move by moving a distance in inches less than or equal to this total, but no model can be moved within Engagement Range of enemy models. A unit cannot shoot or declare a charge in the same turn that it Advanced."
+    },
+    {
+      "self_ref": "#/texts/306",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 14,
+          "bbox": {
+            "l": 96.378,
+            "t": 612.364,
+            "r": 237.0297000000001,
+            "b": 601.9435666003976,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            39
+          ]
+        }
+      ],
+      "orig": "■Advance Move: Models move up to M+D6\".",
+      "text": "■Advance Move: Models move up to M+D6\".",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/307",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 14,
+          "bbox": {
+            "l": 96.3779,
+            "t": 602.364,
+            "r": 250.57189999999997,
+            "b": 583.1156717557252,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            58
+          ]
+        }
+      ],
+      "orig": "■ Cannot move within Engagement Range of any enemy models.",
+      "text": "■ Cannot move within Engagement Range of any enemy models.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/308",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 14,
+          "bbox": {
+            "l": 96.3779,
+            "t": 582.364,
+            "r": 268.86220000000003,
+            "b": 571.9435666003976,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            54
+          ]
+        }
+      ],
+      "orig": "■ Units that Advance cannot shoot or charge this turn.",
+      "text": "■ Units that Advance cannot shoot or charge this turn.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/309",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 14,
+          "bbox": {
+            "l": 55.2756,
+            "t": 520.3946,
+            "r": 137.3124,
+            "b": 510.8971954198474,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "FALL BACK MOVES",
+      "text": "FALL BACK MOVES",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/310",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 14,
+          "bbox": {
+            "l": 55.2756,
+            "t": 508.3681,
+            "r": 238.6622499999999,
+            "b": 440.84438361981813,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            360
+          ]
+        }
+      ],
+      "orig": "When a unit Falls Back, each model in that unit can make a Fall Back move by moving a distance in inches less than or equal to its Move characteristic, and when doing so you can move it within Engagement Range of enemy models, provided it does not end that move within Engagement Range of any enemy models - if this is not possible, that unit cannot Fall Back.",
+      "text": "When a unit Falls Back, each model in that unit can make a Fall Back move by moving a distance in inches less than or equal to its Move characteristic, and when doing so you can move it within Engagement Range of enemy models, provided it does not end that move within Engagement Range of any enemy models - if this is not possible, that unit cannot Fall Back."
+    },
+    {
+      "self_ref": "#/texts/311",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 14,
+          "bbox": {
+            "l": 55.2756,
+            "t": 428.39160000000015,
+            "r": 229.25189999999992,
+            "b": 410.84788361981816,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            75
+          ]
+        }
+      ],
+      "orig": "A unit cannot shoot or declare a charge in the same turn that it Fell Back.",
+      "text": "A unit cannot shoot or declare a charge in the same turn that it Fell Back."
+    },
+    {
+      "self_ref": "#/texts/312",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 14,
+          "bbox": {
+            "l": 55.2756,
+            "t": 400.3946,
+            "r": 164.09760000000003,
+            "b": 390.8971954198474,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "Desperate Escape Tests",
+      "text": "Desperate Escape Tests",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/313",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 14,
+          "bbox": {
+            "l": 55.2756,
+            "t": 388.3681,
+            "r": 244.90039999999985,
+            "b": 300.85238361981817,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            469
+          ]
+        }
+      ],
+      "orig": "Unlike when making other types of move, models can move over enemy models when making a Fall Back move as if those enemy models were not there, but you must take a Desperate Escape test for each model that will do so (excluding models that are Titanic or can Fly) before any models in that unit are moved. In addition, if a unit is Battle-shocked when it is selected to Fall Back, you must take a Desperate Escape test for every model in that unit before any are moved.",
+      "text": "Unlike when making other types of move, models can move over enemy models when making a Fall Back move as if those enemy models were not there, but you must take a Desperate Escape test for each model that will do so (excluding models that are Titanic or can Fly) before any models in that unit are moved. In addition, if a unit is Battle-shocked when it is selected to Fall Back, you must take a Desperate Escape test for every model in that unit before any are moved."
+    },
+    {
+      "self_ref": "#/texts/314",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 14,
+          "bbox": {
+            "l": 257.5756,
+            "t": 508.39660000000015,
+            "r": 445.7792000000002,
+            "b": 460.8648836198182,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            241
+          ]
+        }
+      ],
+      "orig": "Each time you take a Desperate Escape test for a model, roll one D6. For each roll of 1-2, one model from the unit that is Falling Back is destroyed (selected by you). The same model can only ever trigger one Desperate Escape test per phase.",
+      "text": "Each time you take a Desperate Escape test for a model, roll one D6. For each roll of 1-2, one model from the unit that is Falling Back is destroyed (selected by you). The same model can only ever trigger one Desperate Escape test per phase."
+    },
+    {
+      "self_ref": "#/texts/315",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 14,
+          "bbox": {
+            "l": 268.9134,
+            "t": 442.6785,
+            "r": 397.5809499999999,
+            "b": 432.2580666003976,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            38
+          ]
+        }
+      ],
+      "orig": "■Fall Back Move: Models move up to M\".",
+      "text": "■Fall Back Move: Models move up to M\".",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/316",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 14,
+          "bbox": {
+            "l": 268.9134,
+            "t": 432.6785,
+            "r": 419.2806000000002,
+            "b": 413.4301717557252,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            73
+          ]
+        }
+      ],
+      "orig": "■ Units that Fall Back cannot shoot or declare a charge in the same turn.",
+      "text": "■ Units that Fall Back cannot shoot or declare a charge in the same turn.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/317",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 14,
+          "bbox": {
+            "l": 268.9134,
+            "t": 412.6785,
+            "r": 435.1858000000003,
+            "b": 373.43817175572525,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            170
+          ]
+        }
+      ],
+      "orig": "■ Models can move over enemy models when Falling Back, but you must take Desperate Escape tests for them before they do so (excluding models that are Titanic or can Fly).",
+      "text": "■ Models can move over enemy models when Falling Back, but you must take Desperate Escape tests for them before they do so (excluding models that are Titanic or can Fly).",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/318",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 14,
+          "bbox": {
+            "l": 268.9134,
+            "t": 372.6785,
+            "r": 426.55660000000034,
+            "b": 343.43417175572523,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            111
+          ]
+        }
+      ],
+      "orig": "■ If a Battle-shocked unit is selected to Fall Back, take a Desperate Escape test for every model in that unit.",
+      "text": "■ If a Battle-shocked unit is selected to Fall Back, take a Desperate Escape test for every model in that unit.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/319",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 14,
+          "bbox": {
+            "l": 268.9134,
+            "t": 342.6785,
+            "r": 433.1713000000001,
+            "b": 323.43417175572523,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            86
+          ]
+        }
+      ],
+      "orig": "■ Desperate Escape Test: Roll one D6. On a 1-2, one model from that unit is destroyed.",
+      "text": "■ Desperate Escape Test: Roll one D6. On a 1-2, one model from that unit is destroyed.",
+      "enumerated": false,
+      "marker": ""
+    }
+  ],
+  "summary": [],
+  "figure": {
+    "id": "p014_desperate_escape",
+    "page": 14,
+    "bbox": [
+      51,
+      507,
+      452,
+      721
+    ],
+    "coordinate_system": "PDF points, top-left origin",
+    "image": "images/page_014_desperate_escape.png",
+    "title": "Desperate Escape Tests — illustrated example",
+    "captions": [
+      {
+        "text": "A The Sternguard Veterans are selected to make a Fall Back move, but to do so they must move through enemy models, so Desperate Escape tests are required.",
+        "source_nodes": [
+          {
+            "self_ref": "#/texts/320",
+            "parent": {
+              "$ref": "#/pictures/30"
+            },
+            "children": [],
+            "content_layer": "body",
+            "label": "text",
+            "prov": [
+              {
+                "page_no": 14,
+                "bbox": {
+                  "l": 313.813,
+                  "t": 174.46119999999996,
+                  "r": 430.48980000000046,
+                  "b": 162.92119618320612,
+                  "coord_origin": "BOTTOMLEFT"
+                },
+                "charspan": [
+                  0,
+                  41
+                ]
+              }
+            ],
+            "orig": "A The Sternguard Veterans are selected to",
+            "text": "A The Sternguard Veterans are selected to"
+          },
+          {
+            "self_ref": "#/texts/321",
+            "parent": {
+              "$ref": "#/pictures/30"
+            },
+            "children": [],
+            "content_layer": "body",
+            "label": "text",
+            "prov": [
+              {
+                "page_no": 14,
+                "bbox": {
+                  "l": 328.6265,
+                  "t": 165.96320000000003,
+                  "r": 419.4788000000003,
+                  "b": 160.41823816793897,
+                  "coord_origin": "BOTTOMLEFT"
+                },
+                "charspan": [
+                  0,
+                  35
+                ]
+              }
+            ],
+            "orig": "make a Fall Back move, but to do so",
+            "text": "make a Fall Back move, but to do so"
+          },
+          {
+            "self_ref": "#/texts/322",
+            "parent": {
+              "$ref": "#/pictures/30"
+            },
+            "children": [],
+            "content_layer": "body",
+            "label": "text",
+            "prov": [
+              {
+                "page_no": 14,
+                "bbox": {
+                  "l": 328.6265,
+                  "t": 157.46519999999998,
+                  "r": 411.22650000000044,
+                  "b": 151.92023816793892,
+                  "coord_origin": "BOTTOMLEFT"
+                },
+                "charspan": [
+                  0,
+                  28
+                ]
+              }
+            ],
+            "orig": "they must move through enemy",
+            "text": "they must move through enemy"
+          },
+          {
+            "self_ref": "#/texts/323",
+            "parent": {
+              "$ref": "#/pictures/30"
+            },
+            "children": [],
+            "content_layer": "body",
+            "label": "text",
+            "prov": [
+              {
+                "page_no": 14,
+                "bbox": {
+                  "l": 328.6265,
+                  "t": 148.96720000000005,
+                  "r": 418.3791000000001,
+                  "b": 143.42223816793899,
+                  "coord_origin": "BOTTOMLEFT"
+                },
+                "charspan": [
+                  0,
+                  33
+                ]
+              }
+            ],
+            "orig": "models, so Desperate Escape tests",
+            "text": "models, so Desperate Escape tests"
+          },
+          {
+            "self_ref": "#/texts/324",
+            "parent": {
+              "$ref": "#/pictures/30"
+            },
+            "children": [],
+            "content_layer": "body",
+            "label": "text",
+            "prov": [
+              {
+                "page_no": 14,
+                "bbox": {
+                  "l": 328.6265,
+                  "t": 140.4692,
+                  "r": 361.0715000000001,
+                  "b": 134.92423816793894,
+                  "coord_origin": "BOTTOMLEFT"
+                },
+                "charspan": [
+                  0,
+                  13
+                ]
+              }
+            ],
+            "orig": "are required.",
+            "text": "are required."
+          }
+        ],
+        "prov": [
+          {
+            "page_no": 14,
+            "bbox": {
+              "l": 313.813,
+              "t": 174.46119999999996,
+              "r": 430.48980000000046,
+              "b": 162.92119618320612,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              41
+            ]
+          },
+          {
+            "page_no": 14,
+            "bbox": {
+              "l": 328.6265,
+              "t": 165.96320000000003,
+              "r": 419.4788000000003,
+              "b": 160.41823816793897,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              35
+            ]
+          },
+          {
+            "page_no": 14,
+            "bbox": {
+              "l": 328.6265,
+              "t": 157.46519999999998,
+              "r": 411.22650000000044,
+              "b": 151.92023816793892,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              28
+            ]
+          },
+          {
+            "page_no": 14,
+            "bbox": {
+              "l": 328.6265,
+              "t": 148.96720000000005,
+              "r": 418.3791000000001,
+              "b": 143.42223816793899,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              33
+            ]
+          },
+          {
+            "page_no": 14,
+            "bbox": {
+              "l": 328.6265,
+              "t": 140.4692,
+              "r": 361.0715000000001,
+              "b": 134.92423816793894,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              13
+            ]
+          }
+        ]
+      },
+      {
+        "text": "B The controlling player rolls one D6 for each model that moves through an enemy unit, resulting in a 1, 2, 4, 4 and 6. Two models are therefore destroyed.",
+        "source_nodes": [
+          {
+            "self_ref": "#/texts/325",
+            "parent": {
+              "$ref": "#/pictures/30"
+            },
+            "children": [],
+            "content_layer": "body",
+            "label": "text",
+            "prov": [
+              {
+                "page_no": 14,
+                "bbox": {
+                  "l": 313.383,
+                  "t": 126.29189999999994,
+                  "r": 422.5176000000002,
+                  "b": 114.4538961832061,
+                  "coord_origin": "BOTTOMLEFT"
+                },
+                "charspan": [
+                  0,
+                  41
+                ]
+              }
+            ],
+            "orig": "B The controlling player rolls one D6 for",
+            "text": "B The controlling player rolls one D6 for"
+          },
+          {
+            "self_ref": "#/texts/326",
+            "parent": {
+              "$ref": "#/pictures/30"
+            },
+            "children": [],
+            "content_layer": "body",
+            "label": "text",
+            "prov": [
+              {
+                "page_no": 14,
+                "bbox": {
+                  "l": 327.4016,
+                  "t": 117.79189999999994,
+                  "r": 416.5326000000004,
+                  "b": 112.24693816793888,
+                  "coord_origin": "BOTTOMLEFT"
+                },
+                "charspan": [
+                  0,
+                  32
+                ]
+              }
+            ],
+            "orig": "each model that moves through an",
+            "text": "each model that moves through an"
+          },
+          {
+            "self_ref": "#/texts/327",
+            "parent": {
+              "$ref": "#/pictures/30"
+            },
+            "children": [],
+            "content_layer": "body",
+            "label": "text",
+            "prov": [
+              {
+                "page_no": 14,
+                "bbox": {
+                  "l": 327.4016,
+                  "t": 109.29390000000001,
+                  "r": 426.9269000000004,
+                  "b": 103.74893816793895,
+                  "coord_origin": "BOTTOMLEFT"
+                },
+                "charspan": [
+                  0,
+                  41
+                ]
+              }
+            ],
+            "orig": "enemy unit, resulting in a 1, 2, 4, 4 and",
+            "text": "enemy unit, resulting in a 1, 2, 4, 4 and"
+          },
+          {
+            "self_ref": "#/texts/328",
+            "parent": {
+              "$ref": "#/pictures/30"
+            },
+            "children": [],
+            "content_layer": "body",
+            "label": "text",
+            "prov": [
+              {
+                "page_no": 14,
+                "bbox": {
+                  "l": 327.4016,
+                  "t": 100.79589999999996,
+                  "r": 426.7526000000003,
+                  "b": 95.2509381679389,
+                  "coord_origin": "BOTTOMLEFT"
+                },
+                "charspan": [
+                  0,
+                  38
+                ]
+              }
+            ],
+            "orig": "6. Two models are therefore destroyed.",
+            "text": "6. Two models are therefore destroyed."
+          }
+        ],
+        "prov": [
+          {
+            "page_no": 14,
+            "bbox": {
+              "l": 313.383,
+              "t": 126.29189999999994,
+              "r": 422.5176000000002,
+              "b": 114.4538961832061,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              41
+            ]
+          },
+          {
+            "page_no": 14,
+            "bbox": {
+              "l": 327.4016,
+              "t": 117.79189999999994,
+              "r": 416.5326000000004,
+              "b": 112.24693816793888,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              32
+            ]
+          },
+          {
+            "page_no": 14,
+            "bbox": {
+              "l": 327.4016,
+              "t": 109.29390000000001,
+              "r": 426.9269000000004,
+              "b": 103.74893816793895,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              41
+            ]
+          },
+          {
+            "page_no": 14,
+            "bbox": {
+              "l": 327.4016,
+              "t": 100.79589999999996,
+              "r": 426.7526000000003,
+              "b": 95.2509381679389,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              38
+            ]
+          }
+        ]
+      }
+    ],
+    "annotations": [
+      {
+        "self_ref": "#/texts/329",
+        "parent": {
+          "$ref": "#/pictures/30"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 14,
+            "bbox": {
+              "l": 203.1685,
+              "t": 186.6934,
+              "r": 211.39849999999998,
+              "b": 178.77889618320614,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              2
+            ]
+          }
+        ],
+        "orig": "6\"",
+        "text": "6\""
+      },
+      {
+        "self_ref": "#/texts/330",
+        "parent": {
+          "$ref": "#/pictures/30"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 14,
+            "bbox": {
+              "l": 147.9862,
+              "t": 123.14999999999998,
+              "r": 152.4862,
+              "b": 115.23549618320612,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "A",
+        "text": "A"
+      },
+      {
+        "self_ref": "#/texts/331",
+        "parent": {
+          "$ref": "#/pictures/30"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 14,
+            "bbox": {
+              "l": 280.5011,
+              "t": 258.8981,
+              "r": 285.8611,
+              "b": 250.98359618320615,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "B",
+        "text": "B"
+      }
+    ]
+  },
+  "excluded_furniture": [
+    {
+      "self_ref": "#/texts/332",
+      "parent": {
+        "$ref": "#/pictures/31"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 14,
+          "bbox": {
+            "l": 539.6622,
+            "t": 717.5597,
+            "r": 547.2672,
+            "b": 705.6879442748092,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "1",
+      "text": "1"
+    },
+    {
+      "self_ref": "#/texts/333",
+      "parent": {
+        "$ref": "#/pictures/31"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 14,
+          "bbox": {
+            "l": 539.6622,
+            "t": 627.5597,
+            "r": 547.2672,
+            "b": 555.6879442748092,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "3 4 5",
+      "text": "3 4 5"
+    },
+    {
+      "self_ref": "#/texts/334",
+      "parent": {
+        "$ref": "#/pictures/31"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 14,
+          "bbox": {
+            "l": 538.8246,
+            "t": 100.24450000000002,
+            "r": 548.1046000000001,
+            "b": 92.32999618320605,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "14",
+      "text": "14"
+    },
+    {
+      "self_ref": "#/texts/335",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 14,
+          "bbox": {
+            "l": 334.0136,
+            "t": 50.00040000000001,
+            "r": 456.3796000000002,
+            "b": 42.08589618320616,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "orig": "CORE RULES | MOVEMENT PHASE",
+      "text": "CORE RULES | MOVEMENT PHASE"
+    }
+  ],
+  "source": "data/Core Rules.pdf",
+  "rules": {
+    "page": 14,
+    "source_sha256": "4d0e8019cbfddd6f46781d5b4ed31d46fb21eb2d0d10a0f6fabefac0ce054364",
+    "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+    "figure_id": "p014_desperate_escape",
+    "figure_bbox": [
+      51,
+      507,
+      452,
+      721
+    ],
+    "image": "images/page_014_desperate_escape.png",
+    "figure_title": "Desperate Escape Tests — illustrated example",
+    "body_refs": [
+      "#/texts/304",
+      "#/texts/305",
+      "#/texts/306",
+      "#/texts/307",
+      "#/texts/308",
+      "#/texts/309",
+      "#/texts/310",
+      "#/texts/311",
+      "#/texts/312",
+      "#/texts/313",
+      "#/texts/314",
+      "#/texts/315",
+      "#/texts/316",
+      "#/texts/317",
+      "#/texts/318",
+      "#/texts/319"
+    ],
+    "summary_refs": [],
+    "caption_refs": [
+      "#/texts/320",
+      "#/texts/321",
+      "#/texts/322",
+      "#/texts/323",
+      "#/texts/324",
+      "#/texts/325",
+      "#/texts/326",
+      "#/texts/327",
+      "#/texts/328"
+    ],
+    "caption_groups": [
+      [
+        "#/texts/320",
+        "#/texts/321",
+        "#/texts/322",
+        "#/texts/323",
+        "#/texts/324"
+      ],
+      [
+        "#/texts/325",
+        "#/texts/326",
+        "#/texts/327",
+        "#/texts/328"
+      ]
+    ],
+    "annotation_refs": [
+      "#/texts/329",
+      "#/texts/330",
+      "#/texts/331"
+    ],
+    "furniture_refs": [
+      "#/texts/332",
+      "#/texts/333",
+      "#/texts/334",
+      "#/texts/335"
+    ],
+    "source_picture_ref": "#/pictures/30",
+    "scope": "Merge A/B caption fragments and attach to whole diagram. Preserve dice outcomes in captions. Keep distance annotation in image/JSON. Decorative illustrations/navigation omitted."
+  }
+}

@@ -1,0 +1,980 @@
+{
+  "page": 30,
+  "source": "data/Core Rules.pdf",
+  "rules": {
+    "page": 30,
+    "source_sha256": "4d0e8019cbfddd6f46781d5b4ed31d46fb21eb2d0d10a0f6fabefac0ce054364",
+    "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+    "blocks": [
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/737"
+        ],
+        "style": "h1"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/738"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/739"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/740"
+        ],
+        "style": "li"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/741"
+        ],
+        "style": "li"
+      },
+      {
+        "type": "image",
+        "id": "charging_terrain",
+        "title": "Charging over terrain",
+        "bbox": [
+          237.20878893067405,
+          79.75030289756137,
+          448.74907321096947,
+          391.3132680894674
+        ],
+        "captions": [
+          [
+            "#/texts/749"
+          ]
+        ],
+        "source_refs": [
+          "#/pictures/62"
+        ]
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/742"
+        ],
+        "style": "h1"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/743"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/744"
+        ],
+        "style": "li"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/745"
+        ],
+        "style": "li"
+      },
+      {
+        "type": "image",
+        "id": "charging_flying",
+        "title": "Charging with flying models",
+        "bbox": [
+          236.61963042402422,
+          401.0383947602087,
+          448.295961138966,
+          712.596288315319
+        ],
+        "captions": [
+          [
+            "#/texts/750",
+            "#/texts/751"
+          ]
+        ],
+        "source_refs": [
+          "#/pictures/63"
+        ]
+      }
+    ],
+    "excluded_text": {
+      "#/texts/746": "Distance labels remain inside figure",
+      "#/texts/747": "Distance labels remain inside figure",
+      "#/texts/748": "Distance labels remain inside figure",
+      "#/texts/752": "Distance labels remain inside figure",
+      "#/texts/753": "Navigation/page furniture",
+      "#/texts/754": "Navigation/page furniture",
+      "#/texts/755": "Navigation/page furniture",
+      "#/texts/756": "Navigation/page furniture",
+      "#/texts/757": "Navigation/page furniture",
+      "#/texts/758": "Navigation/page furniture"
+    },
+    "review_notes": []
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/737"
+      ],
+      "style": "h1",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/737",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 30,
+              "bbox": {
+                "l": 55.2756,
+                "t": 710.3947,
+                "r": 170.01840000000007,
+                "b": 700.8972954198473,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                21
+              ]
+            }
+          ],
+          "orig": "CHARGING OVER TERRAIN",
+          "text": "CHARGING OVER TERRAIN",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/738"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/738",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 30,
+              "bbox": {
+                "l": 55.2756,
+                "t": 698.3682,
+                "r": 214.84354999999996,
+                "b": 670.828483619818,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                117
+              ]
+            }
+          ],
+          "orig": "Unless otherwise stated, a model can be moved over a terrain feature when it makes a Charge move, but not through it.",
+          "text": "Unless otherwise stated, a model can be moved over a terrain feature when it makes a Charge move, but not through it."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/739"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/739",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 30,
+              "bbox": {
+                "l": 55.2756,
+                "t": 658.3757,
+                "r": 224.19524999999987,
+                "b": 570.8599836198182,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                408
+              ]
+            }
+          ],
+          "orig": "A model can be moved over terrain features that are 2\" or less in height as if they were not there. A model can be moved vertically in order to climb up, down and over any terrain features that are taller than this, counting the vertical distance up and/or down as part of its Charge move. Models cannot end a Charge move mid-climb - if it is not possible to make a Charge move as a result, the charge fails.",
+          "text": "A model can be moved over terrain features that are 2\" or less in height as if they were not there. A model can be moved vertically in order to climb up, down and over any terrain features that are taller than this, counting the vertical distance up and/or down as part of its Charge move. Models cannot end a Charge move mid-climb - if it is not possible to make a Charge move as a result, the charge fails."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/740"
+      ],
+      "style": "li",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/740",
+          "parent": {
+            "$ref": "#/groups/53"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 30,
+              "bbox": {
+                "l": 66.6142,
+                "t": 552.6786999999999,
+                "r": 200.0162499999999,
+                "b": 533.4303717557251,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                72
+              ]
+            }
+          ],
+          "orig": "■ Models can be moved freely over terrain features 2\" or less in height.",
+          "text": "■ Models can be moved freely over terrain features 2\" or less in height.",
+          "enumerated": false,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/741"
+      ],
+      "style": "li",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/741",
+          "parent": {
+            "$ref": "#/groups/53"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 30,
+              "bbox": {
+                "l": 66.6142,
+                "t": 532.6786999999999,
+                "r": 213.10710000000006,
+                "b": 503.4343717557252,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                93
+              ]
+            }
+          ],
+          "orig": "■ Models cannot move through terrain features taller than 2\", but can climb up and down them.",
+          "text": "■ Models cannot move through terrain features taller than 2\", but can climb up and down them.",
+          "enumerated": false,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "id": "charging_terrain",
+      "title": "Charging over terrain",
+      "bbox": [
+        237.20878893067405,
+        79.75030289756137,
+        448.74907321096947,
+        391.3132680894674
+      ],
+      "captions": [
+        [
+          "#/texts/749"
+        ]
+      ],
+      "source_refs": [
+        "#/pictures/62"
+      ],
+      "source_nodes": [
+        {
+          "self_ref": "#/pictures/62",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [
+            {
+              "$ref": "#/texts/746"
+            },
+            {
+              "$ref": "#/texts/747"
+            },
+            {
+              "$ref": "#/texts/748"
+            },
+            {
+              "$ref": "#/texts/749"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 30,
+              "bbox": {
+                "l": 237.20878893067405,
+                "t": 713.9506858719699,
+                "r": 448.74907321096947,
+                "b": 402.38772068006386,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "annotations": []
+        },
+        {
+          "self_ref": "#/texts/749",
+          "parent": {
+            "$ref": "#/pictures/62"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 30,
+              "bbox": {
+                "l": 360.0,
+                "t": 513.205,
+                "r": 430.4340000000002,
+                "b": 414.180038167939,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                306
+              ]
+            }
+          ],
+          "orig": "The Von Ryan's Leaper declares a charge against the Eradicators, who are on top of a terrain feature 3\" in height. The horizontal distance between the two units when the charge is declared is 4 1/2\". To end a Charge move within Engagement Range, the Tyranids player would need a Charge roll of 7 or higher.",
+          "text": "The Von Ryan's Leaper declares a charge against the Eradicators, who are on top of a terrain feature 3\" in height. The horizontal distance between the two units when the charge is declared is 4 1/2\". To end a Charge move within Engagement Range, the Tyranids player would need a Charge roll of 7 or higher."
+        }
+      ],
+      "image": "images/page_030_charging_terrain.png",
+      "caption_texts": [
+        "The Von Ryan's Leaper declares a charge against the Eradicators, who are on top of a terrain feature 3\" in height. The horizontal distance between the two units when the charge is declared is 4 1/2\". To end a Charge move within Engagement Range, the Tyranids player would need a Charge roll of 7 or higher."
+      ],
+      "coordinate_system": "PDF points, top-left origin"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/742"
+      ],
+      "style": "h1",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/742",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 30,
+              "bbox": {
+                "l": 55.2756,
+                "t": 390.3947,
+                "r": 201.33959999999996,
+                "b": 380.89729541984735,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                27
+              ]
+            }
+          ],
+          "orig": "CHARGING WITH FLYING MODELS",
+          "text": "CHARGING WITH FLYING MODELS",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/743"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/743",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 30,
+              "bbox": {
+                "l": 55.27559999999998,
+                "t": 378.3682,
+                "r": 226.25224999999995,
+                "b": 310.8444836198181,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                331
+              ]
+            }
+          ],
+          "orig": "When a model that can Fly starts or ends a Charge move on a terrain feature, instead of measuring the path it has moved across the battlefield, you instead measure its path 'through the air'. In addition, it can be moved over other models as if they were not there. A model that can Fly cannot end any move on top of another model.",
+          "text": "When a model that can Fly starts or ends a Charge move on a terrain feature, instead of measuring the path it has moved across the battlefield, you instead measure its path 'through the air'. In addition, it can be moved over other models as if they were not there. A model that can Fly cannot end any move on top of another model."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/744"
+      ],
+      "style": "li",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/744",
+          "parent": {
+            "$ref": "#/groups/54"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 30,
+              "bbox": {
+                "l": 66.6142,
+                "t": 292.67859999999996,
+                "r": 199.85454999999996,
+                "b": 273.43427175572515,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                69
+              ]
+            }
+          ],
+          "orig": "■ Fly models can move over other models when they make a Charge move.",
+          "text": "■ Fly models can move over other models when they make a Charge move.",
+          "enumerated": false,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/745"
+      ],
+      "style": "li",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/745",
+          "parent": {
+            "$ref": "#/groups/54"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 30,
+              "bbox": {
+                "l": 66.6142,
+                "t": 272.67859999999996,
+                "r": 210.42674999999997,
+                "b": 233.4422717557252,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                134
+              ]
+            }
+          ],
+          "orig": "■ Fly models that start or end a Charge move on a terrain feature measure distance moved through the air when they make a Charge move.",
+          "text": "■ Fly models that start or end a Charge move on a terrain feature measure distance moved through the air when they make a Charge move.",
+          "enumerated": false,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "id": "charging_flying",
+      "title": "Charging with flying models",
+      "bbox": [
+        236.61963042402422,
+        401.0383947602087,
+        448.295961138966,
+        712.596288315319
+      ],
+      "captions": [
+        [
+          "#/texts/750",
+          "#/texts/751"
+        ]
+      ],
+      "source_refs": [
+        "#/pictures/63"
+      ],
+      "source_nodes": [
+        {
+          "self_ref": "#/pictures/63",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [
+            {
+              "$ref": "#/texts/750"
+            },
+            {
+              "$ref": "#/texts/751"
+            },
+            {
+              "$ref": "#/texts/752"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 30,
+              "bbox": {
+                "l": 236.61963042402422,
+                "t": 392.66259400932256,
+                "r": 448.295961138966,
+                "b": 81.1047004542122,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "annotations": []
+        },
+        {
+          "self_ref": "#/texts/750",
+          "parent": {
+            "$ref": "#/pictures/63"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 30,
+              "bbox": {
+                "l": 324.1732,
+                "t": 187.16539999999998,
+                "r": 430.0608000000003,
+                "b": 139.12843816793895,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                231
+              ]
+            }
+          ],
+          "orig": "The Tyranid Prime is selected to declare a charge, and targets the Sternguard Veterans on top of the ruin. The Tyranids player rolls 10\" for the Charge roll, allowing the Tyranid Prime to move within Engagement Range of its target.",
+          "text": "The Tyranid Prime is selected to declare a charge, and targets the Sternguard Veterans on top of the ruin. The Tyranids player rolls 10\" for the Charge roll, allowing the Tyranid Prime to move within Engagement Range of its target."
+        },
+        {
+          "self_ref": "#/texts/751",
+          "parent": {
+            "$ref": "#/pictures/63"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 30,
+              "bbox": {
+                "l": 324.1732,
+                "t": 130.5054,
+                "r": 427.47920000000033,
+                "b": 99.46643816793892,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                138
+              ]
+            }
+          ],
+          "orig": "Note that as the Tyranid Prime can Fly, it can move over the Terminators, and the distance moved is the diagonal distance through the air.",
+          "text": "Note that as the Tyranid Prime can Fly, it can move over the Terminators, and the distance moved is the diagonal distance through the air."
+        }
+      ],
+      "image": "images/page_030_charging_flying.png",
+      "caption_texts": [
+        "The Tyranid Prime is selected to declare a charge, and targets the Sternguard Veterans on top of the ruin. The Tyranids player rolls 10\" for the Charge roll, allowing the Tyranid Prime to move within Engagement Range of its target. Note that as the Tyranid Prime can Fly, it can move over the Terminators, and the distance moved is the diagonal distance through the air."
+      ],
+      "coordinate_system": "PDF points, top-left origin"
+    }
+  ],
+  "excluded_text": [
+    {
+      "node": {
+        "self_ref": "#/texts/746",
+        "parent": {
+          "$ref": "#/pictures/62"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 30,
+            "bbox": {
+              "l": 302.7355,
+              "t": 527.5595,
+              "r": 310.9655,
+              "b": 519.6449961832061,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              2
+            ]
+          }
+        ],
+        "orig": "3\"",
+        "text": "3\""
+      },
+      "reason": "Distance labels remain inside figure"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/747",
+        "parent": {
+          "$ref": "#/pictures/62"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 30,
+            "bbox": {
+              "l": 294.9402,
+              "t": 473.0713,
+              "r": 303.1702,
+              "b": 465.1567961832061,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              2
+            ]
+          }
+        ],
+        "orig": "2\"",
+        "text": "2\""
+      },
+      "reason": "Distance labels remain inside figure"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/748",
+        "parent": {
+          "$ref": "#/pictures/62"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 30,
+            "bbox": {
+              "l": 320.6327,
+              "t": 588.8981,
+              "r": 338.4227,
+              "b": 580.9835961832061,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              3
+            ]
+          }
+        ],
+        "orig": "2½\"",
+        "text": "2½\""
+      },
+      "reason": "Distance labels remain inside figure"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/752",
+        "parent": {
+          "$ref": "#/pictures/63"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 30,
+            "bbox": {
+              "l": 296.9222,
+              "t": 268.8981,
+              "r": 309.6922,
+              "b": 260.98359618320615,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              3
+            ]
+          }
+        ],
+        "orig": "10\"",
+        "text": "10\""
+      },
+      "reason": "Distance labels remain inside figure"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/753",
+        "parent": {
+          "$ref": "#/pictures/64"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 30,
+            "bbox": {
+              "l": 539.6622,
+              "t": 717.5597,
+              "r": 547.2672,
+              "b": 705.6879442748092,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "1",
+        "text": "1"
+      },
+      "reason": "Navigation/page furniture"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/754",
+        "parent": {
+          "$ref": "#/pictures/64"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 30,
+            "bbox": {
+              "l": 539.6622,
+              "t": 687.5597,
+              "r": 547.2672,
+              "b": 675.6879442748092,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "2",
+        "text": "2"
+      },
+      "reason": "Navigation/page furniture"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/755",
+        "parent": {
+          "$ref": "#/pictures/64"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 30,
+            "bbox": {
+              "l": 539.6622,
+              "t": 657.5597,
+              "r": 547.2672,
+              "b": 645.6879442748092,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "3",
+        "text": "3"
+      },
+      "reason": "Navigation/page furniture"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/756",
+        "parent": {
+          "$ref": "#/pictures/64"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 30,
+            "bbox": {
+              "l": 539.6622,
+              "t": 567.4012,
+              "r": 547.2672,
+              "b": 555.5294442748092,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "5",
+        "text": "5"
+      },
+      "reason": "Navigation/page furniture"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/757",
+        "parent": {
+          "$ref": "#/pictures/64"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 30,
+            "bbox": {
+              "l": 538.3646,
+              "t": 100.24450000000002,
+              "r": 548.5646,
+              "b": 92.32999618320605,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              2
+            ]
+          }
+        ],
+        "orig": "30",
+        "text": "30"
+      },
+      "reason": "Navigation/page furniture"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/758",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "furniture",
+        "label": "page_footer",
+        "prov": [
+          {
+            "page_no": 30,
+            "bbox": {
+              "l": 345.9725,
+              "t": 50.00040000000001,
+              "r": 456.37750000000017,
+              "b": 42.08589618320616,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              25
+            ]
+          }
+        ],
+        "orig": "CORE RULES | CHARGE PHASE",
+        "text": "CORE RULES | CHARGE PHASE"
+      },
+      "reason": "Navigation/page furniture"
+    }
+  ],
+  "review_notes": []
+}

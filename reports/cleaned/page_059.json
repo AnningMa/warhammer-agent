@@ -1,0 +1,1420 @@
+{
+  "page": 59,
+  "source": "data/Core Rules.pdf",
+  "rules": {
+    "page": 59,
+    "source_sha256": "4d0e8019cbfddd6f46781d5b4ed31d46fb21eb2d0d10a0f6fabefac0ce054364",
+    "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+    "blocks": [
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1374"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1376"
+        ],
+        "style": "h1"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1377"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1378"
+        ],
+        "style": "h2",
+        "text": "1. MUSTER ARMIES"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1379"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1380"
+        ],
+        "style": "h2",
+        "text": "2. MISSION OBJECTIVES"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1381"
+        ],
+        "style": "h3"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1382"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1383"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1384"
+        ],
+        "style": "h2",
+        "text": "3. CREATE THE BATTLEFIELD"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1385"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "table",
+        "source_refs": [
+          "#/tables/6"
+        ],
+        "headers": [
+          "Battle size",
+          "Minimum battlefield size"
+        ],
+        "rows": [
+          [
+            "Incursion/Strike Force",
+            "44\" x 60\""
+          ],
+          [
+            "Onslaught",
+            "44\" x 90\""
+          ]
+        ],
+        "retrieval_records": [
+          {
+            "mission": "Only War",
+            "battle_size": "Incursion",
+            "minimum_battlefield_size_inches": [
+              44,
+              60
+            ],
+            "page": 59,
+            "source_table_ref": "#/tables/6"
+          },
+          {
+            "mission": "Only War",
+            "battle_size": "Strike Force",
+            "minimum_battlefield_size_inches": [
+              44,
+              60
+            ],
+            "page": 59,
+            "source_table_ref": "#/tables/6"
+          },
+          {
+            "mission": "Only War",
+            "battle_size": "Onslaught",
+            "minimum_battlefield_size_inches": [
+              44,
+              90
+            ],
+            "page": 59,
+            "source_table_ref": "#/tables/6"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1386"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1387"
+        ],
+        "style": "h2",
+        "text": "4. DETERMINE ATTACKER AND DEFENDER"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1388"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1389"
+        ],
+        "style": "h2",
+        "text": "5. DECLARE BATTLE FORMATIONS"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1390"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1391"
+        ],
+        "style": "li"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1392"
+        ],
+        "style": "li"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1393"
+        ],
+        "style": "li"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1394"
+        ],
+        "style": "p"
+      }
+    ],
+    "excluded_text": {
+      "#/texts/1375": "Page number or running footer; not rule content.",
+      "#/texts/1395": "Page number or running footer; not rule content."
+    },
+    "review_notes": [
+      "Only War steps 1–5 and nested mission objective restored. Minimum battlefield-size table normalized with explicit mission context in retrieval records."
+    ]
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1374"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1374",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "furniture",
+          "label": "page_header",
+          "prov": [
+            {
+              "page_no": 59,
+              "bbox": {
+                "l": 462.1895,
+                "t": 718.4147,
+                "r": 524.4094999999999,
+                "b": 702.6108177753545,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                7
+              ]
+            }
+          ],
+          "orig": "MISSION",
+          "text": "MISSION"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1376"
+      ],
+      "style": "h1",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1376",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 59,
+              "bbox": {
+                "l": 153.0708,
+                "t": 722.8447,
+                "r": 261.2867999999999,
+                "b": 701.4198908396946,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                8
+              ]
+            }
+          ],
+          "orig": "ONLY WAR",
+          "text": "ONLY WAR",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1377"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1377",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 59,
+              "bbox": {
+                "l": 153.0708,
+                "t": 687.9197,
+                "r": 523.2707999999977,
+                "b": 651.7070519362188,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                301
+              ]
+            }
+          ],
+          "orig": "The time has come to prove your worth as the greatest commander in the galaxy! All that stands between you and ultimate glory is an opposing force bent upon your destruction. Destroy the enemy army and secure strategic sites littered across the battlefield while stopping your foe from doing likewise.",
+          "text": "The time has come to prove your worth as the greatest commander in the galaxy! All that stands between you and ultimate glory is an opposing force bent upon your destruction. Destroy the enemy army and secure strategic sites littered across the battlefield while stopping your foe from doing likewise."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1378"
+      ],
+      "style": "h2",
+      "text": "1. MUSTER ARMIES",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1378",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 59,
+              "bbox": {
+                "l": 162.7376,
+                "t": 631.6547,
+                "r": 269.5834000000001,
+                "b": 620.5743946564885,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                15
+              ]
+            }
+          ],
+          "orig": "1 MUSTER ARMIES",
+          "text": "1 MUSTER ARMIES",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1379"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1379",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 59,
+              "bbox": {
+                "l": 153.0708,
+                "t": 608.3682,
+                "r": 333.08125,
+                "b": 570.832483619818,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                196
+              ]
+            }
+          ],
+          "orig": "First, players will need to muster armies based on the battle size they have selected, as described on pages 55-56. This mission is designed for Incursion, Strike Force and Onslaught battle sizes.",
+          "text": "First, players will need to muster armies based on the battle size they have selected, as described on pages 55-56. This mission is designed for Incursion, Strike Force and Onslaught battle sizes."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1380"
+      ],
+      "style": "h2",
+      "text": "2. MISSION OBJECTIVES",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1380",
+          "parent": {
+            "$ref": "#/pictures/135"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 59,
+              "bbox": {
+                "l": 162.7376,
+                "t": 551.6547,
+                "r": 295.68080000000003,
+                "b": 540.5743946564885,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                20
+              ]
+            }
+          ],
+          "orig": "2 MISSION OBJECTIVES",
+          "text": "2 MISSION OBJECTIVES",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1381"
+      ],
+      "style": "h3",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1381",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 59,
+              "bbox": {
+                "l": 155.9055,
+                "t": 521.7647,
+                "r": 253.90670000000026,
+                "b": 513.0587458015267,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                19
+              ]
+            }
+          ],
+          "orig": "CAPTURE AND CONTROL",
+          "text": "CAPTURE AND CONTROL",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1382"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1382",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 59,
+              "bbox": {
+                "l": 153.0708,
+                "t": 507.1773,
+                "r": 224.03579999999997,
+                "b": 499.93490087241,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                21
+              ]
+            }
+          ],
+          "orig": "Progressive Objective",
+          "text": "Progressive Objective"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1383"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1383",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 59,
+              "bbox": {
+                "l": 153.0708,
+                "t": 488.3682,
+                "r": 332.78460000000007,
+                "b": 430.8404836198181,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                277
+              ]
+            }
+          ],
+          "orig": "Starting from the second battle round, at the end of each player's Command phase, the player whose turn it is scores 1 Victory point (VP) for each objective marker they control (to a maximum of 3VP per turn). Details of how to control objective markers can be found on page 58.",
+          "text": "Starting from the second battle round, at the end of each player's Command phase, the player whose turn it is scores 1 Victory point (VP) for each objective marker they control (to a maximum of 3VP per turn). Details of how to control objective markers can be found on page 58."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1384"
+      ],
+      "style": "h2",
+      "text": "3. CREATE THE BATTLEFIELD",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1384",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 59,
+              "bbox": {
+                "l": 354.0761,
+                "t": 631.6547,
+                "r": 510.5463,
+                "b": 620.5743946564885,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                24
+              ]
+            }
+          ],
+          "orig": "3 CREATE THE BATTLEFIELD",
+          "text": "3 CREATE THE BATTLEFIELD",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1385"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1385",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 59,
+              "bbox": {
+                "l": 344.4094,
+                "t": 608.3682,
+                "r": 517.1523500000002,
+                "b": 560.8364836198181,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                211
+              ]
+            }
+          ],
+          "orig": "Players now create the battlefield and set up terrain features using the guidelines on pages 49-52. The minimum size of your battlefield depends on the battle size you have selected, as shown in the table below.",
+          "text": "Players now create the battlefield and set up terrain features using the guidelines on pages 49-52. The minimum size of your battlefield depends on the battle size you have selected, as shown in the table below."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "source_refs": [
+        "#/tables/6"
+      ],
+      "headers": [
+        "Battle size",
+        "Minimum battlefield size"
+      ],
+      "rows": [
+        [
+          "Incursion/Strike Force",
+          "44\" x 60\""
+        ],
+        [
+          "Onslaught",
+          "44\" x 90\""
+        ]
+      ],
+      "retrieval_records": [
+        {
+          "mission": "Only War",
+          "battle_size": "Incursion",
+          "minimum_battlefield_size_inches": [
+            44,
+            60
+          ],
+          "page": 59,
+          "source_table_ref": "#/tables/6"
+        },
+        {
+          "mission": "Only War",
+          "battle_size": "Strike Force",
+          "minimum_battlefield_size_inches": [
+            44,
+            60
+          ],
+          "page": 59,
+          "source_table_ref": "#/tables/6"
+        },
+        {
+          "mission": "Only War",
+          "battle_size": "Onslaught",
+          "minimum_battlefield_size_inches": [
+            44,
+            90
+          ],
+          "page": 59,
+          "source_table_ref": "#/tables/6"
+        }
+      ],
+      "source_nodes": [
+        {
+          "self_ref": "#/tables/6",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "table",
+          "prov": [
+            {
+              "page_no": 59,
+              "bbox": {
+                "l": 344.71556594338335,
+                "t": 552.1421578130073,
+                "r": 524.6687768459632,
+                "b": 479.0552499149813,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "data": {
+            "table_cells": [
+              {
+                "bbox": {
+                  "l": 347.2441,
+                  "t": 245.9779000000001,
+                  "r": 412.6837000000001,
+                  "b": 255.47530458015274,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 2,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 2,
+                "text": "BATTLEFIELDS",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 347.2441,
+                  "t": 265.08400000000006,
+                  "r": 394.16709999999983,
+                  "b": 272.9985038167939,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "BATTLE SIZE",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 444.5341,
+                  "t": 261.08400000000006,
+                  "r": 513.8080999999997,
+                  "b": 276.9985038167939,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "MINIMUM BATTLEFIELD SIZE",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 347.2441,
+                  "t": 285.2988,
+                  "r": 419.25694999999956,
+                  "b": 292.03196793893136,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Incursion/Strike Force",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 461.8213,
+                  "t": 284.8263,
+                  "r": 496.50129999999996,
+                  "b": 292.7408038167939,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "44\" x 60\"",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 347.2441,
+                  "t": 302.9372,
+                  "r": 380.0413500000002,
+                  "b": 309.67036793893135,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Onslaught",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 461.8213,
+                  "t": 302.4648,
+                  "r": 496.50129999999996,
+                  "b": 310.37930381679394,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "44\" x 90\"",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            "num_rows": 4,
+            "num_cols": 2,
+            "orientation": "rot_0",
+            "grid": [
+              [
+                {
+                  "bbox": {
+                    "l": 347.2441,
+                    "t": 245.9779000000001,
+                    "r": 412.6837000000001,
+                    "b": 255.47530458015274,
+                    "coord_origin": "TOPLEFT"
+                  },
+                  "row_span": 1,
+                  "col_span": 2,
+                  "start_row_offset_idx": 0,
+                  "end_row_offset_idx": 1,
+                  "start_col_offset_idx": 0,
+                  "end_col_offset_idx": 2,
+                  "text": "BATTLEFIELDS",
+                  "column_header": false,
+                  "row_header": false,
+                  "row_section": false,
+                  "fillable": false
+                },
+                {
+                  "bbox": {
+                    "l": 347.2441,
+                    "t": 245.9779000000001,
+                    "r": 412.6837000000001,
+                    "b": 255.47530458015274,
+                    "coord_origin": "TOPLEFT"
+                  },
+                  "row_span": 1,
+                  "col_span": 2,
+                  "start_row_offset_idx": 0,
+                  "end_row_offset_idx": 1,
+                  "start_col_offset_idx": 0,
+                  "end_col_offset_idx": 2,
+                  "text": "BATTLEFIELDS",
+                  "column_header": false,
+                  "row_header": false,
+                  "row_section": false,
+                  "fillable": false
+                }
+              ],
+              [
+                {
+                  "bbox": {
+                    "l": 347.2441,
+                    "t": 265.08400000000006,
+                    "r": 394.16709999999983,
+                    "b": 272.9985038167939,
+                    "coord_origin": "TOPLEFT"
+                  },
+                  "row_span": 1,
+                  "col_span": 1,
+                  "start_row_offset_idx": 1,
+                  "end_row_offset_idx": 2,
+                  "start_col_offset_idx": 0,
+                  "end_col_offset_idx": 1,
+                  "text": "BATTLE SIZE",
+                  "column_header": false,
+                  "row_header": false,
+                  "row_section": false,
+                  "fillable": false
+                },
+                {
+                  "bbox": {
+                    "l": 444.5341,
+                    "t": 261.08400000000006,
+                    "r": 513.8080999999997,
+                    "b": 276.9985038167939,
+                    "coord_origin": "TOPLEFT"
+                  },
+                  "row_span": 1,
+                  "col_span": 1,
+                  "start_row_offset_idx": 1,
+                  "end_row_offset_idx": 2,
+                  "start_col_offset_idx": 1,
+                  "end_col_offset_idx": 2,
+                  "text": "MINIMUM BATTLEFIELD SIZE",
+                  "column_header": false,
+                  "row_header": false,
+                  "row_section": false,
+                  "fillable": false
+                }
+              ],
+              [
+                {
+                  "bbox": {
+                    "l": 347.2441,
+                    "t": 285.2988,
+                    "r": 419.25694999999956,
+                    "b": 292.03196793893136,
+                    "coord_origin": "TOPLEFT"
+                  },
+                  "row_span": 1,
+                  "col_span": 1,
+                  "start_row_offset_idx": 2,
+                  "end_row_offset_idx": 3,
+                  "start_col_offset_idx": 0,
+                  "end_col_offset_idx": 1,
+                  "text": "Incursion/Strike Force",
+                  "column_header": false,
+                  "row_header": false,
+                  "row_section": false,
+                  "fillable": false
+                },
+                {
+                  "bbox": {
+                    "l": 461.8213,
+                    "t": 284.8263,
+                    "r": 496.50129999999996,
+                    "b": 292.7408038167939,
+                    "coord_origin": "TOPLEFT"
+                  },
+                  "row_span": 1,
+                  "col_span": 1,
+                  "start_row_offset_idx": 2,
+                  "end_row_offset_idx": 3,
+                  "start_col_offset_idx": 1,
+                  "end_col_offset_idx": 2,
+                  "text": "44\" x 60\"",
+                  "column_header": false,
+                  "row_header": false,
+                  "row_section": false,
+                  "fillable": false
+                }
+              ],
+              [
+                {
+                  "bbox": {
+                    "l": 347.2441,
+                    "t": 302.9372,
+                    "r": 380.0413500000002,
+                    "b": 309.67036793893135,
+                    "coord_origin": "TOPLEFT"
+                  },
+                  "row_span": 1,
+                  "col_span": 1,
+                  "start_row_offset_idx": 3,
+                  "end_row_offset_idx": 4,
+                  "start_col_offset_idx": 0,
+                  "end_col_offset_idx": 1,
+                  "text": "Onslaught",
+                  "column_header": false,
+                  "row_header": false,
+                  "row_section": false,
+                  "fillable": false
+                },
+                {
+                  "bbox": {
+                    "l": 461.8213,
+                    "t": 302.4648,
+                    "r": 496.50129999999996,
+                    "b": 310.37930381679394,
+                    "coord_origin": "TOPLEFT"
+                  },
+                  "row_span": 1,
+                  "col_span": 1,
+                  "start_row_offset_idx": 3,
+                  "end_row_offset_idx": 4,
+                  "start_col_offset_idx": 1,
+                  "end_col_offset_idx": 2,
+                  "text": "44\" x 90\"",
+                  "column_header": false,
+                  "row_header": false,
+                  "row_section": false,
+                  "fillable": false
+                }
+              ]
+            ]
+          },
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1386"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1386",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 59,
+              "bbox": {
+                "l": 344.4094,
+                "t": 468.3682,
+                "r": 517.7643500000003,
+                "b": 410.8404836198181,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                279
+              ]
+            }
+          ],
+          "orig": "Players must then alternate setting up objective markers on the battlefield, starting with whichever player wins a roll-off, until a total of four have been placed. Objective markers cannot be placed within 6\" of any battlefield edge, or within 9\" of any other objective markers.",
+          "text": "Players must then alternate setting up objective markers on the battlefield, starting with whichever player wins a roll-off, until a total of four have been placed. Objective markers cannot be placed within 6\" of any battlefield edge, or within 9\" of any other objective markers."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1387"
+      ],
+      "style": "h2",
+      "text": "4. DETERMINE ATTACKER AND DEFENDER",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1387",
+          "parent": {
+            "$ref": "#/pictures/138"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 59,
+              "bbox": {
+                "l": 354.0761,
+                "t": 391.6547,
+                "r": 494.1032999999998,
+                "b": 368.57639465648856,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                33
+              ]
+            }
+          ],
+          "orig": "4 DETERMINE ATTACKER AND DEFENDER",
+          "text": "4 DETERMINE ATTACKER AND DEFENDER",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1388"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1388",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 59,
+              "bbox": {
+                "l": 344.4094,
+                "t": 358.3682,
+                "r": 521.8095000000002,
+                "b": 340.824483619818,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                81
+              ]
+            }
+          ],
+          "orig": "Players roll off and the winner is the Attacker - their opponent is the Defender.",
+          "text": "Players roll off and the winner is the Attacker - their opponent is the Defender."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1389"
+      ],
+      "style": "h2",
+      "text": "5. DECLARE BATTLE FORMATIONS",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1389",
+          "parent": {
+            "$ref": "#/pictures/139"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 59,
+              "bbox": {
+                "l": 354.0761,
+                "t": 321.6547,
+                "r": 465.9521,
+                "b": 298.57639465648856,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                27
+              ]
+            }
+          ],
+          "orig": "5 DECLARE BATTLE FORMATIONS",
+          "text": "5 DECLARE BATTLE FORMATIONS",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1390"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1390",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 59,
+              "bbox": {
+                "l": 344.4094,
+                "t": 288.3682,
+                "r": 517.98535,
+                "b": 270.824483619818,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                63
+              ]
+            }
+          ],
+          "orig": "In the order stated below, both players now secretly note down:",
+          "text": "In the order stated below, both players now secretly note down:"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1391"
+      ],
+      "style": "li",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1391",
+          "parent": {
+            "$ref": "#/groups/89"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 59,
+              "bbox": {
+                "l": 344.4094,
+                "t": 258.9207,
+                "r": 516.7731000000001,
+                "b": 230.82848361981792,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                135
+              ]
+            }
+          ],
+          "orig": "■ Which of their Leader units will start the battle attached (they must specify which Leader unit is attached to which Bodyguard unit).",
+          "text": "■ Which of their Leader units will start the battle attached (they must specify which Leader unit is attached to which Bodyguard unit).",
+          "enumerated": false,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1392"
+      ],
+      "style": "li",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1392",
+          "parent": {
+            "$ref": "#/groups/89"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 59,
+              "bbox": {
+                "l": 344.4094,
+                "t": 228.9207,
+                "r": 522.6210000000002,
+                "b": 200.824483619818,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                143
+              ]
+            }
+          ],
+          "orig": "■ Which of their units will start the battle embarked within Transport models (they must specify which units are embarked within which models).",
+          "text": "■ Which of their units will start the battle embarked within Transport models (they must specify which units are embarked within which models).",
+          "enumerated": false,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1393"
+      ],
+      "style": "li",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1393",
+          "parent": {
+            "$ref": "#/groups/89"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 59,
+              "bbox": {
+                "l": 344.4094,
+                "t": 198.9207,
+                "r": 495.64285000000024,
+                "b": 180.820483619818,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                88
+              ]
+            }
+          ],
+          "orig": "■ Which of their units will start the battle in Reserves (including Strategic Reserves).",
+          "text": "■ Which of their units will start the battle in Reserves (including Strategic Reserves).",
+          "enumerated": false,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1394"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1394",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 59,
+              "bbox": {
+                "l": 344.4134,
+                "t": 168.37619999999993,
+                "r": 517.2328500000001,
+                "b": 150.83248361981794,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                80
+              ]
+            }
+          ],
+          "orig": "When both players have done so, they declare their selections to their opponent.",
+          "text": "When both players have done so, they declare their selections to their opponent."
+        }
+      ]
+    }
+  ],
+  "excluded_text": [
+    {
+      "node": {
+        "self_ref": "#/texts/1375",
+        "parent": {
+          "$ref": "#/pictures/133"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 59,
+            "bbox": {
+              "l": 61.0942,
+              "t": 100.24450000000002,
+              "r": 70.87419999999999,
+              "b": 92.32999618320605,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              2
+            ]
+          }
+        ],
+        "orig": "59",
+        "text": "59"
+      },
+      "reason": "Page number or running footer; not rule content."
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/1395",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "furniture",
+        "label": "page_footer",
+        "prov": [
+          {
+            "page_no": 59,
+            "bbox": {
+              "l": 152.8346,
+              "t": 50.00040000000001,
+              "r": 278.9736000000001,
+              "b": 42.08589618320616,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              30
+            ]
+          }
+        ],
+        "orig": "CORE RULES | MISSION: ONLY WAR",
+        "text": "CORE RULES | MISSION: ONLY WAR"
+      },
+      "reason": "Page number or running footer; not rule content."
+    }
+  ],
+  "review_notes": [
+    "Only War steps 1–5 and nested mission objective restored. Minimum battlefield-size table normalized with explicit mission context in retrieval records."
+  ]
+}

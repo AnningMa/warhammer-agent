@@ -1,0 +1,217 @@
+{
+  "page": 43,
+  "source_sha256": "4d0e8019cbfddd6f46781d5b4ed31d46fb21eb2d0d10a0f6fabefac0ce054364",
+  "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+  "blocks": [
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1107"
+      ],
+      "style": "h1"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1108"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1109"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1110"
+      ],
+      "style": "h2"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1111"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1112"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "table",
+      "source_refs": [
+        "#/tables/2"
+      ],
+      "headers": [
+        "Battle size",
+        "Maximum Strategic Reserves points before battle"
+      ],
+      "rows": [
+        [
+          "Incursion",
+          250
+        ],
+        [
+          "Strike Force",
+          500
+        ],
+        [
+          "Onslaught",
+          750
+        ]
+      ],
+      "retrieval_records": [
+        {
+          "battle_size": "Incursion",
+          "max_strategic_reserves_points": 250,
+          "timing": "before the battle",
+          "page": 43,
+          "source_ref": "#/tables/2"
+        },
+        {
+          "battle_size": "Strike Force",
+          "max_strategic_reserves_points": 500,
+          "timing": "before the battle",
+          "page": 43,
+          "source_ref": "#/tables/2"
+        },
+        {
+          "battle_size": "Onslaught",
+          "max_strategic_reserves_points": 750,
+          "timing": "before the battle",
+          "page": 43,
+          "source_ref": "#/tables/2"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1113"
+      ],
+      "style": "li"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1114"
+      ],
+      "style": "li"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1115"
+      ],
+      "style": "li"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1116"
+      ],
+      "style": "h2"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1117"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1118"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1119"
+      ],
+      "style": "li"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1120"
+      ],
+      "style": "li"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1121"
+      ],
+      "style": "h2"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1122"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1123"
+      ],
+      "style": "li"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1124"
+      ],
+      "style": "li"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1125"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1126"
+      ],
+      "style": "li"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1127"
+      ],
+      "style": "li"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1128"
+      ],
+      "style": "li"
+    }
+  ],
+  "excluded_text": {
+    "#/texts/1106": "Page furniture",
+    "#/texts/1129": "Page furniture"
+  },
+  "review_notes": [
+    "Merged title/header normalized; values 250/500/750 verified against original. The 25% rule remains in surrounding original text."
+  ],
+  "schema_version": 1,
+  "handler": "blocks"
+}

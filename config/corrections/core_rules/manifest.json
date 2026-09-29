@@ -1,0 +1,225 @@
+{
+  "schema_version": 1,
+  "source": "data/Core Rules.pdf",
+  "document": "reports/docling/document.json",
+  "source_sha256": "4d0e8019cbfddd6f46781d5b4ed31d46fb21eb2d0d10a0f6fabefac0ce054364",
+  "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+  "pages": [
+    {
+      "page": 4,
+      "rules": "page_004.json",
+      "handler": "regions",
+      "status": "reviewed_correction"
+    },
+    {
+      "page": 6,
+      "rules": "page_006.json",
+      "handler": "figure",
+      "status": "reviewed_correction"
+    },
+    {
+      "page": 8,
+      "rules": "page_008.json",
+      "handler": "visibility",
+      "status": "reviewed_correction"
+    },
+    {
+      "page": 9,
+      "rules": "page_009.json",
+      "handler": "table",
+      "status": "reviewed_correction"
+    },
+    {
+      "page": 10,
+      "rules": "page_010.json",
+      "handler": "text",
+      "status": "reviewed_correction"
+    },
+    {
+      "page": 11,
+      "rules": "page_011.json",
+      "handler": "text",
+      "status": "reviewed_correction"
+    },
+    {
+      "page": 13,
+      "rules": "page_013.json",
+      "handler": "text",
+      "status": "reviewed_correction"
+    },
+    {
+      "page": 14,
+      "rules": "page_014.json",
+      "handler": "figure",
+      "status": "reviewed_correction"
+    },
+    {
+      "page": 15,
+      "rules": "page_015.json",
+      "handler": "figures",
+      "status": "reviewed_correction"
+    },
+    {
+      "page": 18,
+      "rules": "page_018.json",
+      "handler": "figures",
+      "status": "reviewed_correction"
+    },
+    {
+      "page": 19,
+      "rules": "page_019.json",
+      "handler": "text",
+      "status": "reviewed_correction"
+    },
+    {
+      "page": 21,
+      "rules": "page_021.json",
+      "handler": "rule_table",
+      "status": "reviewed_correction"
+    },
+    {
+      "page": 24,
+      "rules": "page_024.json",
+      "handler": "blocks",
+      "status": "reviewed_correction"
+    },
+    {
+      "page": 27,
+      "rules": "page_027.json",
+      "handler": "blocks",
+      "status": "reviewed_correction"
+    },
+    {
+      "page": 29,
+      "rules": "page_029.json",
+      "handler": "blocks",
+      "status": "reviewed_correction"
+    },
+    {
+      "page": 30,
+      "rules": "page_030.json",
+      "handler": "blocks",
+      "status": "reviewed_correction"
+    },
+    {
+      "page": 33,
+      "rules": "page_033.json",
+      "handler": "blocks",
+      "status": "reviewed_correction"
+    },
+    {
+      "page": 36,
+      "rules": "page_036.json",
+      "handler": "blocks",
+      "status": "reviewed_correction"
+    },
+    {
+      "page": 37,
+      "rules": "page_037.json",
+      "handler": "blocks",
+      "status": "reviewed_correction"
+    },
+    {
+      "page": 41,
+      "rules": "page_041.json",
+      "handler": "blocks",
+      "status": "reviewed_correction"
+    },
+    {
+      "page": 42,
+      "rules": "page_042.json",
+      "handler": "blocks",
+      "status": "reviewed_correction"
+    },
+    {
+      "page": 43,
+      "rules": "page_043.json",
+      "handler": "blocks",
+      "status": "reviewed_correction"
+    },
+    {
+      "page": 45,
+      "rules": "page_045.json",
+      "handler": "blocks",
+      "status": "reviewed_correction"
+    },
+    {
+      "page": 46,
+      "rules": "page_046.json",
+      "handler": "blocks",
+      "status": "reviewed_correction"
+    },
+    {
+      "page": 49,
+      "rules": "page_049.json",
+      "handler": "blocks",
+      "status": "reviewed_correction"
+    },
+    {
+      "page": 50,
+      "rules": "page_050.json",
+      "handler": "blocks",
+      "status": "reviewed_correction"
+    },
+    {
+      "page": 51,
+      "rules": "page_051.json",
+      "handler": "blocks",
+      "status": "reviewed_correction"
+    },
+    {
+      "page": 52,
+      "rules": "page_052.json",
+      "handler": "blocks",
+      "status": "reviewed_correction"
+    },
+    {
+      "page": 53,
+      "rules": "page_053.json",
+      "handler": "blocks",
+      "status": "reviewed_correction"
+    },
+    {
+      "page": 54,
+      "rules": "page_054.json",
+      "handler": "blocks",
+      "status": "reviewed_correction"
+    },
+    {
+      "page": 55,
+      "rules": "page_055.json",
+      "handler": "blocks",
+      "status": "reviewed_correction"
+    },
+    {
+      "page": 56,
+      "rules": "page_056.json",
+      "handler": "blocks",
+      "status": "reviewed_correction"
+    },
+    {
+      "page": 57,
+      "rules": "page_057.json",
+      "handler": "blocks",
+      "status": "reviewed_correction"
+    },
+    {
+      "page": 58,
+      "rules": "page_058.json",
+      "handler": "blocks",
+      "status": "reviewed_correction"
+    },
+    {
+      "page": 59,
+      "rules": "page_059.json",
+      "handler": "blocks",
+      "status": "reviewed_correction"
+    },
+    {
+      "page": 60,
+      "rules": "page_060.json",
+      "handler": "blocks",
+      "status": "reviewed_correction"
+    }
+  ]
+}

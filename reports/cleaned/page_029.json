@@ -1,0 +1,1559 @@
+{
+  "page": 29,
+  "source": "data/Core Rules.pdf",
+  "rules": {
+    "page": 29,
+    "source_sha256": "4d0e8019cbfddd6f46781d5b4ed31d46fb21eb2d0d10a0f6fabefac0ce054364",
+    "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+    "blocks": [
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/704"
+        ],
+        "style": "h1"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/705"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/706"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/708"
+        ],
+        "style": "ordered",
+        "number": 1
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/710"
+        ],
+        "style": "ordered",
+        "number": 2
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/712"
+        ],
+        "style": "ordered",
+        "number": 3
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/714"
+        ],
+        "style": "ordered",
+        "number": 4
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/716"
+        ],
+        "style": "ordered",
+        "number": 5
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/720"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/721"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/722"
+        ],
+        "style": "li"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/723"
+        ],
+        "style": "li"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/724"
+        ],
+        "style": "li"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/725"
+        ],
+        "style": "h2"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/726"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/727"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/728"
+        ],
+        "style": "li"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/729"
+        ],
+        "style": "li"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/730"
+        ],
+        "style": "li"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/731"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/732"
+        ],
+        "style": "li"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/733"
+        ],
+        "style": "li"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/734"
+        ],
+        "style": "li"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/735"
+        ],
+        "style": "li"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/717"
+        ],
+        "style": "h2"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/718"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/719"
+        ],
+        "style": "p"
+      }
+    ],
+    "excluded_text": {
+      "#/texts/699": "Navigation/page furniture or step number merged into ordered list",
+      "#/texts/700": "Navigation/page furniture or step number merged into ordered list",
+      "#/texts/701": "Navigation/page furniture or step number merged into ordered list",
+      "#/texts/702": "Navigation/page furniture or step number merged into ordered list",
+      "#/texts/703": "Navigation/page furniture or step number merged into ordered list",
+      "#/texts/707": "Navigation/page furniture or step number merged into ordered list",
+      "#/texts/709": "Navigation/page furniture or step number merged into ordered list",
+      "#/texts/711": "Navigation/page furniture or step number merged into ordered list",
+      "#/texts/713": "Navigation/page furniture or step number merged into ordered list",
+      "#/texts/715": "Navigation/page furniture or step number merged into ordered list",
+      "#/texts/736": "Navigation/page furniture or step number merged into ordered list"
+    },
+    "review_notes": []
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/704"
+      ],
+      "style": "h1",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/704",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 29,
+              "bbox": {
+                "l": 153.0708,
+                "t": 718.5147,
+                "r": 375.65880000000016,
+                "b": 689.9482877862596,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                12
+              ]
+            }
+          ],
+          "orig": "CHARGE PHASE",
+          "text": "CHARGE PHASE",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/705"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/705",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 29,
+              "bbox": {
+                "l": 153.0708,
+                "t": 678.8197,
+                "r": 518.9538000000005,
+                "b": 661.2974213740458,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                194
+              ]
+            }
+          ],
+          "orig": "Warriors hurl themselves into battle to slay with blade, hammer and claw. Strident war cries and frantic screams echo through the whirling smoke as the moment of cataclysmic violence draws near.",
+          "text": "Warriors hurl themselves into battle to slay with blade, hammer and claw. Strident war cries and frantic screams echo through the whirling smoke as the moment of cataclysmic violence draws near."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/706"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/706",
+          "parent": {
+            "$ref": "#/pictures/61"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 29,
+              "bbox": {
+                "l": 161.5748,
+                "t": 588.3682,
+                "r": 262.5267499999999,
+                "b": 570.824483619818,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                53
+              ]
+            }
+          ],
+          "orig": "Use the following sequence to charge with your units.",
+          "text": "Use the following sequence to charge with your units."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/708"
+      ],
+      "style": "ordered",
+      "number": 1,
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/708",
+          "parent": {
+            "$ref": "#/pictures/61"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 29,
+              "bbox": {
+                "l": 173.5824,
+                "t": 540.3947,
+                "r": 273.56880000000007,
+                "b": 530.8972954198473,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                20
+              ]
+            }
+          ],
+          "orig": "SELECT ELIGIBLE UNIT",
+          "text": "SELECT ELIGIBLE UNIT",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/710"
+      ],
+      "style": "ordered",
+      "number": 2,
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/710",
+          "parent": {
+            "$ref": "#/pictures/61"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 29,
+              "bbox": {
+                "l": 185.6944,
+                "t": 500.3947,
+                "r": 261.4564,
+                "b": 490.89729541984735,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                14
+              ]
+            }
+          ],
+          "orig": "SELECT TARGETS",
+          "text": "SELECT TARGETS",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/712"
+      ],
+      "style": "ordered",
+      "number": 3,
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/712",
+          "parent": {
+            "$ref": "#/pictures/61"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 29,
+              "bbox": {
+                "l": 178.0558,
+                "t": 460.3947,
+                "r": 269.0938000000001,
+                "b": 450.89729541984735,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                16
+              ]
+            }
+          ],
+          "orig": "MAKE CHARGE ROLL",
+          "text": "MAKE CHARGE ROLL",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/714"
+      ],
+      "style": "ordered",
+      "number": 4,
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/714",
+          "parent": {
+            "$ref": "#/pictures/61"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 29,
+              "bbox": {
+                "l": 177.1648,
+                "t": 420.3947,
+                "r": 269.9848000000002,
+                "b": 410.89729541984735,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                16
+              ]
+            }
+          ],
+          "orig": "MAKE CHARGE MOVE",
+          "text": "MAKE CHARGE MOVE",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/716"
+      ],
+      "style": "ordered",
+      "number": 5,
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/716",
+          "parent": {
+            "$ref": "#/pictures/61"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 29,
+              "bbox": {
+                "l": 183.4648,
+                "t": 380.3947,
+                "r": 263.6788,
+                "b": 360.9012954198474,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                29
+              ]
+            }
+          ],
+          "orig": "REPEAT FOR NEXT ELIGIBLE UNIT",
+          "text": "REPEAT FOR NEXT ELIGIBLE UNIT",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/720"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/720",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 29,
+              "bbox": {
+                "l": 306.1417,
+                "t": 638.3682,
+                "r": 515.1805000000003,
+                "b": 580.8404836198181,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                319
+              ]
+            }
+          ],
+          "orig": "In your Charge phase, if you have any eligible units from your army on the battlefield that you want to charge into close combat, you can select those units, one at a time, to declare a charge. Each can only be selected once per phase. Once all of these charges (if any) have been resolved, progress to the Fight phase.",
+          "text": "In your Charge phase, if you have any eligible units from your army on the battlefield that you want to charge into close combat, you can select those units, one at a time, to declare a charge. Each can only be selected once per phase. Once all of these charges (if any) have been resolved, progress to the Fight phase."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/721"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/721",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 29,
+              "bbox": {
+                "l": 306.1417,
+                "t": 568.3877000000001,
+                "r": 519.9311500000001,
+                "b": 540.8479836198181,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                145
+              ]
+            }
+          ],
+          "orig": "A unit is eligible to charge if it is within 12\" of one or more enemy units at the start of your Charge phase, unless any of the following apply:",
+          "text": "A unit is eligible to charge if it is within 12\" of one or more enemy units at the start of your Charge phase, unless any of the following apply:"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/722"
+      ],
+      "style": "li",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/722",
+          "parent": {
+            "$ref": "#/groups/50"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 29,
+              "bbox": {
+                "l": 306.1417,
+                "t": 528.9207,
+                "r": 456.92065000000014,
+                "b": 520.820483619818,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                43
+              ]
+            }
+          ],
+          "orig": "■That unit Advanced or Fell Back this turn.",
+          "text": "■That unit Advanced or Fell Back this turn.",
+          "enumerated": false,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/723"
+      ],
+      "style": "li",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/723",
+          "parent": {
+            "$ref": "#/groups/50"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 29,
+              "bbox": {
+                "l": 306.1417,
+                "t": 518.9207,
+                "r": 519.9530000000002,
+                "b": 510.820483619818,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                59
+              ]
+            }
+          ],
+          "orig": "■ That unit is within Engagement Range of any enemy models.",
+          "text": "■ That unit is within Engagement Range of any enemy models.",
+          "enumerated": false,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/724"
+      ],
+      "style": "li",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/724",
+          "parent": {
+            "$ref": "#/groups/50"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 29,
+              "bbox": {
+                "l": 306.1417,
+                "t": 508.9207,
+                "r": 412.75720000000007,
+                "b": 500.820483619818,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                31
+              ]
+            }
+          ],
+          "orig": "■That unit is an Aircraft unit.",
+          "text": "■That unit is an Aircraft unit.",
+          "enumerated": false,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/725"
+      ],
+      "style": "h2",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/725",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 29,
+              "bbox": {
+                "l": 306.1417,
+                "t": 490.3947,
+                "r": 408.8257000000001,
+                "b": 480.89729541984735,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                20
+              ]
+            }
+          ],
+          "orig": "CHARGING WITH A UNIT",
+          "text": "CHARGING WITH A UNIT",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/726"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/726",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 29,
+              "bbox": {
+                "l": 306.1417,
+                "t": 478.3682,
+                "r": 518.7156500000006,
+                "b": 440.83248361981805,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                220
+              ]
+            }
+          ],
+          "orig": "Once you have selected an eligible unit to declare a charge, you must select one or more enemy units within 12\" of it as the targets of that charge. The targets of a charge do not need to be visible to the charging unit.",
+          "text": "Once you have selected an eligible unit to declare a charge, you must select one or more enemy units within 12\" of it as the targets of that charge. The targets of a charge do not need to be visible to the charging unit."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/727"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/727",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 29,
+              "bbox": {
+                "l": 306.1417,
+                "t": 428.37970000000007,
+                "r": 524.2134500000002,
+                "b": 380.84798361981814,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                290
+              ]
+            }
+          ],
+          "orig": "You then make a Charge roll for the charging unit by rolling 2D6. The result is the maximum number of inches each model in that unit can be moved if a Charge move is possible. For a Charge move to be possible, the Charge roll must be sufficient to enable the charging unit to end that move:",
+          "text": "You then make a Charge roll for the charging unit by rolling 2D6. The result is the maximum number of inches each model in that unit can be moved if a Charge move is possible. For a Charge move to be possible, the Charge roll must be sufficient to enable the charging unit to end that move:"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/728"
+      ],
+      "style": "li",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/728",
+          "parent": {
+            "$ref": "#/groups/51"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 29,
+              "bbox": {
+                "l": 306.1417,
+                "t": 368.9207,
+                "r": 524.0831500000003,
+                "b": 350.820483619818,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                84
+              ]
+            }
+          ],
+          "orig": "■ Within Engagement Range of every unit that you selected as a target of the charge.",
+          "text": "■ Within Engagement Range of every unit that you selected as a target of the charge.",
+          "enumerated": false,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/729"
+      ],
+      "style": "li",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/729",
+          "parent": {
+            "$ref": "#/groups/51"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 29,
+              "bbox": {
+                "l": 306.1417,
+                "t": 348.9207,
+                "r": 509.3866500000002,
+                "b": 330.820483619818,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                97
+              ]
+            }
+          ],
+          "orig": "■ Without moving within Engagement Range of any enemy units that were not a target of the charge.",
+          "text": "■ Without moving within Engagement Range of any enemy units that were not a target of the charge.",
+          "enumerated": false,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/730"
+      ],
+      "style": "li",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/730",
+          "parent": {
+            "$ref": "#/groups/51"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 29,
+              "bbox": {
+                "l": 306.1417,
+                "t": 328.9207,
+                "r": 379.61485,
+                "b": 320.820483619818,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                19
+              ]
+            }
+          ],
+          "orig": "■In Unit Coherency.",
+          "text": "■In Unit Coherency.",
+          "enumerated": false,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/731"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/731",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 29,
+              "bbox": {
+                "l": 306.1417,
+                "t": 308.3677,
+                "r": 521.5300000000002,
+                "b": 190.863983619818,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                719
+              ]
+            }
+          ],
+          "orig": "If any of these conditions cannot be met, the charge fails and no models in the charging unit move this phase. Otherwise, the charge is successful and the models in the charging unit make a Charge move - move each model a distance in inches up to the result of the Charge roll. When doing so, each model in the charging unit must end its Charge move closer to one of the units selected as a target of its charge. If you can also move a charging model so that it ends its Charge move in base-to-base contact with one or more enemy models while still enabling the charging unit to end its move satisfying all of the conditions above, you must do so. The controlling player chooses the order in which to move their models.",
+          "text": "If any of these conditions cannot be met, the charge fails and no models in the charging unit move this phase. Otherwise, the charge is successful and the models in the charging unit make a Charge move - move each model a distance in inches up to the result of the Charge roll. When doing so, each model in the charging unit must end its Charge move closer to one of the units selected as a target of its charge. If you can also move a charging model so that it ends its Charge move in base-to-base contact with one or more enemy models while still enabling the charging unit to end its move satisfying all of the conditions above, you must do so. The controlling player chooses the order in which to move their models."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/732"
+      ],
+      "style": "li",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/732",
+          "parent": {
+            "$ref": "#/groups/52"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 29,
+              "bbox": {
+                "l": 317.4803,
+                "t": 172.19460000000004,
+                "r": 376.4218,
+                "b": 161.77416660039762,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                20
+              ]
+            }
+          ],
+          "orig": "■ Charge Roll: 2D6\".",
+          "text": "■ Charge Roll: 2D6\".",
+          "enumerated": false,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/733"
+      ],
+      "style": "li",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/733",
+          "parent": {
+            "$ref": "#/groups/52"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 29,
+              "bbox": {
+                "l": 317.4803,
+                "t": 127.19460000000004,
+                "r": 508.0084499999999,
+                "b": 109.10772213740461,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                86
+              ]
+            }
+          ],
+          "orig": "■ Cannot move within Engagement Range of any unit that was not a target of the charge.",
+          "text": "■ Cannot move within Engagement Range of any unit that was not a target of the charge.",
+          "enumerated": false,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/734"
+      ],
+      "style": "li",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/734",
+          "parent": {
+            "$ref": "#/groups/52"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 29,
+              "bbox": {
+                "l": 317.4803,
+                "t": 163.19460000000004,
+                "r": 512.2084499999996,
+                "b": 127.10772213740461,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                211
+              ]
+            }
+          ],
+          "orig": "■ Targets of a charge must be within 12\" but do not need to be visible. ■ If the distance rolled is insufficient to move within Engagement Range of all targets while maintaining Unit Coherency, the charge fails.",
+          "text": "■ Targets of a charge must be within 12\" but do not need to be visible. ■ If the distance rolled is insufficient to move within Engagement Range of all targets while maintaining Unit Coherency, the charge fails.",
+          "enumerated": false,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/735"
+      ],
+      "style": "li",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/735",
+          "parent": {
+            "$ref": "#/groups/52"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 29,
+              "bbox": {
+                "l": 317.4803,
+                "t": 109.19460000000004,
+                "r": 507.88619999999963,
+                "b": 82.10772213740461,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                173
+              ]
+            }
+          ],
+          "orig": "■ If the charge is successful, each model makes a Charge move less than or equal to the Charge roll, and must move into base-to-base contact with an enemy model if possible.",
+          "text": "■ If the charge is successful, each model makes a Charge move less than or equal to the Charge roll, and must move into base-to-base contact with an enemy model if possible.",
+          "enumerated": false,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/717"
+      ],
+      "style": "h2",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/717",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 29,
+              "bbox": {
+                "l": 161.5748,
+                "t": 330.3947,
+                "r": 232.23800000000006,
+                "b": 320.89729541984735,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                12
+              ]
+            }
+          ],
+          "orig": "CHARGE BONUS",
+          "text": "CHARGE BONUS",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/718"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/718",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 29,
+              "bbox": {
+                "l": 161.5748,
+                "t": 318.3682,
+                "r": 274.8619499999999,
+                "b": 280.85861616766465,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                113
+              ]
+            }
+          ],
+          "orig": "Many warriors thunder headlong into combat, using the impetus of their charge to bring swift death to their foes.",
+          "text": "Many warriors thunder headlong into combat, using the impetus of their charge to bring swift death to their foes."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/719"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/719",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 29,
+              "bbox": {
+                "l": 161.5748,
+                "t": 268.37970000000007,
+                "r": 272.80325,
+                "b": 230.843983619818,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                112
+              ]
+            }
+          ],
+          "orig": "Each time a unit makes a Charge move, until the end of the turn, that unit has the Fights First ability (pg 32).",
+          "text": "Each time a unit makes a Charge move, until the end of the turn, that unit has the Fights First ability (pg 32)."
+        }
+      ]
+    }
+  ],
+  "excluded_text": [
+    {
+      "node": {
+        "self_ref": "#/texts/699",
+        "parent": {
+          "$ref": "#/pictures/60"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 29,
+            "bbox": {
+              "l": 62.1818,
+              "t": 717.5597,
+              "r": 69.7868,
+              "b": 705.6879442748092,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "1",
+        "text": "1"
+      },
+      "reason": "Navigation/page furniture or step number merged into ordered list"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/700",
+        "parent": {
+          "$ref": "#/pictures/60"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 29,
+            "bbox": {
+              "l": 62.1818,
+              "t": 687.5597,
+              "r": 69.7868,
+              "b": 675.6879442748092,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "2",
+        "text": "2"
+      },
+      "reason": "Navigation/page furniture or step number merged into ordered list"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/701",
+        "parent": {
+          "$ref": "#/pictures/60"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 29,
+            "bbox": {
+              "l": 62.1818,
+              "t": 657.5597,
+              "r": 69.7868,
+              "b": 645.6879442748092,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "3",
+        "text": "3"
+      },
+      "reason": "Navigation/page furniture or step number merged into ordered list"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/702",
+        "parent": {
+          "$ref": "#/pictures/60"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 29,
+            "bbox": {
+              "l": 62.1818,
+              "t": 567.4012,
+              "r": 69.7868,
+              "b": 555.5294442748092,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "5",
+        "text": "5"
+      },
+      "reason": "Navigation/page furniture or step number merged into ordered list"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/703",
+        "parent": {
+          "$ref": "#/pictures/60"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 29,
+            "bbox": {
+              "l": 61.1093,
+              "t": 100.24450000000002,
+              "r": 70.85929999999999,
+              "b": 92.32999618320605,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              2
+            ]
+          }
+        ],
+        "orig": "29",
+        "text": "29"
+      },
+      "reason": "Navigation/page furniture or step number merged into ordered list"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/707",
+        "parent": {
+          "$ref": "#/pictures/61"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 29,
+            "bbox": {
+              "l": 220.8233,
+              "t": 558.3897,
+              "r": 225.89329999999998,
+              "b": 550.4751961832061,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "1",
+        "text": "1"
+      },
+      "reason": "Navigation/page furniture or step number merged into ordered list"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/709",
+        "parent": {
+          "$ref": "#/pictures/61"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 29,
+            "bbox": {
+              "l": 220.8233,
+              "t": 518.7805,
+              "r": 225.89329999999998,
+              "b": 510.8659961832061,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "2",
+        "text": "2"
+      },
+      "reason": "Navigation/page furniture or step number merged into ordered list"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/711",
+        "parent": {
+          "$ref": "#/pictures/61"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 29,
+            "bbox": {
+              "l": 220.8233,
+              "t": 478.7805,
+              "r": 225.89329999999998,
+              "b": 470.8659961832061,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "3",
+        "text": "3"
+      },
+      "reason": "Navigation/page furniture or step number merged into ordered list"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/713",
+        "parent": {
+          "$ref": "#/pictures/61"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 29,
+            "bbox": {
+              "l": 220.8233,
+              "t": 438.7805,
+              "r": 225.89329999999998,
+              "b": 430.8659961832061,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "4",
+        "text": "4"
+      },
+      "reason": "Navigation/page furniture or step number merged into ordered list"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/715",
+        "parent": {
+          "$ref": "#/pictures/61"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 29,
+            "bbox": {
+              "l": 220.8233,
+              "t": 398.3897,
+              "r": 225.89329999999998,
+              "b": 390.4751961832061,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "5",
+        "text": "5"
+      },
+      "reason": "Navigation/page furniture or step number merged into ordered list"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/736",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "furniture",
+        "label": "page_footer",
+        "prov": [
+          {
+            "page_no": 29,
+            "bbox": {
+              "l": 152.8346,
+              "t": 50.00040000000001,
+              "r": 263.23960000000005,
+              "b": 42.08589618320616,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              25
+            ]
+          }
+        ],
+        "orig": "CORE RULES | CHARGE PHASE",
+        "text": "CORE RULES | CHARGE PHASE"
+      },
+      "reason": "Navigation/page furniture or step number merged into ordered list"
+    }
+  ],
+  "review_notes": []
+}

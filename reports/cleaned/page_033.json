@@ -1,0 +1,1047 @@
+{
+  "page": 33,
+  "source": "data/Core Rules.pdf",
+  "rules": {
+    "page": 33,
+    "source_sha256": "4d0e8019cbfddd6f46781d5b4ed31d46fb21eb2d0d10a0f6fabefac0ce054364",
+    "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+    "blocks": [
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/796"
+        ],
+        "style": "h1"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/797"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/798"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/800"
+        ],
+        "style": "ordered",
+        "number": 1
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/802"
+        ],
+        "style": "ordered",
+        "text": "MAKE MELEE ATTACKS — Select weapon; Select targets; Make attacks",
+        "number": 2
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/804"
+        ],
+        "style": "ordered",
+        "number": 3
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/805"
+        ],
+        "style": "h2"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/806"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/807"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/808"
+        ],
+        "style": "li"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/809"
+        ],
+        "style": "li"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/810"
+        ],
+        "style": "h2"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/811"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/812"
+        ],
+        "style": "h3"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/813"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/814"
+        ],
+        "style": "li"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/815"
+        ],
+        "style": "li"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/816"
+        ],
+        "style": "h3"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/817"
+        ],
+        "style": "p"
+      }
+    ],
+    "excluded_text": {
+      "#/texts/794": "Navigation/page furniture or step number merged into overview",
+      "#/texts/795": "Navigation/page furniture or step number merged into overview",
+      "#/texts/799": "Navigation/page furniture or step number merged into overview",
+      "#/texts/801": "Navigation/page furniture or step number merged into overview",
+      "#/texts/803": "Navigation/page furniture or step number merged into overview",
+      "#/texts/818": "Navigation/page furniture or step number merged into overview"
+    },
+    "review_notes": [
+      "Substeps under MAKE MELEE ATTACKS are kept together; no extra numbered stages introduced."
+    ]
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/796"
+      ],
+      "style": "h1",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/796",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 33,
+              "bbox": {
+                "l": 153.0708,
+                "t": 720.4747,
+                "r": 215.3148,
+                "b": 698.3140893129771,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                5
+              ]
+            }
+          ],
+          "orig": "FIGHT",
+          "text": "FIGHT",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/797"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/797",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 33,
+              "bbox": {
+                "l": 153.0708,
+                "t": 688.8197,
+                "r": 481.7907500000005,
+                "b": 671.2974213740458,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                115
+              ]
+            }
+          ],
+          "orig": "When you select a unit to fight, it first Piles In, then its models make melee attacks, then the unit Consolidates.",
+          "text": "When you select a unit to fight, it first Piles In, then its models make melee attacks, then the unit Consolidates."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/798"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/798",
+          "parent": {
+            "$ref": "#/pictures/71"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 33,
+              "bbox": {
+                "l": 161.57370000000003,
+                "t": 588.3922,
+                "r": 279.95914999999997,
+                "b": 570.848483619818,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                46
+              ]
+            }
+          ],
+          "orig": "Use the following sequence when a unit fights.",
+          "text": "Use the following sequence when a unit fights."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/800"
+      ],
+      "style": "ordered",
+      "number": 1,
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/800",
+          "parent": {
+            "$ref": "#/pictures/71"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 33,
+              "bbox": {
+                "l": 207.7081,
+                "t": 540.3947,
+                "r": 239.44089999999997,
+                "b": 530.8972954198473,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                7
+              ]
+            }
+          ],
+          "orig": "PILE IN",
+          "text": "PILE IN"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/802"
+      ],
+      "style": "ordered",
+      "text": "MAKE MELEE ATTACKS — Select weapon; Select targets; Make attacks",
+      "number": 2,
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/802",
+          "parent": {
+            "$ref": "#/pictures/71"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 33,
+              "bbox": {
+                "l": 173.9344,
+                "t": 500.3947,
+                "r": 273.2152,
+                "b": 430.8852954198473,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                60
+              ]
+            }
+          ],
+          "orig": "MAKE MELEE ATTACKS Select weapon Select targets Make attacks",
+          "text": "MAKE MELEE ATTACKS Select weapon Select targets Make attacks"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/804"
+      ],
+      "style": "ordered",
+      "number": 3,
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/804",
+          "parent": {
+            "$ref": "#/pictures/71"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 33,
+              "bbox": {
+                "l": 192.6021,
+                "t": 400.3947,
+                "r": 254.55210000000002,
+                "b": 390.89729541984735,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                11
+              ]
+            }
+          ],
+          "orig": "CONSOLIDATE",
+          "text": "CONSOLIDATE"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/805"
+      ],
+      "style": "h2",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/805",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 33,
+              "bbox": {
+                "l": 306.1417,
+                "t": 658.8047,
+                "r": 373.4548999999999,
+                "b": 643.7671427480916,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                10
+              ]
+            }
+          ],
+          "orig": "1. PILE IN",
+          "text": "1. PILE IN",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/806"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/806",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 33,
+              "bbox": {
+                "l": 306.1417,
+                "t": 638.3682,
+                "r": 522.37065,
+                "b": 550.8524836198181,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                492
+              ]
+            }
+          ],
+          "orig": "When a unit Piles In, you can move each model in that unit that is not already in base-to-base contact with an enemy model up to 3\" - this is a Pile-in move. For a Pile In to be possible, a unit must be able to end these moves within Engagement Range of one or more enemy units and in Unit Coherency. If these conditions cannot be met, no models in the unit can make Pile-in moves this phase and you progress to making melee attacks with that unit. Otherwise, the unit can make Pile-in moves.",
+          "text": "When a unit Piles In, you can move each model in that unit that is not already in base-to-base contact with an enemy model up to 3\" - this is a Pile-in move. For a Pile In to be possible, a unit must be able to end these moves within Engagement Range of one or more enemy units and in Unit Coherency. If these conditions cannot be met, no models in the unit can make Pile-in moves this phase and you progress to making melee attacks with that unit. Otherwise, the unit can make Pile-in moves."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/807"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/807",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 33,
+              "bbox": {
+                "l": 306.1417,
+                "t": 538.3997000000002,
+                "r": 516.6663000000002,
+                "b": 480.87198361981825,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                318
+              ]
+            }
+          ],
+          "orig": "Each time a model makes a Pile-in move, it must end that move closer to the closest enemy model. If it can also end that move in base-to-base contact with one or more enemy models while still satisfying all of the conditions above, it must do so. The controlling player chooses the order in which to move their models.",
+          "text": "Each time a model makes a Pile-in move, it must end that move closer to the closest enemy model. If it can also end that move in base-to-base contact with one or more enemy models while still satisfying all of the conditions above, it must do so. The controlling player chooses the order in which to move their models."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/808"
+      ],
+      "style": "li",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/808",
+          "parent": {
+            "$ref": "#/groups/56"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 33,
+              "bbox": {
+                "l": 317.4803,
+                "t": 462.67859999999996,
+                "r": 394.4440499999998,
+                "b": 452.2581666003976,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                25
+              ]
+            }
+          ],
+          "orig": "■ Pile-in Move: Up to 3\".",
+          "text": "■ Pile-in Move: Up to 3\".",
+          "enumerated": false,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/809"
+      ],
+      "style": "li",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/809",
+          "parent": {
+            "$ref": "#/groups/56"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 33,
+              "bbox": {
+                "l": 317.4803,
+                "t": 452.67859999999996,
+                "r": 511.4185000000004,
+                "b": 403.44227175572524,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                248
+              ]
+            }
+          ],
+          "orig": "■ Every model that moves must end closer to the closest enemy model, and in base-to-base contact with an enemy model if possible. The unit must end in Unit Coherency and within Engagement Range of at least one enemy unit (or no models can Pile In).",
+          "text": "■ Every model that moves must end closer to the closest enemy model, and in base-to-base contact with an enemy model if possible. The unit must end in Unit Coherency and within Engagement Range of at least one enemy unit (or no models can Pile In).",
+          "enumerated": false,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/810"
+      ],
+      "style": "h2",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/810",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 33,
+              "bbox": {
+                "l": 306.1417,
+                "t": 368.8047,
+                "r": 479.9936000000001,
+                "b": 353.7671427480916,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                21
+              ]
+            }
+          ],
+          "orig": "2. MAKE MELEE ATTACKS",
+          "text": "2. MAKE MELEE ATTACKS",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/811"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/811",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 33,
+              "bbox": {
+                "l": 306.1417,
+                "t": 348.3682,
+                "r": 514.8923500000002,
+                "b": 310.83248361981805,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                235
+              ]
+            }
+          ],
+          "orig": "When a unit makes its melee attacks, before resolving those attacks you must first determine which models can fight, then select which melee weapon each of those models will make attacks with, then select the targets for those attacks.",
+          "text": "When a unit makes its melee attacks, before resolving those attacks you must first determine which models can fight, then select which melee weapon each of those models will make attacks with, then select the targets for those attacks."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/812"
+      ],
+      "style": "h3",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/812",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 33,
+              "bbox": {
+                "l": 306.1417,
+                "t": 300.3947,
+                "r": 405.03009999999995,
+                "b": 290.89729541984735,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                18
+              ]
+            }
+          ],
+          "orig": "WHICH MODELS FIGHT",
+          "text": "WHICH MODELS FIGHT",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/813"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/813",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 33,
+              "bbox": {
+                "l": 306.1417,
+                "t": 288.3682,
+                "r": 515.1286500000001,
+                "b": 240.83648361981795,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                255
+              ]
+            }
+          ],
+          "orig": "When a unit makes its melee attacks, only models in that unit that are either within Engagement Range of an enemy unit, or in base-to-base contact with another model from their own unit that is itself in base-to-base contact with an enemy unit, can fight.",
+          "text": "When a unit makes its melee attacks, only models in that unit that are either within Engagement Range of an enemy unit, or in base-to-base contact with another model from their own unit that is itself in base-to-base contact with an enemy unit, can fight."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/814"
+      ],
+      "style": "li",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/814",
+          "parent": {
+            "$ref": "#/groups/57"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 33,
+              "bbox": {
+                "l": 317.4803,
+                "t": 222.67859999999996,
+                "r": 499.2296000000002,
+                "b": 203.43027175572524,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                70
+              ]
+            }
+          ],
+          "orig": "■ A model can fight if it is within Engagement Range of an enemy unit.",
+          "text": "■ A model can fight if it is within Engagement Range of an enemy unit.",
+          "enumerated": false,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/815"
+      ],
+      "style": "li",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/815",
+          "parent": {
+            "$ref": "#/groups/57"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 33,
+              "bbox": {
+                "l": 317.4803,
+                "t": 202.67859999999996,
+                "r": 487.70360000000034,
+                "b": 173.43427175572515,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                148
+              ]
+            }
+          ],
+          "orig": "■ A model can fight if it is in base-to-base contact with another model from its own unit that is itself in base-to-base contact with an enemy unit.",
+          "text": "■ A model can fight if it is in base-to-base contact with another model from its own unit that is itself in base-to-base contact with an enemy unit.",
+          "enumerated": false,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/816"
+      ],
+      "style": "h3",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/816",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 33,
+              "bbox": {
+                "l": 306.1417,
+                "t": 150.39470000000006,
+                "r": 381.0301000000001,
+                "b": 140.8972954198473,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                13
+              ]
+            }
+          ],
+          "orig": "SELECT WEAPON",
+          "text": "SELECT WEAPON",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/817"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/817",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 33,
+              "bbox": {
+                "l": 306.1417,
+                "t": 138.3682,
+                "r": 518.3926500000002,
+                "b": 80.84048361981797,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                337
+              ]
+            }
+          ],
+          "orig": "When a model fights, it must do so using a melee weapon it is equipped with. The weapons a model is equipped with are described on its datasheet. If a model has more than one melee weapon, it can only use one of them to make attacks with each time it fights, so you must now declare which it will use before resolving any of its attacks.",
+          "text": "When a model fights, it must do so using a melee weapon it is equipped with. The weapons a model is equipped with are described on its datasheet. If a model has more than one melee weapon, it can only use one of them to make attacks with each time it fights, so you must now declare which it will use before resolving any of its attacks."
+        }
+      ]
+    }
+  ],
+  "excluded_text": [
+    {
+      "node": {
+        "self_ref": "#/texts/794",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "furniture",
+        "label": "page_header",
+        "prov": [
+          {
+            "page_no": 33,
+            "bbox": {
+              "l": 62.1818,
+              "t": 717.5597,
+              "r": 69.7868,
+              "b": 615.6879442748092,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              7
+            ]
+          }
+        ],
+        "orig": "1 2 3 4",
+        "text": "1 2 3 4"
+      },
+      "reason": "Navigation/page furniture or step number merged into overview"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/795",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 33,
+            "bbox": {
+              "l": 61.0942,
+              "t": 100.24450000000002,
+              "r": 70.87419999999999,
+              "b": 92.32999618320605,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              2
+            ]
+          }
+        ],
+        "orig": "33",
+        "text": "33"
+      },
+      "reason": "Navigation/page furniture or step number merged into overview"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/799",
+        "parent": {
+          "$ref": "#/pictures/71"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 33,
+            "bbox": {
+              "l": 220.8233,
+              "t": 558.3897999999999,
+              "r": 225.89329999999998,
+              "b": 550.4752961832061,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "1",
+        "text": "1"
+      },
+      "reason": "Navigation/page furniture or step number merged into overview"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/801",
+        "parent": {
+          "$ref": "#/pictures/71"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 33,
+            "bbox": {
+              "l": 220.8233,
+              "t": 518.7806999999999,
+              "r": 225.89329999999998,
+              "b": 510.86619618320606,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "2",
+        "text": "2"
+      },
+      "reason": "Navigation/page furniture or step number merged into overview"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/803",
+        "parent": {
+          "$ref": "#/pictures/71"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 33,
+            "bbox": {
+              "l": 220.8233,
+              "t": 418.7807,
+              "r": 225.89329999999998,
+              "b": 410.8661961832061,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "3",
+        "text": "3"
+      },
+      "reason": "Navigation/page furniture or step number merged into overview"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/818",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "furniture",
+        "label": "page_footer",
+        "prov": [
+          {
+            "page_no": 33,
+            "bbox": {
+              "l": 152.8346,
+              "t": 50.00040000000001,
+              "r": 282.6596,
+              "b": 42.08589618320616,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              32
+            ]
+          }
+        ],
+        "orig": "CORE RULES | FIGHT PHASE | FIGHT",
+        "text": "CORE RULES | FIGHT PHASE | FIGHT"
+      },
+      "reason": "Navigation/page furniture or step number merged into overview"
+    }
+  ],
+  "review_notes": [
+    "Substeps under MAKE MELEE ATTACKS are kept together; no extra numbered stages introduced."
+  ]
+}

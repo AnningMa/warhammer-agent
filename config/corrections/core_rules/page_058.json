@@ -1,0 +1,146 @@
+{
+  "page": 58,
+  "source_sha256": "4d0e8019cbfddd6f46781d5b4ed31d46fb21eb2d0d10a0f6fabefac0ce054364",
+  "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+  "blocks": [
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1352"
+      ],
+      "style": "h1"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1353"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1354"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1355"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1356"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1357"
+      ],
+      "style": "li"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1358"
+      ],
+      "style": "li"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1359"
+      ],
+      "style": "li"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1360"
+      ],
+      "style": "li"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1363"
+      ],
+      "style": "h2"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1364"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1365"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1361"
+      ],
+      "style": "h2"
+    },
+    {
+      "type": "image",
+      "id": "map_key",
+      "title": "Mission map key: deployment zones, markers and battlefield edges",
+      "bbox": [
+        83,
+        511,
+        457,
+        722
+      ],
+      "captions": [
+        [
+          "#/texts/1362"
+        ],
+        [
+          "#/texts/1366"
+        ],
+        [
+          "#/texts/1367",
+          "#/texts/1369"
+        ],
+        [
+          "#/texts/1368",
+          "#/texts/1370"
+        ],
+        [
+          "#/texts/1371"
+        ]
+      ],
+      "source_refs": [
+        "#/pictures/125",
+        "#/pictures/126",
+        "#/pictures/127",
+        "#/pictures/128",
+        "#/pictures/129",
+        "#/pictures/130",
+        "#/pictures/131"
+      ]
+    }
+  ],
+  "excluded_text": {
+    "#/texts/1372": "Page number or running footer; not rule content.",
+    "#/texts/1373": "Page number or running footer; not rule content."
+  },
+  "review_notes": [
+    "Sidebar separated from Objective Markers rules. Full legend preserved so symbols, labels and colours remain together. Final three map labels remain grouped with the legend; no inferred map geometry is added."
+  ],
+  "schema_version": 1,
+  "handler": "blocks"
+}

@@ -1,0 +1,447 @@
+{
+  "page": 52,
+  "source": "data/Core Rules.pdf",
+  "rules": {
+    "page": 52,
+    "source_sha256": "4d0e8019cbfddd6f46781d5b4ed31d46fb21eb2d0d10a0f6fabefac0ce054364",
+    "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+    "blocks": [
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1229"
+        ],
+        "style": "h1"
+      },
+      {
+        "type": "image",
+        "id": "matched",
+        "title": "Matched Play Focused: Combat Patrol",
+        "bbox": [
+          65,
+          74,
+          499,
+          275
+        ],
+        "captions": [
+          [
+            "#/texts/1231"
+          ]
+        ],
+        "source_refs": [
+          "#/pictures/119"
+        ]
+      },
+      {
+        "type": "image",
+        "id": "matched_less_terrain",
+        "title": "Matched Play Focused: less terrain",
+        "bbox": [
+          65,
+          280,
+          499,
+          494
+        ],
+        "captions": [
+          [
+            "#/texts/1232"
+          ]
+        ],
+        "source_refs": [
+          "#/pictures/120"
+        ]
+      },
+      {
+        "type": "image",
+        "id": "narrative",
+        "title": "Narrative Play Focused: Combat Patrol",
+        "bbox": [
+          65,
+          497,
+          499,
+          718
+        ],
+        "captions": [
+          [
+            "#/texts/1233"
+          ]
+        ],
+        "source_refs": [
+          "#/pictures/121"
+        ]
+      }
+    ],
+    "excluded_text": {
+      "#/texts/1230": "Page number or running footer; not rule content.",
+      "#/texts/1234": "Page number or running footer; not rule content."
+    },
+    "review_notes": [
+      "Three battlefield illustrations paired with original captions in top-to-bottom order."
+    ]
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1229"
+      ],
+      "style": "h1",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1229",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "furniture",
+          "label": "page_header",
+          "prov": [
+            {
+              "page_no": 52,
+              "bbox": {
+                "l": 512.5872427480916,
+                "t": 719.0869,
+                "r": 527.6248,
+                "b": 542.0277999999997,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                21
+              ]
+            }
+          ],
+          "orig": "COMBAT PATROL SET-UPS",
+          "text": "COMBAT PATROL SET-UPS"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "id": "matched",
+      "title": "Matched Play Focused: Combat Patrol",
+      "bbox": [
+        65,
+        74,
+        499,
+        275
+      ],
+      "captions": [
+        [
+          "#/texts/1231"
+        ]
+      ],
+      "source_refs": [
+        "#/pictures/119"
+      ],
+      "source_nodes": [
+        {
+          "self_ref": "#/pictures/119",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [
+            {
+              "$ref": "#/texts/1231"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 52,
+              "bbox": {
+                "l": 81.31682455037851,
+                "t": 719.8398018804402,
+                "r": 498.5975601138255,
+                "b": 546.1142314867649,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [
+            {
+              "$ref": "#/texts/1231"
+            }
+          ],
+          "references": [],
+          "footnotes": [],
+          "annotations": []
+        },
+        {
+          "self_ref": "#/texts/1231",
+          "parent": {
+            "$ref": "#/pictures/119"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "caption",
+          "prov": [
+            {
+              "page_no": 52,
+              "bbox": {
+                "l": 93.54220000000001,
+                "t": 564.3308000000001,
+                "r": 309.45144999999997,
+                "b": 522.3897694656489,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                333
+              ]
+            }
+          ],
+          "orig": "Matched Play Focused: This Combat Patrol battlefield (44\" x 30\") has an ideal number and mixture of terrain features. These are set up evenly across the battlefield, there is still space for units to manoeuvre around them, and lines of sight cannot easily be drawn from one edge to the other, giving neither player a clear advantage.",
+          "text": "Matched Play Focused: This Combat Patrol battlefield (44\" x 30\") has an ideal number and mixture of terrain features. These are set up evenly across the battlefield, there is still space for units to manoeuvre around them, and lines of sight cannot easily be drawn from one edge to the other, giving neither player a clear advantage."
+        }
+      ],
+      "image": "images/page_052_matched.png",
+      "caption_texts": [
+        "Matched Play Focused: This Combat Patrol battlefield (44\" x 30\") has an ideal number and mixture of terrain features. These are set up evenly across the battlefield, there is still space for units to manoeuvre around them, and lines of sight cannot easily be drawn from one edge to the other, giving neither player a clear advantage."
+      ],
+      "coordinate_system": "PDF points, top-left origin"
+    },
+    {
+      "type": "image",
+      "id": "matched_less_terrain",
+      "title": "Matched Play Focused: less terrain",
+      "bbox": [
+        65,
+        280,
+        499,
+        494
+      ],
+      "captions": [
+        [
+          "#/texts/1232"
+        ]
+      ],
+      "source_refs": [
+        "#/pictures/120"
+      ],
+      "source_nodes": [
+        {
+          "self_ref": "#/pictures/120",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 52,
+              "bbox": {
+                "l": 66.6744306514052,
+                "t": 505.83068563635226,
+                "r": 488.8699656265008,
+                "b": 349.22009719560367,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "annotations": []
+        },
+        {
+          "self_ref": "#/texts/1232",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 52,
+              "bbox": {
+                "l": 93.54220000000001,
+                "t": 354.33080000000007,
+                "r": 302.6496999999999,
+                "b": 303.3897694656489,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                430
+              ]
+            }
+          ],
+          "orig": "Matched Play Focused: This Combat Patrol battlefield has been set up with fewer terrain features than the battlefield above, but the positioning of these does not favour one player over the other. A battlefield with fewer terrain features than this will afford units no way to gain protection from ranged attacks, and so will give a strong advantage to armies that rely on shooting, while disadvantaging armies that rely on melee.",
+          "text": "Matched Play Focused: This Combat Patrol battlefield has been set up with fewer terrain features than the battlefield above, but the positioning of these does not favour one player over the other. A battlefield with fewer terrain features than this will afford units no way to gain protection from ranged attacks, and so will give a strong advantage to armies that rely on shooting, while disadvantaging armies that rely on melee."
+        }
+      ],
+      "image": "images/page_052_matched_less_terrain.png",
+      "caption_texts": [
+        "Matched Play Focused: This Combat Patrol battlefield has been set up with fewer terrain features than the battlefield above, but the positioning of these does not favour one player over the other. A battlefield with fewer terrain features than this will afford units no way to gain protection from ranged attacks, and so will give a strong advantage to armies that rely on shooting, while disadvantaging armies that rely on melee."
+      ],
+      "coordinate_system": "PDF points, top-left origin"
+    },
+    {
+      "type": "image",
+      "id": "narrative",
+      "title": "Narrative Play Focused: Combat Patrol",
+      "bbox": [
+        65,
+        497,
+        499,
+        718
+      ],
+      "captions": [
+        [
+          "#/texts/1233"
+        ]
+      ],
+      "source_refs": [
+        "#/pictures/121"
+      ],
+      "source_nodes": [
+        {
+          "self_ref": "#/pictures/121",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [
+            {
+              "$ref": "#/texts/1233"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 52,
+              "bbox": {
+                "l": 69.54950922375038,
+                "t": 291.47134427206583,
+                "r": 485.8614246480472,
+                "b": 107.08612376945746,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [
+            {
+              "$ref": "#/texts/1233"
+            }
+          ],
+          "references": [],
+          "footnotes": [],
+          "annotations": []
+        },
+        {
+          "self_ref": "#/texts/1233",
+          "parent": {
+            "$ref": "#/pictures/121"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "caption",
+          "prov": [
+            {
+              "page_no": 52,
+              "bbox": {
+                "l": 93.54220000000001,
+                "t": 113.06330000000003,
+                "r": 298.9882,
+                "b": 80.12226946564886,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                270
+              ]
+            }
+          ],
+          "orig": "Narrative Play Focused: This Combat Patrol battlefield has an ideal number and mixture of terrain features, and has been set up to create a strong thematic battlefield that, while not ideally suited to all play styles, sets the scene for a thrilling narrative encounter.",
+          "text": "Narrative Play Focused: This Combat Patrol battlefield has an ideal number and mixture of terrain features, and has been set up to create a strong thematic battlefield that, while not ideally suited to all play styles, sets the scene for a thrilling narrative encounter."
+        }
+      ],
+      "image": "images/page_052_narrative.png",
+      "caption_texts": [
+        "Narrative Play Focused: This Combat Patrol battlefield has an ideal number and mixture of terrain features, and has been set up to create a strong thematic battlefield that, while not ideally suited to all play styles, sets the scene for a thrilling narrative encounter."
+      ],
+      "coordinate_system": "PDF points, top-left origin"
+    }
+  ],
+  "excluded_text": [
+    {
+      "node": {
+        "self_ref": "#/texts/1230",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "furniture",
+        "label": "page_header",
+        "prov": [
+          {
+            "page_no": 52,
+            "bbox": {
+              "l": 538.5246,
+              "t": 100.24450000000002,
+              "r": 548.4046,
+              "b": 92.32999618320605,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              2
+            ]
+          }
+        ],
+        "orig": "52",
+        "text": "52"
+      },
+      "reason": "Page number or running footer; not rule content."
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/1234",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "furniture",
+        "label": "page_footer",
+        "prov": [
+          {
+            "page_no": 52,
+            "bbox": {
+              "l": 354.0027,
+              "t": 50.00040000000001,
+              "r": 499.6036999999996,
+              "b": 42.08589618320616,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              33
+            ]
+          }
+        ],
+        "orig": "CORE RULES | EXAMPLE BATTLEFIELDS",
+        "text": "CORE RULES | EXAMPLE BATTLEFIELDS"
+      },
+      "reason": "Page number or running footer; not rule content."
+    }
+  ],
+  "review_notes": [
+    "Three battlefield illustrations paired with original captions in top-to-bottom order."
+  ]
+}

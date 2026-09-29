@@ -1,0 +1,3813 @@
+{
+  "page": 42,
+  "source": "data/Core Rules.pdf",
+  "rules": {
+    "page": 42,
+    "source_sha256": "4d0e8019cbfddd6f46781d5b4ed31d46fb21eb2d0d10a0f6fabefac0ce054364",
+    "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+    "blocks": [
+      {
+        "type": "text",
+        "style": "h1",
+        "text": "STRATAGEMS (continued)"
+      },
+      {
+        "type": "card",
+        "title_ref": "#/texts/1049",
+        "cp_ref": "#/texts/1045",
+        "expected_cp": 1,
+        "source_refs": [
+          "#/texts/1049",
+          "#/texts/1045"
+        ],
+        "children": [
+          {
+            "type": "text",
+            "refs": [
+              "#/texts/1050"
+            ],
+            "style": "p"
+          },
+          {
+            "type": "text",
+            "refs": [
+              "#/texts/1051"
+            ],
+            "style": "p"
+          },
+          {
+            "type": "text",
+            "refs": [
+              "#/texts/1052"
+            ],
+            "style": "p"
+          },
+          {
+            "type": "text",
+            "refs": [
+              "#/texts/1053"
+            ],
+            "style": "p"
+          },
+          {
+            "type": "text",
+            "refs": [
+              "#/texts/1054"
+            ],
+            "style": "p"
+          }
+        ]
+      },
+      {
+        "type": "card",
+        "title_ref": "#/texts/1055",
+        "cp_ref": "#/texts/1046",
+        "expected_cp": 1,
+        "source_refs": [
+          "#/texts/1055",
+          "#/texts/1046"
+        ],
+        "children": [
+          {
+            "type": "text",
+            "refs": [
+              "#/texts/1056"
+            ],
+            "style": "p"
+          },
+          {
+            "type": "text",
+            "refs": [
+              "#/texts/1057"
+            ],
+            "style": "p"
+          },
+          {
+            "type": "text",
+            "refs": [
+              "#/texts/1058"
+            ],
+            "style": "p"
+          },
+          {
+            "type": "text",
+            "refs": [
+              "#/texts/1059"
+            ],
+            "style": "p"
+          },
+          {
+            "type": "text",
+            "refs": [
+              "#/texts/1060"
+            ],
+            "style": "p"
+          }
+        ]
+      },
+      {
+        "type": "card",
+        "title_ref": "#/texts/1061",
+        "cp_ref": "#/texts/1047",
+        "expected_cp": 1,
+        "source_refs": [
+          "#/texts/1061",
+          "#/texts/1047"
+        ],
+        "children": [
+          {
+            "type": "text",
+            "refs": [
+              "#/texts/1062"
+            ],
+            "style": "p"
+          },
+          {
+            "type": "text",
+            "refs": [
+              "#/texts/1063"
+            ],
+            "style": "p"
+          },
+          {
+            "type": "text",
+            "refs": [
+              "#/texts/1064"
+            ],
+            "style": "p"
+          },
+          {
+            "type": "text",
+            "refs": [
+              "#/texts/1065"
+            ],
+            "style": "p"
+          },
+          {
+            "type": "text",
+            "refs": [
+              "#/texts/1066"
+            ],
+            "style": "p"
+          }
+        ]
+      },
+      {
+        "type": "card",
+        "title_ref": "#/texts/1067",
+        "cp_ref": "#/texts/1048",
+        "expected_cp": 1,
+        "source_refs": [
+          "#/texts/1067",
+          "#/texts/1048"
+        ],
+        "children": [
+          {
+            "type": "text",
+            "refs": [
+              "#/texts/1068"
+            ],
+            "style": "p"
+          },
+          {
+            "type": "text",
+            "refs": [
+              "#/texts/1069"
+            ],
+            "style": "p"
+          },
+          {
+            "type": "text",
+            "refs": [
+              "#/texts/1070"
+            ],
+            "style": "p"
+          },
+          {
+            "type": "text",
+            "refs": [
+              "#/texts/1071"
+            ],
+            "style": "p"
+          },
+          {
+            "type": "text",
+            "refs": [
+              "#/texts/1072"
+            ],
+            "style": "p"
+          },
+          {
+            "type": "text",
+            "refs": [
+              "#/texts/1073"
+            ],
+            "style": "p"
+          }
+        ]
+      },
+      {
+        "type": "card",
+        "title_ref": "#/texts/1078",
+        "cp_ref": "#/texts/1074",
+        "expected_cp": 1,
+        "source_refs": [
+          "#/texts/1078",
+          "#/texts/1074"
+        ],
+        "children": [
+          {
+            "type": "text",
+            "refs": [
+              "#/texts/1079"
+            ],
+            "style": "p"
+          },
+          {
+            "type": "text",
+            "refs": [
+              "#/texts/1080"
+            ],
+            "style": "p"
+          },
+          {
+            "type": "text",
+            "refs": [
+              "#/texts/1081"
+            ],
+            "style": "p"
+          },
+          {
+            "type": "text",
+            "refs": [
+              "#/texts/1082"
+            ],
+            "style": "p"
+          },
+          {
+            "type": "text",
+            "refs": [
+              "#/texts/1083"
+            ],
+            "style": "p"
+          },
+          {
+            "type": "text",
+            "refs": [
+              "#/texts/1084"
+            ],
+            "style": "p"
+          }
+        ]
+      },
+      {
+        "type": "card",
+        "title_ref": "#/texts/1085",
+        "cp_ref": "#/texts/1075",
+        "expected_cp": 1,
+        "source_refs": [
+          "#/texts/1085",
+          "#/texts/1075"
+        ],
+        "children": [
+          {
+            "type": "text",
+            "refs": [
+              "#/texts/1086"
+            ],
+            "style": "p"
+          },
+          {
+            "type": "text",
+            "refs": [
+              "#/texts/1087"
+            ],
+            "style": "p"
+          },
+          {
+            "type": "text",
+            "refs": [
+              "#/texts/1088"
+            ],
+            "style": "p"
+          },
+          {
+            "type": "text",
+            "refs": [
+              "#/texts/1089"
+            ],
+            "style": "p"
+          },
+          {
+            "type": "text",
+            "refs": [
+              "#/texts/1090"
+            ],
+            "style": "p"
+          }
+        ]
+      },
+      {
+        "type": "card",
+        "title_ref": "#/texts/1091",
+        "cp_ref": "#/texts/1076",
+        "expected_cp": 1,
+        "source_refs": [
+          "#/texts/1091",
+          "#/texts/1076"
+        ],
+        "children": [
+          {
+            "type": "text",
+            "refs": [
+              "#/texts/1092"
+            ],
+            "style": "p"
+          },
+          {
+            "type": "text",
+            "refs": [
+              "#/texts/1093"
+            ],
+            "style": "p"
+          },
+          {
+            "type": "text",
+            "refs": [
+              "#/texts/1094"
+            ],
+            "style": "p"
+          },
+          {
+            "type": "text",
+            "refs": [
+              "#/texts/1095"
+            ],
+            "style": "p"
+          },
+          {
+            "type": "text",
+            "refs": [
+              "#/texts/1096"
+            ],
+            "style": "p"
+          }
+        ]
+      },
+      {
+        "type": "card",
+        "title_ref": "#/texts/1097",
+        "cp_ref": "#/texts/1077",
+        "expected_cp": 2,
+        "source_refs": [
+          "#/texts/1097",
+          "#/texts/1077"
+        ],
+        "children": [
+          {
+            "type": "text",
+            "refs": [
+              "#/texts/1098"
+            ],
+            "style": "p"
+          },
+          {
+            "type": "text",
+            "refs": [
+              "#/texts/1099"
+            ],
+            "style": "p"
+          },
+          {
+            "type": "text",
+            "refs": [
+              "#/texts/1100"
+            ],
+            "style": "p"
+          },
+          {
+            "type": "text",
+            "refs": [
+              "#/texts/1101"
+            ],
+            "style": "p"
+          },
+          {
+            "type": "text",
+            "refs": [
+              "#/texts/1102"
+            ],
+            "style": "p"
+          },
+          {
+            "type": "text",
+            "refs": [
+              "#/texts/1103"
+            ],
+            "style": "p"
+          }
+        ]
+      }
+    ],
+    "excluded_text": {
+      "#/texts/1104": "Page furniture",
+      "#/texts/1105": "Page furniture"
+    },
+    "review_notes": [
+      "All cards retain WHEN/TARGET/EFFECT/RESTRICTIONS from this PDF, not updated external game rules."
+    ]
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "style": "h1",
+      "text": "STRATAGEMS (continued)",
+      "source_nodes": []
+    },
+    {
+      "type": "card",
+      "title_ref": "#/texts/1049",
+      "cp_ref": "#/texts/1045",
+      "expected_cp": 1,
+      "source_refs": [
+        "#/texts/1049",
+        "#/texts/1045"
+      ],
+      "children": [
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1050"
+          ],
+          "style": "p",
+          "source_nodes": [
+            {
+              "self_ref": "#/texts/1050",
+              "parent": {
+                "$ref": "#/body"
+              },
+              "children": [],
+              "content_layer": "body",
+              "label": "text",
+              "prov": [
+                {
+                  "page_no": 42,
+                  "bbox": {
+                    "l": 111.9685,
+                    "t": 710.8269,
+                    "r": 179.58130000000003,
+                    "b": 706.0781977099238,
+                    "coord_origin": "BOTTOMLEFT"
+                  },
+                  "charspan": [
+                    0,
+                    26
+                  ]
+                }
+              ],
+              "orig": "CORE - EPIC DEED STRATAGEM",
+              "text": "CORE - EPIC DEED STRATAGEM"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1051"
+          ],
+          "style": "p",
+          "source_nodes": [
+            {
+              "self_ref": "#/texts/1051",
+              "parent": {
+                "$ref": "#/body"
+              },
+              "children": [],
+              "content_layer": "body",
+              "label": "text",
+              "prov": [
+                {
+                  "page_no": 42,
+                  "bbox": {
+                    "l": 111.9685,
+                    "t": 698.6179999999999,
+                    "r": 253.10350000000008,
+                    "b": 683.582667393675,
+                    "coord_origin": "BOTTOMLEFT"
+                  },
+                  "charspan": [
+                    0,
+                    102
+                  ]
+                }
+              ],
+              "orig": "Indifferent to their own survival, these warriors hold their ground against seemingly impossible odds.",
+              "text": "Indifferent to their own survival, these warriors hold their ground against seemingly impossible odds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1052"
+          ],
+          "style": "p",
+          "source_nodes": [
+            {
+              "self_ref": "#/texts/1052",
+              "parent": {
+                "$ref": "#/body"
+              },
+              "children": [],
+              "content_layer": "body",
+              "label": "text",
+              "prov": [
+                {
+                  "page_no": 42,
+                  "bbox": {
+                    "l": 111.9685,
+                    "t": 676.313,
+                    "r": 250.16199999999992,
+                    "b": 652.3719694656488,
+                    "coord_origin": "BOTTOMLEFT"
+                  },
+                  "charspan": [
+                    0,
+                    134
+                  ]
+                }
+              ],
+              "orig": "WHEN: Battle-shock step of your Command phase, just after you have failed a Battle-shock test taken for a unit from your army (pg 11).",
+              "text": "WHEN: Battle-shock step of your Command phase, just after you have failed a Battle-shock test taken for a unit from your army (pg 11)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1053"
+          ],
+          "style": "p",
+          "source_nodes": [
+            {
+              "self_ref": "#/texts/1053",
+              "parent": {
+                "$ref": "#/body"
+              },
+              "children": [],
+              "content_layer": "body",
+              "label": "text",
+              "prov": [
+                {
+                  "page_no": 42,
+                  "bbox": {
+                    "l": 111.9685,
+                    "t": 646.478,
+                    "r": 256.2302499999999,
+                    "b": 613.5369694656488,
+                    "coord_origin": "BOTTOMLEFT"
+                  },
+                  "charspan": [
+                    0,
+                    161
+                  ]
+                }
+              ],
+              "orig": "TARGET: The unit from your army that Battle-shock test was just taken for (even though your Battle-shocked units cannot normally be affected by your Stratagems).",
+              "text": "TARGET: The unit from your army that Battle-shock test was just taken for (even though your Battle-shocked units cannot normally be affected by your Stratagems)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1054"
+          ],
+          "style": "p",
+          "source_nodes": [
+            {
+              "self_ref": "#/texts/1054",
+              "parent": {
+                "$ref": "#/body"
+              },
+              "children": [],
+              "content_layer": "body",
+              "label": "text",
+              "prov": [
+                {
+                  "page_no": 42,
+                  "bbox": {
+                    "l": 111.9685,
+                    "t": 607.6429999999999,
+                    "r": 248.74525,
+                    "b": 592.7019694656487,
+                    "coord_origin": "BOTTOMLEFT"
+                  },
+                  "charspan": [
+                    0,
+                    103
+                  ]
+                }
+              ],
+              "orig": "EFFECT: Your unit is treated as having passed that test instead, and is not Battle-shocked as a result.",
+              "text": "EFFECT: Your unit is treated as having passed that test instead, and is not Battle-shocked as a result."
+            }
+          ]
+        }
+      ],
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1045",
+          "parent": {
+            "$ref": "#/pictures/96"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 84.4977,
+                "t": 686.1022999999999,
+                "r": 99.2377,
+                "b": 678.187796183206,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                3
+              ]
+            }
+          ],
+          "orig": "1CP",
+          "text": "1CP"
+        },
+        {
+          "self_ref": "#/texts/1049",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 111.7165,
+                "t": 727.3626999999999,
+                "r": 189.21250000000003,
+                "b": 717.8652954198473,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                14
+              ]
+            }
+          ],
+          "orig": "INSANE BRAVERY",
+          "text": "INSANE BRAVERY",
+          "level": 1
+        },
+        {
+          "self_ref": "#/texts/1050",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 111.9685,
+                "t": 710.8269,
+                "r": 179.58130000000003,
+                "b": 706.0781977099238,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                26
+              ]
+            }
+          ],
+          "orig": "CORE - EPIC DEED STRATAGEM",
+          "text": "CORE - EPIC DEED STRATAGEM"
+        },
+        {
+          "self_ref": "#/texts/1051",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 111.9685,
+                "t": 698.6179999999999,
+                "r": 253.10350000000008,
+                "b": 683.582667393675,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                102
+              ]
+            }
+          ],
+          "orig": "Indifferent to their own survival, these warriors hold their ground against seemingly impossible odds.",
+          "text": "Indifferent to their own survival, these warriors hold their ground against seemingly impossible odds."
+        },
+        {
+          "self_ref": "#/texts/1052",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 111.9685,
+                "t": 676.313,
+                "r": 250.16199999999992,
+                "b": 652.3719694656488,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                134
+              ]
+            }
+          ],
+          "orig": "WHEN: Battle-shock step of your Command phase, just after you have failed a Battle-shock test taken for a unit from your army (pg 11).",
+          "text": "WHEN: Battle-shock step of your Command phase, just after you have failed a Battle-shock test taken for a unit from your army (pg 11)."
+        },
+        {
+          "self_ref": "#/texts/1053",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 111.9685,
+                "t": 646.478,
+                "r": 256.2302499999999,
+                "b": 613.5369694656488,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                161
+              ]
+            }
+          ],
+          "orig": "TARGET: The unit from your army that Battle-shock test was just taken for (even though your Battle-shocked units cannot normally be affected by your Stratagems).",
+          "text": "TARGET: The unit from your army that Battle-shock test was just taken for (even though your Battle-shocked units cannot normally be affected by your Stratagems)."
+        },
+        {
+          "self_ref": "#/texts/1054",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 111.9685,
+                "t": 607.6429999999999,
+                "r": 248.74525,
+                "b": 592.7019694656487,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                103
+              ]
+            }
+          ],
+          "orig": "EFFECT: Your unit is treated as having passed that test instead, and is not Battle-shocked as a result.",
+          "text": "EFFECT: Your unit is treated as having passed that test instead, and is not Battle-shocked as a result."
+        }
+      ],
+      "name": "INSANE BRAVERY",
+      "cp_cost": 1,
+      "fields": {
+        "when": "Battle-shock step of your Command phase, just after you have failed a Battle-shock test taken for a unit from your army (pg 11).",
+        "target": "The unit from your army that Battle-shock test was just taken for (even though your Battle-shocked units cannot normally be affected by your Stratagems).",
+        "effect": "Your unit is treated as having passed that test instead, and is not Battle-shocked as a result."
+      }
+    },
+    {
+      "type": "card",
+      "title_ref": "#/texts/1055",
+      "cp_ref": "#/texts/1046",
+      "expected_cp": 1,
+      "source_refs": [
+        "#/texts/1055",
+        "#/texts/1046"
+      ],
+      "children": [
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1056"
+          ],
+          "style": "p",
+          "source_nodes": [
+            {
+              "self_ref": "#/texts/1056",
+              "parent": {
+                "$ref": "#/body"
+              },
+              "children": [],
+              "content_layer": "body",
+              "label": "text",
+              "prov": [
+                {
+                  "page_no": 42,
+                  "bbox": {
+                    "l": 111.9685,
+                    "t": 561.0735,
+                    "r": 177.9079,
+                    "b": 556.3247977099237,
+                    "coord_origin": "BOTTOMLEFT"
+                  },
+                  "charspan": [
+                    0,
+                    24
+                  ]
+                }
+              ],
+              "orig": "CORE - WARGEAR STRATAGEM",
+              "text": "CORE - WARGEAR STRATAGEM"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1057"
+          ],
+          "style": "p",
+          "source_nodes": [
+            {
+              "self_ref": "#/texts/1057",
+              "parent": {
+                "$ref": "#/body"
+              },
+              "children": [],
+              "content_layer": "body",
+              "label": "text",
+              "prov": [
+                {
+                  "page_no": 42,
+                  "bbox": {
+                    "l": 111.9685,
+                    "t": 548.8646,
+                    "r": 248.77600000000012,
+                    "b": 533.8292673936751,
+                    "coord_origin": "BOTTOMLEFT"
+                  },
+                  "charspan": [
+                    0,
+                    100
+                  ]
+                }
+              ],
+              "orig": "Priming their hand-held projectiles, these warriors draw back and hurl death into the enemy's midst.",
+              "text": "Priming their hand-held projectiles, these warriors draw back and hurl death into the enemy's midst."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1058"
+          ],
+          "style": "p",
+          "source_nodes": [
+            {
+              "self_ref": "#/texts/1058",
+              "parent": {
+                "$ref": "#/body"
+              },
+              "children": [],
+              "content_layer": "body",
+              "label": "text",
+              "prov": [
+                {
+                  "page_no": 42,
+                  "bbox": {
+                    "l": 111.9685,
+                    "t": 526.2446000000001,
+                    "r": 189.47274999999996,
+                    "b": 520.3035694656489,
+                    "coord_origin": "BOTTOMLEFT"
+                  },
+                  "charspan": [
+                    0,
+                    26
+                  ]
+                }
+              ],
+              "orig": "WHEN: Your Shooting phase.",
+              "text": "WHEN: Your Shooting phase."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1059"
+          ],
+          "style": "p",
+          "source_nodes": [
+            {
+              "self_ref": "#/texts/1059",
+              "parent": {
+                "$ref": "#/body"
+              },
+              "children": [],
+              "content_layer": "body",
+              "label": "text",
+              "prov": [
+                {
+                  "page_no": 42,
+                  "bbox": {
+                    "l": 111.9685,
+                    "t": 514.4096000000001,
+                    "r": 250.94349999999997,
+                    "b": 490.46856946564895,
+                    "coord_origin": "BOTTOMLEFT"
+                  },
+                  "charspan": [
+                    0,
+                    142
+                  ]
+                }
+              ],
+              "orig": "TARGET: One Grenades unit from your army that is not within Engagement Range of any enemy units and has not been selected to shoot this phase.",
+              "text": "TARGET: One Grenades unit from your army that is not within Engagement Range of any enemy units and has not been selected to shoot this phase."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1060"
+          ],
+          "style": "p",
+          "source_nodes": [
+            {
+              "self_ref": "#/texts/1060",
+              "parent": {
+                "$ref": "#/body"
+              },
+              "children": [],
+              "content_layer": "body",
+              "label": "text",
+              "prov": [
+                {
+                  "page_no": 42,
+                  "bbox": {
+                    "l": 111.9685,
+                    "t": 484.57460000000015,
+                    "r": 254.926,
+                    "b": 442.633569465649,
+                    "coord_origin": "BOTTOMLEFT"
+                  },
+                  "charspan": [
+                    0,
+                    214
+                  ]
+                }
+              ],
+              "orig": "EFFECT: Select one enemy unit that is not within Engagement Range of any units from your army and is within 8\" of and visible to your Grenades unit. Roll six D6: for each 4+, that enemy unit suffers 1 mortal wound.",
+              "text": "EFFECT: Select one enemy unit that is not within Engagement Range of any units from your army and is within 8\" of and visible to your Grenades unit. Roll six D6: for each 4+, that enemy unit suffers 1 mortal wound."
+            }
+          ]
+        }
+      ],
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1046",
+          "parent": {
+            "$ref": "#/pictures/97"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 84.4977,
+                "t": 536.3489,
+                "r": 99.2377,
+                "b": 528.4343961832061,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                3
+              ]
+            }
+          ],
+          "orig": "1CP",
+          "text": "1CP"
+        },
+        {
+          "self_ref": "#/texts/1055",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 111.7165,
+                "t": 577.6093,
+                "r": 154.9765,
+                "b": 568.1118954198473,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                7
+              ]
+            }
+          ],
+          "orig": "GRENADE",
+          "text": "GRENADE",
+          "level": 1
+        },
+        {
+          "self_ref": "#/texts/1056",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 111.9685,
+                "t": 561.0735,
+                "r": 177.9079,
+                "b": 556.3247977099237,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                24
+              ]
+            }
+          ],
+          "orig": "CORE - WARGEAR STRATAGEM",
+          "text": "CORE - WARGEAR STRATAGEM"
+        },
+        {
+          "self_ref": "#/texts/1057",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 111.9685,
+                "t": 548.8646,
+                "r": 248.77600000000012,
+                "b": 533.8292673936751,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                100
+              ]
+            }
+          ],
+          "orig": "Priming their hand-held projectiles, these warriors draw back and hurl death into the enemy's midst.",
+          "text": "Priming their hand-held projectiles, these warriors draw back and hurl death into the enemy's midst."
+        },
+        {
+          "self_ref": "#/texts/1058",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 111.9685,
+                "t": 526.2446000000001,
+                "r": 189.47274999999996,
+                "b": 520.3035694656489,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                26
+              ]
+            }
+          ],
+          "orig": "WHEN: Your Shooting phase.",
+          "text": "WHEN: Your Shooting phase."
+        },
+        {
+          "self_ref": "#/texts/1059",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 111.9685,
+                "t": 514.4096000000001,
+                "r": 250.94349999999997,
+                "b": 490.46856946564895,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                142
+              ]
+            }
+          ],
+          "orig": "TARGET: One Grenades unit from your army that is not within Engagement Range of any enemy units and has not been selected to shoot this phase.",
+          "text": "TARGET: One Grenades unit from your army that is not within Engagement Range of any enemy units and has not been selected to shoot this phase."
+        },
+        {
+          "self_ref": "#/texts/1060",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 111.9685,
+                "t": 484.57460000000015,
+                "r": 254.926,
+                "b": 442.633569465649,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                214
+              ]
+            }
+          ],
+          "orig": "EFFECT: Select one enemy unit that is not within Engagement Range of any units from your army and is within 8\" of and visible to your Grenades unit. Roll six D6: for each 4+, that enemy unit suffers 1 mortal wound.",
+          "text": "EFFECT: Select one enemy unit that is not within Engagement Range of any units from your army and is within 8\" of and visible to your Grenades unit. Roll six D6: for each 4+, that enemy unit suffers 1 mortal wound."
+        }
+      ],
+      "name": "GRENADE",
+      "cp_cost": 1,
+      "fields": {
+        "when": "Your Shooting phase.",
+        "target": "One Grenades unit from your army that is not within Engagement Range of any enemy units and has not been selected to shoot this phase.",
+        "effect": "Select one enemy unit that is not within Engagement Range of any units from your army and is within 8\" of and visible to your Grenades unit. Roll six D6: for each 4+, that enemy unit suffers 1 mortal wound."
+      }
+    },
+    {
+      "type": "card",
+      "title_ref": "#/texts/1061",
+      "cp_ref": "#/texts/1047",
+      "expected_cp": 1,
+      "source_refs": [
+        "#/texts/1061",
+        "#/texts/1047"
+      ],
+      "children": [
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1062"
+          ],
+          "style": "p",
+          "source_nodes": [
+            {
+              "self_ref": "#/texts/1062",
+              "parent": {
+                "$ref": "#/body"
+              },
+              "children": [],
+              "content_layer": "body",
+              "label": "text",
+              "prov": [
+                {
+                  "page_no": 42,
+                  "bbox": {
+                    "l": 111.9685,
+                    "t": 411.005,
+                    "r": 192.2299,
+                    "b": 406.2562977099237,
+                    "coord_origin": "BOTTOMLEFT"
+                  },
+                  "charspan": [
+                    0,
+                    31
+                  ]
+                }
+              ],
+              "orig": "CORE - STRATEGIC PLOY STRATAGEM",
+              "text": "CORE - STRATEGIC PLOY STRATAGEM"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1063"
+          ],
+          "style": "p",
+          "source_nodes": [
+            {
+              "self_ref": "#/texts/1063",
+              "parent": {
+                "$ref": "#/body"
+              },
+              "children": [],
+              "content_layer": "body",
+              "label": "text",
+              "prov": [
+                {
+                  "page_no": 42,
+                  "bbox": {
+                    "l": 111.9685,
+                    "t": 398.7962,
+                    "r": 256.3435,
+                    "b": 383.760867393675,
+                    "coord_origin": "BOTTOMLEFT"
+                  },
+                  "charspan": [
+                    0,
+                    105
+                  ]
+                }
+              ],
+              "orig": "Ramming the foe with a speeding vehicle may be an unsubtle tactic, but it is a murderously effective one.",
+              "text": "Ramming the foe with a speeding vehicle may be an unsubtle tactic, but it is a murderously effective one."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1064"
+          ],
+          "style": "p",
+          "source_nodes": [
+            {
+              "self_ref": "#/texts/1064",
+              "parent": {
+                "$ref": "#/body"
+              },
+              "children": [],
+              "content_layer": "body",
+              "label": "text",
+              "prov": [
+                {
+                  "page_no": 42,
+                  "bbox": {
+                    "l": 111.9685,
+                    "t": 376.4912,
+                    "r": 184.1335,
+                    "b": 370.5501694656488,
+                    "coord_origin": "BOTTOMLEFT"
+                  },
+                  "charspan": [
+                    0,
+                    24
+                  ]
+                }
+              ],
+              "orig": "WHEN: Your Charge phase.",
+              "text": "WHEN: Your Charge phase."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1065"
+          ],
+          "style": "p",
+          "source_nodes": [
+            {
+              "self_ref": "#/texts/1065",
+              "parent": {
+                "$ref": "#/body"
+              },
+              "children": [],
+              "content_layer": "body",
+              "label": "text",
+              "prov": [
+                {
+                  "page_no": 42,
+                  "bbox": {
+                    "l": 111.9685,
+                    "t": 364.6562,
+                    "r": 227.79099999999994,
+                    "b": 358.71516946564884,
+                    "coord_origin": "BOTTOMLEFT"
+                  },
+                  "charspan": [
+                    0,
+                    40
+                  ]
+                }
+              ],
+              "orig": "TARGET: One Vehicle unit from your army.",
+              "text": "TARGET: One Vehicle unit from your army."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1066"
+          ],
+          "style": "p",
+          "source_nodes": [
+            {
+              "self_ref": "#/texts/1066",
+              "parent": {
+                "$ref": "#/body"
+              },
+              "children": [],
+              "content_layer": "body",
+              "label": "text",
+              "prov": [
+                {
+                  "page_no": 42,
+                  "bbox": {
+                    "l": 111.9685,
+                    "t": 352.82120000000003,
+                    "r": 255.9159999999999,
+                    "b": 274.8801694656488,
+                    "coord_origin": "BOTTOMLEFT"
+                  },
+                  "charspan": [
+                    0,
+                    452
+                  ]
+                }
+              ],
+              "orig": "EFFECT: Until the end of the phase, after your unit ends a Charge move, select one enemy unit within Engagement Range of it, then select one melee weapon your unit is equipped with. Roll a number of D6 equal to that weapon's Strength characteristic. If that Strength characteristic is greater than that enemy unit's Toughness characteristic, roll two additional D6. For each 5+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds).",
+              "text": "EFFECT: Until the end of the phase, after your unit ends a Charge move, select one enemy unit within Engagement Range of it, then select one melee weapon your unit is equipped with. Roll a number of D6 equal to that weapon's Strength characteristic. If that Strength characteristic is greater than that enemy unit's Toughness characteristic, roll two additional D6. For each 5+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds)."
+            }
+          ]
+        }
+      ],
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1047",
+          "parent": {
+            "$ref": "#/pictures/98"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 84.4977,
+                "t": 386.2806,
+                "r": 99.2377,
+                "b": 378.3660961832061,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                3
+              ]
+            }
+          ],
+          "orig": "1CP",
+          "text": "1CP"
+        },
+        {
+          "self_ref": "#/texts/1061",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 111.7165,
+                "t": 427.5409,
+                "r": 168.47650000000004,
+                "b": 418.0434954198474,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                10
+              ]
+            }
+          ],
+          "orig": "TANK SHOCK",
+          "text": "TANK SHOCK",
+          "level": 1
+        },
+        {
+          "self_ref": "#/texts/1062",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 111.9685,
+                "t": 411.005,
+                "r": 192.2299,
+                "b": 406.2562977099237,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                31
+              ]
+            }
+          ],
+          "orig": "CORE - STRATEGIC PLOY STRATAGEM",
+          "text": "CORE - STRATEGIC PLOY STRATAGEM"
+        },
+        {
+          "self_ref": "#/texts/1063",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 111.9685,
+                "t": 398.7962,
+                "r": 256.3435,
+                "b": 383.760867393675,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                105
+              ]
+            }
+          ],
+          "orig": "Ramming the foe with a speeding vehicle may be an unsubtle tactic, but it is a murderously effective one.",
+          "text": "Ramming the foe with a speeding vehicle may be an unsubtle tactic, but it is a murderously effective one."
+        },
+        {
+          "self_ref": "#/texts/1064",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 111.9685,
+                "t": 376.4912,
+                "r": 184.1335,
+                "b": 370.5501694656488,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                24
+              ]
+            }
+          ],
+          "orig": "WHEN: Your Charge phase.",
+          "text": "WHEN: Your Charge phase."
+        },
+        {
+          "self_ref": "#/texts/1065",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 111.9685,
+                "t": 364.6562,
+                "r": 227.79099999999994,
+                "b": 358.71516946564884,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                40
+              ]
+            }
+          ],
+          "orig": "TARGET: One Vehicle unit from your army.",
+          "text": "TARGET: One Vehicle unit from your army."
+        },
+        {
+          "self_ref": "#/texts/1066",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 111.9685,
+                "t": 352.82120000000003,
+                "r": 255.9159999999999,
+                "b": 274.8801694656488,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                452
+              ]
+            }
+          ],
+          "orig": "EFFECT: Until the end of the phase, after your unit ends a Charge move, select one enemy unit within Engagement Range of it, then select one melee weapon your unit is equipped with. Roll a number of D6 equal to that weapon's Strength characteristic. If that Strength characteristic is greater than that enemy unit's Toughness characteristic, roll two additional D6. For each 5+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds).",
+          "text": "EFFECT: Until the end of the phase, after your unit ends a Charge move, select one enemy unit within Engagement Range of it, then select one melee weapon your unit is equipped with. Roll a number of D6 equal to that weapon's Strength characteristic. If that Strength characteristic is greater than that enemy unit's Toughness characteristic, roll two additional D6. For each 5+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds)."
+        }
+      ],
+      "name": "TANK SHOCK",
+      "cp_cost": 1,
+      "fields": {
+        "when": "Your Charge phase.",
+        "target": "One Vehicle unit from your army.",
+        "effect": "Until the end of the phase, after your unit ends a Charge move, select one enemy unit within Engagement Range of it, then select one melee weapon your unit is equipped with. Roll a number of D6 equal to that weapon's Strength characteristic. If that Strength characteristic is greater than that enemy unit's Toughness characteristic, roll two additional D6. For each 5+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds)."
+      }
+    },
+    {
+      "type": "card",
+      "title_ref": "#/texts/1067",
+      "cp_ref": "#/texts/1048",
+      "expected_cp": 1,
+      "source_refs": [
+        "#/texts/1067",
+        "#/texts/1048"
+      ],
+      "children": [
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1068"
+          ],
+          "style": "p",
+          "source_nodes": [
+            {
+              "self_ref": "#/texts/1068",
+              "parent": {
+                "$ref": "#/body"
+              },
+              "children": [],
+              "content_layer": "body",
+              "label": "text",
+              "prov": [
+                {
+                  "page_no": 42,
+                  "bbox": {
+                    "l": 111.9685,
+                    "t": 243.25160000000005,
+                    "r": 192.2299,
+                    "b": 238.50289770992367,
+                    "coord_origin": "BOTTOMLEFT"
+                  },
+                  "charspan": [
+                    0,
+                    31
+                  ]
+                }
+              ],
+              "orig": "CORE - STRATEGIC PLOY STRATAGEM",
+              "text": "CORE - STRATEGIC PLOY STRATAGEM"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1069"
+          ],
+          "style": "p",
+          "source_nodes": [
+            {
+              "self_ref": "#/texts/1069",
+              "parent": {
+                "$ref": "#/body"
+              },
+              "children": [],
+              "content_layer": "body",
+              "label": "text",
+              "prov": [
+                {
+                  "page_no": 42,
+                  "bbox": {
+                    "l": 111.9685,
+                    "t": 231.04269999999997,
+                    "r": 259.59850000000006,
+                    "b": 207.00736739367505,
+                    "coord_origin": "BOTTOMLEFT"
+                  },
+                  "charspan": [
+                    0,
+                    141
+                  ]
+                }
+              ],
+              "orig": "Be it cunning strategy, potent technology or supernatural ritual, there are many means by which a commander may hasten their warriors' onset.",
+              "text": "Be it cunning strategy, potent technology or supernatural ritual, there are many means by which a commander may hasten their warriors' onset."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1070"
+          ],
+          "style": "p",
+          "source_nodes": [
+            {
+              "self_ref": "#/texts/1070",
+              "parent": {
+                "$ref": "#/body"
+              },
+              "children": [],
+              "content_layer": "body",
+              "label": "text",
+              "prov": [
+                {
+                  "page_no": 42,
+                  "bbox": {
+                    "l": 111.9685,
+                    "t": 199.73770000000002,
+                    "r": 245.68449999999993,
+                    "b": 193.79666946564885,
+                    "coord_origin": "BOTTOMLEFT"
+                  },
+                  "charspan": [
+                    0,
+                    44
+                  ]
+                }
+              ],
+              "orig": "WHEN: End of your opponent's Movement phase.",
+              "text": "WHEN: End of your opponent's Movement phase."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1071"
+          ],
+          "style": "p",
+          "source_nodes": [
+            {
+              "self_ref": "#/texts/1071",
+              "parent": {
+                "$ref": "#/body"
+              },
+              "children": [],
+              "content_layer": "body",
+              "label": "text",
+              "prov": [
+                {
+                  "page_no": 42,
+                  "bbox": {
+                    "l": 111.9685,
+                    "t": 187.90269999999998,
+                    "r": 255.53275,
+                    "b": 181.9616694656488,
+                    "coord_origin": "BOTTOMLEFT"
+                  },
+                  "charspan": [
+                    0,
+                    52
+                  ]
+                }
+              ],
+              "orig": "TARGET: One unit from your army that is in Reserves.",
+              "text": "TARGET: One unit from your army that is in Reserves."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1072"
+          ],
+          "style": "p",
+          "source_nodes": [
+            {
+              "self_ref": "#/texts/1072",
+              "parent": {
+                "$ref": "#/body"
+              },
+              "children": [],
+              "content_layer": "body",
+              "label": "text",
+              "prov": [
+                {
+                  "page_no": 42,
+                  "bbox": {
+                    "l": 111.9685,
+                    "t": 176.06770000000006,
+                    "r": 235.64274999999995,
+                    "b": 152.1266694656489,
+                    "coord_origin": "BOTTOMLEFT"
+                  },
+                  "charspan": [
+                    0,
+                    109
+                  ]
+                }
+              ],
+              "orig": "EFFECT: Your unit can arrive on the battlefield as if it were the Reinforcements step of your Movement phase.",
+              "text": "EFFECT: Your unit can arrive on the battlefield as if it were the Reinforcements step of your Movement phase."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1073"
+          ],
+          "style": "p",
+          "source_nodes": [
+            {
+              "self_ref": "#/texts/1073",
+              "parent": {
+                "$ref": "#/body"
+              },
+              "children": [],
+              "content_layer": "body",
+              "label": "text",
+              "prov": [
+                {
+                  "page_no": 42,
+                  "bbox": {
+                    "l": 111.9685,
+                    "t": 146.23270000000002,
+                    "r": 256.89099999999996,
+                    "b": 122.29166946564885,
+                    "coord_origin": "BOTTOMLEFT"
+                  },
+                  "charspan": [
+                    0,
+                    154
+                  ]
+                }
+              ],
+              "orig": "RESTRICTIONS: You cannot use this Stratagem to enable a unit to arrive on the battlefield during a battle round it would not normally be able to do so in.",
+              "text": "RESTRICTIONS: You cannot use this Stratagem to enable a unit to arrive on the battlefield during a battle round it would not normally be able to do so in."
+            }
+          ]
+        }
+      ],
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1048",
+          "parent": {
+            "$ref": "#/pictures/99"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 84.4977,
+                "t": 218.52710000000002,
+                "r": 99.2377,
+                "b": 210.61259618320605,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                3
+              ]
+            }
+          ],
+          "orig": "1CP",
+          "text": "1CP"
+        },
+        {
+          "self_ref": "#/texts/1067",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 111.7165,
+                "t": 259.7874999999999,
+                "r": 181.0885,
+                "b": 250.29009541984738,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                13
+              ]
+            }
+          ],
+          "orig": "RAPID INGRESS",
+          "text": "RAPID INGRESS",
+          "level": 1
+        },
+        {
+          "self_ref": "#/texts/1068",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 111.9685,
+                "t": 243.25160000000005,
+                "r": 192.2299,
+                "b": 238.50289770992367,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                31
+              ]
+            }
+          ],
+          "orig": "CORE - STRATEGIC PLOY STRATAGEM",
+          "text": "CORE - STRATEGIC PLOY STRATAGEM"
+        },
+        {
+          "self_ref": "#/texts/1069",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 111.9685,
+                "t": 231.04269999999997,
+                "r": 259.59850000000006,
+                "b": 207.00736739367505,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                141
+              ]
+            }
+          ],
+          "orig": "Be it cunning strategy, potent technology or supernatural ritual, there are many means by which a commander may hasten their warriors' onset.",
+          "text": "Be it cunning strategy, potent technology or supernatural ritual, there are many means by which a commander may hasten their warriors' onset."
+        },
+        {
+          "self_ref": "#/texts/1070",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 111.9685,
+                "t": 199.73770000000002,
+                "r": 245.68449999999993,
+                "b": 193.79666946564885,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                44
+              ]
+            }
+          ],
+          "orig": "WHEN: End of your opponent's Movement phase.",
+          "text": "WHEN: End of your opponent's Movement phase."
+        },
+        {
+          "self_ref": "#/texts/1071",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 111.9685,
+                "t": 187.90269999999998,
+                "r": 255.53275,
+                "b": 181.9616694656488,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                52
+              ]
+            }
+          ],
+          "orig": "TARGET: One unit from your army that is in Reserves.",
+          "text": "TARGET: One unit from your army that is in Reserves."
+        },
+        {
+          "self_ref": "#/texts/1072",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 111.9685,
+                "t": 176.06770000000006,
+                "r": 235.64274999999995,
+                "b": 152.1266694656489,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                109
+              ]
+            }
+          ],
+          "orig": "EFFECT: Your unit can arrive on the battlefield as if it were the Reinforcements step of your Movement phase.",
+          "text": "EFFECT: Your unit can arrive on the battlefield as if it were the Reinforcements step of your Movement phase."
+        },
+        {
+          "self_ref": "#/texts/1073",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 111.9685,
+                "t": 146.23270000000002,
+                "r": 256.89099999999996,
+                "b": 122.29166946564885,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                154
+              ]
+            }
+          ],
+          "orig": "RESTRICTIONS: You cannot use this Stratagem to enable a unit to arrive on the battlefield during a battle round it would not normally be able to do so in.",
+          "text": "RESTRICTIONS: You cannot use this Stratagem to enable a unit to arrive on the battlefield during a battle round it would not normally be able to do so in."
+        }
+      ],
+      "name": "RAPID INGRESS",
+      "cp_cost": 1,
+      "fields": {
+        "when": "End of your opponent's Movement phase.",
+        "target": "One unit from your army that is in Reserves.",
+        "effect": "Your unit can arrive on the battlefield as if it were the Reinforcements step of your Movement phase.",
+        "restrictions": "You cannot use this Stratagem to enable a unit to arrive on the battlefield during a battle round it would not normally be able to do so in."
+      }
+    },
+    {
+      "type": "card",
+      "title_ref": "#/texts/1078",
+      "cp_ref": "#/texts/1074",
+      "expected_cp": 1,
+      "source_refs": [
+        "#/texts/1078",
+        "#/texts/1074"
+      ],
+      "children": [
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1079"
+          ],
+          "style": "p",
+          "source_nodes": [
+            {
+              "self_ref": "#/texts/1079",
+              "parent": {
+                "$ref": "#/body"
+              },
+              "children": [],
+              "content_layer": "body",
+              "label": "text",
+              "prov": [
+                {
+                  "page_no": 42,
+                  "bbox": {
+                    "l": 306.1417,
+                    "t": 710.8269,
+                    "r": 386.4030999999998,
+                    "b": 706.0781977099238,
+                    "coord_origin": "BOTTOMLEFT"
+                  },
+                  "charspan": [
+                    0,
+                    31
+                  ]
+                }
+              ],
+              "orig": "CORE - STRATEGIC PLOY STRATAGEM",
+              "text": "CORE - STRATEGIC PLOY STRATAGEM"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1080"
+          ],
+          "style": "p",
+          "source_nodes": [
+            {
+              "self_ref": "#/texts/1080",
+              "parent": {
+                "$ref": "#/body"
+              },
+              "children": [],
+              "content_layer": "body",
+              "label": "text",
+              "prov": [
+                {
+                  "page_no": 42,
+                  "bbox": {
+                    "l": 306.1417,
+                    "t": 698.6179999999999,
+                    "r": 436.1242000000002,
+                    "b": 692.582667393675,
+                    "coord_origin": "BOTTOMLEFT"
+                  },
+                  "charspan": [
+                    0,
+                    49
+                  ]
+                }
+              ],
+              "orig": "A hail of wildfire can drive back advancing foes.",
+              "text": "A hail of wildfire can drive back advancing foes."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1081"
+          ],
+          "style": "p",
+          "source_nodes": [
+            {
+              "self_ref": "#/texts/1081",
+              "parent": {
+                "$ref": "#/body"
+              },
+              "children": [],
+              "content_layer": "body",
+              "label": "text",
+              "prov": [
+                {
+                  "page_no": 42,
+                  "bbox": {
+                    "l": 306.1417,
+                    "t": 685.313,
+                    "r": 448.5442000000001,
+                    "b": 652.3719694656488,
+                    "coord_origin": "BOTTOMLEFT"
+                  },
+                  "charspan": [
+                    0,
+                    164
+                  ]
+                }
+              ],
+              "orig": "WHEN: Your opponent's Movement or Charge phase, just after an enemy unit is set up or when an enemy unit starts or ends a Normal, Advance, Fall Back or Charge move.",
+              "text": "WHEN: Your opponent's Movement or Charge phase, just after an enemy unit is set up or when an enemy unit starts or ends a Normal, Advance, Fall Back or Charge move."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1082"
+          ],
+          "style": "p",
+          "source_nodes": [
+            {
+              "self_ref": "#/texts/1082",
+              "parent": {
+                "$ref": "#/body"
+              },
+              "children": [],
+              "content_layer": "body",
+              "label": "text",
+              "prov": [
+                {
+                  "page_no": 42,
+                  "bbox": {
+                    "l": 306.1417,
+                    "t": 646.478,
+                    "r": 450.4342,
+                    "b": 622.5369694656488,
+                    "coord_origin": "BOTTOMLEFT"
+                  },
+                  "charspan": [
+                    0,
+                    137
+                  ]
+                }
+              ],
+              "orig": "TARGET: One unit from your army that is within 24\" of that enemy unit and that would be eligible to shoot if it were your Shooting phase.",
+              "text": "TARGET: One unit from your army that is within 24\" of that enemy unit and that would be eligible to shoot if it were your Shooting phase."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1083"
+          ],
+          "style": "p",
+          "source_nodes": [
+            {
+              "self_ref": "#/texts/1083",
+              "parent": {
+                "$ref": "#/body"
+              },
+              "children": [],
+              "content_layer": "body",
+              "label": "text",
+              "prov": [
+                {
+                  "page_no": 42,
+                  "bbox": {
+                    "l": 306.1417,
+                    "t": 616.6429999999999,
+                    "r": 444.4709499999999,
+                    "b": 601.7019694656487,
+                    "coord_origin": "BOTTOMLEFT"
+                  },
+                  "charspan": [
+                    0,
+                    78
+                  ]
+                }
+              ],
+              "orig": "EFFECT: Your unit can shoot that enemy unit as if it were your Shooting phase.",
+              "text": "EFFECT: Your unit can shoot that enemy unit as if it were your Shooting phase."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1084"
+          ],
+          "style": "p",
+          "source_nodes": [
+            {
+              "self_ref": "#/texts/1084",
+              "parent": {
+                "$ref": "#/body"
+              },
+              "children": [],
+              "content_layer": "body",
+              "label": "text",
+              "prov": [
+                {
+                  "page_no": 42,
+                  "bbox": {
+                    "l": 306.1417,
+                    "t": 595.8079999999999,
+                    "r": 445.8284499999998,
+                    "b": 544.8669694656487,
+                    "coord_origin": "BOTTOMLEFT"
+                  },
+                  "charspan": [
+                    0,
+                    271
+                  ]
+                }
+              ],
+              "orig": "RESTRICTIONS: Until the end of the phase, each time a model in your unit makes a ranged attack, an unmodified Hit roll of 6 is required to score a hit, irrespective of the attacking weapon's Ballistic Skill or any modifiers. You can only use this Stratagem once per turn.",
+              "text": "RESTRICTIONS: Until the end of the phase, each time a model in your unit makes a ranged attack, an unmodified Hit roll of 6 is required to score a hit, irrespective of the attacking weapon's Ballistic Skill or any modifiers. You can only use this Stratagem once per turn."
+            }
+          ]
+        }
+      ],
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1074",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 278.6709,
+                "t": 654.4482999999999,
+                "r": 293.41089999999997,
+                "b": 646.533796183206,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                3
+              ]
+            }
+          ],
+          "orig": "1CP",
+          "text": "1CP"
+        },
+        {
+          "self_ref": "#/texts/1078",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 305.8897,
+                "t": 727.3626999999999,
+                "r": 384.0457,
+                "b": 717.8652954198473,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                14
+              ]
+            }
+          ],
+          "orig": "FIRE OVERWATCH",
+          "text": "FIRE OVERWATCH",
+          "level": 1
+        },
+        {
+          "self_ref": "#/texts/1079",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 306.1417,
+                "t": 710.8269,
+                "r": 386.4030999999998,
+                "b": 706.0781977099238,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                31
+              ]
+            }
+          ],
+          "orig": "CORE - STRATEGIC PLOY STRATAGEM",
+          "text": "CORE - STRATEGIC PLOY STRATAGEM"
+        },
+        {
+          "self_ref": "#/texts/1080",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 306.1417,
+                "t": 698.6179999999999,
+                "r": 436.1242000000002,
+                "b": 692.582667393675,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                49
+              ]
+            }
+          ],
+          "orig": "A hail of wildfire can drive back advancing foes.",
+          "text": "A hail of wildfire can drive back advancing foes."
+        },
+        {
+          "self_ref": "#/texts/1081",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 306.1417,
+                "t": 685.313,
+                "r": 448.5442000000001,
+                "b": 652.3719694656488,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                164
+              ]
+            }
+          ],
+          "orig": "WHEN: Your opponent's Movement or Charge phase, just after an enemy unit is set up or when an enemy unit starts or ends a Normal, Advance, Fall Back or Charge move.",
+          "text": "WHEN: Your opponent's Movement or Charge phase, just after an enemy unit is set up or when an enemy unit starts or ends a Normal, Advance, Fall Back or Charge move."
+        },
+        {
+          "self_ref": "#/texts/1082",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 306.1417,
+                "t": 646.478,
+                "r": 450.4342,
+                "b": 622.5369694656488,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                137
+              ]
+            }
+          ],
+          "orig": "TARGET: One unit from your army that is within 24\" of that enemy unit and that would be eligible to shoot if it were your Shooting phase.",
+          "text": "TARGET: One unit from your army that is within 24\" of that enemy unit and that would be eligible to shoot if it were your Shooting phase."
+        },
+        {
+          "self_ref": "#/texts/1083",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 306.1417,
+                "t": 616.6429999999999,
+                "r": 444.4709499999999,
+                "b": 601.7019694656487,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                78
+              ]
+            }
+          ],
+          "orig": "EFFECT: Your unit can shoot that enemy unit as if it were your Shooting phase.",
+          "text": "EFFECT: Your unit can shoot that enemy unit as if it were your Shooting phase."
+        },
+        {
+          "self_ref": "#/texts/1084",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 306.1417,
+                "t": 595.8079999999999,
+                "r": 445.8284499999998,
+                "b": 544.8669694656487,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                271
+              ]
+            }
+          ],
+          "orig": "RESTRICTIONS: Until the end of the phase, each time a model in your unit makes a ranged attack, an unmodified Hit roll of 6 is required to score a hit, irrespective of the attacking weapon's Ballistic Skill or any modifiers. You can only use this Stratagem once per turn.",
+          "text": "RESTRICTIONS: Until the end of the phase, each time a model in your unit makes a ranged attack, an unmodified Hit roll of 6 is required to score a hit, irrespective of the attacking weapon's Ballistic Skill or any modifiers. You can only use this Stratagem once per turn."
+        }
+      ],
+      "name": "FIRE OVERWATCH",
+      "cp_cost": 1,
+      "fields": {
+        "when": "Your opponent's Movement or Charge phase, just after an enemy unit is set up or when an enemy unit starts or ends a Normal, Advance, Fall Back or Charge move.",
+        "target": "One unit from your army that is within 24\" of that enemy unit and that would be eligible to shoot if it were your Shooting phase.",
+        "effect": "Your unit can shoot that enemy unit as if it were your Shooting phase.",
+        "restrictions": "Until the end of the phase, each time a model in your unit makes a ranged attack, an unmodified Hit roll of 6 is required to score a hit, irrespective of the attacking weapon's Ballistic Skill or any modifiers. You can only use this Stratagem once per turn."
+      }
+    },
+    {
+      "type": "card",
+      "title_ref": "#/texts/1085",
+      "cp_ref": "#/texts/1075",
+      "expected_cp": 1,
+      "source_refs": [
+        "#/texts/1085",
+        "#/texts/1075"
+      ],
+      "children": [
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1086"
+          ],
+          "style": "p",
+          "source_nodes": [
+            {
+              "self_ref": "#/texts/1086",
+              "parent": {
+                "$ref": "#/body"
+              },
+              "children": [],
+              "content_layer": "body",
+              "label": "text",
+              "prov": [
+                {
+                  "page_no": 42,
+                  "bbox": {
+                    "l": 306.1417,
+                    "t": 513.2388,
+                    "r": 382.24509999999987,
+                    "b": 508.49009770992365,
+                    "coord_origin": "BOTTOMLEFT"
+                  },
+                  "charspan": [
+                    0,
+                    30
+                  ]
+                }
+              ],
+              "orig": "CORE - BATTLE TACTIC STRATAGEM",
+              "text": "CORE - BATTLE TACTIC STRATAGEM"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1087"
+          ],
+          "style": "p",
+          "source_nodes": [
+            {
+              "self_ref": "#/texts/1087",
+              "parent": {
+                "$ref": "#/body"
+              },
+              "children": [],
+              "content_layer": "body",
+              "label": "text",
+              "prov": [
+                {
+                  "page_no": 42,
+                  "bbox": {
+                    "l": 306.1417,
+                    "t": 501.0299,
+                    "r": 444.24670000000015,
+                    "b": 485.994567393675,
+                    "coord_origin": "BOTTOMLEFT"
+                  },
+                  "charspan": [
+                    0,
+                    97
+                  ]
+                }
+              ],
+              "orig": "Seeking salvation from incoming fire, warriors hurl themselves into whatever cover they can find.",
+              "text": "Seeking salvation from incoming fire, warriors hurl themselves into whatever cover they can find."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1088"
+          ],
+          "style": "p",
+          "source_nodes": [
+            {
+              "self_ref": "#/texts/1088",
+              "parent": {
+                "$ref": "#/body"
+              },
+              "children": [],
+              "content_layer": "body",
+              "label": "text",
+              "prov": [
+                {
+                  "page_no": 42,
+                  "bbox": {
+                    "l": 306.1417,
+                    "t": 478.4099,
+                    "r": 449.8109500000001,
+                    "b": 463.4688694656488,
+                    "coord_origin": "BOTTOMLEFT"
+                  },
+                  "charspan": [
+                    0,
+                    88
+                  ]
+                }
+              ],
+              "orig": "WHEN: Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
+              "text": "WHEN: Your opponent's Shooting phase, just after an enemy unit has selected its targets."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1089"
+          ],
+          "style": "p",
+          "source_nodes": [
+            {
+              "self_ref": "#/texts/1089",
+              "parent": {
+                "$ref": "#/body"
+              },
+              "children": [],
+              "content_layer": "body",
+              "label": "text",
+              "prov": [
+                {
+                  "page_no": 42,
+                  "bbox": {
+                    "l": 306.1417,
+                    "t": 457.5749,
+                    "r": 450.2767,
+                    "b": 433.63386946564884,
+                    "coord_origin": "BOTTOMLEFT"
+                  },
+                  "charspan": [
+                    0,
+                    120
+                  ]
+                }
+              ],
+              "orig": "TARGET: One Infantry unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+              "text": "TARGET: One Infantry unit from your army that was selected as the target of one or more of the attacking unit's attacks."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1090"
+          ],
+          "style": "p",
+          "source_nodes": [
+            {
+              "self_ref": "#/texts/1090",
+              "parent": {
+                "$ref": "#/body"
+              },
+              "children": [],
+              "content_layer": "body",
+              "label": "text",
+              "prov": [
+                {
+                  "page_no": 42,
+                  "bbox": {
+                    "l": 306.1417,
+                    "t": 427.73990000000003,
+                    "r": 446.2477000000001,
+                    "b": 403.79886946564886,
+                    "coord_origin": "BOTTOMLEFT"
+                  },
+                  "charspan": [
+                    0,
+                    126
+                  ]
+                }
+              ],
+              "orig": "EFFECT: Until the end of the phase, all models in your unit have a 6+ invulnerable save and have the Benefit of Cover (pg 44).",
+              "text": "EFFECT: Until the end of the phase, all models in your unit have a 6+ invulnerable save and have the Benefit of Cover (pg 44)."
+            }
+          ]
+        }
+      ],
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1075",
+          "parent": {
+            "$ref": "#/pictures/100"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 278.6709,
+                "t": 488.5142,
+                "r": 293.41089999999997,
+                "b": 480.5996961832061,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                3
+              ]
+            }
+          ],
+          "orig": "1CP",
+          "text": "1CP"
+        },
+        {
+          "self_ref": "#/texts/1085",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 305.8897,
+                "t": 529.7746999999999,
+                "r": 373.1497000000002,
+                "b": 520.2772954198473,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                12
+              ]
+            }
+          ],
+          "orig": "GO TO GROUND",
+          "text": "GO TO GROUND",
+          "level": 1
+        },
+        {
+          "self_ref": "#/texts/1086",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 306.1417,
+                "t": 513.2388,
+                "r": 382.24509999999987,
+                "b": 508.49009770992365,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                30
+              ]
+            }
+          ],
+          "orig": "CORE - BATTLE TACTIC STRATAGEM",
+          "text": "CORE - BATTLE TACTIC STRATAGEM"
+        },
+        {
+          "self_ref": "#/texts/1087",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 306.1417,
+                "t": 501.0299,
+                "r": 444.24670000000015,
+                "b": 485.994567393675,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                97
+              ]
+            }
+          ],
+          "orig": "Seeking salvation from incoming fire, warriors hurl themselves into whatever cover they can find.",
+          "text": "Seeking salvation from incoming fire, warriors hurl themselves into whatever cover they can find."
+        },
+        {
+          "self_ref": "#/texts/1088",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 306.1417,
+                "t": 478.4099,
+                "r": 449.8109500000001,
+                "b": 463.4688694656488,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                88
+              ]
+            }
+          ],
+          "orig": "WHEN: Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
+          "text": "WHEN: Your opponent's Shooting phase, just after an enemy unit has selected its targets."
+        },
+        {
+          "self_ref": "#/texts/1089",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 306.1417,
+                "t": 457.5749,
+                "r": 450.2767,
+                "b": 433.63386946564884,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                120
+              ]
+            }
+          ],
+          "orig": "TARGET: One Infantry unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+          "text": "TARGET: One Infantry unit from your army that was selected as the target of one or more of the attacking unit's attacks."
+        },
+        {
+          "self_ref": "#/texts/1090",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 306.1417,
+                "t": 427.73990000000003,
+                "r": 446.2477000000001,
+                "b": 403.79886946564886,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                126
+              ]
+            }
+          ],
+          "orig": "EFFECT: Until the end of the phase, all models in your unit have a 6+ invulnerable save and have the Benefit of Cover (pg 44).",
+          "text": "EFFECT: Until the end of the phase, all models in your unit have a 6+ invulnerable save and have the Benefit of Cover (pg 44)."
+        }
+      ],
+      "name": "GO TO GROUND",
+      "cp_cost": 1,
+      "fields": {
+        "when": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
+        "target": "One Infantry unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+        "effect": "Until the end of the phase, all models in your unit have a 6+ invulnerable save and have the Benefit of Cover (pg 44)."
+      }
+    },
+    {
+      "type": "card",
+      "title_ref": "#/texts/1091",
+      "cp_ref": "#/texts/1076",
+      "expected_cp": 1,
+      "source_refs": [
+        "#/texts/1091",
+        "#/texts/1076"
+      ],
+      "children": [
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1092"
+          ],
+          "style": "p",
+          "source_nodes": [
+            {
+              "self_ref": "#/texts/1092",
+              "parent": {
+                "$ref": "#/body"
+              },
+              "children": [],
+              "content_layer": "body",
+              "label": "text",
+              "prov": [
+                {
+                  "page_no": 42,
+                  "bbox": {
+                    "l": 306.1417,
+                    "t": 372.1703,
+                    "r": 372.0810999999998,
+                    "b": 367.4215977099237,
+                    "coord_origin": "BOTTOMLEFT"
+                  },
+                  "charspan": [
+                    0,
+                    24
+                  ]
+                }
+              ],
+              "orig": "CORE - WARGEAR STRATAGEM",
+              "text": "CORE - WARGEAR STRATAGEM"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1093"
+          ],
+          "style": "p",
+          "source_nodes": [
+            {
+              "self_ref": "#/texts/1093",
+              "parent": {
+                "$ref": "#/body"
+              },
+              "children": [],
+              "content_layer": "body",
+              "label": "text",
+              "prov": [
+                {
+                  "page_no": 42,
+                  "bbox": {
+                    "l": 306.1417,
+                    "t": 359.9614,
+                    "r": 456.1492000000002,
+                    "b": 344.92606739367505,
+                    "coord_origin": "BOTTOMLEFT"
+                  },
+                  "charspan": [
+                    0,
+                    92
+                  ]
+                }
+              ],
+              "orig": "Even the most skilled marksmen struggle to hit targets veiled by billowing screens of smoke.",
+              "text": "Even the most skilled marksmen struggle to hit targets veiled by billowing screens of smoke."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1094"
+          ],
+          "style": "p",
+          "source_nodes": [
+            {
+              "self_ref": "#/texts/1094",
+              "parent": {
+                "$ref": "#/body"
+              },
+              "children": [],
+              "content_layer": "body",
+              "label": "text",
+              "prov": [
+                {
+                  "page_no": 42,
+                  "bbox": {
+                    "l": 306.1417,
+                    "t": 337.3414,
+                    "r": 449.8109500000001,
+                    "b": 322.40036946564885,
+                    "coord_origin": "BOTTOMLEFT"
+                  },
+                  "charspan": [
+                    0,
+                    88
+                  ]
+                }
+              ],
+              "orig": "WHEN: Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
+              "text": "WHEN: Your opponent's Shooting phase, just after an enemy unit has selected its targets."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1095"
+          ],
+          "style": "p",
+          "source_nodes": [
+            {
+              "self_ref": "#/texts/1095",
+              "parent": {
+                "$ref": "#/body"
+              },
+              "children": [],
+              "content_layer": "body",
+              "label": "text",
+              "prov": [
+                {
+                  "page_no": 42,
+                  "bbox": {
+                    "l": 306.1417,
+                    "t": 316.50640000000004,
+                    "r": 450.2767,
+                    "b": 292.56536946564887,
+                    "coord_origin": "BOTTOMLEFT"
+                  },
+                  "charspan": [
+                    0,
+                    117
+                  ]
+                }
+              ],
+              "orig": "TARGET: One Smoke unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+              "text": "TARGET: One Smoke unit from your army that was selected as the target of one or more of the attacking unit's attacks."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1096"
+          ],
+          "style": "p",
+          "source_nodes": [
+            {
+              "self_ref": "#/texts/1096",
+              "parent": {
+                "$ref": "#/body"
+              },
+              "children": [],
+              "content_layer": "body",
+              "label": "text",
+              "prov": [
+                {
+                  "page_no": 42,
+                  "bbox": {
+                    "l": 306.1417,
+                    "t": 286.67140000000006,
+                    "r": 451.7602000000001,
+                    "b": 262.7303694656489,
+                    "coord_origin": "BOTTOMLEFT"
+                  },
+                  "charspan": [
+                    0,
+                    126
+                  ]
+                }
+              ],
+              "orig": "EFFECT: Until the end of the phase, all models in your unit have the Benefit of Cover (pg 44) and the Stealth ability (pg 20).",
+              "text": "EFFECT: Until the end of the phase, all models in your unit have the Benefit of Cover (pg 44) and the Stealth ability (pg 20)."
+            }
+          ]
+        }
+      ],
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1076",
+          "parent": {
+            "$ref": "#/pictures/101"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 278.6709,
+                "t": 347.4458,
+                "r": 293.41089999999997,
+                "b": 339.5312961832061,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                3
+              ]
+            }
+          ],
+          "orig": "1CP",
+          "text": "1CP"
+        },
+        {
+          "self_ref": "#/texts/1091",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 305.8897,
+                "t": 388.7062,
+                "r": 374.69770000000005,
+                "b": 379.2087954198474,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                11
+              ]
+            }
+          ],
+          "orig": "SMOKESCREEN",
+          "text": "SMOKESCREEN",
+          "level": 1
+        },
+        {
+          "self_ref": "#/texts/1092",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 306.1417,
+                "t": 372.1703,
+                "r": 372.0810999999998,
+                "b": 367.4215977099237,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                24
+              ]
+            }
+          ],
+          "orig": "CORE - WARGEAR STRATAGEM",
+          "text": "CORE - WARGEAR STRATAGEM"
+        },
+        {
+          "self_ref": "#/texts/1093",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 306.1417,
+                "t": 359.9614,
+                "r": 456.1492000000002,
+                "b": 344.92606739367505,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                92
+              ]
+            }
+          ],
+          "orig": "Even the most skilled marksmen struggle to hit targets veiled by billowing screens of smoke.",
+          "text": "Even the most skilled marksmen struggle to hit targets veiled by billowing screens of smoke."
+        },
+        {
+          "self_ref": "#/texts/1094",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 306.1417,
+                "t": 337.3414,
+                "r": 449.8109500000001,
+                "b": 322.40036946564885,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                88
+              ]
+            }
+          ],
+          "orig": "WHEN: Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
+          "text": "WHEN: Your opponent's Shooting phase, just after an enemy unit has selected its targets."
+        },
+        {
+          "self_ref": "#/texts/1095",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 306.1417,
+                "t": 316.50640000000004,
+                "r": 450.2767,
+                "b": 292.56536946564887,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                117
+              ]
+            }
+          ],
+          "orig": "TARGET: One Smoke unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+          "text": "TARGET: One Smoke unit from your army that was selected as the target of one or more of the attacking unit's attacks."
+        },
+        {
+          "self_ref": "#/texts/1096",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 306.1417,
+                "t": 286.67140000000006,
+                "r": 451.7602000000001,
+                "b": 262.7303694656489,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                126
+              ]
+            }
+          ],
+          "orig": "EFFECT: Until the end of the phase, all models in your unit have the Benefit of Cover (pg 44) and the Stealth ability (pg 20).",
+          "text": "EFFECT: Until the end of the phase, all models in your unit have the Benefit of Cover (pg 44) and the Stealth ability (pg 20)."
+        }
+      ],
+      "name": "SMOKESCREEN",
+      "cp_cost": 1,
+      "fields": {
+        "when": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
+        "target": "One Smoke unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+        "effect": "Until the end of the phase, all models in your unit have the Benefit of Cover (pg 44) and the Stealth ability (pg 20)."
+      }
+    },
+    {
+      "type": "card",
+      "title_ref": "#/texts/1097",
+      "cp_ref": "#/texts/1077",
+      "expected_cp": 2,
+      "source_refs": [
+        "#/texts/1097",
+        "#/texts/1077"
+      ],
+      "children": [
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1098"
+          ],
+          "style": "p",
+          "source_nodes": [
+            {
+              "self_ref": "#/texts/1098",
+              "parent": {
+                "$ref": "#/body"
+              },
+              "children": [],
+              "content_layer": "body",
+              "label": "text",
+              "prov": [
+                {
+                  "page_no": 42,
+                  "bbox": {
+                    "l": 306.1417,
+                    "t": 231.1019,
+                    "r": 386.4030999999998,
+                    "b": 226.35319770992373,
+                    "coord_origin": "BOTTOMLEFT"
+                  },
+                  "charspan": [
+                    0,
+                    31
+                  ]
+                }
+              ],
+              "orig": "CORE - STRATEGIC PLOY STRATAGEM",
+              "text": "CORE - STRATEGIC PLOY STRATAGEM"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1099"
+          ],
+          "style": "p",
+          "source_nodes": [
+            {
+              "self_ref": "#/texts/1099",
+              "parent": {
+                "$ref": "#/body"
+              },
+              "children": [],
+              "content_layer": "body",
+              "label": "text",
+              "prov": [
+                {
+                  "page_no": 42,
+                  "bbox": {
+                    "l": 306.1417,
+                    "t": 218.89300000000003,
+                    "r": 452.07670000000013,
+                    "b": 203.857667393675,
+                    "coord_origin": "BOTTOMLEFT"
+                  },
+                  "charspan": [
+                    0,
+                    100
+                  ]
+                }
+              ],
+              "orig": "Voices raised in furious war cries, your warriors surge forth to meet the enemy's onslaught head-on.",
+              "text": "Voices raised in furious war cries, your warriors surge forth to meet the enemy's onslaught head-on."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1100"
+          ],
+          "style": "p",
+          "source_nodes": [
+            {
+              "self_ref": "#/texts/1100",
+              "parent": {
+                "$ref": "#/body"
+              },
+              "children": [],
+              "content_layer": "body",
+              "label": "text",
+              "prov": [
+                {
+                  "page_no": 42,
+                  "bbox": {
+                    "l": 306.1417,
+                    "t": 196.58799999999997,
+                    "r": 444.50095000000005,
+                    "b": 181.6469694656489,
+                    "coord_origin": "BOTTOMLEFT"
+                  },
+                  "charspan": [
+                    0,
+                    80
+                  ]
+                }
+              ],
+              "orig": "WHEN: Your opponent's Charge phase, just after an enemy unit ends a Charge move.",
+              "text": "WHEN: Your opponent's Charge phase, just after an enemy unit ends a Charge move."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1101"
+          ],
+          "style": "p",
+          "source_nodes": [
+            {
+              "self_ref": "#/texts/1101",
+              "parent": {
+                "$ref": "#/body"
+              },
+              "children": [],
+              "content_layer": "body",
+              "label": "text",
+              "prov": [
+                {
+                  "page_no": 42,
+                  "bbox": {
+                    "l": 306.1417,
+                    "t": 175.75299999999993,
+                    "r": 444.50170000000014,
+                    "b": 142.81196946564887,
+                    "coord_origin": "BOTTOMLEFT"
+                  },
+                  "charspan": [
+                    0,
+                    164
+                  ]
+                }
+              ],
+              "orig": "TARGET: One unit from your army that is within 6\" of that enemy unit and would be eligible to declare a charge against that enemy unit if it were your Charge phase.",
+              "text": "TARGET: One unit from your army that is within 6\" of that enemy unit and would be eligible to declare a charge against that enemy unit if it were your Charge phase."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1102"
+          ],
+          "style": "p",
+          "source_nodes": [
+            {
+              "self_ref": "#/texts/1102",
+              "parent": {
+                "$ref": "#/body"
+              },
+              "children": [],
+              "content_layer": "body",
+              "label": "text",
+              "prov": [
+                {
+                  "page_no": 42,
+                  "bbox": {
+                    "l": 306.1417,
+                    "t": 136.918,
+                    "r": 450.75595000000004,
+                    "b": 112.97696946564884,
+                    "coord_origin": "BOTTOMLEFT"
+                  },
+                  "charspan": [
+                    0,
+                    135
+                  ]
+                }
+              ],
+              "orig": "EFFECT: Your unit now declares a charge that targets only that enemy unit, and you resolve that charge as if it were your Charge phase.",
+              "text": "EFFECT: Your unit now declares a charge that targets only that enemy unit, and you resolve that charge as if it were your Charge phase."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1103"
+          ],
+          "style": "p",
+          "source_nodes": [
+            {
+              "self_ref": "#/texts/1103",
+              "parent": {
+                "$ref": "#/body"
+              },
+              "children": [],
+              "content_layer": "body",
+              "label": "text",
+              "prov": [
+                {
+                  "page_no": 42,
+                  "bbox": {
+                    "l": 306.1417,
+                    "t": 107.08299999999997,
+                    "r": 448.63419999999996,
+                    "b": 74.1419694656488,
+                    "coord_origin": "BOTTOMLEFT"
+                  },
+                  "charspan": [
+                    0,
+                    190
+                  ]
+                }
+              ],
+              "orig": "RESTRICTIONS: You can only select a Vehicle unit from your army if it is a Walker. Note that even if this charge is successful, your unit does not receive any Charge bonus this turn (pg 29).",
+              "text": "RESTRICTIONS: You can only select a Vehicle unit from your army if it is a Walker. Note that even if this charge is successful, your unit does not receive any Charge bonus this turn (pg 29)."
+            }
+          ]
+        }
+      ],
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1077",
+          "parent": {
+            "$ref": "#/pictures/102"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 278.6709,
+                "t": 206.37740000000008,
+                "r": 293.41089999999997,
+                "b": 198.4628961832061,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                3
+              ]
+            }
+          ],
+          "orig": "2CP",
+          "text": "2CP"
+        },
+        {
+          "self_ref": "#/texts/1097",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 305.8897,
+                "t": 247.63779999999997,
+                "r": 408.77770000000015,
+                "b": 238.14039541984732,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                19
+              ]
+            }
+          ],
+          "orig": "HEROIC INTERVENTION",
+          "text": "HEROIC INTERVENTION",
+          "level": 1
+        },
+        {
+          "self_ref": "#/texts/1098",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 306.1417,
+                "t": 231.1019,
+                "r": 386.4030999999998,
+                "b": 226.35319770992373,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                31
+              ]
+            }
+          ],
+          "orig": "CORE - STRATEGIC PLOY STRATAGEM",
+          "text": "CORE - STRATEGIC PLOY STRATAGEM"
+        },
+        {
+          "self_ref": "#/texts/1099",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 306.1417,
+                "t": 218.89300000000003,
+                "r": 452.07670000000013,
+                "b": 203.857667393675,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                100
+              ]
+            }
+          ],
+          "orig": "Voices raised in furious war cries, your warriors surge forth to meet the enemy's onslaught head-on.",
+          "text": "Voices raised in furious war cries, your warriors surge forth to meet the enemy's onslaught head-on."
+        },
+        {
+          "self_ref": "#/texts/1100",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 306.1417,
+                "t": 196.58799999999997,
+                "r": 444.50095000000005,
+                "b": 181.6469694656489,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                80
+              ]
+            }
+          ],
+          "orig": "WHEN: Your opponent's Charge phase, just after an enemy unit ends a Charge move.",
+          "text": "WHEN: Your opponent's Charge phase, just after an enemy unit ends a Charge move."
+        },
+        {
+          "self_ref": "#/texts/1101",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 306.1417,
+                "t": 175.75299999999993,
+                "r": 444.50170000000014,
+                "b": 142.81196946564887,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                164
+              ]
+            }
+          ],
+          "orig": "TARGET: One unit from your army that is within 6\" of that enemy unit and would be eligible to declare a charge against that enemy unit if it were your Charge phase.",
+          "text": "TARGET: One unit from your army that is within 6\" of that enemy unit and would be eligible to declare a charge against that enemy unit if it were your Charge phase."
+        },
+        {
+          "self_ref": "#/texts/1102",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 306.1417,
+                "t": 136.918,
+                "r": 450.75595000000004,
+                "b": 112.97696946564884,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                135
+              ]
+            }
+          ],
+          "orig": "EFFECT: Your unit now declares a charge that targets only that enemy unit, and you resolve that charge as if it were your Charge phase.",
+          "text": "EFFECT: Your unit now declares a charge that targets only that enemy unit, and you resolve that charge as if it were your Charge phase."
+        },
+        {
+          "self_ref": "#/texts/1103",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 306.1417,
+                "t": 107.08299999999997,
+                "r": 448.63419999999996,
+                "b": 74.1419694656488,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                190
+              ]
+            }
+          ],
+          "orig": "RESTRICTIONS: You can only select a Vehicle unit from your army if it is a Walker. Note that even if this charge is successful, your unit does not receive any Charge bonus this turn (pg 29).",
+          "text": "RESTRICTIONS: You can only select a Vehicle unit from your army if it is a Walker. Note that even if this charge is successful, your unit does not receive any Charge bonus this turn (pg 29)."
+        }
+      ],
+      "name": "HEROIC INTERVENTION",
+      "cp_cost": 2,
+      "fields": {
+        "when": "Your opponent's Charge phase, just after an enemy unit ends a Charge move.",
+        "target": "One unit from your army that is within 6\" of that enemy unit and would be eligible to declare a charge against that enemy unit if it were your Charge phase.",
+        "effect": "Your unit now declares a charge that targets only that enemy unit, and you resolve that charge as if it were your Charge phase.",
+        "restrictions": "You can only select a Vehicle unit from your army if it is a Walker. Note that even if this charge is successful, your unit does not receive any Charge bonus this turn (pg 29)."
+      }
+    }
+  ],
+  "excluded_text": [
+    {
+      "node": {
+        "self_ref": "#/texts/1104",
+        "parent": {
+          "$ref": "#/pictures/103"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 42,
+            "bbox": {
+              "l": 538.3646,
+              "t": 100.24450000000002,
+              "r": 548.5646,
+              "b": 92.32999618320605,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              2
+            ]
+          }
+        ],
+        "orig": "42",
+        "text": "42"
+      },
+      "reason": "Page furniture"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/1105",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "furniture",
+        "label": "page_footer",
+        "prov": [
+          {
+            "page_no": 42,
+            "bbox": {
+              "l": 354.7414,
+              "t": 50.00040000000001,
+              "r": 456.37840000000006,
+              "b": 42.08589618320616,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              23
+            ]
+          }
+        ],
+        "orig": "CORE RULES | STRATAGEMS",
+        "text": "CORE RULES | STRATAGEMS"
+      },
+      "reason": "Page furniture"
+    }
+  ],
+  "review_notes": [
+    "All cards retain WHEN/TARGET/EFFECT/RESTRICTIONS from this PDF, not updated external game rules."
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "page": 36,
+  "source_sha256": "4d0e8019cbfddd6f46781d5b4ed31d46fb21eb2d0d10a0f6fabefac0ce054364",
+  "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+  "blocks": [
+    {
+      "type": "text",
+      "text": "FIGHT — illustrated example",
+      "style": "h1"
+    },
+    {
+      "type": "image",
+      "id": "fight_ab",
+      "title": "A/B — Pile in and eligible attacks",
+      "bbox": [
+        84.08671258047134,
+        72.62311264226412,
+        457.5957502644523,
+        390.84072881749535
+      ],
+      "captions": [
+        [
+          "#/texts/851"
+        ],
+        [
+          "#/texts/852",
+          "#/texts/853",
+          "#/texts/854",
+          "#/texts/855",
+          "#/texts/856"
+        ]
+      ],
+      "source_refs": [
+        "#/pictures/73"
+      ]
+    },
+    {
+      "type": "image",
+      "id": "fight_c",
+      "title": "C — Consolidation",
+      "bbox": [
+        84.53199634183039,
+        398.8666359925546,
+        457.32149260429003,
+        721.2032754162998
+      ],
+      "captions": [
+        [
+          "#/texts/859",
+          "#/texts/860"
+        ]
+      ],
+      "source_refs": [
+        "#/pictures/74"
+      ]
+    }
+  ],
+  "excluded_text": {
+    "#/texts/857": "A/B/C markers retained in figure and caption",
+    "#/texts/858": "A/B/C markers retained in figure and caption",
+    "#/texts/861": "A/B/C markers retained in figure and caption",
+    "#/texts/862": "Navigation/page furniture",
+    "#/texts/863": "Navigation/page furniture",
+    "#/texts/864": "Navigation/page furniture",
+    "#/texts/865": "Navigation/page furniture",
+    "#/texts/866": "Navigation/page furniture",
+    "#/texts/867": "Navigation/page furniture"
+  },
+  "review_notes": [],
+  "schema_version": 1,
+  "handler": "blocks"
+}

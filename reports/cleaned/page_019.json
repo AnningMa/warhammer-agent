@@ -1,0 +1,1118 @@
+{
+  "page": 19,
+  "rules": {
+    "page": 19,
+    "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+    "keep_refs": [
+      "#/texts/443",
+      "#/texts/444",
+      "#/texts/445",
+      "#/texts/447",
+      "#/texts/449",
+      "#/texts/451",
+      "#/texts/453",
+      "#/texts/454",
+      "#/texts/455",
+      "#/texts/456",
+      "#/texts/457",
+      "#/texts/458",
+      "#/texts/459",
+      "#/texts/460",
+      "#/texts/461",
+      "#/texts/462",
+      "#/texts/463",
+      "#/texts/464",
+      "#/texts/465",
+      "#/texts/466",
+      "#/texts/467"
+    ],
+    "omit_reasons": {
+      "#/texts/438": "Phase navigation or printed page number",
+      "#/texts/439": "Phase navigation or printed page number",
+      "#/texts/440": "Phase navigation or printed page number",
+      "#/texts/441": "Phase navigation or printed page number",
+      "#/texts/442": "Phase navigation or printed page number",
+      "#/texts/446": "Step number merged with the corresponding ordered-list item",
+      "#/texts/448": "Step number merged with the corresponding ordered-list item",
+      "#/texts/450": "Step number merged with the corresponding ordered-list item",
+      "#/texts/452": "Step number merged with the corresponding ordered-list item",
+      "#/texts/468": "Page footer"
+    },
+    "heading_overrides": {
+      "#/texts/458": "2. SELECT TARGETS"
+    },
+    "heading_levels": {
+      "#/texts/443": 1,
+      "#/texts/458": 2,
+      "#/texts/465": 2
+    },
+    "ordered_items": {
+      "#/texts/447": 1,
+      "#/texts/449": 2,
+      "#/texts/451": 3,
+      "#/texts/453": 4
+    },
+    "headings_before": {
+      "#/texts/454": {
+        "text": "1. SELECT ELIGIBLE UNIT",
+        "level": 2,
+        "source_refs": [
+          "#/texts/446",
+          "#/texts/447"
+        ],
+        "reason": "Use the first overview step as the heading for its corresponding eligibility paragraphs"
+      }
+    },
+    "scope": "SHOOTING PHASE is the sole H1. Sidebar becomes a numbered sequence. Detailed steps and independent Lone Operative ability are H2; no invented step 3/4 body on this page."
+  },
+  "kept_nodes": [
+    {
+      "self_ref": "#/texts/443",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 19,
+          "bbox": {
+            "l": 153.0708,
+            "t": 718.5147,
+            "r": 403.77480000000014,
+            "b": 689.9482877862596,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "SHOOTING PHASE",
+      "text": "SHOOTING PHASE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/444",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 19,
+          "bbox": {
+            "l": 153.0708,
+            "t": 678.8197,
+            "r": 518.5272500000004,
+            "b": 661.2974213740458,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            176
+          ]
+        }
+      ],
+      "orig": "Guns thunder and shrapnel flies through the air. Bursts of muzzle flare and beams of las-fire illuminate the fog of war, and spent ammunition cartridges litter the battlefield.",
+      "text": "Guns thunder and shrapnel flies through the air. Bursts of muzzle flare and beams of las-fire illuminate the fog of war, and spent ammunition cartridges litter the battlefield."
+    },
+    {
+      "self_ref": "#/texts/445",
+      "parent": {
+        "$ref": "#/pictures/39"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 19,
+          "bbox": {
+            "l": 161.5748,
+            "t": 598.3682,
+            "r": 279.9602499999999,
+            "b": 580.824483619818,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            46
+          ]
+        }
+      ],
+      "orig": "Use the following sequence when a unit shoots.",
+      "text": "Use the following sequence when a unit shoots."
+    },
+    {
+      "self_ref": "#/texts/447",
+      "parent": {
+        "$ref": "#/pictures/39"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 19,
+          "bbox": {
+            "l": 173.5824,
+            "t": 550.3947,
+            "r": 273.56880000000007,
+            "b": 540.8972954198473,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "SELECT ELIGIBLE UNIT",
+      "text": "SELECT ELIGIBLE UNIT",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/449",
+      "parent": {
+        "$ref": "#/pictures/39"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 19,
+          "bbox": {
+            "l": 185.6944,
+            "t": 510.3947,
+            "r": 261.4564,
+            "b": 500.89729541984735,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "SELECT TARGETS",
+      "text": "SELECT TARGETS",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/451",
+      "parent": {
+        "$ref": "#/pictures/39"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 19,
+          "bbox": {
+            "l": 170.316,
+            "t": 470.3947,
+            "r": 276.8340000000002,
+            "b": 460.89729541984735,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        }
+      ],
+      "orig": "MAKE RANGED ATTACKS",
+      "text": "MAKE RANGED ATTACKS"
+    },
+    {
+      "self_ref": "#/texts/453",
+      "parent": {
+        "$ref": "#/pictures/39"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 19,
+          "bbox": {
+            "l": 183.4648,
+            "t": 430.3947,
+            "r": 263.6788,
+            "b": 410.9012954198474,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            29
+          ]
+        }
+      ],
+      "orig": "REPEAT FOR NEXT ELIGIBLE UNIT",
+      "text": "REPEAT FOR NEXT ELIGIBLE UNIT"
+    },
+    {
+      "self_ref": "#/texts/454",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 19,
+          "bbox": {
+            "l": 306.1417,
+            "t": 638.3682,
+            "r": 514.3900000000003,
+            "b": 590.8364836198181,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            294
+          ]
+        }
+      ],
+      "orig": "In your Shooting phase, if you have one or more eligible units from your army on the battlefield, you can select those units, one at a time, and shoot with them. Each unit can only be selected to shoot once per phase. Once all of the units you selected have shot, progress to your Charge phase.",
+      "text": "In your Shooting phase, if you have one or more eligible units from your army on the battlefield, you can select those units, one at a time, and shoot with them. Each unit can only be selected to shoot once per phase. Once all of the units you selected have shot, progress to your Charge phase."
+    },
+    {
+      "self_ref": "#/texts/455",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 19,
+          "bbox": {
+            "l": 306.1417,
+            "t": 578.3837000000001,
+            "r": 505.69365000000033,
+            "b": 570.8359836198181,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            62
+          ]
+        }
+      ],
+      "orig": "A unit is eligible to shoot unless any of the following apply:",
+      "text": "A unit is eligible to shoot unless any of the following apply:"
+    },
+    {
+      "self_ref": "#/texts/456",
+      "parent": {
+        "$ref": "#/groups/23"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 19,
+          "bbox": {
+            "l": 306.1417,
+            "t": 558.9207,
+            "r": 414.92384999999996,
+            "b": 550.820483619818,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "■That unit Advanced this turn.",
+      "text": "■That unit Advanced this turn.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/457",
+      "parent": {
+        "$ref": "#/groups/23"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 19,
+          "bbox": {
+            "l": 306.1417,
+            "t": 548.9207,
+            "r": 411.6545000000001,
+            "b": 540.820483619818,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            32
+          ]
+        }
+      ],
+      "orig": "■ That unit Fell Back this turn.",
+      "text": "■ That unit Fell Back this turn.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/458",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 19,
+          "bbox": {
+            "l": 306.1417,
+            "t": 530.3947,
+            "r": 381.9036999999999,
+            "b": 520.8972954198473,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "SELECT TARGETS",
+      "text": "SELECT TARGETS",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/459",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 19,
+          "bbox": {
+            "l": 306.1417,
+            "t": 518.3682,
+            "r": 521.3846500000001,
+            "b": 430.85248361981814,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            563
+          ]
+        }
+      ],
+      "orig": "Each time a unit shoots, before any attacks are resolved, you must select the enemy units that will be the targets for all of the ranged weapons you wish its models to make attacks with. Each time you select a target for a model's ranged weapon, you can only select an enemy unit as the target if at least one model in that unit is both within range of that weapon and visible to that attacking model (pg 8). An enemy model is within range of a weapon if the distance between it and the attacking model is equal to or less than that weapon's Range characteristic.",
+      "text": "Each time a unit shoots, before any attacks are resolved, you must select the enemy units that will be the targets for all of the ranged weapons you wish its models to make attacks with. Each time you select a target for a model's ranged weapon, you can only select an enemy unit as the target if at least one model in that unit is both within range of that weapon and visible to that attacking model (pg 8). An enemy model is within range of a weapon if the distance between it and the attacking model is equal to or less than that weapon's Range characteristic."
+    },
+    {
+      "self_ref": "#/texts/460",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 19,
+          "bbox": {
+            "l": 306.1417,
+            "t": 418.39970000000017,
+            "r": 524.1386500000001,
+            "b": 320.8879836198183,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            599
+          ]
+        }
+      ],
+      "orig": "If a model has more than one ranged weapon, it can shoot all of them at the same target or it can shoot each of them at a different target, but it cannot split attacks from the same weapon across more than one target. Similarly, if a unit has more than one model, those models can shoot at the same or different targets. In any case, when you select a target unit you must declare which models will target that unit with which weapons before any attacks are resolved. If any of these weapons have more than one profile that you must choose between, you must also declare which profile is being used.",
+      "text": "If a model has more than one ranged weapon, it can shoot all of them at the same target or it can shoot each of them at a different target, but it cannot split attacks from the same weapon across more than one target. Similarly, if a unit has more than one model, those models can shoot at the same or different targets. In any case, when you select a target unit you must declare which models will target that unit with which weapons before any attacks are resolved. If any of these weapons have more than one profile that you must choose between, you must also declare which profile is being used."
+    },
+    {
+      "self_ref": "#/texts/461",
+      "parent": {
+        "$ref": "#/groups/24"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 19,
+          "bbox": {
+            "l": 317.4803,
+            "t": 302.67859999999996,
+            "r": 485.0779500000004,
+            "b": 283.4302717557252,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            73
+          ]
+        }
+      ],
+      "orig": "■ Before a unit shoots, select the targets for all of its ranged weapons.",
+      "text": "■ Before a unit shoots, select the targets for all of its ranged weapons.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/462",
+      "parent": {
+        "$ref": "#/groups/24"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 19,
+          "bbox": {
+            "l": 317.4803,
+            "t": 282.67859999999996,
+            "r": 494.69825000000026,
+            "b": 253.43427175572515,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            121
+          ]
+        }
+      ],
+      "orig": "■ At least one model in the target unit must be visible to the attacking model and within range of the weapon being used.",
+      "text": "■ At least one model in the target unit must be visible to the attacking model and within range of the weapon being used.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/463",
+      "parent": {
+        "$ref": "#/groups/24"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 19,
+          "bbox": {
+            "l": 317.4803,
+            "t": 252.67859999999996,
+            "r": 504.08310000000046,
+            "b": 213.43827175572517,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            172
+          ]
+        }
+      ],
+      "orig": "■ Models with more than one ranged weapon can shoot them at the same or different targets, but models cannot split attacks from the same weapon across more than one target.",
+      "text": "■ Models with more than one ranged weapon can shoot them at the same or different targets, but models cannot split attacks from the same weapon across more than one target.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/464",
+      "parent": {
+        "$ref": "#/groups/24"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 19,
+          "bbox": {
+            "l": 317.4803,
+            "t": 212.67859999999996,
+            "r": 480.3927500000004,
+            "b": 193.43027175572524,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            69
+          ]
+        }
+      ],
+      "orig": "■ Models in the same unit can shoot at the same or different targets.",
+      "text": "■ Models in the same unit can shoot at the same or different targets.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/465",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 19,
+          "bbox": {
+            "l": 317.4803,
+            "t": 160.39470000000006,
+            "r": 393.41029999999995,
+            "b": 150.8972954198473,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "LONE OPERATIVE",
+      "text": "LONE OPERATIVE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/466",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 19,
+          "bbox": {
+            "l": 314.6456,
+            "t": 138.3682,
+            "r": 505.5981000000003,
+            "b": 120.85061616766461,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            106
+          ]
+        }
+      ],
+      "orig": "Assassins and other covert agents are difficult to track and pinpoint in the swirling maelstrom of battle.",
+      "text": "Assassins and other covert agents are difficult to track and pinpoint in the swirling maelstrom of battle."
+    },
+    {
+      "self_ref": "#/texts/467",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 19,
+          "bbox": {
+            "l": 314.6456,
+            "t": 108.37170000000003,
+            "r": 509.5038500000003,
+            "b": 80.83198361981795,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            156
+          ]
+        }
+      ],
+      "orig": "Unless part of an Attached unit (see Leader, page 39), this unit can only be selected as the target of a ranged attack if the attacking model is within 12\".",
+      "text": "Unless part of an Attached unit (see Leader, page 39), this unit can only be selected as the target of a ranged attack if the attacking model is within 12\"."
+    }
+  ],
+  "omitted_nodes": [
+    {
+      "node": {
+        "self_ref": "#/texts/438",
+        "parent": {
+          "$ref": "#/pictures/38"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 19,
+            "bbox": {
+              "l": 62.1818,
+              "t": 717.5597,
+              "r": 69.7868,
+              "b": 705.6879442748092,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "1",
+        "text": "1"
+      },
+      "reason": "Phase navigation or printed page number"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/439",
+        "parent": {
+          "$ref": "#/pictures/38"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 19,
+            "bbox": {
+              "l": 62.1818,
+              "t": 687.5597,
+              "r": 69.7868,
+              "b": 675.6879442748092,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "2",
+        "text": "2"
+      },
+      "reason": "Phase navigation or printed page number"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/440",
+        "parent": {
+          "$ref": "#/pictures/38"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 19,
+            "bbox": {
+              "l": 62.1818,
+              "t": 597.5597,
+              "r": 69.7868,
+              "b": 585.6879442748092,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "4",
+        "text": "4"
+      },
+      "reason": "Phase navigation or printed page number"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/441",
+        "parent": {
+          "$ref": "#/pictures/38"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 19,
+            "bbox": {
+              "l": 62.1818,
+              "t": 567.5597,
+              "r": 69.7868,
+              "b": 555.6879442748092,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "5",
+        "text": "5"
+      },
+      "reason": "Phase navigation or printed page number"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/442",
+        "parent": {
+          "$ref": "#/pictures/38"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 19,
+            "bbox": {
+              "l": 61.2393,
+              "t": 100.24450000000002,
+              "r": 70.7293,
+              "b": 92.32999618320605,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              2
+            ]
+          }
+        ],
+        "orig": "19",
+        "text": "19"
+      },
+      "reason": "Phase navigation or printed page number"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/446",
+        "parent": {
+          "$ref": "#/pictures/39"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 19,
+            "bbox": {
+              "l": 220.8233,
+              "t": 568.3897,
+              "r": 225.89329999999998,
+              "b": 560.4751961832061,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "1",
+        "text": "1"
+      },
+      "reason": "Step number merged with the corresponding ordered-list item"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/448",
+        "parent": {
+          "$ref": "#/pictures/39"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 19,
+            "bbox": {
+              "l": 220.8233,
+              "t": 528.7805,
+              "r": 225.89329999999998,
+              "b": 520.8659961832061,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "2",
+        "text": "2"
+      },
+      "reason": "Step number merged with the corresponding ordered-list item"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/450",
+        "parent": {
+          "$ref": "#/pictures/39"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 19,
+            "bbox": {
+              "l": 220.8233,
+              "t": 488.7805,
+              "r": 225.89329999999998,
+              "b": 480.8659961832061,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "3",
+        "text": "3"
+      },
+      "reason": "Step number merged with the corresponding ordered-list item"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/452",
+        "parent": {
+          "$ref": "#/pictures/39"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 19,
+            "bbox": {
+              "l": 220.8233,
+              "t": 448.7805,
+              "r": 225.89329999999998,
+              "b": 440.8659961832061,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "4",
+        "text": "4"
+      },
+      "reason": "Step number merged with the corresponding ordered-list item"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/468",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "furniture",
+        "label": "page_footer",
+        "prov": [
+          {
+            "page_no": 19,
+            "bbox": {
+              "l": 152.8346,
+              "t": 50.00040000000001,
+              "r": 270.7096000000001,
+              "b": 42.08589618320616,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              27
+            ]
+          }
+        ],
+        "orig": "CORE RULES | SHOOTING PHASE",
+        "text": "CORE RULES | SHOOTING PHASE"
+      },
+      "reason": "Page footer"
+    }
+  ],
+  "omitted_picture_nodes": [
+    {
+      "self_ref": "#/pictures/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/438"
+        },
+        {
+          "$ref": "#/texts/439"
+        },
+        {
+          "$ref": "#/texts/440"
+        },
+        {
+          "$ref": "#/texts/441"
+        },
+        {
+          "$ref": "#/texts/442"
+        }
+      ],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 19,
+          "bbox": {
+            "l": 21.338581804284892,
+            "t": 770.413883732469,
+            "r": 110.47455284478859,
+            "b": 22.703788424398226,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/39",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/445"
+        },
+        {
+          "$ref": "#/texts/446"
+        },
+        {
+          "$ref": "#/texts/447"
+        },
+        {
+          "$ref": "#/texts/448"
+        },
+        {
+          "$ref": "#/texts/449"
+        },
+        {
+          "$ref": "#/texts/450"
+        },
+        {
+          "$ref": "#/texts/451"
+        },
+        {
+          "$ref": "#/texts/452"
+        },
+        {
+          "$ref": "#/texts/453"
+        }
+      ],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 19,
+          "bbox": {
+            "l": 151.40504655551595,
+            "t": 641.4990900942324,
+            "r": 294.8999777637419,
+            "b": 374.22541727745386,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 19,
+          "bbox": {
+            "l": 118.72585905162623,
+            "t": 369.50295314198837,
+            "r": 293.1564064133941,
+            "b": 87.52080147162371,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/41",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 19,
+          "bbox": {
+            "l": 505.6837438601634,
+            "t": 173.03594981380434,
+            "r": 539.0395123583183,
+            "b": 142.85127594662913,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    }
+  ]
+}

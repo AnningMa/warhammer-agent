@@ -1,0 +1,137 @@
+{
+  "page": 50,
+  "source": "data/Core Rules.pdf",
+  "rules": {
+    "page": 50,
+    "source_sha256": "4d0e8019cbfddd6f46781d5b4ed31d46fb21eb2d0d10a0f6fabefac0ce054364",
+    "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+    "blocks": [
+      {
+        "type": "text",
+        "refs": [],
+        "style": "h1",
+        "text": "EXAMPLE BATTLEFIELDS (continued)"
+      },
+      {
+        "type": "image",
+        "id": "comparison",
+        "title": "Battlefield comparison: upper and lower illustrations",
+        "bbox": [
+          0,
+          35,
+          535,
+          793.701
+        ],
+        "captions": [
+          [
+            "#/texts/1224"
+          ]
+        ],
+        "source_refs": []
+      }
+    ],
+    "excluded_text": {
+      "#/texts/1223": "Page number or running footer; not rule content."
+    },
+    "review_notes": [
+      "Docling missed both illustrations. This PDF crop preserves the pair and their shared comparative context. No separate explanation is invented for the lower image.",
+      "Continuation heading is editorial navigation."
+    ]
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "refs": [],
+      "style": "h1",
+      "text": "EXAMPLE BATTLEFIELDS (continued)",
+      "source_nodes": []
+    },
+    {
+      "type": "image",
+      "id": "comparison",
+      "title": "Battlefield comparison: upper and lower illustrations",
+      "bbox": [
+        0,
+        35,
+        535,
+        793.701
+      ],
+      "captions": [
+        [
+          "#/texts/1224"
+        ]
+      ],
+      "source_refs": [],
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1224",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 50,
+              "bbox": {
+                "l": 93.5433,
+                "t": 522.8347,
+                "r": 315.7075499999999,
+                "b": 471.8936694656488,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                501
+              ]
+            }
+          ],
+          "orig": "Matched Play Focused: This Strike Force battlefield has fewer terrain features set up on it than the one below. The terrain has still been set up so as not to give an advantage to one player or the other, and there is still terrain set up in the middle that blocks visibility from one side of the battlefield to the other. As a result, this battlefield would make for an ideal matched play game. Battlefields with less terrain than this will start to advantage armies that rely on shooting over melee.",
+          "text": "Matched Play Focused: This Strike Force battlefield has fewer terrain features set up on it than the one below. The terrain has still been set up so as not to give an advantage to one player or the other, and there is still terrain set up in the middle that blocks visibility from one side of the battlefield to the other. As a result, this battlefield would make for an ideal matched play game. Battlefields with less terrain than this will start to advantage armies that rely on shooting over melee."
+        }
+      ],
+      "image": "images/page_050_comparison.png",
+      "caption_texts": [
+        "Matched Play Focused: This Strike Force battlefield has fewer terrain features set up on it than the one below. The terrain has still been set up so as not to give an advantage to one player or the other, and there is still terrain set up in the middle that blocks visibility from one side of the battlefield to the other. As a result, this battlefield would make for an ideal matched play game. Battlefields with less terrain than this will start to advantage armies that rely on shooting over melee."
+      ],
+      "coordinate_system": "PDF points, top-left origin"
+    }
+  ],
+  "excluded_text": [
+    {
+      "node": {
+        "self_ref": "#/texts/1223",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "furniture",
+        "label": "page_header",
+        "prov": [
+          {
+            "page_no": 50,
+            "bbox": {
+              "l": 538.4496,
+              "t": 100.24450000000002,
+              "r": 548.4796000000001,
+              "b": 92.32999618320605,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              2
+            ]
+          }
+        ],
+        "orig": "50",
+        "text": "50"
+      },
+      "reason": "Page number or running footer; not rule content."
+    }
+  ],
+  "review_notes": [
+    "Docling missed both illustrations. This PDF crop preserves the pair and their shared comparative context. No separate explanation is invented for the lower image.",
+    "Continuation heading is editorial navigation."
+  ]
+}

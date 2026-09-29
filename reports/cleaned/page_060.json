@@ -1,0 +1,804 @@
+{
+  "page": 60,
+  "source": "data/Core Rules.pdf",
+  "rules": {
+    "page": 60,
+    "source_sha256": "4d0e8019cbfddd6f46781d5b4ed31d46fb21eb2d0d10a0f6fabefac0ce054364",
+    "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+    "blocks": [
+      {
+        "type": "text",
+        "refs": [],
+        "style": "h1",
+        "text": "ONLY WAR (continued)"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1396"
+        ],
+        "style": "h2",
+        "text": "6. DEPLOY ARMIES"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1397"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1398"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "image",
+        "id": "deployment",
+        "title": "Only War deployment map",
+        "bbox": [
+          57,
+          436,
+          486,
+          713
+        ],
+        "captions": [],
+        "source_refs": [
+          "#/pictures/143",
+          "#/texts/1403",
+          "#/texts/1404"
+        ]
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1399"
+        ],
+        "style": "h2",
+        "text": "7. DETERMINE FIRST TURN"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1400"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1401"
+        ],
+        "style": "h2",
+        "text": "8. RESOLVE PRE-BATTLE RULES"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1402"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1405"
+        ],
+        "style": "h2",
+        "text": "9. BEGIN THE BATTLE"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1406"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1407"
+        ],
+        "style": "h2",
+        "text": "10. END THE BATTLE"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1408"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1409"
+        ],
+        "style": "h2",
+        "text": "11. DETERMINE VICTOR"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1410"
+        ],
+        "style": "p"
+      }
+    ],
+    "excluded_text": {
+      "#/texts/1411": "Page number or running footer; not rule content.",
+      "#/texts/1412": "Page number or running footer; not rule content."
+    },
+    "review_notes": [
+      "Deployment map attached to step 6. Both 12-inch labels are meaningful map measurements retained in the crop and source metadata, not deleted or interpreted as independent prose. Steps 6–11 retain source wording. Continuation heading is editorial."
+    ]
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "refs": [],
+      "style": "h1",
+      "text": "ONLY WAR (continued)",
+      "source_nodes": []
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1396"
+      ],
+      "style": "h2",
+      "text": "6. DEPLOY ARMIES",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1396",
+          "parent": {
+            "$ref": "#/pictures/140"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 60,
+              "bbox": {
+                "l": 94.7061,
+                "t": 711.6547,
+                "r": 199.8803000000001,
+                "b": 700.5743946564885,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                15
+              ]
+            }
+          ],
+          "orig": "6 DEPLOY ARMIES",
+          "text": "6 DEPLOY ARMIES",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1397"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1397",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 60,
+              "bbox": {
+                "l": 85.0394,
+                "t": 688.3682,
+                "r": 265.00904999999995,
+                "b": 600.8524836198181,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                430
+              ]
+            }
+          ],
+          "orig": "Players then alternate deploying their units, one at a time, starting with the Attacker. Models must be set up wholly within their controlling player's deployment zone. Continue setting up units until both players have set up all the units from their armies, or you have run out of room to set up more units. If one player has finished setting up their army, their opponent continues to set up the remaining units from their army.",
+          "text": "Players then alternate deploying their units, one at a time, starting with the Attacker. Models must be set up wholly within their controlling player's deployment zone. Continue setting up units until both players have set up all the units from their armies, or you have run out of room to set up more units. If one player has finished setting up their army, their opponent continues to set up the remaining units from their army."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1398"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1398",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 60,
+              "bbox": {
+                "l": 85.0394,
+                "t": 588.3997000000002,
+                "r": 255.51199999999997,
+                "b": 540.8679836198182,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                232
+              ]
+            }
+          ],
+          "orig": "If both players have units with abilities that allow them to be set up after both armies have deployed, the players must roll off after all other units have been set up and alternate setting up those units, starting with the winner.",
+          "text": "If both players have units with abilities that allow them to be set up after both armies have deployed, the players must roll off after all other units have been set up and alternate setting up those units, starting with the winner."
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "id": "deployment",
+      "title": "Only War deployment map",
+      "bbox": [
+        57,
+        436,
+        486,
+        713
+      ],
+      "captions": [],
+      "source_refs": [
+        "#/pictures/143",
+        "#/texts/1403",
+        "#/texts/1404"
+      ],
+      "source_nodes": [
+        {
+          "self_ref": "#/pictures/143",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [
+            {
+              "$ref": "#/texts/1403"
+            },
+            {
+              "$ref": "#/texts/1404"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 60,
+              "bbox": {
+                "l": 57.71361042582402,
+                "t": 357.38084127073506,
+                "r": 484.6844187052742,
+                "b": 81.89041520494902,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "annotations": []
+        },
+        {
+          "self_ref": "#/texts/1403",
+          "parent": {
+            "$ref": "#/pictures/143"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 60,
+              "bbox": {
+                "l": 227.6786,
+                "t": 335.9169,
+                "r": 239.75749999999994,
+                "b": 328.7938465648855,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                3
+              ]
+            }
+          ],
+          "orig": "12\"",
+          "text": "12\""
+        },
+        {
+          "self_ref": "#/texts/1404",
+          "parent": {
+            "$ref": "#/pictures/143"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 60,
+              "bbox": {
+                "l": 301.6586,
+                "t": 335.9169,
+                "r": 313.73749999999995,
+                "b": 328.7938465648855,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                3
+              ]
+            }
+          ],
+          "orig": "12\"",
+          "text": "12\""
+        }
+      ],
+      "image": "images/page_060_deployment.png",
+      "caption_texts": [],
+      "coordinate_system": "PDF points, top-left origin"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1399"
+      ],
+      "style": "h2",
+      "text": "7. DETERMINE FIRST TURN",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1399",
+          "parent": {
+            "$ref": "#/pictures/141"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 60,
+              "bbox": {
+                "l": 94.7061,
+                "t": 521.6547,
+                "r": 240.2843000000001,
+                "b": 510.57439465648855,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                22
+              ]
+            }
+          ],
+          "orig": "7 DETERMINE FIRST TURN",
+          "text": "7 DETERMINE FIRST TURN",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1400"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1400",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 60,
+              "bbox": {
+                "l": 85.0394,
+                "t": 498.3682,
+                "r": 253.4821999999998,
+                "b": 480.824483619818,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                67
+              ]
+            }
+          ],
+          "orig": "Players should roll off again, and the winner takes the first turn.",
+          "text": "Players should roll off again, and the winner takes the first turn."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1401"
+      ],
+      "style": "h2",
+      "text": "8. RESOLVE PRE-BATTLE RULES",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1401",
+          "parent": {
+            "$ref": "#/pictures/142"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 60,
+              "bbox": {
+                "l": 94.7061,
+                "t": 461.6547,
+                "r": 264.48156399999993,
+                "b": 450.57439465648855,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                26
+              ]
+            }
+          ],
+          "orig": "8 RESOLVE PRE-BATTLE RULES",
+          "text": "8 RESOLVE PRE-BATTLE RULES",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1402"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1402",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 60,
+              "bbox": {
+                "l": 85.0394,
+                "t": 438.3682,
+                "r": 236.86469999999994,
+                "b": 420.824483619818,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                59
+              ]
+            }
+          ],
+          "orig": "Players now resolve any pre-battle rules their armies have.",
+          "text": "Players now resolve any pre-battle rules their armies have."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1405"
+      ],
+      "style": "h2",
+      "text": "9. BEGIN THE BATTLE",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1405",
+          "parent": {
+            "$ref": "#/pictures/144"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 60,
+              "bbox": {
+                "l": 286.0447,
+                "t": 711.6547,
+                "r": 404.28649999999993,
+                "b": 700.5743946564885,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                18
+              ]
+            }
+          ],
+          "orig": "9 BEGIN THE BATTLE",
+          "text": "9 BEGIN THE BATTLE",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1406"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1406",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 60,
+              "bbox": {
+                "l": 276.378,
+                "t": 688.3682,
+                "r": 440.4586000000003,
+                "b": 670.824483619818,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                95
+              ]
+            }
+          ],
+          "orig": "The first battle round begins. Players continue to resolve battle rounds until the battle ends.",
+          "text": "The first battle round begins. Players continue to resolve battle rounds until the battle ends."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1407"
+      ],
+      "style": "h2",
+      "text": "10. END THE BATTLE",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1407",
+          "parent": {
+            "$ref": "#/pictures/145"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 60,
+              "bbox": {
+                "l": 282.7538,
+                "t": 651.6547,
+                "r": 393.56669999999997,
+                "b": 640.5743946564885,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                17
+              ]
+            }
+          ],
+          "orig": "10 END THE BATTLE",
+          "text": "10 END THE BATTLE",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1408"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1408",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 60,
+              "bbox": {
+                "l": 276.378,
+                "t": 628.3682,
+                "r": 456.1751000000003,
+                "b": 600.828483619818,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                146
+              ]
+            }
+          ],
+          "orig": "The battle ends when all of the models in one player's army have been destroyed, or once the fifth battle round has ended (whichever comes first).",
+          "text": "The battle ends when all of the models in one player's army have been destroyed, or once the fifth battle round has ended (whichever comes first)."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1409"
+      ],
+      "style": "h2",
+      "text": "11. DETERMINE VICTOR",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1409",
+          "parent": {
+            "$ref": "#/pictures/146"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 60,
+              "bbox": {
+                "l": 283.2487,
+                "t": 581.6547,
+                "r": 408.6797000000002,
+                "b": 570.5743946564885,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                19
+              ]
+            }
+          ],
+          "orig": "11 DETERMINE VICTOR",
+          "text": "11 DETERMINE VICTOR",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1410"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1410",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 60,
+              "bbox": {
+                "l": 276.378,
+                "t": 558.3682,
+                "r": 452.96295000000026,
+                "b": 510.83648361981807,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                224
+              ]
+            }
+          ],
+          "orig": "If, at the end of the battle, one army has been destroyed, the player commanding the opposing army is the victor. Otherwise, the player with the most Victory points is the victor (in the case of a tie, the battle is a draw).",
+          "text": "If, at the end of the battle, one army has been destroyed, the player commanding the opposing army is the victor. Otherwise, the player with the most Victory points is the victor (in the case of a tie, the battle is a draw)."
+        }
+      ]
+    }
+  ],
+  "excluded_text": [
+    {
+      "node": {
+        "self_ref": "#/texts/1411",
+        "parent": {
+          "$ref": "#/pictures/147"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 60,
+            "bbox": {
+              "l": 538.4545,
+              "t": 100.24450000000002,
+              "r": 548.4745000000001,
+              "b": 92.32999618320605,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              2
+            ]
+          }
+        ],
+        "orig": "60",
+        "text": "60"
+      },
+      "reason": "Page number or running footer; not rule content."
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/1412",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "furniture",
+        "label": "page_footer",
+        "prov": [
+          {
+            "page_no": 60,
+            "bbox": {
+              "l": 330.2441,
+              "t": 50.00040000000001,
+              "r": 456.3831000000001,
+              "b": 42.08589618320616,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              30
+            ]
+          }
+        ],
+        "orig": "CORE RULES | MISSION: ONLY WAR",
+        "text": "CORE RULES | MISSION: ONLY WAR"
+      },
+      "reason": "Page number or running footer; not rule content."
+    }
+  ],
+  "review_notes": [
+    "Deployment map attached to step 6. Both 12-inch labels are meaningful map measurements retained in the crop and source metadata, not deleted or interpreted as independent prose. Steps 6–11 retain source wording. Continuation heading is editorial."
+  ]
+}

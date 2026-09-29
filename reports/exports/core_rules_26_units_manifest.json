@@ -1,0 +1,287 @@
+{
+  "source_copy": "core_rules_all_pages_test.md",
+  "output": "core_rules_26_units_test.md",
+  "separator": "<<<RULE_UNIT>>>",
+  "unit_count": 26,
+  "excluded_pages": [
+    1,
+    2,
+    3,
+    4,
+    31,
+    40
+  ],
+  "exclusion_reason": "Front matter/navigation and pages without substantive extracted rule text; all remain in the original 60-page test copy.",
+  "page_54_split": "Movement figure and captions in unit 21; other-model movement and charge/fight interactions in unit 22.",
+  "units": [
+    {
+      "unit_id": "core_rules.unit_01",
+      "title": "Basic Objects and Terminology",
+      "pages": [
+        5
+      ],
+      "characters": 2623,
+      "content_notes": []
+    },
+    {
+      "unit_id": "core_rules.unit_02",
+      "title": "Spatial Relationships and Measurement",
+      "pages": [
+        6,
+        7
+      ],
+      "characters": 4888,
+      "content_notes": []
+    },
+    {
+      "unit_id": "core_rules.unit_03",
+      "title": "Visibility",
+      "pages": [
+        8
+      ],
+      "characters": 2204,
+      "content_notes": []
+    },
+    {
+      "unit_id": "core_rules.unit_04",
+      "title": "Dice and Sequencing",
+      "pages": [
+        9
+      ],
+      "characters": 3737,
+      "content_notes": []
+    },
+    {
+      "unit_id": "core_rules.unit_05",
+      "title": "Battle Round Overview",
+      "pages": [
+        10
+      ],
+      "characters": 1410,
+      "content_notes": []
+    },
+    {
+      "unit_id": "core_rules.unit_06",
+      "title": "Command Phase and Unit Status",
+      "pages": [
+        11,
+        12
+      ],
+      "characters": 4109,
+      "content_notes": []
+    },
+    {
+      "unit_id": "core_rules.unit_07",
+      "title": "Movement and Reinforcements",
+      "pages": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "characters": 9936,
+      "content_notes": []
+    },
+    {
+      "unit_id": "core_rules.unit_08",
+      "title": "Transports",
+      "pages": [
+        17,
+        18
+      ],
+      "characters": 7622,
+      "content_notes": []
+    },
+    {
+      "unit_id": "core_rules.unit_09",
+      "title": "Shooting Procedure and Restrictions",
+      "pages": [
+        19,
+        20
+      ],
+      "characters": 7393,
+      "content_notes": []
+    },
+    {
+      "unit_id": "core_rules.unit_10",
+      "title": "Making Attacks",
+      "pages": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "characters": 14162,
+      "content_notes": []
+    },
+    {
+      "unit_id": "core_rules.unit_11",
+      "title": "Weapon Abilities",
+      "pages": [
+        25,
+        26,
+        27,
+        28
+      ],
+      "characters": 14762,
+      "content_notes": [
+        "Page 27 contains weapon illustrations and names, not additional weapon ability rules."
+      ]
+    },
+    {
+      "unit_id": "core_rules.unit_12",
+      "title": "Charging",
+      "pages": [
+        29,
+        30
+      ],
+      "characters": 5654,
+      "content_notes": []
+    },
+    {
+      "unit_id": "core_rules.unit_13",
+      "title": "Fight Phase",
+      "pages": [
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "characters": 12112,
+      "content_notes": []
+    },
+    {
+      "unit_id": "core_rules.unit_14",
+      "title": "Datasheets and General Abilities",
+      "pages": [
+        37,
+        38
+      ],
+      "characters": 5631,
+      "content_notes": [
+        "Page 37 contains example datasheets; example values must not be treated as authoritative unit statistics."
+      ]
+    },
+    {
+      "unit_id": "core_rules.unit_15",
+      "title": "Deployment Abilities",
+      "pages": [
+        39
+      ],
+      "characters": 4612,
+      "content_notes": []
+    },
+    {
+      "unit_id": "core_rules.unit_16",
+      "title": "Stratagems and Core Stratagem Cards",
+      "pages": [
+        41,
+        42
+      ],
+      "characters": 8071,
+      "content_notes": []
+    },
+    {
+      "unit_id": "core_rules.unit_17",
+      "title": "Strategic Reserves",
+      "pages": [
+        43
+      ],
+      "characters": 3347,
+      "content_notes": []
+    },
+    {
+      "unit_id": "core_rules.unit_18",
+      "title": "Terrain Principles and Benefit of Cover",
+      "pages": [
+        44
+      ],
+      "characters": 2346,
+      "content_notes": []
+    },
+    {
+      "unit_id": "core_rules.unit_19",
+      "title": "Terrain Types",
+      "pages": [
+        45,
+        46,
+        47,
+        48
+      ],
+      "characters": 8292,
+      "content_notes": []
+    },
+    {
+      "unit_id": "core_rules.unit_20",
+      "title": "Example Battlefields",
+      "pages": [
+        49,
+        50,
+        51,
+        52
+      ],
+      "characters": 5973,
+      "content_notes": [
+        "This unit contains battlefield examples. Images are not embedded; only existing textual descriptions are available."
+      ]
+    },
+    {
+      "unit_id": "core_rules.unit_21",
+      "title": "Aircraft Deployment and Movement",
+      "pages": [
+        53,
+        54
+      ],
+      "characters": 3964,
+      "content_notes": []
+    },
+    {
+      "unit_id": "core_rules.unit_22",
+      "title": "Aircraft Interactions with Other Models",
+      "pages": [
+        54
+      ],
+      "characters": 2170,
+      "content_notes": []
+    },
+    {
+      "unit_id": "core_rules.unit_23",
+      "title": "Muster Your Army",
+      "pages": [
+        55,
+        56
+      ],
+      "characters": 3446,
+      "content_notes": []
+    },
+    {
+      "unit_id": "core_rules.unit_24",
+      "title": "General Mission Sequence",
+      "pages": [
+        57
+      ],
+      "characters": 3379,
+      "content_notes": []
+    },
+    {
+      "unit_id": "core_rules.unit_25",
+      "title": "Objective Markers and Mission Map Key",
+      "pages": [
+        58
+      ],
+      "characters": 4093,
+      "content_notes": []
+    },
+    {
+      "unit_id": "core_rules.unit_26",
+      "title": "Only War Mission",
+      "pages": [
+        59,
+        60
+      ],
+      "characters": 4062,
+      "content_notes": []
+    }
+  ]
+}

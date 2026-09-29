@@ -1,0 +1,882 @@
+{
+  "source": "data/Core Rules.pdf",
+  "page": 8,
+  "rules": {
+    "page": 8,
+    "source_sha256": "4d0e8019cbfddd6f46781d5b4ed31d46fb21eb2d0d10a0f6fabefac0ce054364",
+    "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+    "intro_refs": [
+      "#/texts/166",
+      "#/texts/167"
+    ],
+    "summary_refs": [
+      "#/texts/176",
+      "#/texts/177",
+      "#/texts/178",
+      "#/texts/179"
+    ],
+    "furniture_refs": [
+      "#/pictures/13",
+      "#/texts/185",
+      "#/texts/186"
+    ],
+    "sections": [
+      {
+        "id": "model_visible",
+        "expected_heading": "MODEL VISIBLE",
+        "text_refs": [
+          "#/texts/168",
+          "#/texts/169"
+        ],
+        "picture_ref": "#/pictures/9"
+      },
+      {
+        "id": "unit_visible",
+        "expected_heading": "UNIT VISIBLE",
+        "text_refs": [
+          "#/texts/170",
+          "#/texts/171"
+        ],
+        "picture_ref": "#/pictures/10"
+      },
+      {
+        "id": "model_fully_visible",
+        "expected_heading": "MODEL FULLY VISIBLE",
+        "text_refs": [
+          "#/texts/172",
+          "#/texts/173"
+        ],
+        "picture_ref": "#/pictures/11"
+      },
+      {
+        "id": "unit_fully_visible",
+        "expected_heading": "UNIT FULLY VISIBLE",
+        "text_refs": [
+          "#/texts/174",
+          "#/texts/175"
+        ],
+        "picture_ref": "#/pictures/12"
+      }
+    ]
+  },
+  "intro": [
+    {
+      "self_ref": "#/texts/166",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 55.2756,
+            "t": 708.8047,
+            "r": 229.14459999999988,
+            "b": 693.7671427480916,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "DETERMINING VISIBILITY",
+      "text": "DETERMINING VISIBILITY",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/167",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 55.2756,
+            "t": 688.3682,
+            "r": 427.0163000000003,
+            "b": 660.828483619818,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            324
+          ]
+        }
+      ],
+      "orig": "Warhammer 40,000 uses true line of sight to determine visibility between models. To check this, get a 'model's perspective' view by looking from behind the observing model. For the purposes of determining visibility, an observing model can see through other models in its unit, and a model's base is also part of that model.",
+      "text": "Warhammer 40,000 uses true line of sight to determine visibility between models. To check this, get a 'model's perspective' view by looking from behind the observing model. For the purposes of determining visibility, an observing model can see through other models in its unit, and a model's base is also part of that model."
+    }
+  ],
+  "sections": [
+    {
+      "id": "model_visible",
+      "page": 8,
+      "heading": {
+        "self_ref": "#/texts/168",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "section_header",
+        "prov": [
+          {
+            "page_no": 8,
+            "bbox": {
+              "l": 55.2756,
+              "t": 650.3947,
+              "r": 123.84719999999999,
+              "b": 640.8972954198473,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              13
+            ]
+          }
+        ],
+        "orig": "MODEL VISIBLE",
+        "text": "MODEL VISIBLE",
+        "level": 1
+      },
+      "body": {
+        "self_ref": "#/texts/169",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 8,
+            "bbox": {
+              "l": 55.2756,
+              "t": 638.3682,
+              "r": 177.1715499999999,
+              "b": 600.832483619818,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              130
+            ]
+          }
+        ],
+        "orig": "If any part of another model can be seen from any part of the observing model, that other model is visible to the observing model.",
+        "text": "If any part of another model can be seen from any part of the observing model, that other model is visible to the observing model."
+      },
+      "figure": {
+        "image": "images/page_008_model_visible.png",
+        "bbox": [
+          193.0648918492051,
+          139.0279369591393,
+          449.1387660574991,
+          274.768183249524
+        ],
+        "coordinate_system": "PDF points, top-left origin",
+        "source_node": {
+          "self_ref": "#/pictures/9",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [
+            {
+              "$ref": "#/texts/180"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 193.0648918492051,
+                "t": 654.6730518103919,
+                "r": 449.1387660574991,
+                "b": 518.9328055200073,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "annotations": []
+        },
+        "captions": [
+          {
+            "self_ref": "#/texts/180",
+            "parent": {
+              "$ref": "#/pictures/9"
+            },
+            "children": [],
+            "content_layer": "body",
+            "label": "text",
+            "prov": [
+              {
+                "page_no": 8,
+                "bbox": {
+                  "l": 204.0945,
+                  "t": 642.914,
+                  "r": 238.09350000000003,
+                  "b": 637.3690381679389,
+                  "coord_origin": "BOTTOMLEFT"
+                },
+                "charspan": [
+                  0,
+                  13
+                ]
+              }
+            ],
+            "orig": "Model Visible",
+            "text": "Model Visible"
+          }
+        ]
+      }
+    },
+    {
+      "id": "unit_visible",
+      "page": 8,
+      "heading": {
+        "self_ref": "#/texts/170",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "section_header",
+        "prov": [
+          {
+            "page_no": 8,
+            "bbox": {
+              "l": 55.2756,
+              "t": 590.3947,
+              "r": 113.07960000000001,
+              "b": 580.8972954198473,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              12
+            ]
+          }
+        ],
+        "orig": "UNIT VISIBLE",
+        "text": "UNIT VISIBLE",
+        "level": 1
+      },
+      "body": {
+        "self_ref": "#/texts/171",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 8,
+            "bbox": {
+              "l": 55.2756,
+              "t": 578.3682,
+              "r": 176.61904999999996,
+              "b": 540.832483619818,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              124
+            ]
+          }
+        ],
+        "orig": "If one or more models in a unit is visible to the observing model, then that model's unit is visible to the observing model.",
+        "text": "If one or more models in a unit is visible to the observing model, then that model's unit is visible to the observing model."
+      },
+      "figure": {
+        "image": "images/page_008_unit_visible.png",
+        "bbox": [
+          193.92637190023953,
+          285.25800597775554,
+          449.06022378595065,
+          420.73416108173205
+        ],
+        "coordinate_system": "PDF points, top-left origin",
+        "source_node": {
+          "self_ref": "#/pictures/10",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [
+            {
+              "$ref": "#/texts/181"
+            },
+            {
+              "$ref": "#/texts/182"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 193.92637190023953,
+                "t": 508.4429827917757,
+                "r": 449.06022378595065,
+                "b": 372.9668276877992,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "annotations": []
+        },
+        "captions": [
+          {
+            "self_ref": "#/texts/181",
+            "parent": {
+              "$ref": "#/pictures/10"
+            },
+            "children": [],
+            "content_layer": "body",
+            "label": "text",
+            "prov": [
+              {
+                "page_no": 8,
+                "bbox": {
+                  "l": 204.0945,
+                  "t": 497.16540000000003,
+                  "r": 232.83650000000003,
+                  "b": 491.6204381679389,
+                  "coord_origin": "BOTTOMLEFT"
+                },
+                "charspan": [
+                  0,
+                  12
+                ]
+              }
+            ],
+            "orig": "Unit Visible",
+            "text": "Unit Visible"
+          },
+          {
+            "self_ref": "#/texts/182",
+            "parent": {
+              "$ref": "#/pictures/10"
+            },
+            "children": [],
+            "content_layer": "body",
+            "label": "caption",
+            "prov": [
+              {
+                "page_no": 8,
+                "bbox": {
+                  "l": 204.0945,
+                  "t": 388.5828,
+                  "r": 355.1335000000001,
+                  "b": 383.0378381679389,
+                  "coord_origin": "BOTTOMLEFT"
+                },
+                "charspan": [
+                  0,
+                  63
+                ]
+              }
+            ],
+            "orig": "One model in this unit is visible, meaning the unit is visible.",
+            "text": "One model in this unit is visible, meaning the unit is visible."
+          }
+        ]
+      }
+    },
+    {
+      "id": "model_fully_visible",
+      "page": 8,
+      "heading": {
+        "self_ref": "#/texts/172",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "section_header",
+        "prov": [
+          {
+            "page_no": 8,
+            "bbox": {
+              "l": 55.2756,
+              "t": 530.3947,
+              "r": 153.93599999999995,
+              "b": 520.8972954198473,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              19
+            ]
+          }
+        ],
+        "orig": "MODEL FULLY VISIBLE",
+        "text": "MODEL FULLY VISIBLE",
+        "level": 1
+      },
+      "body": {
+        "self_ref": "#/texts/173",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 8,
+            "bbox": {
+              "l": 55.2756,
+              "t": 518.3682,
+              "r": 178.5834,
+              "b": 410.8604836198182,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              372
+            ]
+          }
+        ],
+        "orig": "If every part of another model that is facing the observing model can be seen from any part of the observing model, then that other model is said to be fully visible to the observing model, i.e. the observing model has line of sight to all parts of the other model that are facing it, without any other models or terrain features blocking visibility to any of those parts.",
+        "text": "If every part of another model that is facing the observing model can be seen from any part of the observing model, then that other model is said to be fully visible to the observing model, i.e. the observing model has line of sight to all parts of the other model that are facing it, without any other models or terrain features blocking visibility to any of those parts."
+      },
+      "figure": {
+        "image": "images/page_008_model_fully_visible.png",
+        "bbox": [
+          193.4177527609403,
+          430.2506566303935,
+          449.33332282564754,
+          565.8441991532563
+        ],
+        "coordinate_system": "PDF points, top-left origin",
+        "source_node": {
+          "self_ref": "#/pictures/11",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [
+            {
+              "$ref": "#/texts/183"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 193.4177527609403,
+                "t": 363.45033213913774,
+                "r": 449.33332282564754,
+                "b": 227.8567896162749,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "annotations": []
+        },
+        "captions": [
+          {
+            "self_ref": "#/texts/183",
+            "parent": {
+              "$ref": "#/pictures/11"
+            },
+            "children": [],
+            "content_layer": "body",
+            "label": "text",
+            "prov": [
+              {
+                "page_no": 8,
+                "bbox": {
+                  "l": 204.0945,
+                  "t": 351.49710000000005,
+                  "r": 251.8135,
+                  "b": 345.9521381679389,
+                  "coord_origin": "BOTTOMLEFT"
+                },
+                "charspan": [
+                  0,
+                  19
+                ]
+              }
+            ],
+            "orig": "Model Fully Visible",
+            "text": "Model Fully Visible"
+          }
+        ]
+      }
+    },
+    {
+      "id": "unit_fully_visible",
+      "page": 8,
+      "heading": {
+        "self_ref": "#/texts/174",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "section_header",
+        "prov": [
+          {
+            "page_no": 8,
+            "bbox": {
+              "l": 55.2756,
+              "t": 400.3947,
+              "r": 143.17919999999998,
+              "b": 390.89729541984735,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              18
+            ]
+          }
+        ],
+        "orig": "UNIT FULLY VISIBLE",
+        "text": "UNIT FULLY VISIBLE",
+        "level": 1
+      },
+      "body": {
+        "self_ref": "#/texts/175",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 8,
+            "bbox": {
+              "l": 55.2756,
+              "t": 388.3682,
+              "r": 177.28374999999994,
+              "b": 310.8484836198181,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              265
+            ]
+          }
+        ],
+        "orig": "If every model in a unit is fully visible to an observing model, then that unit is fully visible to that observing model. For the purposes of determining if an enemy unit is fully visible, an observing model can see through other models in the unit it is observing.",
+        "text": "If every model in a unit is fully visible to an observing model, then that unit is fully visible to that observing model. For the purposes of determining if an enemy unit is fully visible, an observing model can see through other models in the unit it is observing."
+      },
+      "figure": {
+        "image": "images/page_008_unit_fully_visible.png",
+        "bbox": [
+          193.2397063344236,
+          575.6055975602387,
+          449.54891770224646,
+          711.4487713847509
+        ],
+        "coordinate_system": "PDF points, top-left origin",
+        "source_node": {
+          "self_ref": "#/pictures/12",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [
+            {
+              "$ref": "#/texts/184"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 193.2397063344236,
+                "t": 218.09539120929253,
+                "r": 449.54891770224646,
+                "b": 82.25221738478035,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "annotations": []
+        },
+        "captions": [
+          {
+            "self_ref": "#/texts/184",
+            "parent": {
+              "$ref": "#/pictures/12"
+            },
+            "children": [],
+            "content_layer": "body",
+            "label": "text",
+            "prov": [
+              {
+                "page_no": 8,
+                "bbox": {
+                  "l": 204.0945,
+                  "t": 206.45730000000003,
+                  "r": 246.5565,
+                  "b": 200.91233816793897,
+                  "coord_origin": "BOTTOMLEFT"
+                },
+                "charspan": [
+                  0,
+                  18
+                ]
+              }
+            ],
+            "orig": "Unit Fully Visible",
+            "text": "Unit Fully Visible"
+          }
+        ]
+      }
+    }
+  ],
+  "summary": [
+    {
+      "self_ref": "#/texts/176",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 66.6142,
+            "t": 292.67859999999996,
+            "r": 154.69424999999998,
+            "b": 263.4382717557253,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            67
+          ]
+        }
+      ],
+      "orig": "■ Model Visible: If any part of a model can be seen, it is visible.",
+      "text": "■ Model Visible: If any part of a model can be seen, it is visible.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/177",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 66.6142,
+            "t": 262.67859999999996,
+            "r": 164.40065,
+            "b": 233.43827175572517,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            80
+          ]
+        }
+      ],
+      "orig": "■ Unit Visible: If any model in a unit is visible, that model's unit is visible.",
+      "text": "■ Unit Visible: If any model in a unit is visible, that model's unit is visible.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/178",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 66.6142,
+            "t": 232.67859999999996,
+            "r": 165.78594999999999,
+            "b": 203.43827175572517,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            88
+          ]
+        }
+      ],
+      "orig": "■ Model Fully Visible: If every facing part of a model can be seen, it is fully visible.",
+      "text": "■ Model Fully Visible: If every facing part of a model can be seen, it is fully visible.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/179",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 66.6142,
+            "t": 202.67859999999996,
+            "r": 148.88960000000006,
+            "b": 163.4422717557252,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            92
+          ]
+        }
+      ],
+      "orig": "■ Unit Fully Visible: If every model in a unit is fully visible, that unit is fully visible.",
+      "text": "■ Unit Fully Visible: If every model in a unit is fully visible, that unit is fully visible.",
+      "enumerated": false,
+      "marker": ""
+    }
+  ],
+  "excluded_furniture": [
+    {
+      "self_ref": "#/pictures/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/185"
+        }
+      ],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 499.18595637016915,
+            "t": 772.433640206791,
+            "r": 588.535717659672,
+            "b": 21.78897191775536,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/texts/185",
+      "parent": {
+        "$ref": "#/pictures/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 540.9146,
+            "t": 100.24450000000002,
+            "r": 546.0146,
+            "b": 92.32999618320605,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "8",
+      "text": "8"
+    },
+    {
+      "self_ref": "#/texts/186",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 342.5216,
+            "t": 50.00040000000001,
+            "r": 456.37760000000014,
+            "b": 42.08589618320616,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            26
+          ]
+        }
+      ],
+      "orig": "CORE RULES | CORE CONCEPTS",
+      "text": "CORE RULES | CORE CONCEPTS"
+    }
+  ]
+}

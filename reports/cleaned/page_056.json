@@ -1,0 +1,714 @@
+{
+  "page": 56,
+  "source": "data/Core Rules.pdf",
+  "rules": {
+    "page": 56,
+    "source_sha256": "4d0e8019cbfddd6f46781d5b4ed31d46fb21eb2d0d10a0f6fabefac0ce054364",
+    "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+    "blocks": [
+      {
+        "type": "text",
+        "refs": [],
+        "style": "h1",
+        "text": "MUSTER YOUR ARMY (continued)"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1294",
+          "#/texts/1296"
+        ],
+        "style": "h2",
+        "text": "4. SELECT DETACHMENT RULES"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1297"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1295",
+          "#/texts/1298"
+        ],
+        "style": "h2",
+        "text": "5. SELECT UNITS"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1301"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1302"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1303"
+        ],
+        "style": "li"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1304"
+        ],
+        "style": "li"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1305"
+        ],
+        "style": "li"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1306",
+          "#/texts/1307"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1308"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1299",
+          "#/texts/1300"
+        ],
+        "style": "h2",
+        "text": "6. SELECT WARLORD"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1309"
+        ],
+        "style": "p"
+      }
+    ],
+    "excluded_text": {
+      "#/texts/1310": "Page number or running footer; not rule content."
+    },
+    "review_notes": [
+      "Three-column reading order reconstructed as steps 4–6. Enhancement sentence joined across source nodes. Dedicated Transport footnote retained under Select Units. Continuation heading is editorial."
+    ]
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "refs": [],
+      "style": "h1",
+      "text": "MUSTER YOUR ARMY (continued)",
+      "source_nodes": []
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1294",
+        "#/texts/1296"
+      ],
+      "style": "h2",
+      "text": "4. SELECT DETACHMENT RULES",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1294",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 56,
+              "bbox": {
+                "l": 142.0496,
+                "t": 642.4424,
+                "r": 158.2736,
+                "b": 617.1159877862596,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                1
+              ]
+            }
+          ],
+          "orig": "4",
+          "text": "4"
+        },
+        {
+          "self_ref": "#/texts/1296",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 56,
+              "bbox": {
+                "l": 109.8582,
+                "t": 593.4023000000001,
+                "r": 189.90300000000008,
+                "b": 548.7390938931298,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                23
+              ]
+            }
+          ],
+          "orig": "SELECT DETACHMENT RULES",
+          "text": "SELECT DETACHMENT RULES",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1297"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1297",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 56,
+              "bbox": {
+                "l": 96.4341,
+                "t": 528.1897,
+                "r": 204.74960000000016,
+                "b": 461.4805320610688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                217
+              ]
+            }
+          ],
+          "orig": "Note on your Army Roster one set of Detachment rules for your army. Some Detachment rules list units that you either must include or cannot include in your army; you must follow all such rules when building your army.",
+          "text": "Note on your Army Roster one set of Detachment rules for your army. Some Detachment rules list units that you either must include or cannot include in your army; you must follow all such rules when building your army."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1295",
+        "#/texts/1298"
+      ],
+      "style": "h2",
+      "text": "5. SELECT UNITS",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1295",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 56,
+              "bbox": {
+                "l": 284.3724,
+                "t": 642.4424,
+                "r": 300.5964,
+                "b": 617.1159877862596,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                1
+              ]
+            }
+          ],
+          "orig": "5",
+          "text": "5"
+        },
+        {
+          "self_ref": "#/texts/1298",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 56,
+              "bbox": {
+                "l": 269.9062,
+                "t": 585.4023000000001,
+                "r": 314.9766000000001,
+                "b": 556.7390938931298,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                12
+              ]
+            }
+          ],
+          "orig": "SELECT UNITS",
+          "text": "SELECT UNITS",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1301"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1301",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 56,
+              "bbox": {
+                "l": 238.29910000000004,
+                "t": 528.2152000000001,
+                "r": 346.5891,
+                "b": 391.534032061069,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                429
+              ]
+            }
+          ],
+          "orig": "Select all the units you want to include in your army. Your army must include at least one Character unit. Each time you include a unit in your army, it can take any upgrade, Enhancement or options it has access to. Note on your Army Roster the number of models in the unit, any weapons, wargear, upgrades and any Enhancement it has, and its points value. Subtract this points value from the total permitted for your battle size.",
+          "text": "Select all the units you want to include in your army. Your army must include at least one Character unit. Each time you include a unit in your army, it can take any upgrade, Enhancement or options it has access to. Note on your Army Roster the number of models in the unit, any weapons, wargear, upgrades and any Enhancement it has, and its points value. Subtract this points value from the total permitted for your battle size."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1302"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1302",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 56,
+              "bbox": {
+                "l": 239.3106,
+                "t": 378.26670000000036,
+                "r": 345.58609999999993,
+                "b": 361.53753206106904,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                44
+              ]
+            }
+          ],
+          "orig": "You can only include a unit in your army if:",
+          "text": "You can only include a unit in your army if:"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1303"
+      ],
+      "style": "li",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1303",
+          "parent": {
+            "$ref": "#/groups/86"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 56,
+              "bbox": {
+                "l": 235.6299,
+                "t": 348.9207,
+                "r": 330.94289999999995,
+                "b": 321.4645320610687,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                70
+              ]
+            }
+          ],
+          "orig": "■ That unit has the Faction keyword you chose for your army in step 3.",
+          "text": "■ That unit has the Faction keyword you chose for your army in step 3.",
+          "enumerated": false,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1304"
+      ],
+      "style": "li",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1304",
+          "parent": {
+            "$ref": "#/groups/86"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 56,
+              "bbox": {
+                "l": 235.6299,
+                "t": 318.9207,
+                "r": 298.38089999999994,
+                "b": 301.4565320610687,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                35
+              ]
+            }
+          ],
+          "orig": "■ You have enough points remaining.",
+          "text": "■ You have enough points remaining.",
+          "enumerated": false,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1305"
+      ],
+      "style": "li",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1305",
+          "parent": {
+            "$ref": "#/groups/86"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 56,
+              "bbox": {
+                "l": 235.6299,
+                "t": 298.9207,
+                "r": 343.5414,
+                "b": 231.47653206106872,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                199
+              ]
+            }
+          ],
+          "orig": "■ Your army does not already contain three units with the same datasheet name as that unit - or six units with the same datasheet name as that unit if it is a Battleline or Dedicated Transport* unit.",
+          "text": "■ Your army does not already contain three units with the same datasheet name as that unit - or six units with the same datasheet name as that unit if it is a Battleline or Dedicated Transport* unit.",
+          "enumerated": false,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1306",
+        "#/texts/1307"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1306",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 56,
+              "bbox": {
+                "l": 238.17540000000002,
+                "t": 218.2092,
+                "r": 346.69489999999996,
+                "b": 161.49603206106872,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                182
+              ]
+            }
+          ],
+          "orig": "Only Characters can be given Enhancements and your army cannot include more than three Enhancements in total. No unit can have more than one Enhancement and each Enhancement included",
+          "text": "Only Characters can be given Enhancements and your army cannot include more than three Enhancements in total. No unit can have more than one Enhancement and each Enhancement included"
+        },
+        {
+          "self_ref": "#/texts/1307",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 56,
+              "bbox": {
+                "l": 239.27190000000004,
+                "t": 158.2331999999999,
+                "r": 345.57290000000006,
+                "b": 111.51603206106859,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                134
+              ]
+            }
+          ],
+          "orig": "in your army must be unique. Epic Heroes cannot be given any Enhancements. Your army cannot include the same Epic Hero more than once.",
+          "text": "in your army must be unique. Epic Heroes cannot be given any Enhancements. Your army cannot include the same Epic Hero more than once."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1308"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1308",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 56,
+              "bbox": {
+                "l": 236.0428,
+                "t": 102.6454,
+                "r": 348.84010000000063,
+                "b": 52.00242290076335,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                232
+              ]
+            }
+          ],
+          "orig": "* Every Dedicated Transport unit from your army must start the battle with at least one unit embarked within it, or it cannot be deployed for that battle and will instead count as having been destroyed during the first battle round.",
+          "text": "* Every Dedicated Transport unit from your army must start the battle with at least one unit embarked within it, or it cannot be deployed for that battle and will instead count as having been destroyed during the first battle round."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1299",
+        "#/texts/1300"
+      ],
+      "style": "h2",
+      "text": "6. SELECT WARLORD",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1299",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 56,
+              "bbox": {
+                "l": 426.459,
+                "t": 642.4424,
+                "r": 442.683,
+                "b": 617.1159877862596,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                1
+              ]
+            }
+          ],
+          "orig": "6",
+          "text": "6"
+        },
+        {
+          "self_ref": "#/texts/1300",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 56,
+              "bbox": {
+                "l": 404.57820000000004,
+                "t": 585.4023000000001,
+                "r": 463.9910000000002,
+                "b": 556.7390938931298,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                14
+              ]
+            }
+          ],
+          "orig": "SELECT WARLORD",
+          "text": "SELECT WARLORD",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1309"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1309",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 56,
+              "bbox": {
+                "l": 379.4335,
+                "t": 528.1897,
+                "r": 489.15065000000004,
+                "b": 471.4765320610688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                186
+              ]
+            }
+          ],
+          "orig": "Select one Character model from your army to be your Warlord - this will be the leader of your army - and make a note of this on your Army Roster. Your Warlord gains the Warlord keyword.",
+          "text": "Select one Character model from your army to be your Warlord - this will be the leader of your army - and make a note of this on your Army Roster. Your Warlord gains the Warlord keyword."
+        }
+      ]
+    }
+  ],
+  "excluded_text": [
+    {
+      "node": {
+        "self_ref": "#/texts/1310",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "furniture",
+        "label": "page_footer",
+        "prov": [
+          {
+            "page_no": 56,
+            "bbox": {
+              "l": 538.4896,
+              "t": 100.24450000000002,
+              "r": 548.4396,
+              "b": 92.32999618320605,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              2
+            ]
+          }
+        ],
+        "orig": "56",
+        "text": "56"
+      },
+      "reason": "Page number or running footer; not rule content."
+    }
+  ],
+  "review_notes": [
+    "Three-column reading order reconstructed as steps 4–6. Enhancement sentence joined across source nodes. Dedicated Transport footnote retained under Select Units. Continuation heading is editorial."
+  ]
+}

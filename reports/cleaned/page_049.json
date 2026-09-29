@@ -1,0 +1,416 @@
+{
+  "page": 49,
+  "source": "data/Core Rules.pdf",
+  "rules": {
+    "page": 49,
+    "source_sha256": "4d0e8019cbfddd6f46781d5b4ed31d46fb21eb2d0d10a0f6fabefac0ce054364",
+    "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+    "blocks": [
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1215"
+        ],
+        "style": "h1"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1216"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1217"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1218"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1219"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "image",
+        "id": "battlefield",
+        "title": "Matched Play Focused: Strike Force battlefield",
+        "bbox": [
+          0,
+          305,
+          609.449,
+          742
+        ],
+        "captions": [
+          [
+            "#/texts/1221"
+          ]
+        ],
+        "source_refs": [
+          "#/pictures/116"
+        ]
+      }
+    ],
+    "excluded_text": {
+      "#/texts/1220": "Page number or running footer; not rule content.",
+      "#/texts/1222": "Page number or running footer; not rule content."
+    },
+    "review_notes": [
+      "Original illustration retained with its caption; crop expanded beyond detected picture bounds."
+    ]
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1215"
+      ],
+      "style": "h1",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1215",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 49,
+              "bbox": {
+                "l": 109.8425,
+                "t": 718.5147,
+                "r": 461.9585000000004,
+                "b": 689.9482877862596,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                20
+              ]
+            }
+          ],
+          "orig": "EXAMPLE BATTLEFIELDS",
+          "text": "EXAMPLE BATTLEFIELDS",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1216"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1216",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 49,
+              "bbox": {
+                "l": 109.8425,
+                "t": 678.8197,
+                "r": 514.4665000000001,
+                "b": 651.2939213740458,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                305
+              ]
+            }
+          ],
+          "orig": "In the far future, battles are fought across an infinite variety of strange and alien planets where no land is left untouched by the tempest of war. Crystal moons, derelict space hulks, carnivorous death worlds and war-ravaged cityscapes are just a few of the fantastical landscapes that can be recreated.",
+          "text": "In the far future, battles are fought across an infinite variety of strange and alien planets where no land is left untouched by the tempest of war. Crystal moons, derelict space hulks, carnivorous death worlds and war-ravaged cityscapes are just a few of the fantastical landscapes that can be recreated."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1217"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1217",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 49,
+              "bbox": {
+                "l": 109.8425,
+                "t": 638.3682,
+                "r": 307.75394999999975,
+                "b": 540.8564836198182,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                546
+              ]
+            }
+          ],
+          "orig": "Battlefields are typically created by placing Battlezones next to each other. Battlezones are Citadel terrain sets that include two boards (each approximately 22\" by 30\" in size) and a range of terrain features designed to be set up evenly on those boards for the best Warhammer 40,000 gaming experience. Don't worry if your battlefield doesn't match these requirements, but keep in mind that playing on a battlefield that is either a barren wasteland or filled to overflowing with terrain features may give an advantage to one side or the other.",
+          "text": "Battlefields are typically created by placing Battlezones next to each other. Battlezones are Citadel terrain sets that include two boards (each approximately 22\" by 30\" in size) and a range of terrain features designed to be set up evenly on those boards for the best Warhammer 40,000 gaming experience. Don't worry if your battlefield doesn't match these requirements, but keep in mind that playing on a battlefield that is either a barren wasteland or filled to overflowing with terrain features may give an advantage to one side or the other."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1218"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1218",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 49,
+              "bbox": {
+                "l": 109.8425,
+                "t": 528.4037000000002,
+                "r": 310.3711000000001,
+                "b": 510.8599836198182,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                120
+              ]
+            },
+            {
+              "page_no": 49,
+              "bbox": {
+                "l": 323.1245,
+                "t": 638.4107000000002,
+                "r": 524.3263000000003,
+                "b": 610.8709836198183,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                121,
+                266
+              ]
+            }
+          ],
+          "orig": "Below is an example of a battlefield set up for a Strike Force battle, with a good mixture of different terrain features fairly distributed across the battlefield. Their placement will create a dynamic gaming experience that doesn't favour one player over the other.",
+          "text": "Below is an example of a battlefield set up for a Strike Force battle, with a good mixture of different terrain features fairly distributed across the battlefield. Their placement will create a dynamic gaming experience that doesn't favour one player over the other."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1219"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1219",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 49,
+              "bbox": {
+                "l": 323.1245,
+                "t": 598.4182000000003,
+                "r": 522.8889500000002,
+                "b": 510.90248361981844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                478
+              ]
+            }
+          ],
+          "orig": "Importantly, some terrain features that block visibility have been placed near the middle of the battlefield, ensuring that it is not easy to see from one side of the battlefield to the other. Battlefields where this is not the case can advantage armies that rely on shooting, or disadvantage armies that rely on melee. There is also sufficient room for larger models such as vehicles to manoeuvre around the terrain features, especially near the edges, without getting trapped.",
+          "text": "Importantly, some terrain features that block visibility have been placed near the middle of the battlefield, ensuring that it is not easy to see from one side of the battlefield to the other. Battlefields where this is not the case can advantage armies that rely on shooting, or disadvantage armies that rely on melee. There is also sufficient room for larger models such as vehicles to manoeuvre around the terrain features, especially near the edges, without getting trapped."
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "id": "battlefield",
+      "title": "Matched Play Focused: Strike Force battlefield",
+      "bbox": [
+        0,
+        305,
+        609.449,
+        742
+      ],
+      "captions": [
+        [
+          "#/texts/1221"
+        ]
+      ],
+      "source_refs": [
+        "#/pictures/116"
+      ],
+      "source_nodes": [
+        {
+          "self_ref": "#/pictures/116",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 49,
+              "bbox": {
+                "l": 66.93645419415333,
+                "t": 472.41736965242865,
+                "r": 609.449,
+                "b": 115.61300188863072,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "annotations": []
+        },
+        {
+          "self_ref": "#/texts/1221",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "caption",
+          "prov": [
+            {
+              "page_no": 49,
+              "bbox": {
+                "l": 118.3464,
+                "t": 111.0951,
+                "r": 508.80390000000006,
+                "b": 78.15406946564883,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                500
+              ]
+            }
+          ],
+          "orig": "Matched Play Focused: This is a Strike Force battlefield (44\" x 60\") set up with an aspirational number and mixture of terrain features. Their placement creates a battlefield that does not give an advantage to one player or the other, making it well suited to an aspirational matched play game. While this battlefield uses lots of Battlezone: Fronteris terrain features, you could achieve the same gaming experience using many different kinds of terrain, bearing in mind the concepts discussed above.",
+          "text": "Matched Play Focused: This is a Strike Force battlefield (44\" x 60\") set up with an aspirational number and mixture of terrain features. Their placement creates a battlefield that does not give an advantage to one player or the other, making it well suited to an aspirational matched play game. While this battlefield uses lots of Battlezone: Fronteris terrain features, you could achieve the same gaming experience using many different kinds of terrain, bearing in mind the concepts discussed above."
+        }
+      ],
+      "image": "images/page_049_battlefield.png",
+      "caption_texts": [
+        "Matched Play Focused: This is a Strike Force battlefield (44\" x 60\") set up with an aspirational number and mixture of terrain features. Their placement creates a battlefield that does not give an advantage to one player or the other, making it well suited to an aspirational matched play game. While this battlefield uses lots of Battlezone: Fronteris terrain features, you could achieve the same gaming experience using many different kinds of terrain, bearing in mind the concepts discussed above."
+      ],
+      "coordinate_system": "PDF points, top-left origin"
+    }
+  ],
+  "excluded_text": [
+    {
+      "node": {
+        "self_ref": "#/texts/1220",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 49,
+            "bbox": {
+              "l": 61.0492,
+              "t": 100.24450000000002,
+              "r": 70.91919999999999,
+              "b": 92.32999618320605,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              2
+            ]
+          }
+        ],
+        "orig": "49",
+        "text": "49"
+      },
+      "reason": "Page number or running footer; not rule content."
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/1222",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "furniture",
+        "label": "page_footer",
+        "prov": [
+          {
+            "page_no": 49,
+            "bbox": {
+              "l": 109.8425,
+              "t": 50.00040000000001,
+              "r": 255.44350000000014,
+              "b": 42.08589618320616,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              33
+            ]
+          }
+        ],
+        "orig": "CORE RULES | EXAMPLE BATTLEFIELDS",
+        "text": "CORE RULES | EXAMPLE BATTLEFIELDS"
+      },
+      "reason": "Page number or running footer; not rule content."
+    }
+  ],
+  "review_notes": [
+    "Original illustration retained with its caption; crop expanded beyond detected picture bounds."
+  ]
+}

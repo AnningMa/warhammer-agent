@@ -1,0 +1,1648 @@
+{
+  "page": 57,
+  "source": "data/Core Rules.pdf",
+  "rules": {
+    "page": 57,
+    "source_sha256": "4d0e8019cbfddd6f46781d5b4ed31d46fb21eb2d0d10a0f6fabefac0ce054364",
+    "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+    "blocks": [
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1312"
+        ],
+        "style": "h1"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1313"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1314",
+          "#/texts/1315"
+        ],
+        "style": "h2",
+        "text": "1. MUSTER ARMIES"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1316"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1317",
+          "#/texts/1318"
+        ],
+        "style": "h2",
+        "text": "2. READ MISSION OBJECTIVES"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1319"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1320",
+          "#/texts/1321"
+        ],
+        "style": "h2",
+        "text": "3. CREATE THE BATTLEFIELD"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1322"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1323",
+          "#/texts/1324"
+        ],
+        "style": "h2",
+        "text": "4. DETERMINE ATTACKER AND DEFENDER"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1325"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1326",
+          "#/texts/1327"
+        ],
+        "style": "h2",
+        "text": "5. DECLARE BATTLE FORMATIONS"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1328"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1329"
+        ],
+        "style": "li"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1330"
+        ],
+        "style": "li"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1331"
+        ],
+        "style": "li"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1332"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1333",
+          "#/texts/1334"
+        ],
+        "style": "h2",
+        "text": "6. DEPLOY ARMIES"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1335"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1336",
+          "#/texts/1337"
+        ],
+        "style": "h2",
+        "text": "7. DETERMINE FIRST TURN"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1338"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1339",
+          "#/texts/1340"
+        ],
+        "style": "h2",
+        "text": "8. RESOLVE PRE-BATTLE RULES"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1341"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1342",
+          "#/texts/1343"
+        ],
+        "style": "h2",
+        "text": "9. BEGIN THE BATTLE"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1344"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1345",
+          "#/texts/1346"
+        ],
+        "style": "h2",
+        "text": "10. END THE BATTLE"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1347"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1348",
+          "#/texts/1349"
+        ],
+        "style": "h2",
+        "text": "11. DETERMINE VICTOR"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1350"
+        ],
+        "style": "p"
+      }
+    ],
+    "excluded_text": {
+      "#/texts/1311": "Page number or running footer; not rule content.",
+      "#/texts/1351": "Page number or running footer; not rule content."
+    },
+    "review_notes": [
+      "Mission sequence rendered as numbered headings 1–11; each explanation stays within its step."
+    ]
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1312"
+      ],
+      "style": "h1",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1312",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 57,
+              "bbox": {
+                "l": 153.0708,
+                "t": 721.1847,
+                "r": 328.25579999999997,
+                "b": 685.4766847328244,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                8
+              ]
+            }
+          ],
+          "orig": "MISSIONS",
+          "text": "MISSIONS",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1313"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1313",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 57,
+              "bbox": {
+                "l": 153.0708,
+                "t": 678.8197,
+                "r": 522.8307500000005,
+                "b": 641.2904213740458,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                396
+              ]
+            }
+          ],
+          "orig": "Before you can wage war in a game of Warhammer 40,000, you must first select a mission. The Core Rules include a single mission - Only War - that is ideal to get the action started quickly. Others can be found elsewhere in this or other books, or you could play a mission of your own creation. If you and your opponent can't agree which mission to play, you must roll off, and the winner decides.",
+          "text": "Before you can wage war in a game of Warhammer 40,000, you must first select a mission. The Core Rules include a single mission - Only War - that is ideal to get the action started quickly. Others can be found elsewhere in this or other books, or you could play a mission of your own creation. If you and your opponent can't agree which mission to play, you must roll off, and the winner decides."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1314",
+        "#/texts/1315"
+      ],
+      "style": "h2",
+      "text": "1. MUSTER ARMIES",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1314",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 57,
+              "bbox": {
+                "l": 202.7603,
+                "t": 618.834,
+                "r": 207.8303,
+                "b": 610.9194961832061,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                1
+              ]
+            }
+          ],
+          "orig": "1",
+          "text": "1"
+        },
+        {
+          "self_ref": "#/texts/1315",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 57,
+              "bbox": {
+                "l": 168.9058,
+                "t": 600.3947,
+                "r": 242.11780000000016,
+                "b": 590.8972954198473,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                13
+              ]
+            }
+          ],
+          "orig": "MUSTER ARMIES",
+          "text": "MUSTER ARMIES",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1316"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1316",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 57,
+              "bbox": {
+                "l": 156.7356,
+                "t": 588.1897,
+                "r": 254.2986000000001,
+                "b": 511.4845320610688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                242
+              ]
+            }
+          ],
+          "orig": "Players muster their armies based on their selected battle size, as described on pages 55-56. Each mission will guide players on what size of battle they can play, and may include further rules that could affect how players pick their armies.",
+          "text": "Players muster their armies based on their selected battle size, as described on pages 55-56. Each mission will guide players on what size of battle they can play, and may include further rules that could affect how players pick their armies."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1317",
+        "#/texts/1318"
+      ],
+      "style": "h2",
+      "text": "2. READ MISSION OBJECTIVES",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1317",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 57,
+              "bbox": {
+                "l": 202.7603,
+                "t": 488.92920000000004,
+                "r": 207.8303,
+                "b": 481.0146961832061,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                1
+              ]
+            }
+          ],
+          "orig": "2",
+          "text": "2"
+        },
+        {
+          "self_ref": "#/texts/1318",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 57,
+              "bbox": {
+                "l": 173.1263,
+                "t": 470.3947,
+                "r": 237.89749999999998,
+                "b": 450.9012954198474,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                23
+              ]
+            }
+          ],
+          "orig": "READ MISSION OBJECTIVES",
+          "text": "READ MISSION OBJECTIVES",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1319"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1319",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 57,
+              "bbox": {
+                "l": 153.7348,
+                "t": 448.1897,
+                "r": 257.2903000000001,
+                "b": 391.4765320610688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                180
+              ]
+            }
+          ],
+          "orig": "Each mission will state what its primary objectives are, and may also include one or more special rules. These cover unique situations, or abilities that can be used in the battle.",
+          "text": "Each mission will state what its primary objectives are, and may also include one or more special rules. These cover unique situations, or abilities that can be used in the battle."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1320",
+        "#/texts/1321"
+      ],
+      "style": "h2",
+      "text": "3. CREATE THE BATTLEFIELD",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1320",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 57,
+              "bbox": {
+                "l": 202.7603,
+                "t": 369.3123,
+                "r": 207.8303,
+                "b": 361.3977961832061,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                1
+              ]
+            }
+          ],
+          "orig": "3",
+          "text": "3"
+        },
+        {
+          "self_ref": "#/texts/1321",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 57,
+              "bbox": {
+                "l": 175.6681,
+                "t": 350.3947,
+                "r": 235.37290000000007,
+                "b": 330.9012954198474,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                22
+              ]
+            }
+          ],
+          "orig": "CREATE THE BATTLEFIELD",
+          "text": "CREATE THE BATTLEFIELD",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1322"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1322",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 57,
+              "bbox": {
+                "l": 153.0761,
+                "t": 328.1897,
+                "r": 257.94910000000004,
+                "b": 161.5205320610687,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                550
+              ]
+            }
+          ],
+          "orig": "Each mission will include details of the size of the battlefield that you will need. Each mission will also instruct you if any terrain features or objective markers must be set up, and will provide details of where to set them up. Otherwise, it is assumed you are using the guidelines on pages 49-52 to create your battlefield. If you are using a battlefield that is a different size or shape to those guidelines, you will need to adjust distances, and the location of deployment zones, objective markers and terrain features, in an appropriate way.",
+          "text": "Each mission will include details of the size of the battlefield that you will need. Each mission will also instruct you if any terrain features or objective markers must be set up, and will provide details of where to set them up. Otherwise, it is assumed you are using the guidelines on pages 49-52 to create your battlefield. If you are using a battlefield that is a different size or shape to those guidelines, you will need to adjust distances, and the location of deployment zones, objective markers and terrain features, in an appropriate way."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1323",
+        "#/texts/1324"
+      ],
+      "style": "h2",
+      "text": "4. DETERMINE ATTACKER AND DEFENDER",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1323",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 57,
+              "bbox": {
+                "l": 335.9886,
+                "t": 619.0364,
+                "r": 341.0586,
+                "b": 611.1218961832061,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                1
+              ]
+            }
+          ],
+          "orig": "4",
+          "text": "4"
+        },
+        {
+          "self_ref": "#/texts/1324",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 57,
+              "bbox": {
+                "l": 288.9571,
+                "t": 600.3947,
+                "r": 388.52349999999996,
+                "b": 580.9012954198473,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                31
+              ]
+            }
+          ],
+          "orig": "DETERMINE ATTACKER AND DEFENDER",
+          "text": "DETERMINE ATTACKER AND DEFENDER",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1325"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1325",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 57,
+              "bbox": {
+                "l": 289.0163,
+                "t": 578.1897,
+                "r": 388.46629999999993,
+                "b": 551.4645320610688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                81
+              ]
+            }
+          ],
+          "orig": "Players roll off and the winner is the Attacker - their opponent is the Defender.",
+          "text": "Players roll off and the winner is the Attacker - their opponent is the Defender."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1326",
+        "#/texts/1327"
+      ],
+      "style": "h2",
+      "text": "5. DECLARE BATTLE FORMATIONS",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1326",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 57,
+              "bbox": {
+                "l": 335.9886,
+                "t": 528.9291999999999,
+                "r": 341.0586,
+                "b": 521.0146961832061,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                1
+              ]
+            }
+          ],
+          "orig": "5",
+          "text": "5"
+        },
+        {
+          "self_ref": "#/texts/1327",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 57,
+              "bbox": {
+                "l": 299.9765,
+                "t": 510.3947,
+                "r": 377.50369999999987,
+                "b": 490.9012954198474,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                25
+              ]
+            }
+          ],
+          "orig": "DECLARE BATTLE FORMATIONS",
+          "text": "DECLARE BATTLE FORMATIONS",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1328"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1328",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 57,
+              "bbox": {
+                "l": 288.3064,
+                "t": 488.1897,
+                "r": 389.17589999999984,
+                "b": 471.4605320610687,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                63
+              ]
+            }
+          ],
+          "orig": "In the order stated below, both players now secretly note down:",
+          "text": "In the order stated below, both players now secretly note down:"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1329"
+      ],
+      "style": "li",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1329",
+          "parent": {
+            "$ref": "#/groups/87"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 57,
+              "bbox": {
+                "l": 286.2992,
+                "t": 458.9207,
+                "r": 389.85859999999985,
+                "b": 411.47253206106876,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                135
+              ]
+            }
+          ],
+          "orig": "■ Which of their Leader units will start the battle attached (they must specify which Leader unit is attached to which Bodyguard unit).",
+          "text": "■ Which of their Leader units will start the battle attached (they must specify which Leader unit is attached to which Bodyguard unit).",
+          "enumerated": false,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1330"
+      ],
+      "style": "li",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1330",
+          "parent": {
+            "$ref": "#/groups/87"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 57,
+              "bbox": {
+                "l": 286.2992,
+                "t": 408.9207,
+                "r": 375.94409999999993,
+                "b": 351.47253206106876,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                143
+              ]
+            }
+          ],
+          "orig": "■ Which of their units will start the battle embarked within Transport models (they must specify which units are embarked within which models).",
+          "text": "■ Which of their units will start the battle embarked within Transport models (they must specify which units are embarked within which models).",
+          "enumerated": false,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1331"
+      ],
+      "style": "li",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1331",
+          "parent": {
+            "$ref": "#/groups/87"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 57,
+              "bbox": {
+                "l": 286.2992,
+                "t": 348.9207,
+                "r": 390.9958999999999,
+                "b": 321.4605320610687,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                88
+              ]
+            }
+          ],
+          "orig": "■ Which of their units will start the battle in Reserves (including Strategic Reserves).",
+          "text": "■ Which of their units will start the battle in Reserves (including Strategic Reserves).",
+          "enumerated": false,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1332"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1332",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 57,
+              "bbox": {
+                "l": 287.1106,
+                "t": 308.19320000000005,
+                "r": 390.37624999999986,
+                "b": 281.4680320610687,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                80
+              ]
+            }
+          ],
+          "orig": "When both players have done so, they declare their selections to their opponent.",
+          "text": "When both players have done so, they declare their selections to their opponent."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1333",
+        "#/texts/1334"
+      ],
+      "style": "h2",
+      "text": "6. DEPLOY ARMIES",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1333",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 57,
+              "bbox": {
+                "l": 335.9886,
+                "t": 258.92920000000004,
+                "r": 341.0586,
+                "b": 251.01469618320607,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                1
+              ]
+            }
+          ],
+          "orig": "6",
+          "text": "6"
+        },
+        {
+          "self_ref": "#/texts/1334",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 57,
+              "bbox": {
+                "l": 302.8499,
+                "t": 240.39470000000006,
+                "r": 374.63030000000003,
+                "b": 230.8972954198473,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                13
+              ]
+            }
+          ],
+          "orig": "DEPLOY ARMIES",
+          "text": "DEPLOY ARMIES",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1335"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1335",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 57,
+              "bbox": {
+                "l": 288.4251,
+                "t": 228.18970000000002,
+                "r": 389.0651,
+                "b": 161.48053206106863,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                192
+              ]
+            }
+          ],
+          "orig": "Each mission includes a deployment map that shows where each player can set up the models in their army (called their deployment zone), and will list any restrictions that apply to setting up.",
+          "text": "Each mission includes a deployment map that shows where each player can set up the models in their army (called their deployment zone), and will list any restrictions that apply to setting up."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1336",
+        "#/texts/1337"
+      ],
+      "style": "h2",
+      "text": "7. DETERMINE FIRST TURN",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1336",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 57,
+              "bbox": {
+                "l": 469.217,
+                "t": 619.0080999999999,
+                "r": 474.287,
+                "b": 611.093596183206,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                1
+              ]
+            }
+          ],
+          "orig": "7",
+          "text": "7"
+        },
+        {
+          "self_ref": "#/texts/1337",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 57,
+              "bbox": {
+                "l": 445.867,
+                "t": 600.3947,
+                "r": 498.07059999999996,
+                "b": 580.9012954198473,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                20
+              ]
+            }
+          ],
+          "orig": "DETERMINE FIRST TURN",
+          "text": "DETERMINE FIRST TURN",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1338"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1338",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 57,
+              "bbox": {
+                "l": 421.6281,
+                "t": 578.1897,
+                "r": 522.3105999999999,
+                "b": 551.4645320610688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                76
+              ]
+            }
+          ],
+          "orig": "Each mission will tell you how to determine which player has the first turn.",
+          "text": "Each mission will tell you how to determine which player has the first turn."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1339",
+        "#/texts/1340"
+      ],
+      "style": "h2",
+      "text": "8. RESOLVE PRE-BATTLE RULES",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1339",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 57,
+              "bbox": {
+                "l": 469.2169,
+                "t": 528.9291999999999,
+                "r": 474.2869,
+                "b": 521.0146961832061,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                1
+              ]
+            }
+          ],
+          "orig": "8",
+          "text": "8"
+        },
+        {
+          "self_ref": "#/texts/1340",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 57,
+              "bbox": {
+                "l": 428.5797,
+                "t": 510.3947,
+                "r": 515.3421000000002,
+                "b": 490.9012954198474,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                24
+              ]
+            }
+          ],
+          "orig": "RESOLVE PRE-BATTLE RULES",
+          "text": "RESOLVE PRE-BATTLE RULES",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1341"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1341",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 57,
+              "bbox": {
+                "l": 420.4637,
+                "t": 488.1897,
+                "r": 523.4667,
+                "b": 451.46853206106874,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                133
+              ]
+            }
+          ],
+          "orig": "Players alternate resolving any pre-battle rules units from their armies have, starting with the player who will take the first turn.",
+          "text": "Players alternate resolving any pre-battle rules units from their armies have, starting with the player who will take the first turn."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1342",
+        "#/texts/1343"
+      ],
+      "style": "h2",
+      "text": "9. BEGIN THE BATTLE",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1342",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 57,
+              "bbox": {
+                "l": 469.2169,
+                "t": 428.92920000000004,
+                "r": 474.2869,
+                "b": 421.0146961832061,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                1
+              ]
+            }
+          ],
+          "orig": "9",
+          "text": "9"
+        },
+        {
+          "self_ref": "#/texts/1343",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 57,
+              "bbox": {
+                "l": 430.4731,
+                "t": 410.3947,
+                "r": 513.4639000000001,
+                "b": 400.89729541984735,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                16
+              ]
+            }
+          ],
+          "orig": "BEGIN THE BATTLE",
+          "text": "BEGIN THE BATTLE",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1344"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1344",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 57,
+              "bbox": {
+                "l": 426.4307,
+                "t": 398.1897,
+                "r": 517.5081999999999,
+                "b": 361.46853206106874,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                96
+              ]
+            }
+          ],
+          "orig": "The first battle round begins. Players continue to complete battle rounds until the battle ends.",
+          "text": "The first battle round begins. Players continue to complete battle rounds until the battle ends."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1345",
+        "#/texts/1346"
+      ],
+      "style": "h2",
+      "text": "10. END THE BATTLE",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1345",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 57,
+              "bbox": {
+                "l": 466.947,
+                "t": 338.7862,
+                "r": 476.557,
+                "b": 330.8716961832061,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                2
+              ]
+            }
+          ],
+          "orig": "10",
+          "text": "10"
+        },
+        {
+          "self_ref": "#/texts/1346",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 57,
+              "bbox": {
+                "l": 435.0751,
+                "t": 320.3947,
+                "r": 508.8619,
+                "b": 310.89729541984735,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                14
+              ]
+            }
+          ],
+          "orig": "END THE BATTLE",
+          "text": "END THE BATTLE",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1347"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1347",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 57,
+              "bbox": {
+                "l": 420.353,
+                "t": 308.1897,
+                "r": 523.5854999999999,
+                "b": 251.47653206106884,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                189
+              ]
+            }
+          ],
+          "orig": "Each mission will tell you when the battle ends. This will typically be after a set number of battle rounds have been completed, or when one player has achieved a certain victory condition.",
+          "text": "Each mission will tell you when the battle ends. This will typically be after a set number of battle rounds have been completed, or when one player has achieved a certain victory condition."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1348",
+        "#/texts/1349"
+      ],
+      "style": "h2",
+      "text": "11. DETERMINE VICTOR",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1348",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 57,
+              "bbox": {
+                "l": 466.8869,
+                "t": 228.67690000000005,
+                "r": 476.6169,
+                "b": 220.76239618320608,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                2
+              ]
+            }
+          ],
+          "orig": "11",
+          "text": "11"
+        },
+        {
+          "self_ref": "#/texts/1349",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 57,
+              "bbox": {
+                "l": 428.5831,
+                "t": 210.39470000000006,
+                "r": 515.3539,
+                "b": 200.8972954198473,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                16
+              ]
+            }
+          ],
+          "orig": "DETERMINE VICTOR",
+          "text": "DETERMINE VICTOR",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1350"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1350",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 57,
+              "bbox": {
+                "l": 420.217,
+                "t": 198.18970000000002,
+                "r": 523.7214999999997,
+                "b": 151.4725320610687,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                161
+              ]
+            }
+          ],
+          "orig": "Each mission will tell you what you need to do in order to win the game. If neither player manages to achieve a victory then the game is considered to be a draw.",
+          "text": "Each mission will tell you what you need to do in order to win the game. If neither player manages to achieve a victory then the game is considered to be a draw."
+        }
+      ]
+    }
+  ],
+  "excluded_text": [
+    {
+      "node": {
+        "self_ref": "#/texts/1311",
+        "parent": {
+          "$ref": "#/pictures/124"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 57,
+            "bbox": {
+              "l": 61.2092,
+              "t": 100.24450000000002,
+              "r": 70.75919999999999,
+              "b": 92.32999618320605,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              2
+            ]
+          }
+        ],
+        "orig": "57",
+        "text": "57"
+      },
+      "reason": "Page number or running footer; not rule content."
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/1351",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "furniture",
+        "label": "page_footer",
+        "prov": [
+          {
+            "page_no": 57,
+            "bbox": {
+              "l": 152.8346,
+              "t": 50.00040000000001,
+              "r": 241.97260000000006,
+              "b": 42.08589618320616,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              21
+            ]
+          }
+        ],
+        "orig": "CORE RULES | MISSIONS",
+        "text": "CORE RULES | MISSIONS"
+      },
+      "reason": "Page number or running footer; not rule content."
+    }
+  ],
+  "review_notes": [
+    "Mission sequence rendered as numbered headings 1–11; each explanation stays within its step."
+  ]
+}

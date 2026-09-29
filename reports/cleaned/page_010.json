@@ -1,0 +1,751 @@
+{
+  "page": 10,
+  "rules": {
+    "page": 10,
+    "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+    "keep_refs": [
+      "#/texts/208",
+      "#/texts/209",
+      "#/texts/210",
+      "#/texts/216",
+      "#/texts/217",
+      "#/texts/218",
+      "#/texts/219",
+      "#/texts/220",
+      "#/texts/221",
+      "#/texts/222",
+      "#/texts/223",
+      "#/texts/224",
+      "#/texts/225",
+      "#/texts/226"
+    ],
+    "omit_reasons": {
+      "#/texts/211": "Diagram navigation number or page furniture",
+      "#/texts/212": "Diagram navigation number or page furniture",
+      "#/texts/213": "Diagram navigation number or page furniture",
+      "#/texts/214": "Diagram navigation number or page furniture",
+      "#/texts/215": "Diagram navigation number or page furniture",
+      "#/texts/227": "Diagram navigation number or page furniture",
+      "#/texts/228": "Diagram navigation number or page furniture"
+    },
+    "heading_overrides": {
+      "#/texts/216": "1. COMMAND PHASE",
+      "#/texts/218": "2. MOVEMENT PHASE",
+      "#/texts/220": "3. SHOOTING PHASE",
+      "#/texts/222": "4. CHARGE PHASE",
+      "#/texts/224": "5. FIGHT PHASE"
+    },
+    "scope": "Reviewed pages only; original JSON preserved. Decorative/phase-navigation pictures are represented by ordered text, not image placeholders."
+  },
+  "kept_nodes": [
+    {
+      "self_ref": "#/texts/208",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 85.0394,
+            "t": 721.1847,
+            "r": 436.39939999999996,
+            "b": 685.4766847328244,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "THE BATTLE ROUND",
+      "text": "THE BATTLE ROUND",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/209",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 85.0394,
+            "t": 678.8197,
+            "r": 455.4159000000002,
+            "b": 661.2974213740458,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            197
+          ]
+        }
+      ],
+      "orig": "Minute by bloody minute the battle grinds on, from the opening volleys of shots through furious offensives and desperate counter-attacks, into the last dying moments when victory hangs by a thread.",
+      "text": "Minute by bloody minute the battle grinds on, from the opening volleys of shots through furious offensives and desperate counter-attacks, into the last dying moments when victory hangs by a thread."
+    },
+    {
+      "self_ref": "#/texts/210",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 85.0394,
+            "t": 648.3682,
+            "r": 448.7,
+            "b": 620.828483619818,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            324
+          ]
+        }
+      ],
+      "orig": "Warhammer 40,000 is played in a series of battle rounds. In each battle round, both players have a turn. The same player always takes the first turn in each battle round - the mission you are playing will tell you which player this is. Each turn consists of a series of phases, which must be resolved in the following order.",
+      "text": "Warhammer 40,000 is played in a series of battle rounds. In each battle round, both players have a turn. The same player always takes the first turn in each battle round - the mission you are playing will tell you which player this is. Each turn consists of a series of phases, which must be resolved in the following order."
+    },
+    {
+      "self_ref": "#/texts/216",
+      "parent": {
+        "$ref": "#/pictures/20"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 238.1102,
+            "t": 580.8046,
+            "r": 362.33979999999997,
+            "b": 565.7670427480916,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            13
+          ]
+        }
+      ],
+      "orig": "COMMAND PHASE",
+      "text": "COMMAND PHASE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/217",
+      "parent": {
+        "$ref": "#/pictures/20"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 238.1102,
+            "t": 556.1896,
+            "r": 423.41869999999994,
+            "b": 539.4604320610688,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            84
+          ]
+        }
+      ],
+      "orig": "Both players muster strategic resources, then you test your units' battle readiness.",
+      "text": "Both players muster strategic resources, then you test your units' battle readiness."
+    },
+    {
+      "self_ref": "#/texts/218",
+      "parent": {
+        "$ref": "#/pictures/20"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 238.1102,
+            "t": 500.80460000000005,
+            "r": 368.54899999999986,
+            "b": 485.7670427480916,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "MOVEMENT PHASE",
+      "text": "MOVEMENT PHASE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/219",
+      "parent": {
+        "$ref": "#/pictures/20"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 238.1102,
+            "t": 476.18960000000004,
+            "r": 386.85169999999994,
+            "b": 459.46043206106873,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            78
+          ]
+        }
+      ],
+      "orig": "Your units manoeuvre across the battlefield and reinforcements enter the fray.",
+      "text": "Your units manoeuvre across the battlefield and reinforcements enter the fray."
+    },
+    {
+      "self_ref": "#/texts/220",
+      "parent": {
+        "$ref": "#/pictures/20"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 238.1102,
+            "t": 420.8047,
+            "r": 361.66909999999996,
+            "b": 405.7671427480916,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "SHOOTING PHASE",
+      "text": "SHOOTING PHASE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/221",
+      "parent": {
+        "$ref": "#/pictures/20"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 238.1103,
+            "t": 396.1897,
+            "r": 382.15979999999985,
+            "b": 389.4565320610687,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            48
+          ]
+        }
+      ],
+      "orig": "Your units fire their ranged weapons at the foe.",
+      "text": "Your units fire their ranged weapons at the foe."
+    },
+    {
+      "self_ref": "#/texts/222",
+      "parent": {
+        "$ref": "#/pictures/20"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 238.1102,
+            "t": 340.8047,
+            "r": 347.74969999999996,
+            "b": 325.7671427480916,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "CHARGE PHASE",
+      "text": "CHARGE PHASE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/223",
+      "parent": {
+        "$ref": "#/pictures/20"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 238.1102,
+            "t": 316.1897,
+            "r": 399.71984999999995,
+            "b": 309.4565320610687,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            54
+          ]
+        }
+      ],
+      "orig": "Your units charge forward to battle at close quarters.",
+      "text": "Your units charge forward to battle at close quarters."
+    },
+    {
+      "self_ref": "#/texts/224",
+      "parent": {
+        "$ref": "#/pictures/20"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 238.1102,
+            "t": 260.8047,
+            "r": 331.10189999999994,
+            "b": 245.7671427480916,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            11
+          ]
+        }
+      ],
+      "orig": "FIGHT PHASE",
+      "text": "FIGHT PHASE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/225",
+      "parent": {
+        "$ref": "#/pictures/20"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 238.1102,
+            "t": 236.18970000000002,
+            "r": 418.2591999999999,
+            "b": 229.45653206106874,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            58
+          ]
+        }
+      ],
+      "orig": "Both players' units pile in and attack with melee weapons.",
+      "text": "Both players' units pile in and attack with melee weapons."
+    },
+    {
+      "self_ref": "#/texts/226",
+      "parent": {
+        "$ref": "#/pictures/20"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 114.6833,
+            "t": 178.8197,
+            "r": 426.74025000000034,
+            "b": 151.2939213740458,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            206
+          ]
+        }
+      ],
+      "orig": "Once a player's turn has ended, their opponent then starts their turn. Once both players have completed a turn, the battle round has been completed and the next one begins, and so on, until the battle ends.",
+      "text": "Once a player's turn has ended, their opponent then starts their turn. Once both players have completed a turn, the battle round has been completed and the next one begins, and so on, until the battle ends."
+    }
+  ],
+  "omitted_nodes": [
+    {
+      "node": {
+        "self_ref": "#/texts/211",
+        "parent": {
+          "$ref": "#/pictures/20"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 10,
+            "bbox": {
+              "l": 188.0963,
+              "t": 409.76480000000004,
+              "r": 199.2503,
+              "b": 392.3528916030535,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "3",
+        "text": "3"
+      },
+      "reason": "Diagram navigation number or page furniture"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/212",
+        "parent": {
+          "$ref": "#/pictures/20"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 10,
+            "bbox": {
+              "l": 188.0963,
+              "t": 329.76480000000004,
+              "r": 199.2503,
+              "b": 312.3528916030535,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "4",
+        "text": "4"
+      },
+      "reason": "Diagram navigation number or page furniture"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/213",
+        "parent": {
+          "$ref": "#/pictures/20"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 10,
+            "bbox": {
+              "l": 188.0963,
+              "t": 249.76479999999992,
+              "r": 199.2503,
+              "b": 232.35289160305342,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "5",
+        "text": "5"
+      },
+      "reason": "Diagram navigation number or page furniture"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/214",
+        "parent": {
+          "$ref": "#/pictures/20"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 10,
+            "bbox": {
+              "l": 188.0963,
+              "t": 569.0561,
+              "r": 199.2503,
+              "b": 551.6441916030534,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "1",
+        "text": "1"
+      },
+      "reason": "Diagram navigation number or page furniture"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/215",
+        "parent": {
+          "$ref": "#/pictures/20"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 10,
+            "bbox": {
+              "l": 188.0963,
+              "t": 489.76480000000004,
+              "r": 199.2503,
+              "b": 472.3528916030535,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "2",
+        "text": "2"
+      },
+      "reason": "Diagram navigation number or page furniture"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/227",
+        "parent": {
+          "$ref": "#/pictures/21"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 10,
+            "bbox": {
+              "l": 538.6946,
+              "t": 100.24450000000002,
+              "r": 548.2346000000001,
+              "b": 92.32999618320605,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              2
+            ]
+          }
+        ],
+        "orig": "10",
+        "text": "10"
+      },
+      "reason": "Diagram navigation number or page furniture"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/228",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "furniture",
+        "label": "page_footer",
+        "prov": [
+          {
+            "page_no": 10,
+            "bbox": {
+              "l": 331.1948,
+              "t": 50.00040000000001,
+              "r": 456.3778000000002,
+              "b": 42.08589618320616,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              29
+            ]
+          }
+        ],
+        "orig": "CORE RULES | THE BATTLE ROUND",
+        "text": "CORE RULES | THE BATTLE ROUND"
+      },
+      "reason": "Diagram navigation number or page furniture"
+    }
+  ],
+  "omitted_picture_nodes": [
+    {
+      "self_ref": "#/pictures/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/211"
+        },
+        {
+          "$ref": "#/texts/212"
+        },
+        {
+          "$ref": "#/texts/213"
+        },
+        {
+          "$ref": "#/texts/214"
+        },
+        {
+          "$ref": "#/texts/215"
+        },
+        {
+          "$ref": "#/texts/216"
+        },
+        {
+          "$ref": "#/texts/217"
+        },
+        {
+          "$ref": "#/texts/218"
+        },
+        {
+          "$ref": "#/texts/219"
+        },
+        {
+          "$ref": "#/texts/220"
+        },
+        {
+          "$ref": "#/texts/221"
+        },
+        {
+          "$ref": "#/texts/222"
+        },
+        {
+          "$ref": "#/texts/223"
+        },
+        {
+          "$ref": "#/texts/224"
+        },
+        {
+          "$ref": "#/texts/225"
+        },
+        {
+          "$ref": "#/texts/226"
+        }
+      ],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 82.70717673134725,
+            "t": 593.6714501908732,
+            "r": 457.9331527399782,
+            "b": 144.84625194597606,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/227"
+        }
+      ],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 499.09030920175013,
+            "t": 772.7868663631987,
+            "r": 588.8632413712297,
+            "b": 22.19696031177432,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    }
+  ]
+}

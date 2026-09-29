@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+.venu/
+.env
+
+# Local source inputs and runtime stores
+/data/*.pdf
+/data/*.sqlite
+/data/*.sqlite-*
+/storage/
+.env.*
+!.env.example
+
+# Rebuildable raw previews and superseded export baselines
+/reports/docling/review.html
+/reports/docling/review_images/
+/reports/docling/document.standard.md
+/reports/docling/quality.baseline.json
+/reports/cleaned/review_images/
+/reports/cleaned/review.html

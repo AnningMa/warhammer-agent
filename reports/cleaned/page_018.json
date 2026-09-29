@@ -1,0 +1,930 @@
+{
+  "source": "data/Core Rules.pdf",
+  "rules": {
+    "page": 18,
+    "source_sha256": "4d0e8019cbfddd6f46781d5b4ed31d46fb21eb2d0d10a0f6fabefac0ce054364",
+    "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+    "furniture_refs": [
+      "#/texts/436",
+      "#/texts/437"
+    ],
+    "scope": "Left-column rules first, then three independent transport examples in their original vertical order. Captions remain attached to the matching crop. Original composite picture: #/pictures/37.",
+    "sections": [
+      {
+        "page": 18,
+        "figure_id": "p018_embarking",
+        "figure_title": "Embarking — illustrated example",
+        "figure_bbox": [
+          287,
+          69,
+          511,
+          284
+        ],
+        "image": "images/page_018_embarking.png",
+        "body_refs": [
+          "#/texts/411",
+          "#/texts/412",
+          "#/texts/413",
+          "#/texts/414",
+          "#/texts/415",
+          "#/texts/416",
+          "#/texts/417",
+          "#/texts/418",
+          "#/texts/419",
+          "#/texts/420",
+          "#/texts/421",
+          "#/texts/422",
+          "#/texts/423",
+          "#/texts/424",
+          "#/texts/425"
+        ],
+        "summary_refs": [],
+        "caption_refs": [
+          "#/texts/429"
+        ],
+        "annotation_refs": [
+          "#/texts/426",
+          "#/texts/431",
+          "#/texts/434"
+        ],
+        "furniture_refs": [],
+        "source_picture_ref": "#/pictures/37",
+        "source_title_ref": "#/texts/426",
+        "examples_heading": "TRANSPORT EXAMPLES"
+      },
+      {
+        "page": 18,
+        "figure_id": "p018_disembarking",
+        "figure_title": "Disembarking — illustrated example",
+        "figure_bbox": [
+          287,
+          290,
+          511,
+          504
+        ],
+        "image": "images/page_018_disembarking.png",
+        "body_refs": [],
+        "summary_refs": [],
+        "caption_refs": [
+          "#/texts/430"
+        ],
+        "annotation_refs": [
+          "#/texts/427",
+          "#/texts/433",
+          "#/texts/435"
+        ],
+        "furniture_refs": [],
+        "source_picture_ref": "#/pictures/37",
+        "source_title_ref": "#/texts/427"
+      },
+      {
+        "page": 18,
+        "figure_id": "p018_destroyed_transports",
+        "figure_title": "Destroyed Transports — illustrated example",
+        "figure_bbox": [
+          287,
+          510,
+          511,
+          723
+        ],
+        "image": "images/page_018_destroyed_transports.png",
+        "body_refs": [],
+        "summary_refs": [],
+        "caption_refs": [
+          "#/texts/432"
+        ],
+        "annotation_refs": [
+          "#/texts/428"
+        ],
+        "furniture_refs": [],
+        "source_picture_ref": "#/pictures/37",
+        "source_title_ref": "#/texts/428"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "page": 18,
+      "body": [
+        {
+          "self_ref": "#/texts/411",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 18,
+              "bbox": {
+                "l": 85.0394,
+                "t": 720.3947,
+                "r": 200.54780000000008,
+                "b": 710.8972954198473,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                20
+              ]
+            }
+          ],
+          "orig": "DESTROYED TRANSPORTS",
+          "text": "DESTROYED TRANSPORTS",
+          "level": 1
+        },
+        {
+          "self_ref": "#/texts/412",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 18,
+              "bbox": {
+                "l": 85.0394,
+                "t": 708.3682,
+                "r": 252.6560000000001,
+                "b": 670.832483619818,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                184
+              ]
+            }
+          ],
+          "orig": "If a Transport model is destroyed, any units embarked within that Transport model must immediately disembark (see opposite) before that Transport model is removed from the battlefield.",
+          "text": "If a Transport model is destroyed, any units embarked within that Transport model must immediately disembark (see opposite) before that Transport model is removed from the battlefield."
+        },
+        {
+          "self_ref": "#/texts/413",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 18,
+              "bbox": {
+                "l": 85.0394,
+                "t": 658.3797000000001,
+                "r": 264.51689999999996,
+                "b": 590.8559836198182,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                327
+              ]
+            }
+          ],
+          "orig": "Units that disembark from a destroyed Transport model are not affected by that model's Deadly Demise ability (pg 23). Instead, you must roll one D6 for each disembarking model. For each roll of 1, that disembarking model's unit suffers 1 mortal wound (pg 23). In addition, if a unit disembarks from a destroyed Transport model:",
+          "text": "Units that disembark from a destroyed Transport model are not affected by that model's Deadly Demise ability (pg 23). Instead, you must roll one D6 for each disembarking model. For each roll of 1, that disembarking model's unit suffers 1 mortal wound (pg 23). In addition, if a unit disembarks from a destroyed Transport model:"
+        },
+        {
+          "self_ref": "#/texts/414",
+          "parent": {
+            "$ref": "#/groups/21"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 18,
+              "bbox": {
+                "l": 85.0394,
+                "t": 578.9207,
+                "r": 246.08174999999994,
+                "b": 560.820483619818,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                94
+              ]
+            }
+          ],
+          "orig": "■ Until the start of its controlling player's next Command phase, that unit is Battle-shocked.",
+          "text": "■ Until the start of its controlling player's next Command phase, that unit is Battle-shocked.",
+          "enumerated": false,
+          "marker": ""
+        },
+        {
+          "self_ref": "#/texts/415",
+          "parent": {
+            "$ref": "#/groups/21"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 18,
+              "bbox": {
+                "l": 85.0394,
+                "t": 558.9207,
+                "r": 264.87609999999984,
+                "b": 530.824483619818,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                132
+              ]
+            }
+          ],
+          "orig": "■ Until the end of the turn, that unit counts as having made a Normal move this turn, and cannot declare a charge this turn (pg 29).",
+          "text": "■ Until the end of the turn, that unit counts as having made a Normal move this turn, and cannot declare a charge this turn (pg 29).",
+          "enumerated": false,
+          "marker": ""
+        },
+        {
+          "self_ref": "#/texts/416",
+          "parent": {
+            "$ref": "#/groups/21"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 18,
+              "bbox": {
+                "l": 96.378,
+                "t": 512.6786,
+                "r": 240.59259999999998,
+                "b": 493.4342717557252,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                65
+              ]
+            }
+          ],
+          "orig": "■ If a Transport is destroyed, any embarked units must disembark.",
+          "text": "■ If a Transport is destroyed, any embarked units must disembark.",
+          "enumerated": false,
+          "marker": ""
+        },
+        {
+          "self_ref": "#/texts/417",
+          "parent": {
+            "$ref": "#/groups/21"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 18,
+              "bbox": {
+                "l": 96.3779,
+                "t": 492.67859999999996,
+                "r": 242.64820000000006,
+                "b": 463.4342717557252,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                99
+              ]
+            }
+          ],
+          "orig": "■ Roll one D6 for each model that disembarks: for each 1, that model's unit suffers 1 mortal wound.",
+          "text": "■ Roll one D6 for each model that disembarks: for each 1, that model's unit suffers 1 mortal wound.",
+          "enumerated": false,
+          "marker": ""
+        },
+        {
+          "self_ref": "#/texts/418",
+          "parent": {
+            "$ref": "#/groups/21"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 18,
+              "bbox": {
+                "l": 96.3779,
+                "t": 462.67859999999996,
+                "r": 242.5547000000001,
+                "b": 433.4342717557252,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                106
+              ]
+            }
+          ],
+          "orig": "■ Until the start of its controlling player's next Command phase, the disembarking unit is Battle-shocked.",
+          "text": "■ Until the start of its controlling player's next Command phase, the disembarking unit is Battle-shocked.",
+          "enumerated": false,
+          "marker": ""
+        },
+        {
+          "self_ref": "#/texts/419",
+          "parent": {
+            "$ref": "#/groups/21"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 18,
+              "bbox": {
+                "l": 96.3779,
+                "t": 432.67859999999996,
+                "r": 251.42955000000006,
+                "b": 403.4342717557252,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                116
+              ]
+            }
+          ],
+          "orig": "■ Until the end of the turn, the disembarking unit counts as having made a Normal move, and cannot declare a charge.",
+          "text": "■ Until the end of the turn, the disembarking unit counts as having made a Normal move, and cannot declare a charge.",
+          "enumerated": false,
+          "marker": ""
+        },
+        {
+          "self_ref": "#/texts/420",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 18,
+              "bbox": {
+                "l": 85.0394,
+                "t": 380.3947,
+                "r": 210.25579999999985,
+                "b": 370.89729541984735,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                24
+              ]
+            }
+          ],
+          "orig": "Emergency Disembarkation",
+          "text": "Emergency Disembarkation",
+          "level": 1
+        },
+        {
+          "self_ref": "#/texts/421",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 18,
+              "bbox": {
+                "l": 85.0394,
+                "t": 368.3682,
+                "r": 262.01705000000004,
+                "b": 220.87648361981815,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                725
+              ]
+            }
+          ],
+          "orig": "If a Transport model is destroyed and it is not possible to set up a disembarking unit wholly within 3\" of that Transport model and not within Engagement Range of any enemy models, that unit must instead perform an Emergency Disembarkation. This is performed as described for disembarking from a destroyed Transport model, except that a unit that does so must be set up wholly within 6\" of the destroyed Transport model (instead of wholly within 3\") and not within Engagement Range of any enemy models, and when rolling for each disembarking model, that unit suffers 1 mortal wound for each roll of 1-3 (instead of for each roll of 1). If, for any reason, a disembarking model still cannot be set up, that model is destroyed.",
+          "text": "If a Transport model is destroyed and it is not possible to set up a disembarking unit wholly within 3\" of that Transport model and not within Engagement Range of any enemy models, that unit must instead perform an Emergency Disembarkation. This is performed as described for disembarking from a destroyed Transport model, except that a unit that does so must be set up wholly within 6\" of the destroyed Transport model (instead of wholly within 3\") and not within Engagement Range of any enemy models, and when rolling for each disembarking model, that unit suffers 1 mortal wound for each roll of 1-3 (instead of for each roll of 1). If, for any reason, a disembarking model still cannot be set up, that model is destroyed."
+        },
+        {
+          "self_ref": "#/texts/422",
+          "parent": {
+            "$ref": "#/groups/22"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 18,
+              "bbox": {
+                "l": 96.378,
+                "t": 202.67859999999996,
+                "r": 247.37134999999992,
+                "b": 173.43827175572517,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                129
+              ]
+            }
+          ],
+          "orig": "■ Units disembarking a destroyed Transport that cannot be set up wholly within 3\" of it must perform an Emergency Disembarkation:",
+          "text": "■ Units disembarking a destroyed Transport that cannot be set up wholly within 3\" of it must perform an Emergency Disembarkation:",
+          "enumerated": false,
+          "marker": ""
+        },
+        {
+          "self_ref": "#/texts/423",
+          "parent": {
+            "$ref": "#/groups/22"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 18,
+              "bbox": {
+                "l": 113.3858,
+                "t": 172.67859999999996,
+                "r": 233.3656000000002,
+                "b": 153.43027175572524,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                68
+              ]
+            }
+          ],
+          "orig": "● Must be set up wholly within 6\" of it instead of wholly within 3\".",
+          "text": "Must be set up wholly within 6\" of it instead of wholly within 3\".",
+          "enumerated": false,
+          "marker": "●"
+        },
+        {
+          "self_ref": "#/texts/424",
+          "parent": {
+            "$ref": "#/groups/22"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 18,
+              "bbox": {
+                "l": 113.3858,
+                "t": 152.67859999999996,
+                "r": 251.1654500000001,
+                "b": 133.43027175572524,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                72
+              ]
+            }
+          ],
+          "orig": "● Suffer 1 mortal wound for each roll of 1-3, instead of each roll of 1.",
+          "text": "Suffer 1 mortal wound for each roll of 1-3, instead of each roll of 1.",
+          "enumerated": false,
+          "marker": "●"
+        },
+        {
+          "self_ref": "#/texts/425",
+          "parent": {
+            "$ref": "#/groups/22"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 18,
+              "bbox": {
+                "l": 113.3858,
+                "t": 132.67859999999996,
+                "r": 246.92395,
+                "b": 113.43027175572524,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                60
+              ]
+            }
+          ],
+          "orig": "● Any disembarking model that cannot be set up is destroyed.",
+          "text": "Any disembarking model that cannot be set up is destroyed.",
+          "enumerated": false,
+          "marker": "●"
+        }
+      ],
+      "summary": [],
+      "figure": {
+        "id": "p018_embarking",
+        "page": 18,
+        "bbox": [
+          287,
+          69,
+          511,
+          284
+        ],
+        "coordinate_system": "PDF points, top-left origin",
+        "image": "images/page_018_embarking.png",
+        "title": "Embarking — illustrated example",
+        "captions": [
+          {
+            "self_ref": "#/texts/429",
+            "parent": {
+              "$ref": "#/pictures/37"
+            },
+            "children": [],
+            "content_layer": "body",
+            "label": "text",
+            "prov": [
+              {
+                "page_no": 18,
+                "bbox": {
+                  "l": 416.6929,
+                  "t": 594.3308,
+                  "r": 489.3179000000003,
+                  "b": 546.2938381679387,
+                  "coord_origin": "BOTTOMLEFT"
+                },
+                "charspan": [
+                  0,
+                  160
+                ]
+              }
+            ],
+            "orig": "The Terminators make an Advance move of 8\" - all the models in the unit end that move within 3\" of the Land Raider Crusader, and can therefore embark within it.",
+            "text": "The Terminators make an Advance move of 8\" - all the models in the unit end that move within 3\" of the Land Raider Crusader, and can therefore embark within it."
+          }
+        ],
+        "annotations": [
+          {
+            "self_ref": "#/texts/426",
+            "parent": {
+              "$ref": "#/pictures/37"
+            },
+            "children": [],
+            "content_layer": "body",
+            "label": "text",
+            "prov": [
+              {
+                "page_no": 18,
+                "bbox": {
+                  "l": 299.3307,
+                  "t": 712.914,
+                  "r": 326.8547,
+                  "b": 707.3690381679389,
+                  "coord_origin": "BOTTOMLEFT"
+                },
+                "charspan": [
+                  0,
+                  9
+                ]
+              }
+            ],
+            "orig": "Embarking",
+            "text": "Embarking"
+          },
+          {
+            "self_ref": "#/texts/431",
+            "parent": {
+              "$ref": "#/pictures/37"
+            },
+            "children": [],
+            "content_layer": "body",
+            "label": "text",
+            "prov": [
+              {
+                "page_no": 18,
+                "bbox": {
+                  "l": 372.1843,
+                  "t": 613.0713,
+                  "r": 380.4143,
+                  "b": 605.1567961832061,
+                  "coord_origin": "BOTTOMLEFT"
+                },
+                "charspan": [
+                  0,
+                  2
+                ]
+              }
+            ],
+            "orig": "8\"",
+            "text": "8\""
+          },
+          {
+            "self_ref": "#/texts/434",
+            "parent": {
+              "$ref": "#/pictures/37"
+            },
+            "children": [],
+            "content_layer": "body",
+            "label": "text",
+            "prov": [
+              {
+                "page_no": 18,
+                "bbox": {
+                  "l": 451.2,
+                  "t": 644.9137999999999,
+                  "r": 459.43,
+                  "b": 636.9992961832061,
+                  "coord_origin": "BOTTOMLEFT"
+                },
+                "charspan": [
+                  0,
+                  2
+                ]
+              }
+            ],
+            "orig": "3\"",
+            "text": "3\""
+          }
+        ]
+      },
+      "excluded_furniture": []
+    },
+    {
+      "page": 18,
+      "body": [],
+      "summary": [],
+      "figure": {
+        "id": "p018_disembarking",
+        "page": 18,
+        "bbox": [
+          287,
+          290,
+          511,
+          504
+        ],
+        "coordinate_system": "PDF points, top-left origin",
+        "image": "images/page_018_disembarking.png",
+        "title": "Disembarking — illustrated example",
+        "captions": [
+          {
+            "self_ref": "#/texts/430",
+            "parent": {
+              "$ref": "#/pictures/37"
+            },
+            "children": [],
+            "content_layer": "body",
+            "label": "text",
+            "prov": [
+              {
+                "page_no": 18,
+                "bbox": {
+                  "l": 416.6929,
+                  "t": 370.288,
+                  "r": 493.93020000000035,
+                  "b": 305.25503816793895,
+                  "coord_origin": "BOTTOMLEFT"
+                },
+                "charspan": [
+                  0,
+                  210
+                ]
+              }
+            ],
+            "orig": "The Terminators are selected to disembark from the Land Raider Crusader and are set up wholly within 3\" of it. The Land Raider Crusader has Remained Stationary, so the Terminators can then make an Advance move.",
+            "text": "The Terminators are selected to disembark from the Land Raider Crusader and are set up wholly within 3\" of it. The Land Raider Crusader has Remained Stationary, so the Terminators can then make an Advance move."
+          }
+        ],
+        "annotations": [
+          {
+            "self_ref": "#/texts/427",
+            "parent": {
+              "$ref": "#/pictures/37"
+            },
+            "children": [],
+            "content_layer": "body",
+            "label": "text",
+            "prov": [
+              {
+                "page_no": 18,
+                "bbox": {
+                  "l": 299.3307,
+                  "t": 491.10240000000005,
+                  "r": 334.94669999999996,
+                  "b": 485.5574381679389,
+                  "coord_origin": "BOTTOMLEFT"
+                },
+                "charspan": [
+                  0,
+                  12
+                ]
+              }
+            ],
+            "orig": "Disembarking",
+            "text": "Disembarking"
+          },
+          {
+            "self_ref": "#/texts/433",
+            "parent": {
+              "$ref": "#/pictures/37"
+            },
+            "children": [],
+            "content_layer": "body",
+            "label": "text",
+            "prov": [
+              {
+                "page_no": 18,
+                "bbox": {
+                  "l": 423.6331,
+                  "t": 442.3627,
+                  "r": 431.86310000000003,
+                  "b": 434.4481961832061,
+                  "coord_origin": "BOTTOMLEFT"
+                },
+                "charspan": [
+                  0,
+                  2
+                ]
+              }
+            ],
+            "orig": "8\"",
+            "text": "8\""
+          },
+          {
+            "self_ref": "#/texts/435",
+            "parent": {
+              "$ref": "#/pictures/37"
+            },
+            "children": [],
+            "content_layer": "body",
+            "label": "text",
+            "prov": [
+              {
+                "page_no": 18,
+                "bbox": {
+                  "l": 364.6725,
+                  "t": 422.5359,
+                  "r": 372.90250000000003,
+                  "b": 414.6213961832061,
+                  "coord_origin": "BOTTOMLEFT"
+                },
+                "charspan": [
+                  0,
+                  2
+                ]
+              }
+            ],
+            "orig": "3\"",
+            "text": "3\""
+          }
+        ]
+      },
+      "excluded_furniture": []
+    },
+    {
+      "page": 18,
+      "body": [],
+      "summary": [],
+      "figure": {
+        "id": "p018_destroyed_transports",
+        "page": 18,
+        "bbox": [
+          287,
+          510,
+          511,
+          723
+        ],
+        "coordinate_system": "PDF points, top-left origin",
+        "image": "images/page_018_destroyed_transports.png",
+        "title": "Destroyed Transports — illustrated example",
+        "captions": [
+          {
+            "self_ref": "#/texts/432",
+            "parent": {
+              "$ref": "#/pictures/37"
+            },
+            "children": [],
+            "content_layer": "body",
+            "label": "text",
+            "prov": [
+              {
+                "page_no": 18,
+                "bbox": {
+                  "l": 301.6063,
+                  "t": 116.99659999999994,
+                  "r": 483.0498000000006,
+                  "b": 85.9556381679389,
+                  "coord_origin": "BOTTOMLEFT"
+                },
+                "charspan": [
+                  0,
+                  266
+                ]
+              }
+            ],
+            "orig": "The Land Raider Crusader is destroyed, forcing the Terminators to disembark wholly within 3\". The controlling player then rolls one D6 for each disembarking model, resulting in a 1, 3, 3, 5 and 6. The Terminator unit suffers 1 mortal wound and is now Battle-shocked.",
+            "text": "The Land Raider Crusader is destroyed, forcing the Terminators to disembark wholly within 3\". The controlling player then rolls one D6 for each disembarking model, resulting in a 1, 3, 3, 5 and 6. The Terminator unit suffers 1 mortal wound and is now Battle-shocked."
+          }
+        ],
+        "annotations": [
+          {
+            "self_ref": "#/texts/428",
+            "parent": {
+              "$ref": "#/pictures/37"
+            },
+            "children": [],
+            "content_layer": "body",
+            "label": "text",
+            "prov": [
+              {
+                "page_no": 18,
+                "bbox": {
+                  "l": 299.3307,
+                  "t": 271.49659999999994,
+                  "r": 354.4053000000001,
+                  "b": 265.9516381679389,
+                  "coord_origin": "BOTTOMLEFT"
+                },
+                "charspan": [
+                  0,
+                  20
+                ]
+              }
+            ],
+            "orig": "Destroyed Transports",
+            "text": "Destroyed Transports"
+          }
+        ]
+      },
+      "excluded_furniture": []
+    }
+  ],
+  "excluded_furniture": [
+    {
+      "self_ref": "#/texts/436",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 18,
+          "bbox": {
+            "l": 405.1403,
+            "t": 50.00040000000001,
+            "r": 507.32830000000024,
+            "b": 42.08589618320616,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            23
+          ]
+        }
+      ],
+      "orig": "CORE RULES | TRANSPORTS",
+      "text": "CORE RULES | TRANSPORTS"
+    },
+    {
+      "self_ref": "#/texts/437",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 18,
+          "bbox": {
+            "l": 538.6595,
+            "t": 100.24450000000002,
+            "r": 548.2695,
+            "b": 92.32999618320605,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "18",
+      "text": "18"
+    }
+  ]
+}

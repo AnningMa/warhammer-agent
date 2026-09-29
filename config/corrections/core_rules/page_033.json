@@ -1,0 +1,157 @@
+{
+  "page": 33,
+  "source_sha256": "4d0e8019cbfddd6f46781d5b4ed31d46fb21eb2d0d10a0f6fabefac0ce054364",
+  "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+  "blocks": [
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/796"
+      ],
+      "style": "h1"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/797"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/798"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/800"
+      ],
+      "style": "ordered",
+      "number": 1
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/802"
+      ],
+      "style": "ordered",
+      "text": "MAKE MELEE ATTACKS — Select weapon; Select targets; Make attacks",
+      "number": 2
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/804"
+      ],
+      "style": "ordered",
+      "number": 3
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/805"
+      ],
+      "style": "h2"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/806"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/807"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/808"
+      ],
+      "style": "li"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/809"
+      ],
+      "style": "li"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/810"
+      ],
+      "style": "h2"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/811"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/812"
+      ],
+      "style": "h3"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/813"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/814"
+      ],
+      "style": "li"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/815"
+      ],
+      "style": "li"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/816"
+      ],
+      "style": "h3"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/817"
+      ],
+      "style": "p"
+    }
+  ],
+  "excluded_text": {
+    "#/texts/794": "Navigation/page furniture or step number merged into overview",
+    "#/texts/795": "Navigation/page furniture or step number merged into overview",
+    "#/texts/799": "Navigation/page furniture or step number merged into overview",
+    "#/texts/801": "Navigation/page furniture or step number merged into overview",
+    "#/texts/803": "Navigation/page furniture or step number merged into overview",
+    "#/texts/818": "Navigation/page furniture or step number merged into overview"
+  },
+  "review_notes": [
+    "Substeps under MAKE MELEE ATTACKS are kept together; no extra numbered stages introduced."
+  ],
+  "schema_version": 1,
+  "handler": "blocks"
+}

@@ -1,0 +1,67 @@
+{
+  "page": 19,
+  "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+  "keep_refs": [
+    "#/texts/443",
+    "#/texts/444",
+    "#/texts/445",
+    "#/texts/447",
+    "#/texts/449",
+    "#/texts/451",
+    "#/texts/453",
+    "#/texts/454",
+    "#/texts/455",
+    "#/texts/456",
+    "#/texts/457",
+    "#/texts/458",
+    "#/texts/459",
+    "#/texts/460",
+    "#/texts/461",
+    "#/texts/462",
+    "#/texts/463",
+    "#/texts/464",
+    "#/texts/465",
+    "#/texts/466",
+    "#/texts/467"
+  ],
+  "omit_reasons": {
+    "#/texts/438": "Phase navigation or printed page number",
+    "#/texts/439": "Phase navigation or printed page number",
+    "#/texts/440": "Phase navigation or printed page number",
+    "#/texts/441": "Phase navigation or printed page number",
+    "#/texts/442": "Phase navigation or printed page number",
+    "#/texts/446": "Step number merged with the corresponding ordered-list item",
+    "#/texts/448": "Step number merged with the corresponding ordered-list item",
+    "#/texts/450": "Step number merged with the corresponding ordered-list item",
+    "#/texts/452": "Step number merged with the corresponding ordered-list item",
+    "#/texts/468": "Page footer"
+  },
+  "heading_overrides": {
+    "#/texts/458": "2. SELECT TARGETS"
+  },
+  "heading_levels": {
+    "#/texts/443": 1,
+    "#/texts/458": 2,
+    "#/texts/465": 2
+  },
+  "ordered_items": {
+    "#/texts/447": 1,
+    "#/texts/449": 2,
+    "#/texts/451": 3,
+    "#/texts/453": 4
+  },
+  "headings_before": {
+    "#/texts/454": {
+      "text": "1. SELECT ELIGIBLE UNIT",
+      "level": 2,
+      "source_refs": [
+        "#/texts/446",
+        "#/texts/447"
+      ],
+      "reason": "Use the first overview step as the heading for its corresponding eligibility paragraphs"
+    }
+  },
+  "scope": "SHOOTING PHASE is the sole H1. Sidebar becomes a numbered sequence. Detailed steps and independent Lone Operative ability are H2; no invented step 3/4 body on this page.",
+  "schema_version": 1,
+  "handler": "text"
+}

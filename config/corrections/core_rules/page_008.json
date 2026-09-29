@@ -1,0 +1,60 @@
+{
+  "page": 8,
+  "source_sha256": "4d0e8019cbfddd6f46781d5b4ed31d46fb21eb2d0d10a0f6fabefac0ce054364",
+  "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+  "intro_refs": [
+    "#/texts/166",
+    "#/texts/167"
+  ],
+  "summary_refs": [
+    "#/texts/176",
+    "#/texts/177",
+    "#/texts/178",
+    "#/texts/179"
+  ],
+  "furniture_refs": [
+    "#/pictures/13",
+    "#/texts/185",
+    "#/texts/186"
+  ],
+  "sections": [
+    {
+      "id": "model_visible",
+      "expected_heading": "MODEL VISIBLE",
+      "text_refs": [
+        "#/texts/168",
+        "#/texts/169"
+      ],
+      "picture_ref": "#/pictures/9"
+    },
+    {
+      "id": "unit_visible",
+      "expected_heading": "UNIT VISIBLE",
+      "text_refs": [
+        "#/texts/170",
+        "#/texts/171"
+      ],
+      "picture_ref": "#/pictures/10"
+    },
+    {
+      "id": "model_fully_visible",
+      "expected_heading": "MODEL FULLY VISIBLE",
+      "text_refs": [
+        "#/texts/172",
+        "#/texts/173"
+      ],
+      "picture_ref": "#/pictures/11"
+    },
+    {
+      "id": "unit_fully_visible",
+      "expected_heading": "UNIT FULLY VISIBLE",
+      "text_refs": [
+        "#/texts/174",
+        "#/texts/175"
+      ],
+      "picture_ref": "#/pictures/12"
+    }
+  ],
+  "schema_version": 1,
+  "handler": "visibility"
+}

@@ -1,0 +1,1189 @@
+{
+  "page": 45,
+  "source": "data/Core Rules.pdf",
+  "rules": {
+    "page": 45,
+    "source_sha256": "4d0e8019cbfddd6f46781d5b4ed31d46fb21eb2d0d10a0f6fabefac0ce054364",
+    "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+    "blocks": [
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1144"
+        ],
+        "style": "h1"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1145"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "image",
+        "id": "terrain_1144",
+        "title": "CRATERS AND RUBBLE",
+        "bbox": [
+          305.32387266075256,
+          120.36909537995189,
+          563.1230242120461,
+          361.87956254108724
+        ],
+        "captions": [],
+        "source_refs": [
+          "#/texts/1144",
+          "#/pictures/108"
+        ]
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1146"
+        ],
+        "style": "h2"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1147"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1148"
+        ],
+        "style": "h2"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1149"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1150"
+        ],
+        "style": "h2"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1151"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1152"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1153"
+        ],
+        "style": "h1"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1154"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "image",
+        "id": "terrain_1153",
+        "title": "BARRICADES AND FUEL PIPES",
+        "bbox": [
+          305.2554530732702,
+          429.84288177897645,
+          563.1641857285796,
+          711.0394407229484
+        ],
+        "captions": [],
+        "source_refs": [
+          "#/texts/1153",
+          "#/pictures/109"
+        ]
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1155"
+        ],
+        "style": "h2"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1156"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1157"
+        ],
+        "style": "h2"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1158"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1159"
+        ],
+        "style": "h2"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1160"
+        ],
+        "style": "li"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1161"
+        ],
+        "style": "li"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1162"
+        ],
+        "style": "h2"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1163"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1164"
+        ],
+        "style": "p"
+      }
+    ],
+    "excluded_text": {
+      "#/texts/1143": "Page furniture",
+      "#/texts/1165": "Page furniture"
+    },
+    "review_notes": [
+      "Each terrain title is H1; Movement, Visibility, Engagement Range and Benefit of Cover are H2 under their terrain type."
+    ]
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1144"
+      ],
+      "style": "h1",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1144",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 45,
+              "bbox": {
+                "l": 117.6378,
+                "t": 707.1747,
+                "r": 273.96779999999995,
+                "b": 692.8914938931298,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                18
+              ]
+            }
+          ],
+          "orig": "CRATERS AND RUBBLE",
+          "text": "CRATERS AND RUBBLE",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1145"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1145",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 45,
+              "bbox": {
+                "l": 117.6378,
+                "t": 688.9547,
+                "r": 328.2505999999999,
+                "b": 682.5170118865867,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                68
+              ]
+            }
+          ],
+          "orig": "Many battlefields bear the scars of heavy and sustained bombardment.",
+          "text": "Many battlefields bear the scars of heavy and sustained bombardment."
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "id": "terrain_1144",
+      "title": "CRATERS AND RUBBLE",
+      "bbox": [
+        305.32387266075256,
+        120.36909537995189,
+        563.1230242120461,
+        361.87956254108724
+      ],
+      "captions": [],
+      "source_refs": [
+        "#/texts/1144",
+        "#/pictures/108"
+      ],
+      "source_nodes": [
+        {
+          "self_ref": "#/pictures/108",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 45,
+              "bbox": {
+                "l": 305.32387266075256,
+                "t": 673.3318933895794,
+                "r": 563.1230242120461,
+                "b": 431.821426228444,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "annotations": []
+        },
+        {
+          "self_ref": "#/texts/1144",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 45,
+              "bbox": {
+                "l": 117.6378,
+                "t": 707.1747,
+                "r": 273.96779999999995,
+                "b": 692.8914938931298,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                18
+              ]
+            }
+          ],
+          "orig": "CRATERS AND RUBBLE",
+          "text": "CRATERS AND RUBBLE",
+          "level": 1
+        }
+      ],
+      "image": "images/page_045_terrain_1144.png",
+      "caption_texts": [],
+      "coordinate_system": "PDF points, top-left origin"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1146"
+      ],
+      "style": "h2",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1146",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 45,
+              "bbox": {
+                "l": 120.4724,
+                "t": 668.9911999999999,
+                "r": 170.82440000000003,
+                "b": 659.4937954198473,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                8
+              ]
+            }
+          ],
+          "orig": "MOVEMENT",
+          "text": "MOVEMENT",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1147"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1147",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 45,
+              "bbox": {
+                "l": 120.4724,
+                "t": 651.9182999999999,
+                "r": 269.44759999999985,
+                "b": 636.5812007633588,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                71
+              ]
+            }
+          ],
+          "orig": "Models can be moved over this terrain feature, as described on page 15.",
+          "text": "Models can be moved over this terrain feature, as described on page 15."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1148"
+      ],
+      "style": "h2",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1148",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 45,
+              "bbox": {
+                "l": 120.4724,
+                "t": 628.3653999999999,
+                "r": 166.50679999999997,
+                "b": 618.8679954198473,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                10
+              ]
+            }
+          ],
+          "orig": "VISIBILITY",
+          "text": "VISIBILITY",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1149"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1149",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 45,
+              "bbox": {
+                "l": 120.4724,
+                "t": 611.1351,
+                "r": 207.26279999999983,
+                "b": 604.7980007633588,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                30
+              ]
+            }
+          ],
+          "orig": "Normal visibility rules apply.",
+          "text": "Normal visibility rules apply."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1150"
+      ],
+      "style": "h2",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1150",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 45,
+              "bbox": {
+                "l": 120.4724,
+                "t": 596.4246999999999,
+                "r": 204.56720000000004,
+                "b": 586.9272954198473,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                16
+              ]
+            }
+          ],
+          "orig": "BENEFIT OF COVER",
+          "text": "BENEFIT OF COVER",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1151"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1151",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 45,
+              "bbox": {
+                "l": 120.47239999999996,
+                "t": 579.3517999999999,
+                "r": 282.6907999999999,
+                "b": 555.0147007633587,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                163
+              ]
+            }
+          ],
+          "orig": "Each time a ranged attack is allocated to an Infantry model that is wholly on top of this terrain feature, that model has the Benefit of Cover against that attack.",
+          "text": "Each time a ranged attack is allocated to an Infantry model that is wholly on top of this terrain feature, that model has the Benefit of Cover against that attack."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1152"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1152",
+          "parent": {
+            "$ref": "#/groups/77"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 45,
+              "bbox": {
+                "l": 120.4724,
+                "t": 544.9733,
+                "r": 247.8124000000001,
+                "b": 537.0519259541985,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                30
+              ]
+            }
+          ],
+          "orig": "KEYWORDS: Area Terrain, Crater",
+          "text": "KEYWORDS: Area Terrain, Crater"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1153"
+      ],
+      "style": "h1",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1153",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 45,
+              "bbox": {
+                "l": 118.3464,
+                "t": 397.1747,
+                "r": 323.2044,
+                "b": 382.8914938931298,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                25
+              ]
+            }
+          ],
+          "orig": "BARRICADES AND FUEL PIPES",
+          "text": "BARRICADES AND FUEL PIPES",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1154"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1154",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 45,
+              "bbox": {
+                "l": 118.3464,
+                "t": 378.9547,
+                "r": 406.32800000000026,
+                "b": 372.5170118865867,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                96
+              ]
+            }
+          ],
+          "orig": "Fuel pipes and purpose-made defence lines are excellent positions from which to repel the enemy.",
+          "text": "Fuel pipes and purpose-made defence lines are excellent positions from which to repel the enemy."
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "id": "terrain_1153",
+      "title": "BARRICADES AND FUEL PIPES",
+      "bbox": [
+        305.2554530732702,
+        429.84288177897645,
+        563.1641857285796,
+        711.0394407229484
+      ],
+      "captions": [],
+      "source_refs": [
+        "#/texts/1153",
+        "#/pictures/109"
+      ],
+      "source_nodes": [
+        {
+          "self_ref": "#/pictures/109",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 45,
+              "bbox": {
+                "l": 305.2554530732702,
+                "t": 363.8581069905548,
+                "r": 563.1641857285796,
+                "b": 82.66154804658288,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "annotations": []
+        },
+        {
+          "self_ref": "#/texts/1153",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 45,
+              "bbox": {
+                "l": 118.3464,
+                "t": 397.1747,
+                "r": 323.2044,
+                "b": 382.8914938931298,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                25
+              ]
+            }
+          ],
+          "orig": "BARRICADES AND FUEL PIPES",
+          "text": "BARRICADES AND FUEL PIPES",
+          "level": 1
+        }
+      ],
+      "image": "images/page_045_terrain_1153.png",
+      "caption_texts": [],
+      "coordinate_system": "PDF points, top-left origin"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1155"
+      ],
+      "style": "h2",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1155",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 45,
+              "bbox": {
+                "l": 120.4724,
+                "t": 358.9911,
+                "r": 170.82440000000003,
+                "b": 349.49369541984737,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                8
+              ]
+            }
+          ],
+          "orig": "MOVEMENT",
+          "text": "MOVEMENT",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1156"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1156",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 45,
+              "bbox": {
+                "l": 120.4724,
+                "t": 341.9182,
+                "r": 289.7068,
+                "b": 317.5811007633588,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                119
+              ]
+            }
+          ],
+          "orig": "Models can move up, over and down this terrain feature, but they cannot be set up or end any kind of move on top of it.",
+          "text": "Models can move up, over and down this terrain feature, but they cannot be set up or end any kind of move on top of it."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1157"
+      ],
+      "style": "h2",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1157",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 45,
+              "bbox": {
+                "l": 120.4724,
+                "t": 309.3654,
+                "r": 166.50679999999997,
+                "b": 299.8679954198474,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                10
+              ]
+            }
+          ],
+          "orig": "VISIBILITY",
+          "text": "VISIBILITY",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1158"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1158",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 45,
+              "bbox": {
+                "l": 120.4724,
+                "t": 292.13500000000005,
+                "r": 207.26279999999983,
+                "b": 285.7979007633588,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                30
+              ]
+            }
+          ],
+          "orig": "Normal visibility rules apply.",
+          "text": "Normal visibility rules apply."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1159"
+      ],
+      "style": "h2",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1159",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 45,
+              "bbox": {
+                "l": 120.4724,
+                "t": 277.42460000000005,
+                "r": 214.90040000000008,
+                "b": 267.9271954198473,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                16
+              ]
+            }
+          ],
+          "orig": "ENGAGEMENT RANGE",
+          "text": "ENGAGEMENT RANGE",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1160"
+      ],
+      "style": "li",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1160",
+          "parent": {
+            "$ref": "#/groups/78"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 45,
+              "bbox": {
+                "l": 120.4724,
+                "t": 260.3518,
+                "r": 280.43950000000007,
+                "b": 209.01470076335875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                304
+              ]
+            }
+          ],
+          "orig": "· In the Charge phase, if an enemy unit is within 1\" of this terrain feature, a charging unit on the opposite side of this terrain feature can still make a Charge move against that enemy unit provided it ends that Charge move as close as possible to this terrain feature and within 2\" of that enemy unit.",
+          "text": "In the Charge phase, if an enemy unit is within 1\" of this terrain feature, a charging unit on the opposite side of this terrain feature can still make a Charge move against that enemy unit provided it ends that Charge move as close as possible to this terrain feature and within 2\" of that enemy unit.",
+          "enumerated": false,
+          "marker": "·"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1161"
+      ],
+      "style": "li",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1161",
+          "parent": {
+            "$ref": "#/groups/78"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 45,
+              "bbox": {
+                "l": 120.4724,
+                "t": 203.51710000000003,
+                "r": 276.93309999999997,
+                "b": 170.18000076335875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                168
+              ]
+            }
+          ],
+          "orig": "· In the Fight phase, units are eligible to fight - and models can make attacks - if their target is on the opposite side of this terrain feature and within 2\" of them.",
+          "text": "In the Fight phase, units are eligible to fight - and models can make attacks - if their target is on the opposite side of this terrain feature and within 2\" of them.",
+          "enumerated": false,
+          "marker": "·"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1162"
+      ],
+      "style": "h2",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1162",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 45,
+              "bbox": {
+                "l": 120.4724,
+                "t": 161.96429999999998,
+                "r": 204.56720000000004,
+                "b": 152.46689541984733,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                16
+              ]
+            }
+          ],
+          "orig": "BENEFIT OF COVER",
+          "text": "BENEFIT OF COVER",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1163"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1163",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 45,
+              "bbox": {
+                "l": 120.47239999999996,
+                "t": 144.89139999999998,
+                "r": 291.87479999999994,
+                "b": 102.55430076335881,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                271
+              ]
+            }
+          ],
+          "orig": "Each time a ranged attack is allocated to an Infantry model that is wholly within 3\" of this terrain feature, if that model is not fully visible to every model in the attacking unit because of this terrain feature, that model has the Benefit of Cover against that attack.",
+          "text": "Each time a ranged attack is allocated to an Infantry model that is wholly within 3\" of this terrain feature, if that model is not fully visible to every model in the attacking unit because of this terrain feature, that model has the Benefit of Cover against that attack."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1164"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1164",
+          "parent": {
+            "$ref": "#/groups/79"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 45,
+              "bbox": {
+                "l": 120.4724,
+                "t": 92.51289999999995,
+                "r": 246.31240000000008,
+                "b": 84.59152595419846,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                29
+              ]
+            }
+          ],
+          "orig": "KEYWORDS: Obstacle, Barricade",
+          "text": "KEYWORDS: Obstacle, Barricade"
+        }
+      ]
+    }
+  ],
+  "excluded_text": [
+    {
+      "node": {
+        "self_ref": "#/texts/1143",
+        "parent": {
+          "$ref": "#/pictures/107"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 45,
+            "bbox": {
+              "l": 61.1342,
+              "t": 100.24450000000002,
+              "r": 70.8342,
+              "b": 92.32999618320605,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              2
+            ]
+          }
+        ],
+        "orig": "45",
+        "text": "45"
+      },
+      "reason": "Page furniture"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/1165",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "furniture",
+        "label": "page_footer",
+        "prov": [
+          {
+            "page_no": 45,
+            "bbox": {
+              "l": 109.8424,
+              "t": 50.002899999999954,
+              "r": 235.63240000000008,
+              "b": 42.0883961832061,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              29
+            ]
+          }
+        ],
+        "orig": "CORE RULES | TERRAIN FEATURES",
+        "text": "CORE RULES | TERRAIN FEATURES"
+      },
+      "reason": "Page furniture"
+    }
+  ],
+  "review_notes": [
+    "Each terrain title is H1; Movement, Visibility, Engagement Range and Benefit of Cover are H2 under their terrain type."
+  ]
+}

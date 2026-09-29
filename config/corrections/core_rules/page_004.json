@@ -1,0 +1,122 @@
+{
+  "source_sha256": "4d0e8019cbfddd6f46781d5b4ed31d46fb21eb2d0d10a0f6fabefac0ce054364",
+  "page": 4,
+  "min_font_size": 8.0,
+  "heading_min_font_size": 11.5,
+  "reading_order": "left column top-to-bottom, then right column top-to-bottom",
+  "scope": "Reviewed page 4 only; isolate thumbnail sample text, preserve all excluded spans in audit JSON.",
+  "regions": [
+    {
+      "id": "p004_left_1",
+      "bbox": [
+        116,
+        98,
+        318,
+        145
+      ],
+      "expected_heading": "CORE CONCEPTS (PG 5-9)"
+    },
+    {
+      "id": "p004_left_2",
+      "bbox": [
+        116,
+        158,
+        318,
+        225
+      ],
+      "expected_heading": "THE BATTLE ROUND (PG 10-36)"
+    },
+    {
+      "id": "p004_left_3",
+      "bbox": [
+        116,
+        238,
+        318,
+        315
+      ],
+      "expected_heading": "DATASHEETS AND UNIT ABILITIES (PG 37-39)"
+    },
+    {
+      "id": "p004_left_4",
+      "bbox": [
+        116,
+        328,
+        318,
+        405
+      ],
+      "expected_heading": "STRATEGIC RESERVES AND STRATAGEMS (PG 41-43)"
+    },
+    {
+      "id": "p004_left_5",
+      "bbox": [
+        116,
+        418,
+        318,
+        485
+      ],
+      "expected_heading": "TERRAIN FEATURES (PG 44-52)"
+    },
+    {
+      "id": "p004_left_6",
+      "bbox": [
+        116,
+        498,
+        318,
+        545
+      ],
+      "expected_heading": "MUSTER YOUR ARMY (PG 55-56)"
+    },
+    {
+      "id": "p004_left_7",
+      "bbox": [
+        116,
+        558,
+        318,
+        635
+      ],
+      "expected_heading": "MISSIONS (PG 57-60)"
+    },
+    {
+      "id": "p004_right_1",
+      "bbox": [
+        336,
+        98,
+        502,
+        205
+      ],
+      "expected_heading": "ABILITIES"
+    },
+    {
+      "id": "p004_right_2",
+      "bbox": [
+        336,
+        208,
+        502,
+        325
+      ],
+      "expected_heading": "HINTS AND TIPS"
+    },
+    {
+      "id": "p004_right_3",
+      "bbox": [
+        336,
+        328,
+        502,
+        395
+      ],
+      "expected_heading": "SUMMARIES"
+    },
+    {
+      "id": "p004_right_4",
+      "bbox": [
+        336,
+        468,
+        502,
+        605
+      ],
+      "expected_heading": "PAGE NUMBERS"
+    }
+  ],
+  "schema_version": 1,
+  "handler": "regions"
+}

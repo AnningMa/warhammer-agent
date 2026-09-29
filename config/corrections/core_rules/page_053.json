@@ -1,0 +1,128 @@
+{
+  "page": 53,
+  "source_sha256": "4d0e8019cbfddd6f46781d5b4ed31d46fb21eb2d0d10a0f6fabefac0ce054364",
+  "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+  "blocks": [
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1236"
+      ],
+      "style": "h1"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1237"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1238"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1239"
+      ],
+      "style": "h2"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1240"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1241"
+      ],
+      "style": "h2"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1242"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1243"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1244"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1245"
+      ],
+      "style": "h2"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1246"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1247"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1248"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1249"
+      ],
+      "style": "li"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1250"
+      ],
+      "style": "li"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1251"
+      ],
+      "style": "li"
+    }
+  ],
+  "excluded_text": {
+    "#/texts/1235": "Page number or running footer; not rule content.",
+    "#/texts/1252": "Page number or running footer; not rule content."
+  },
+  "review_notes": [
+    "Aircraft section hierarchy normalized; rule prose and source summary bullets retained. Decorative art and the Hover symbol are not standalone rule figures."
+  ],
+  "schema_version": 1,
+  "handler": "blocks"
+}

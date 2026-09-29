@@ -1,0 +1,83 @@
+{
+  "page": 24,
+  "source_sha256": "4d0e8019cbfddd6f46781d5b4ed31d46fb21eb2d0d10a0f6fabefac0ce054364",
+  "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+  "blocks": [
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/577"
+      ],
+      "style": "h1"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/578"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/579"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/580"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "image",
+      "id": "fast_dice_rolling",
+      "title": "Fast dice rolling — six-step example",
+      "bbox": [
+        252,
+        68,
+        502,
+        721
+      ],
+      "captions": [
+        [
+          "#/texts/581"
+        ],
+        [
+          "#/texts/582"
+        ],
+        [
+          "#/texts/583",
+          "#/texts/584"
+        ],
+        [
+          "#/texts/585",
+          "#/texts/586"
+        ],
+        [
+          "#/texts/587"
+        ],
+        [
+          "#/texts/588"
+        ]
+      ],
+      "source_refs": [
+        "#/pictures/51"
+      ]
+    }
+  ],
+  "excluded_text": {
+    "#/texts/589": "Navigation/page furniture",
+    "#/texts/590": "Navigation/page furniture",
+    "#/texts/591": "Navigation/page furniture",
+    "#/texts/592": "Navigation/page furniture",
+    "#/texts/593": "Navigation/page furniture"
+  },
+  "review_notes": [
+    "Caption steps 3 and 4 joined with their separate number nodes; all six steps belong to this illustration."
+  ],
+  "schema_version": 1,
+  "handler": "blocks"
+}

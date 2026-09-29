@@ -1,0 +1,39 @@
+{
+  "page": 10,
+  "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+  "keep_refs": [
+    "#/texts/208",
+    "#/texts/209",
+    "#/texts/210",
+    "#/texts/216",
+    "#/texts/217",
+    "#/texts/218",
+    "#/texts/219",
+    "#/texts/220",
+    "#/texts/221",
+    "#/texts/222",
+    "#/texts/223",
+    "#/texts/224",
+    "#/texts/225",
+    "#/texts/226"
+  ],
+  "omit_reasons": {
+    "#/texts/211": "Diagram navigation number or page furniture",
+    "#/texts/212": "Diagram navigation number or page furniture",
+    "#/texts/213": "Diagram navigation number or page furniture",
+    "#/texts/214": "Diagram navigation number or page furniture",
+    "#/texts/215": "Diagram navigation number or page furniture",
+    "#/texts/227": "Diagram navigation number or page furniture",
+    "#/texts/228": "Diagram navigation number or page furniture"
+  },
+  "heading_overrides": {
+    "#/texts/216": "1. COMMAND PHASE",
+    "#/texts/218": "2. MOVEMENT PHASE",
+    "#/texts/220": "3. SHOOTING PHASE",
+    "#/texts/222": "4. CHARGE PHASE",
+    "#/texts/224": "5. FIGHT PHASE"
+  },
+  "scope": "Reviewed pages only; original JSON preserved. Decorative/phase-navigation pictures are represented by ordered text, not image placeholders.",
+  "schema_version": 1,
+  "handler": "text"
+}

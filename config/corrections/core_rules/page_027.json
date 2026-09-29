@@ -1,0 +1,344 @@
+{
+  "page": 27,
+  "source_sha256": "4d0e8019cbfddd6f46781d5b4ed31d46fb21eb2d0d10a0f6fabefac0ce054364",
+  "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+  "blocks": [
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/657"
+      ],
+      "style": "h1"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/658"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "image",
+      "id": "weapon_overview",
+      "title": "Weapon designations — original overview",
+      "bbox": [
+        150.96370362823984,
+        69.32828757196228,
+        564.035529298576,
+        724.1305784156473
+      ],
+      "captions": [],
+      "source_refs": [
+        "#/pictures/59"
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/659"
+      ],
+      "style": "h2"
+    },
+    {
+      "type": "image",
+      "id": "weapon_659",
+      "title": "Heavy bolter",
+      "bbox": [
+        198,
+        83,
+        391,
+        204
+      ],
+      "captions": [],
+      "source_refs": [
+        "#/texts/659",
+        "#/pictures/59"
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/660"
+      ],
+      "style": "h2"
+    },
+    {
+      "type": "image",
+      "id": "weapon_660",
+      "title": "Force weapon",
+      "bbox": [
+        317,
+        279,
+        391,
+        607
+      ],
+      "captions": [],
+      "source_refs": [
+        "#/texts/660",
+        "#/pictures/59"
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/661"
+      ],
+      "style": "h2"
+    },
+    {
+      "type": "image",
+      "id": "weapon_661",
+      "title": "Plasma gun",
+      "bbox": [
+        385,
+        85,
+        554,
+        151
+      ],
+      "captions": [],
+      "source_refs": [
+        "#/texts/661",
+        "#/pictures/59"
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/662"
+      ],
+      "style": "h2"
+    },
+    {
+      "type": "image",
+      "id": "weapon_662",
+      "title": "Plasma pistol",
+      "bbox": [
+        167,
+        180,
+        260,
+        256
+      ],
+      "captions": [],
+      "source_refs": [
+        "#/texts/662",
+        "#/pictures/59"
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/663"
+      ],
+      "style": "h2"
+    },
+    {
+      "type": "image",
+      "id": "weapon_663",
+      "title": "Sniper rifle",
+      "bbox": [
+        281,
+        179,
+        556,
+        267
+      ],
+      "captions": [],
+      "source_refs": [
+        "#/texts/663",
+        "#/pictures/59"
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/664"
+      ],
+      "style": "h2"
+    },
+    {
+      "type": "image",
+      "id": "weapon_664",
+      "title": "Boltgun",
+      "bbox": [
+        168,
+        257,
+        302,
+        353
+      ],
+      "captions": [],
+      "source_refs": [
+        "#/texts/664",
+        "#/pictures/59"
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/665"
+      ],
+      "style": "h2"
+    },
+    {
+      "type": "image",
+      "id": "weapon_665",
+      "title": "Astartes chainsword",
+      "bbox": [
+        477,
+        452,
+        548,
+        703
+      ],
+      "captions": [],
+      "source_refs": [
+        "#/texts/665",
+        "#/pictures/59"
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/666"
+      ],
+      "style": "h2"
+    },
+    {
+      "type": "image",
+      "id": "weapon_666",
+      "title": "Assault cannon",
+      "bbox": [
+        164,
+        604,
+        434,
+        713
+      ],
+      "captions": [],
+      "source_refs": [
+        "#/texts/666",
+        "#/pictures/59"
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/667"
+      ],
+      "style": "h2"
+    },
+    {
+      "type": "image",
+      "id": "weapon_667",
+      "title": "Missile launcher",
+      "bbox": [
+        166,
+        470,
+        335,
+        592
+      ],
+      "captions": [],
+      "source_refs": [
+        "#/texts/667",
+        "#/pictures/59"
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/668"
+      ],
+      "style": "h2"
+    },
+    {
+      "type": "image",
+      "id": "weapon_668",
+      "title": "Lightning claw",
+      "bbox": [
+        388,
+        456,
+        477,
+        709
+      ],
+      "captions": [],
+      "source_refs": [
+        "#/texts/668",
+        "#/pictures/59"
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/669"
+      ],
+      "style": "h2"
+    },
+    {
+      "type": "image",
+      "id": "weapon_669",
+      "title": "Flamer",
+      "bbox": [
+        392,
+        354,
+        554,
+        456
+      ],
+      "captions": [],
+      "source_refs": [
+        "#/texts/669",
+        "#/pictures/59"
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/670"
+      ],
+      "style": "h2"
+    },
+    {
+      "type": "image",
+      "id": "weapon_670",
+      "title": "Astartes shotgun",
+      "bbox": [
+        427,
+        254,
+        553,
+        340
+      ],
+      "captions": [],
+      "source_refs": [
+        "#/texts/670",
+        "#/pictures/59"
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/671"
+      ],
+      "style": "h2"
+    },
+    {
+      "type": "image",
+      "id": "weapon_671",
+      "title": "Meltagun",
+      "bbox": [
+        165,
+        363,
+        315,
+        456
+      ],
+      "captions": [],
+      "source_refs": [
+        "#/texts/671",
+        "#/pictures/59"
+      ]
+    }
+  ],
+  "excluded_text": {
+    "#/texts/656": "Page furniture",
+    "#/texts/672": "Page furniture"
+  },
+  "review_notes": [
+    "Each labeled crop is a visual reference only; no weapon statistics are inferred. Overview retained for context. Nearby image fragments may remain in rectangular crops."
+  ],
+  "schema_version": 1,
+  "handler": "blocks"
+}

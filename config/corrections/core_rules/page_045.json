@@ -1,0 +1,195 @@
+{
+  "page": 45,
+  "source_sha256": "4d0e8019cbfddd6f46781d5b4ed31d46fb21eb2d0d10a0f6fabefac0ce054364",
+  "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+  "blocks": [
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1144"
+      ],
+      "style": "h1"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1145"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "image",
+      "id": "terrain_1144",
+      "title": "CRATERS AND RUBBLE",
+      "bbox": [
+        305.32387266075256,
+        120.36909537995189,
+        563.1230242120461,
+        361.87956254108724
+      ],
+      "captions": [],
+      "source_refs": [
+        "#/texts/1144",
+        "#/pictures/108"
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1146"
+      ],
+      "style": "h2"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1147"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1148"
+      ],
+      "style": "h2"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1149"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1150"
+      ],
+      "style": "h2"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1151"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1152"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1153"
+      ],
+      "style": "h1"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1154"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "image",
+      "id": "terrain_1153",
+      "title": "BARRICADES AND FUEL PIPES",
+      "bbox": [
+        305.2554530732702,
+        429.84288177897645,
+        563.1641857285796,
+        711.0394407229484
+      ],
+      "captions": [],
+      "source_refs": [
+        "#/texts/1153",
+        "#/pictures/109"
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1155"
+      ],
+      "style": "h2"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1156"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1157"
+      ],
+      "style": "h2"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1158"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1159"
+      ],
+      "style": "h2"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1160"
+      ],
+      "style": "li"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1161"
+      ],
+      "style": "li"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1162"
+      ],
+      "style": "h2"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1163"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1164"
+      ],
+      "style": "p"
+    }
+  ],
+  "excluded_text": {
+    "#/texts/1143": "Page furniture",
+    "#/texts/1165": "Page furniture"
+  },
+  "review_notes": [
+    "Each terrain title is H1; Movement, Visibility, Engagement Range and Benefit of Cover are H2 under their terrain type."
+  ],
+  "schema_version": 1,
+  "handler": "blocks"
+}

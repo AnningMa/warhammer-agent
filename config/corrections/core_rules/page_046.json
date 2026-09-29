@@ -1,0 +1,174 @@
+{
+  "page": 46,
+  "source_sha256": "4d0e8019cbfddd6f46781d5b4ed31d46fb21eb2d0d10a0f6fabefac0ce054364",
+  "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+  "blocks": [
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1166"
+      ],
+      "style": "h1"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1167"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "image",
+      "id": "terrain_1166",
+      "title": "BATTLEFIELD DEBRIS AND STATUARY",
+      "bbox": [
+        45.692812571128464,
+        120.31964501456343,
+        303.60484577026364,
+        381.16328315915507
+      ],
+      "captions": [],
+      "source_refs": [
+        "#/texts/1166",
+        "#/pictures/110"
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1168"
+      ],
+      "style": "h2"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1169"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1170"
+      ],
+      "style": "h2"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1171"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1172"
+      ],
+      "style": "h2"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1173"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1174"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1175"
+      ],
+      "style": "h1"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1176"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "image",
+      "id": "terrain_1175",
+      "title": "HILLS, INDUSTRIAL STRUCTURES, SEALED BUILDINGS AND ARMOURED CONTAINERS",
+      "bbox": [
+        45.46745326810743,
+        476.1225361079449,
+        303.5627085733382,
+        711.7605435835601
+      ],
+      "captions": [],
+      "source_refs": [
+        "#/texts/1175",
+        "#/pictures/111"
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1177"
+      ],
+      "style": "h2"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1178"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1179"
+      ],
+      "style": "h2"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1180"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1181"
+      ],
+      "style": "h2"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1182"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1183"
+      ],
+      "style": "p"
+    }
+  ],
+  "excluded_text": {
+    "#/texts/1184": "Page furniture",
+    "#/texts/1185": "Page furniture"
+  },
+  "review_notes": [
+    "Each terrain title is H1; Movement, Visibility, Engagement Range and Benefit of Cover are H2 under their terrain type."
+  ],
+  "schema_version": 1,
+  "handler": "blocks"
+}

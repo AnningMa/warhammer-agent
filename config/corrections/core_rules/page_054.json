@@ -1,0 +1,147 @@
+{
+  "page": 54,
+  "source_sha256": "4d0e8019cbfddd6f46781d5b4ed31d46fb21eb2d0d10a0f6fabefac0ce054364",
+  "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+  "blocks": [
+    {
+      "type": "text",
+      "refs": [],
+      "style": "h1",
+      "text": "AIRCRAFT (continued)"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1253"
+      ],
+      "style": "h2"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1254"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1255"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1256"
+      ],
+      "style": "li"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1257"
+      ],
+      "style": "li"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1258"
+      ],
+      "style": "li"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1259"
+      ],
+      "style": "h2"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1260"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1261"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1262"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1263"
+      ],
+      "style": "li"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1264"
+      ],
+      "style": "li"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1265"
+      ],
+      "style": "li"
+    },
+    {
+      "type": "image",
+      "id": "movement",
+      "title": "Aircraft movement: A, B and C",
+      "bbox": [
+        42,
+        385,
+        462,
+        725
+      ],
+      "captions": [
+        [
+          "#/texts/1266"
+        ],
+        [
+          "#/texts/1267"
+        ],
+        [
+          "#/texts/1268"
+        ],
+        [
+          "#/texts/1269"
+        ]
+      ],
+      "source_refs": [
+        "#/pictures/123",
+        "#/texts/1270",
+        "#/texts/1271",
+        "#/texts/1272",
+        "#/texts/1273",
+        "#/texts/1274",
+        "#/texts/1275"
+      ]
+    }
+  ],
+  "excluded_text": {
+    "#/texts/1276": "Page number or running footer; not rule content.",
+    "#/texts/1277": "Page number or running footer; not rule content."
+  },
+  "review_notes": [
+    "A/B/C explanations and concluding note remain attached to the complete diagram. Diagram distances, letters and angle are retained in the image and provenance instead of isolated paragraphs. Continuation heading is editorial."
+  ],
+  "schema_version": 1,
+  "handler": "blocks"
+}

@@ -1,0 +1,418 @@
+{
+  "page": 42,
+  "source_sha256": "4d0e8019cbfddd6f46781d5b4ed31d46fb21eb2d0d10a0f6fabefac0ce054364",
+  "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+  "blocks": [
+    {
+      "type": "text",
+      "style": "h1",
+      "text": "STRATAGEMS (continued)"
+    },
+    {
+      "type": "card",
+      "title_ref": "#/texts/1049",
+      "cp_ref": "#/texts/1045",
+      "expected_cp": 1,
+      "source_refs": [
+        "#/texts/1049",
+        "#/texts/1045"
+      ],
+      "children": [
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1050"
+          ],
+          "style": "p"
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1051"
+          ],
+          "style": "p"
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1052"
+          ],
+          "style": "p"
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1053"
+          ],
+          "style": "p"
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1054"
+          ],
+          "style": "p"
+        }
+      ]
+    },
+    {
+      "type": "card",
+      "title_ref": "#/texts/1055",
+      "cp_ref": "#/texts/1046",
+      "expected_cp": 1,
+      "source_refs": [
+        "#/texts/1055",
+        "#/texts/1046"
+      ],
+      "children": [
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1056"
+          ],
+          "style": "p"
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1057"
+          ],
+          "style": "p"
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1058"
+          ],
+          "style": "p"
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1059"
+          ],
+          "style": "p"
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1060"
+          ],
+          "style": "p"
+        }
+      ]
+    },
+    {
+      "type": "card",
+      "title_ref": "#/texts/1061",
+      "cp_ref": "#/texts/1047",
+      "expected_cp": 1,
+      "source_refs": [
+        "#/texts/1061",
+        "#/texts/1047"
+      ],
+      "children": [
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1062"
+          ],
+          "style": "p"
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1063"
+          ],
+          "style": "p"
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1064"
+          ],
+          "style": "p"
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1065"
+          ],
+          "style": "p"
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1066"
+          ],
+          "style": "p"
+        }
+      ]
+    },
+    {
+      "type": "card",
+      "title_ref": "#/texts/1067",
+      "cp_ref": "#/texts/1048",
+      "expected_cp": 1,
+      "source_refs": [
+        "#/texts/1067",
+        "#/texts/1048"
+      ],
+      "children": [
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1068"
+          ],
+          "style": "p"
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1069"
+          ],
+          "style": "p"
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1070"
+          ],
+          "style": "p"
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1071"
+          ],
+          "style": "p"
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1072"
+          ],
+          "style": "p"
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1073"
+          ],
+          "style": "p"
+        }
+      ]
+    },
+    {
+      "type": "card",
+      "title_ref": "#/texts/1078",
+      "cp_ref": "#/texts/1074",
+      "expected_cp": 1,
+      "source_refs": [
+        "#/texts/1078",
+        "#/texts/1074"
+      ],
+      "children": [
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1079"
+          ],
+          "style": "p"
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1080"
+          ],
+          "style": "p"
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1081"
+          ],
+          "style": "p"
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1082"
+          ],
+          "style": "p"
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1083"
+          ],
+          "style": "p"
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1084"
+          ],
+          "style": "p"
+        }
+      ]
+    },
+    {
+      "type": "card",
+      "title_ref": "#/texts/1085",
+      "cp_ref": "#/texts/1075",
+      "expected_cp": 1,
+      "source_refs": [
+        "#/texts/1085",
+        "#/texts/1075"
+      ],
+      "children": [
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1086"
+          ],
+          "style": "p"
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1087"
+          ],
+          "style": "p"
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1088"
+          ],
+          "style": "p"
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1089"
+          ],
+          "style": "p"
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1090"
+          ],
+          "style": "p"
+        }
+      ]
+    },
+    {
+      "type": "card",
+      "title_ref": "#/texts/1091",
+      "cp_ref": "#/texts/1076",
+      "expected_cp": 1,
+      "source_refs": [
+        "#/texts/1091",
+        "#/texts/1076"
+      ],
+      "children": [
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1092"
+          ],
+          "style": "p"
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1093"
+          ],
+          "style": "p"
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1094"
+          ],
+          "style": "p"
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1095"
+          ],
+          "style": "p"
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1096"
+          ],
+          "style": "p"
+        }
+      ]
+    },
+    {
+      "type": "card",
+      "title_ref": "#/texts/1097",
+      "cp_ref": "#/texts/1077",
+      "expected_cp": 2,
+      "source_refs": [
+        "#/texts/1097",
+        "#/texts/1077"
+      ],
+      "children": [
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1098"
+          ],
+          "style": "p"
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1099"
+          ],
+          "style": "p"
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1100"
+          ],
+          "style": "p"
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1101"
+          ],
+          "style": "p"
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1102"
+          ],
+          "style": "p"
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1103"
+          ],
+          "style": "p"
+        }
+      ]
+    }
+  ],
+  "excluded_text": {
+    "#/texts/1104": "Page furniture",
+    "#/texts/1105": "Page furniture"
+  },
+  "review_notes": [
+    "All cards retain WHEN/TARGET/EFFECT/RESTRICTIONS from this PDF, not updated external game rules."
+  ],
+  "schema_version": 1,
+  "handler": "blocks"
+}

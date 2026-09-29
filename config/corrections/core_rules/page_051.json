@@ -1,0 +1,60 @@
+{
+  "page": 51,
+  "source_sha256": "4d0e8019cbfddd6f46781d5b4ed31d46fb21eb2d0d10a0f6fabefac0ce054364",
+  "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+  "blocks": [
+    {
+      "type": "text",
+      "refs": [],
+      "style": "h1",
+      "text": "EXAMPLE BATTLEFIELDS (continued)"
+    },
+    {
+      "type": "image",
+      "id": "narrative",
+      "title": "Narrative Play Focused battlefield",
+      "bbox": [
+        75,
+        70,
+        542,
+        340
+      ],
+      "captions": [
+        [
+          "#/texts/1226"
+        ]
+      ],
+      "source_refs": [
+        "#/pictures/117"
+      ]
+    },
+    {
+      "type": "image",
+      "id": "matched",
+      "title": "Matched Play Focused battlefield",
+      "bbox": [
+        75,
+        430,
+        542,
+        638
+      ],
+      "captions": [
+        [
+          "#/texts/1227"
+        ]
+      ],
+      "source_refs": [
+        "#/pictures/118"
+      ]
+    }
+  ],
+  "excluded_text": {
+    "#/texts/1225": "Page number or running footer; not rule content.",
+    "#/texts/1228": "Page number or running footer; not rule content."
+  },
+  "review_notes": [
+    "Upper and lower illustrations paired with their respective source captions. Continuation heading is editorial."
+  ],
+  "schema_version": 1,
+  "handler": "blocks"
+}

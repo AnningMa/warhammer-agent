@@ -1,0 +1,255 @@
+{
+  "page": 41,
+  "source_sha256": "4d0e8019cbfddd6f46781d5b4ed31d46fb21eb2d0d10a0f6fabefac0ce054364",
+  "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+  "blocks": [
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1009"
+      ],
+      "style": "h1"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1010"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1011"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1012"
+      ],
+      "style": "li"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1013"
+      ],
+      "style": "li"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1014"
+      ],
+      "style": "h2"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1015"
+      ],
+      "style": "li"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1016"
+      ],
+      "style": "li"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1017"
+      ],
+      "style": "li"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1019"
+      ],
+      "style": "h2"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1020"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1021"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1022"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1023"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1024"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "card",
+      "title_ref": "#/texts/1039",
+      "cp_ref": "#/texts/1018",
+      "expected_cp": 1,
+      "source_refs": [
+        "#/texts/1039",
+        "#/texts/1018"
+      ],
+      "children": [
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1040"
+          ],
+          "style": "p"
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1041"
+          ],
+          "style": "p"
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1042"
+          ],
+          "style": "p"
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1043"
+          ],
+          "style": "p"
+        }
+      ]
+    },
+    {
+      "type": "card",
+      "title_ref": "#/texts/1027",
+      "cp_ref": "#/texts/1025",
+      "expected_cp": 2,
+      "source_refs": [
+        "#/texts/1027",
+        "#/texts/1025"
+      ],
+      "children": [
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1028"
+          ],
+          "style": "p"
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1029"
+          ],
+          "style": "p"
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1030"
+          ],
+          "style": "p"
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1031"
+          ],
+          "style": "p"
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1032"
+          ],
+          "style": "p"
+        }
+      ]
+    },
+    {
+      "type": "card",
+      "title_ref": "#/texts/1033",
+      "cp_ref": "#/texts/1026",
+      "expected_cp": 1,
+      "source_refs": [
+        "#/texts/1033",
+        "#/texts/1026"
+      ],
+      "children": [
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1034"
+          ],
+          "style": "p"
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1035"
+          ],
+          "style": "p"
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1036"
+          ],
+          "style": "p"
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1037"
+          ],
+          "style": "p"
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1038"
+          ],
+          "style": "p"
+        }
+      ]
+    }
+  ],
+  "excluded_text": {
+    "#/texts/1008": "Page furniture",
+    "#/texts/1044": "Page furniture"
+  },
+  "review_notes": [
+    "CP linked by visually checked card position. WHEN/TARGET/EFFECT remain verbatim; absent TARGET is not invented. Turn-color encoding is not inferred into extra fields."
+  ],
+  "schema_version": 1,
+  "handler": "blocks"
+}

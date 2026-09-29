@@ -1,0 +1,1539 @@
+{
+  "page": 21,
+  "rules": {
+    "page": 21,
+    "source_sha256": "4d0e8019cbfddd6f46781d5b4ed31d46fb21eb2d0d10a0f6fabefac0ce054364",
+    "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+    "keep_refs": [
+      "#/texts/502",
+      "#/texts/503",
+      "#/texts/504",
+      "#/texts/506",
+      "#/texts/508",
+      "#/texts/510",
+      "#/texts/512",
+      "#/texts/514",
+      "#/texts/515",
+      "#/texts/516",
+      "#/texts/517",
+      "#/texts/518",
+      "#/texts/519",
+      "#/texts/520",
+      "#/texts/521",
+      "#/texts/522",
+      "#/texts/523"
+    ],
+    "omit_reasons": {
+      "#/texts/498": "Navigation or page number",
+      "#/texts/499": "Navigation or page number",
+      "#/texts/500": "Navigation or page number",
+      "#/texts/501": "Navigation or page number",
+      "#/texts/505": "Step number combined with its ordered-list label",
+      "#/texts/507": "Step number combined with its ordered-list label",
+      "#/texts/509": "Step number combined with its ordered-list label",
+      "#/texts/511": "Step number combined with its ordered-list label",
+      "#/texts/513": "Step number combined with its ordered-list label",
+      "#/texts/524": "Page footer"
+    },
+    "heading_levels": {
+      "#/texts/502": 1,
+      "#/texts/515": 2,
+      "#/texts/522": 2
+    },
+    "ordered_items": {
+      "#/texts/506": 1,
+      "#/texts/508": 2,
+      "#/texts/510": 3,
+      "#/texts/512": 4,
+      "#/texts/514": 5
+    },
+    "verified_table": {
+      "title": "WOUND ROLL",
+      "source_ref": "#/tables/1",
+      "bbox": [
+        304,
+        490,
+        528,
+        688
+      ],
+      "coordinate_system": "PDF points, top-left origin",
+      "image": "images/page_021_wound_roll.png",
+      "headers": [
+        "Attack’s Strength vs target’s Toughness",
+        "D6 result required"
+      ],
+      "rows": [
+        [
+          "Strength is TWICE (or more than twice) the Toughness.",
+          "2+"
+        ],
+        [
+          "Strength is GREATER than the Toughness.",
+          "3+"
+        ],
+        [
+          "Strength is EQUAL to the Toughness.",
+          "4+"
+        ],
+        [
+          "Strength is LESS than the Toughness.",
+          "5+"
+        ],
+        [
+          "Strength is HALF (or less than half) the Toughness.",
+          "6+"
+        ]
+      ]
+    }
+  },
+  "kept_nodes": [
+    {
+      "self_ref": "#/texts/502",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 21,
+          "bbox": {
+            "l": 153.0708,
+            "t": 720.4747,
+            "r": 331.7667999999999,
+            "b": 698.3140893129771,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "MAKING ATTACKS",
+      "text": "MAKING ATTACKS",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/503",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 21,
+          "bbox": {
+            "l": 153.0708,
+            "t": 688.8197,
+            "r": 521.3573000000002,
+            "b": 671.2974213740458,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            177
+          ]
+        }
+      ],
+      "orig": "Attacks are made using ranged or melee weapons. Attacks can be made one at a time or, in some cases, you can roll for multiple attacks together (see Fast Dice Rolling, page 24).",
+      "text": "Attacks are made using ranged or melee weapons. Attacks can be made one at a time or, in some cases, you can roll for multiple attacks together (see Fast Dice Rolling, page 24)."
+    },
+    {
+      "self_ref": "#/texts/504",
+      "parent": {
+        "$ref": "#/pictures/45"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 21,
+          "bbox": {
+            "l": 161.5748,
+            "t": 588.3682,
+            "r": 282.9182499999999,
+            "b": 570.824483619818,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            57
+          ]
+        }
+      ],
+      "orig": "Use the following sequence to make attacks one at a time.",
+      "text": "Use the following sequence to make attacks one at a time."
+    },
+    {
+      "self_ref": "#/texts/506",
+      "parent": {
+        "$ref": "#/pictures/45"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 21,
+          "bbox": {
+            "l": 203.3155,
+            "t": 540.3947,
+            "r": 243.83470000000005,
+            "b": 530.8972954198473,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "HIT ROLL",
+      "text": "HIT ROLL"
+    },
+    {
+      "self_ref": "#/texts/508",
+      "parent": {
+        "$ref": "#/pictures/45"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 21,
+          "bbox": {
+            "l": 193.8231,
+            "t": 500.3947,
+            "r": 253.32750000000004,
+            "b": 490.89729541984735,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "WOUND ROLL",
+      "text": "WOUND ROLL"
+    },
+    {
+      "self_ref": "#/texts/510",
+      "parent": {
+        "$ref": "#/pictures/45"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 21,
+          "bbox": {
+            "l": 183.3783,
+            "t": 460.3947,
+            "r": 263.7711,
+            "b": 450.89729541984735,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "ALLOCATE ATTACK",
+      "text": "ALLOCATE ATTACK"
+    },
+    {
+      "self_ref": "#/texts/512",
+      "parent": {
+        "$ref": "#/pictures/45"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 21,
+          "bbox": {
+            "l": 190.0623,
+            "t": 420.3947,
+            "r": 257.0882999999999,
+            "b": 410.89729541984735,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "SAVING THROW",
+      "text": "SAVING THROW"
+    },
+    {
+      "self_ref": "#/texts/514",
+      "parent": {
+        "$ref": "#/pictures/45"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 21,
+          "bbox": {
+            "l": 186.3238,
+            "t": 380.3947,
+            "r": 260.8270000000001,
+            "b": 370.89729541984735,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "INFLICT DAMAGE",
+      "text": "INFLICT DAMAGE"
+    },
+    {
+      "self_ref": "#/texts/515",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 21,
+          "bbox": {
+            "l": 306.1417,
+            "t": 638.8047,
+            "r": 387.3191999999999,
+            "b": 623.7671427480916,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            11
+          ]
+        }
+      ],
+      "orig": "1. HIT ROLL",
+      "text": "1. HIT ROLL",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/516",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 21,
+          "bbox": {
+            "l": 306.1417,
+            "t": 618.3682,
+            "r": 518.3824500000002,
+            "b": 540.8484836198181,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            466
+          ]
+        }
+      ],
+      "orig": "When a model makes an attack, make one Hit roll for that attack by rolling one D6. If the result of the Hit roll is greater than or equal to the attack's Ballistic Skill (BS) characteristic (if the attack is being made with a ranged weapon) or its Weapon Skill (WS) characteristic (if the attack is being made with a melee weapon), then that Hit roll is successful and scores one hit against the target unit. Otherwise, the attack fails and the attack sequence ends.",
+      "text": "When a model makes an attack, make one Hit roll for that attack by rolling one D6. If the result of the Hit roll is greater than or equal to the attack's Ballistic Skill (BS) characteristic (if the attack is being made with a ranged weapon) or its Weapon Skill (WS) characteristic (if the attack is being made with a melee weapon), then that Hit roll is successful and scores one hit against the target unit. Otherwise, the attack fails and the attack sequence ends."
+    },
+    {
+      "self_ref": "#/texts/517",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 21,
+          "bbox": {
+            "l": 306.1417,
+            "t": 528.3957000000001,
+            "r": 521.3498000000006,
+            "b": 500.8559836198182,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            176
+          ]
+        }
+      ],
+      "orig": "An unmodified Hit roll of 6 is called a Critical Hit and is always successful. An unmodified Hit roll of 1 always fails. A Hit roll can never be modified by more than -1 or +1.",
+      "text": "An unmodified Hit roll of 6 is called a Critical Hit and is always successful. An unmodified Hit roll of 1 always fails. A Hit roll can never be modified by more than -1 or +1."
+    },
+    {
+      "self_ref": "#/texts/518",
+      "parent": {
+        "$ref": "#/groups/28"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 21,
+          "bbox": {
+            "l": 317.4803,
+            "t": 482.67859999999996,
+            "r": 498.71949999999987,
+            "b": 463.4342717557252,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            96
+          ]
+        }
+      ],
+      "orig": "■ Hit Roll (Ranged Attack): A hit is scored if the D6 result equals or exceeds that attack's BS.",
+      "text": "■ Hit Roll (Ranged Attack): A hit is scored if the D6 result equals or exceeds that attack's BS.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/519",
+      "parent": {
+        "$ref": "#/groups/28"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 21,
+          "bbox": {
+            "l": 317.4803,
+            "t": 462.67859999999996,
+            "r": 493.4333499999998,
+            "b": 443.4342717557252,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            95
+          ]
+        }
+      ],
+      "orig": "■ Hit Roll (Melee Attack): A hit is scored if the D6 result equals or exceeds that attack's WS.",
+      "text": "■ Hit Roll (Melee Attack): A hit is scored if the D6 result equals or exceeds that attack's WS.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/520",
+      "parent": {
+        "$ref": "#/groups/28"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 21,
+          "bbox": {
+            "l": 317.4803,
+            "t": 442.67859999999996,
+            "r": 497.6581999999999,
+            "b": 422.2581666003976,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            103
+          ]
+        }
+      ],
+      "orig": "■ Critical Hit: Unmodified Hit roll of 6. Always successful. ■An unmodified Hit roll of 1 always fails.",
+      "text": "■ Critical Hit: Unmodified Hit roll of 6. Always successful. ■An unmodified Hit roll of 1 always fails.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/521",
+      "parent": {
+        "$ref": "#/groups/28"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 21,
+          "bbox": {
+            "l": 317.4803,
+            "t": 422.67859999999996,
+            "r": 493.3738500000002,
+            "b": 412.2581666003976,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            57
+          ]
+        }
+      ],
+      "orig": "■ A Hit roll can never be modified by more than -1 or +1.",
+      "text": "■ A Hit roll can never be modified by more than -1 or +1.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/522",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 21,
+          "bbox": {
+            "l": 306.1417,
+            "t": 378.8047,
+            "r": 417.2688999999999,
+            "b": 363.7671427480916,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            13
+          ]
+        }
+      ],
+      "orig": "2. WOUND ROLL",
+      "text": "2. WOUND ROLL",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/523",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 21,
+          "bbox": {
+            "l": 306.1417,
+            "t": 358.3682,
+            "r": 523.14415,
+            "b": 310.83648361981807,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            318
+          ]
+        }
+      ],
+      "orig": "Each time an attack scores a hit against a target unit, make a Wound roll for that attack by rolling one D6 to see if that attack successfully wounds the target unit. The result required is determined by comparing the attack's Strength (S) characteristic with the target's Toughness (T) characteristic, as shown below.",
+      "text": "Each time an attack scores a hit against a target unit, make a Wound roll for that attack by rolling one D6 to see if that attack successfully wounds the target unit. The result required is determined by comparing the attack's Strength (S) characteristic with the target's Toughness (T) characteristic, as shown below."
+    }
+  ],
+  "omitted_nodes": [
+    {
+      "node": {
+        "self_ref": "#/texts/498",
+        "parent": {
+          "$ref": "#/pictures/44"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 21,
+            "bbox": {
+              "l": 62.1818,
+              "t": 717.5597,
+              "r": 69.7868,
+              "b": 705.6879442748092,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "1",
+        "text": "1"
+      },
+      "reason": "Navigation or page number"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/499",
+        "parent": {
+          "$ref": "#/pictures/44"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 21,
+            "bbox": {
+              "l": 62.1818,
+              "t": 687.5597,
+              "r": 69.7868,
+              "b": 675.6879442748092,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "2",
+        "text": "2"
+      },
+      "reason": "Navigation or page number"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/500",
+        "parent": {
+          "$ref": "#/pictures/44"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 21,
+            "bbox": {
+              "l": 62.1818,
+              "t": 597.5597,
+              "r": 69.7868,
+              "b": 585.6879442748092,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "4",
+        "text": "4"
+      },
+      "reason": "Navigation or page number"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/501",
+        "parent": {
+          "$ref": "#/pictures/44"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 21,
+            "bbox": {
+              "l": 61.4942,
+              "t": 100.24450000000002,
+              "r": 70.4742,
+              "b": 92.32999618320605,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              2
+            ]
+          }
+        ],
+        "orig": "21",
+        "text": "21"
+      },
+      "reason": "Navigation or page number"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/505",
+        "parent": {
+          "$ref": "#/pictures/45"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 21,
+            "bbox": {
+              "l": 220.8233,
+              "t": 558.3897999999999,
+              "r": 225.89329999999998,
+              "b": 550.4752961832061,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "1",
+        "text": "1"
+      },
+      "reason": "Step number combined with its ordered-list label"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/507",
+        "parent": {
+          "$ref": "#/pictures/45"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 21,
+            "bbox": {
+              "l": 220.8233,
+              "t": 518.7806999999999,
+              "r": 225.89329999999998,
+              "b": 510.86619618320606,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "2",
+        "text": "2"
+      },
+      "reason": "Step number combined with its ordered-list label"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/509",
+        "parent": {
+          "$ref": "#/pictures/45"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 21,
+            "bbox": {
+              "l": 220.8233,
+              "t": 478.7807,
+              "r": 225.89329999999998,
+              "b": 470.8661961832061,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "3",
+        "text": "3"
+      },
+      "reason": "Step number combined with its ordered-list label"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/511",
+        "parent": {
+          "$ref": "#/pictures/45"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 21,
+            "bbox": {
+              "l": 220.8233,
+              "t": 438.7807,
+              "r": 225.89329999999998,
+              "b": 430.8661961832061,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "4",
+        "text": "4"
+      },
+      "reason": "Step number combined with its ordered-list label"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/513",
+        "parent": {
+          "$ref": "#/pictures/45"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 21,
+            "bbox": {
+              "l": 220.8233,
+              "t": 398.7807,
+              "r": 225.89329999999998,
+              "b": 390.8661961832061,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "5",
+        "text": "5"
+      },
+      "reason": "Step number combined with its ordered-list label"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/524",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "furniture",
+        "label": "page_footer",
+        "prov": [
+          {
+            "page_no": 21,
+            "bbox": {
+              "l": 152.8346,
+              "t": 50.00040000000001,
+              "r": 269.91260000000005,
+              "b": 42.08589618320616,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              27
+            ]
+          }
+        ],
+        "orig": "CORE RULES | MAKING ATTACKS",
+        "text": "CORE RULES | MAKING ATTACKS"
+      },
+      "reason": "Page footer"
+    }
+  ],
+  "omitted_picture_nodes": [
+    {
+      "self_ref": "#/pictures/44",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/498"
+        },
+        {
+          "$ref": "#/texts/499"
+        },
+        {
+          "$ref": "#/texts/500"
+        },
+        {
+          "$ref": "#/texts/501"
+        }
+      ],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 21,
+          "bbox": {
+            "l": 22.108521310424802,
+            "t": 768.3203997682024,
+            "r": 110.52440401481252,
+            "b": 22.580238776142096,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/45",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/504"
+        },
+        {
+          "$ref": "#/texts/505"
+        },
+        {
+          "$ref": "#/texts/506"
+        },
+        {
+          "$ref": "#/texts/507"
+        },
+        {
+          "$ref": "#/texts/508"
+        },
+        {
+          "$ref": "#/texts/509"
+        },
+        {
+          "$ref": "#/texts/510"
+        },
+        {
+          "$ref": "#/texts/511"
+        },
+        {
+          "$ref": "#/texts/512"
+        },
+        {
+          "$ref": "#/texts/513"
+        },
+        {
+          "$ref": "#/texts/514"
+        }
+      ],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 21,
+          "bbox": {
+            "l": 152.08614769409678,
+            "t": 641.480649165252,
+            "r": 295.25186299508516,
+            "b": 69.94051018910443,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    }
+  ],
+  "verified_table": {
+    "title": "WOUND ROLL",
+    "source_ref": "#/tables/1",
+    "bbox": [
+      304,
+      490,
+      528,
+      688
+    ],
+    "coordinate_system": "PDF points, top-left origin",
+    "image": "images/page_021_wound_roll.png",
+    "headers": [
+      "Attack’s Strength vs target’s Toughness",
+      "D6 result required"
+    ],
+    "rows": [
+      [
+        "Strength is TWICE (or more than twice) the Toughness.",
+        "2+"
+      ],
+      [
+        "Strength is GREATER than the Toughness.",
+        "3+"
+      ],
+      [
+        "Strength is EQUAL to the Toughness.",
+        "4+"
+      ],
+      [
+        "Strength is LESS than the Toughness.",
+        "5+"
+      ],
+      [
+        "Strength is HALF (or less than half) the Toughness.",
+        "6+"
+      ]
+    ],
+    "original_node": {
+      "self_ref": "#/tables/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "table",
+      "prov": [
+        {
+          "page_no": 21,
+          "bbox": {
+            "l": 305.6753920119489,
+            "t": 303.5098694677089,
+            "r": 526.0665609674172,
+            "b": 107.92040420908893,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "data": {
+        "table_cells": [
+          {
+            "bbox": {
+              "l": 308.9764,
+              "t": 495.7481,
+              "r": 397.5123999999999,
+              "b": 528.3091038167939,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "WOUND ROLL ATTACK'S STRENGTH VS TARGET'S TOUGHNESS",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 472.5364,
+              "t": 510.3946,
+              "r": 513.9274,
+              "b": 528.3091038167939,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "D6 RESULT REQUIRED",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 308.9764,
+              "t": 538.1509000000001,
+              "r": 434.47804999999977,
+              "b": 554.8800679389313,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Strength is TWICE (or more than twice) the Toughness.",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 499.9786,
+              "t": 539.6698,
+              "r": 508.0906,
+              "b": 552.3330061068702,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "+",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 308.9764,
+              "t": 574.332,
+              "r": 441.73959999999994,
+              "b": 581.0651679389313,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Strength is GREATER than the Toughness.",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 499.9786,
+              "t": 570.8508,
+              "r": 508.0906,
+              "b": 583.5140061068703,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "+",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 308.9764,
+              "t": 605.5131,
+              "r": 425.10254999999995,
+              "b": 612.2462679389313,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Strength is EQUAL to the Toughness.",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 499.9786,
+              "t": 602.0319,
+              "r": 508.0906,
+              "b": 614.6951061068703,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "+",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 308.9764,
+              "t": 636.6943,
+              "r": 428.5560999999999,
+              "b": 643.4274679389313,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 4,
+            "end_row_offset_idx": 5,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Strength is LESS than the Toughness.",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 499.9786,
+              "t": 633.2130999999999,
+              "r": 508.0906,
+              "b": 645.8763061068703,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 4,
+            "end_row_offset_idx": 5,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "+",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 308.9764,
+              "t": 662.8754,
+              "r": 423.80544999999995,
+              "b": 679.6045679389313,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 5,
+            "end_row_offset_idx": 6,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Strength is HALF (or less than half) the Toughness.",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 499.9786,
+              "t": 664.3942,
+              "r": 508.0906,
+              "b": 677.0574061068703,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 5,
+            "end_row_offset_idx": 6,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "+",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          }
+        ],
+        "num_rows": 6,
+        "num_cols": 2,
+        "orientation": "rot_0",
+        "grid": [
+          [
+            {
+              "bbox": {
+                "l": 308.9764,
+                "t": 495.7481,
+                "r": 397.5123999999999,
+                "b": 528.3091038167939,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "WOUND ROLL ATTACK'S STRENGTH VS TARGET'S TOUGHNESS",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 472.5364,
+                "t": 510.3946,
+                "r": 513.9274,
+                "b": 528.3091038167939,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "D6 RESULT REQUIRED",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 308.9764,
+                "t": 538.1509000000001,
+                "r": 434.47804999999977,
+                "b": 554.8800679389313,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Strength is TWICE (or more than twice) the Toughness.",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 499.9786,
+                "t": 539.6698,
+                "r": 508.0906,
+                "b": 552.3330061068702,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "+",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 308.9764,
+                "t": 574.332,
+                "r": 441.73959999999994,
+                "b": 581.0651679389313,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Strength is GREATER than the Toughness.",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 499.9786,
+                "t": 570.8508,
+                "r": 508.0906,
+                "b": 583.5140061068703,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "+",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 308.9764,
+                "t": 605.5131,
+                "r": 425.10254999999995,
+                "b": 612.2462679389313,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Strength is EQUAL to the Toughness.",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 499.9786,
+                "t": 602.0319,
+                "r": 508.0906,
+                "b": 614.6951061068703,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "+",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 308.9764,
+                "t": 636.6943,
+                "r": 428.5560999999999,
+                "b": 643.4274679389313,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Strength is LESS than the Toughness.",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 499.9786,
+                "t": 633.2130999999999,
+                "r": 508.0906,
+                "b": 645.8763061068703,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "+",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 308.9764,
+                "t": 662.8754,
+                "r": 423.80544999999995,
+                "b": 679.6045679389313,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Strength is HALF (or less than half) the Toughness.",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 499.9786,
+                "t": 664.3942,
+                "r": 508.0906,
+                "b": 677.0574061068703,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "+",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ]
+        ]
+      },
+      "annotations": []
+    },
+    "method": "Dice-face values visually verified against source PDF; not OCR output"
+  }
+}

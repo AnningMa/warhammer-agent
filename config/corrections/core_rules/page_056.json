@@ -1,0 +1,112 @@
+{
+  "page": 56,
+  "source_sha256": "4d0e8019cbfddd6f46781d5b4ed31d46fb21eb2d0d10a0f6fabefac0ce054364",
+  "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+  "blocks": [
+    {
+      "type": "text",
+      "refs": [],
+      "style": "h1",
+      "text": "MUSTER YOUR ARMY (continued)"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1294",
+        "#/texts/1296"
+      ],
+      "style": "h2",
+      "text": "4. SELECT DETACHMENT RULES"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1297"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1295",
+        "#/texts/1298"
+      ],
+      "style": "h2",
+      "text": "5. SELECT UNITS"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1301"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1302"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1303"
+      ],
+      "style": "li"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1304"
+      ],
+      "style": "li"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1305"
+      ],
+      "style": "li"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1306",
+        "#/texts/1307"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1308"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1299",
+        "#/texts/1300"
+      ],
+      "style": "h2",
+      "text": "6. SELECT WARLORD"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1309"
+      ],
+      "style": "p"
+    }
+  ],
+  "excluded_text": {
+    "#/texts/1310": "Page number or running footer; not rule content."
+  },
+  "review_notes": [
+    "Three-column reading order reconstructed as steps 4–6. Enhancement sentence joined across source nodes. Dedicated Transport footnote retained under Select Units. Continuation heading is editorial."
+  ],
+  "schema_version": 1,
+  "handler": "blocks"
+}

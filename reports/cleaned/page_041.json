@@ -1,0 +1,1983 @@
+{
+  "page": 41,
+  "source": "data/Core Rules.pdf",
+  "rules": {
+    "page": 41,
+    "source_sha256": "4d0e8019cbfddd6f46781d5b4ed31d46fb21eb2d0d10a0f6fabefac0ce054364",
+    "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+    "blocks": [
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1009"
+        ],
+        "style": "h1"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1010"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1011"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1012"
+        ],
+        "style": "li"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1013"
+        ],
+        "style": "li"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1014"
+        ],
+        "style": "h2"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1015"
+        ],
+        "style": "li"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1016"
+        ],
+        "style": "li"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1017"
+        ],
+        "style": "li"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1019"
+        ],
+        "style": "h2"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1020"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1021"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1022"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1023"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1024"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "card",
+        "title_ref": "#/texts/1039",
+        "cp_ref": "#/texts/1018",
+        "expected_cp": 1,
+        "source_refs": [
+          "#/texts/1039",
+          "#/texts/1018"
+        ],
+        "children": [
+          {
+            "type": "text",
+            "refs": [
+              "#/texts/1040"
+            ],
+            "style": "p"
+          },
+          {
+            "type": "text",
+            "refs": [
+              "#/texts/1041"
+            ],
+            "style": "p"
+          },
+          {
+            "type": "text",
+            "refs": [
+              "#/texts/1042"
+            ],
+            "style": "p"
+          },
+          {
+            "type": "text",
+            "refs": [
+              "#/texts/1043"
+            ],
+            "style": "p"
+          }
+        ]
+      },
+      {
+        "type": "card",
+        "title_ref": "#/texts/1027",
+        "cp_ref": "#/texts/1025",
+        "expected_cp": 2,
+        "source_refs": [
+          "#/texts/1027",
+          "#/texts/1025"
+        ],
+        "children": [
+          {
+            "type": "text",
+            "refs": [
+              "#/texts/1028"
+            ],
+            "style": "p"
+          },
+          {
+            "type": "text",
+            "refs": [
+              "#/texts/1029"
+            ],
+            "style": "p"
+          },
+          {
+            "type": "text",
+            "refs": [
+              "#/texts/1030"
+            ],
+            "style": "p"
+          },
+          {
+            "type": "text",
+            "refs": [
+              "#/texts/1031"
+            ],
+            "style": "p"
+          },
+          {
+            "type": "text",
+            "refs": [
+              "#/texts/1032"
+            ],
+            "style": "p"
+          }
+        ]
+      },
+      {
+        "type": "card",
+        "title_ref": "#/texts/1033",
+        "cp_ref": "#/texts/1026",
+        "expected_cp": 1,
+        "source_refs": [
+          "#/texts/1033",
+          "#/texts/1026"
+        ],
+        "children": [
+          {
+            "type": "text",
+            "refs": [
+              "#/texts/1034"
+            ],
+            "style": "p"
+          },
+          {
+            "type": "text",
+            "refs": [
+              "#/texts/1035"
+            ],
+            "style": "p"
+          },
+          {
+            "type": "text",
+            "refs": [
+              "#/texts/1036"
+            ],
+            "style": "p"
+          },
+          {
+            "type": "text",
+            "refs": [
+              "#/texts/1037"
+            ],
+            "style": "p"
+          },
+          {
+            "type": "text",
+            "refs": [
+              "#/texts/1038"
+            ],
+            "style": "p"
+          }
+        ]
+      }
+    ],
+    "excluded_text": {
+      "#/texts/1008": "Page furniture",
+      "#/texts/1044": "Page furniture"
+    },
+    "review_notes": [
+      "CP linked by visually checked card position. WHEN/TARGET/EFFECT remain verbatim; absent TARGET is not invented. Turn-color encoding is not inferred into extra fields."
+    ]
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1009"
+      ],
+      "style": "h1",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1009",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 41,
+              "bbox": {
+                "l": 153.0709,
+                "t": 721.1847,
+                "r": 385.58589999999987,
+                "b": 685.4766847328244,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                10
+              ]
+            }
+          ],
+          "orig": "STRATAGEMS",
+          "text": "STRATAGEMS",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1010"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1010",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 41,
+              "bbox": {
+                "l": 153.0709,
+                "t": 678.8197,
+                "r": 506.4509500000002,
+                "b": 661.2974213740458,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                190
+              ]
+            }
+          ],
+          "orig": "Command points can be spent during the battle to use Stratagems. All players can use the Core Stratagems presented here. Additional Stratagems can be found in Codexes and other publications.",
+          "text": "Command points can be spent during the battle to use Stratagems. All players can use the Core Stratagems presented here. Additional Stratagems can be found in Codexes and other publications."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1011"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1011",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 41,
+              "bbox": {
+                "l": 153.0708,
+                "t": 638.3681,
+                "r": 294.7980999999999,
+                "b": 560.8483836198182,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                295
+              ]
+            }
+          ],
+          "orig": "When you use a Stratagem, reduce your CP total by the amount listed on that Stratagem. If you do not have enough CP for a specific Stratagem, you cannot use it. You can use the same Stratagem multiple times during a battle, but you cannot use the same Stratagem more than once in the same phase.",
+          "text": "When you use a Stratagem, reduce your CP total by the amount listed on that Stratagem. If you do not have enough CP for a specific Stratagem, you cannot use it. You can use the same Stratagem multiple times during a battle, but you cannot use the same Stratagem more than once in the same phase."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1012"
+      ],
+      "style": "li",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1012",
+          "parent": {
+            "$ref": "#/groups/69"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 41,
+              "bbox": {
+                "l": 164.4094,
+                "t": 542.6786,
+                "r": 276.5793000000001,
+                "b": 523.4302717557251,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                51
+              ]
+            }
+          ],
+          "orig": "■ To use a Stratagem you must pay the CP specified.",
+          "text": "■ To use a Stratagem you must pay the CP specified.",
+          "enumerated": false,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1013"
+      ],
+      "style": "li",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1013",
+          "parent": {
+            "$ref": "#/groups/69"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 41,
+              "bbox": {
+                "l": 164.4094,
+                "t": 522.6786,
+                "r": 267.71295,
+                "b": 493.4342717557252,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                69
+              ]
+            }
+          ],
+          "orig": "■ The same Stratagem cannot be used more than once in the same phase.",
+          "text": "■ The same Stratagem cannot be used more than once in the same phase.",
+          "enumerated": false,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1014"
+      ],
+      "style": "h2",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1014",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 41,
+              "bbox": {
+                "l": 153.0708,
+                "t": 470.3946,
+                "r": 231.90359999999993,
+                "b": 460.8971954198474,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                14
+              ]
+            }
+          ],
+          "orig": "STRATAGEMS KEY",
+          "text": "STRATAGEMS KEY",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1015"
+      ],
+      "style": "li",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1015",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 41,
+              "bbox": {
+                "l": 157.0708,
+                "t": 454.8347,
+                "r": 244.58079999999998,
+                "b": 446.9201961832061,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                20
+              ]
+            }
+          ],
+          "orig": "EITHER PLAYER'S TURN",
+          "text": "EITHER PLAYER'S TURN",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1016"
+      ],
+      "style": "li",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1016",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 41,
+              "bbox": {
+                "l": 157.0708,
+                "t": 436.5348,
+                "r": 200.01080000000002,
+                "b": 428.6202961832061,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                9
+              ]
+            }
+          ],
+          "orig": "YOUR TURN",
+          "text": "YOUR TURN",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1017"
+      ],
+      "style": "li",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1017",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 41,
+              "bbox": {
+                "l": 157.0708,
+                "t": 418.23490000000004,
+                "r": 226.9108,
+                "b": 410.3203961832061,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                15
+              ]
+            }
+          ],
+          "orig": "OPPONENT'S TURN",
+          "text": "OPPONENT'S TURN",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1019"
+      ],
+      "style": "h2",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1019",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 41,
+              "bbox": {
+                "l": 314.6456,
+                "t": 630.3947,
+                "r": 425.3036,
+                "b": 620.8972954198473,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                20
+              ]
+            }
+          ],
+          "orig": "STRATAGEM CATEGORIES",
+          "text": "STRATAGEM CATEGORIES",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1020"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1020",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 41,
+              "bbox": {
+                "l": 314.6456,
+                "t": 618.3682,
+                "r": 489.85440000000017,
+                "b": 580.832483619818,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                176
+              ]
+            }
+          ],
+          "orig": "Each Stratagem belongs to one of four categories, as described below. There are some rules (especially in Crusade games) that interact with Stratagems of a particular category.",
+          "text": "Each Stratagem belongs to one of four categories, as described below. There are some rules (especially in Crusade games) that interact with Stratagems of a particular category."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1021"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1021",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 41,
+              "bbox": {
+                "l": 314.6456,
+                "t": 568.3797000000001,
+                "r": 508.55439999999993,
+                "b": 540.8399836198181,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                139
+              ]
+            }
+          ],
+          "orig": "BATTLE TACTIC: These Stratagems bolster a unit's efficacy in battle, boosting their attacks or defensive capabilities at a critical moment.",
+          "text": "BATTLE TACTIC: These Stratagems bolster a unit's efficacy in battle, boosting their attacks or defensive capabilities at a critical moment."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1022"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1022",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 41,
+              "bbox": {
+                "l": 314.6456,
+                "t": 528.3872000000001,
+                "r": 512.8877000000001,
+                "b": 510.84348361981813,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                102
+              ]
+            }
+          ],
+          "orig": "EPIC DEED: These Stratagems are used by individual models or units to perform mighty feats of heroism.",
+          "text": "EPIC DEED: These Stratagems are used by individual models or units to perform mighty feats of heroism."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1023"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1023",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 41,
+              "bbox": {
+                "l": 314.6456,
+                "t": 498.39070000000015,
+                "r": 508.63175000000035,
+                "b": 470.8509836198182,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                135
+              ]
+            }
+          ],
+          "orig": "STRATEGIC PLOY: These Stratagems enable units to gain new strategic insights, granting them a small but valuable window of opportunity.",
+          "text": "STRATEGIC PLOY: These Stratagems enable units to gain new strategic insights, granting them a small but valuable window of opportunity."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1024"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1024",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 41,
+              "bbox": {
+                "l": 314.6456,
+                "t": 458.3982000000002,
+                "r": 505.84970000000015,
+                "b": 440.8544836198182,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                98
+              ]
+            }
+          ],
+          "orig": "WARGEAR: These Stratagems represent the effects of using specialised items of equipment in battle.",
+          "text": "WARGEAR: These Stratagems represent the effects of using specialised items of equipment in battle."
+        }
+      ]
+    },
+    {
+      "type": "card",
+      "title_ref": "#/texts/1039",
+      "cp_ref": "#/texts/1018",
+      "expected_cp": 1,
+      "source_refs": [
+        "#/texts/1039",
+        "#/texts/1018"
+      ],
+      "children": [
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1040"
+          ],
+          "style": "p",
+          "source_nodes": [
+            {
+              "self_ref": "#/texts/1040",
+              "parent": {
+                "$ref": "#/body"
+              },
+              "children": [],
+              "content_layer": "body",
+              "label": "text",
+              "prov": [
+                {
+                  "page_no": 41,
+                  "bbox": {
+                    "l": 180.0,
+                    "t": 341.57489999999996,
+                    "r": 256.1034,
+                    "b": 336.82619770992363,
+                    "coord_origin": "BOTTOMLEFT"
+                  },
+                  "charspan": [
+                    0,
+                    30
+                  ]
+                }
+              ],
+              "orig": "CORE - BATTLE TACTIC STRATAGEM",
+              "text": "CORE - BATTLE TACTIC STRATAGEM"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1041"
+          ],
+          "style": "p",
+          "source_nodes": [
+            {
+              "self_ref": "#/texts/1041",
+              "parent": {
+                "$ref": "#/body"
+              },
+              "children": [],
+              "content_layer": "body",
+              "label": "text",
+              "prov": [
+                {
+                  "page_no": 41,
+                  "bbox": {
+                    "l": 180.0,
+                    "t": 329.366,
+                    "r": 311.03175000000016,
+                    "b": 305.330667393675,
+                    "coord_origin": "BOTTOMLEFT"
+                  },
+                  "charspan": [
+                    0,
+                    109
+                  ]
+                }
+              ],
+              "orig": "A great commander can bend even the vagaries of fate and fortune to their will, the better to ensure victory.",
+              "text": "A great commander can bend even the vagaries of fate and fortune to their will, the better to ensure victory."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1042"
+          ],
+          "style": "p",
+          "source_nodes": [
+            {
+              "self_ref": "#/texts/1042",
+              "parent": {
+                "$ref": "#/body"
+              },
+              "children": [],
+              "content_layer": "body",
+              "label": "text",
+              "prov": [
+                {
+                  "page_no": 41,
+                  "bbox": {
+                    "l": 180.0,
+                    "t": 297.746,
+                    "r": 324.3824999999999,
+                    "b": 246.8049694656488,
+                    "coord_origin": "BOTTOMLEFT"
+                  },
+                  "charspan": [
+                    0,
+                    315
+                  ]
+                }
+              ],
+              "orig": "WHEN: In any phase, just after you have made a Hit roll, a Wound roll, a Damage roll, a saving throw, an Advance roll, a Charge roll, a Desperate Escape test, a Hazardous test, or just after you have rolled the dice to determine the number of attacks made with a weapon, for an attack, model or unit from your army.",
+              "text": "WHEN: In any phase, just after you have made a Hit roll, a Wound roll, a Damage roll, a saving throw, an Advance roll, a Charge roll, a Desperate Escape test, a Hazardous test, or just after you have rolled the dice to determine the number of attacks made with a weapon, for an attack, model or unit from your army."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1043"
+          ],
+          "style": "p",
+          "source_nodes": [
+            {
+              "self_ref": "#/texts/1043",
+              "parent": {
+                "$ref": "#/body"
+              },
+              "children": [],
+              "content_layer": "body",
+              "label": "text",
+              "prov": [
+                {
+                  "page_no": 41,
+                  "bbox": {
+                    "l": 180.0,
+                    "t": 240.91099999999994,
+                    "r": 310.3785,
+                    "b": 234.96996946564877,
+                    "coord_origin": "BOTTOMLEFT"
+                  },
+                  "charspan": [
+                    0,
+                    52
+                  ]
+                }
+              ],
+              "orig": "EFFECT: You re-roll that roll, test or saving throw.",
+              "text": "EFFECT: You re-roll that roll, test or saving throw."
+            }
+          ]
+        }
+      ],
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1018",
+          "parent": {
+            "$ref": "#/pictures/93"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 41,
+              "bbox": {
+                "l": 152.5291,
+                "t": 316.85040000000004,
+                "r": 167.2691,
+                "b": 308.9358961832061,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                3
+              ]
+            }
+          ],
+          "orig": "1CP",
+          "text": "1CP"
+        },
+        {
+          "self_ref": "#/texts/1039",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 41,
+              "bbox": {
+                "l": 179.748,
+                "t": 358.1108,
+                "r": 267.93600000000004,
+                "b": 348.61339541984734,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                15
+              ]
+            }
+          ],
+          "orig": "COMMAND RE-ROLL",
+          "text": "COMMAND RE-ROLL",
+          "level": 1
+        },
+        {
+          "self_ref": "#/texts/1040",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 41,
+              "bbox": {
+                "l": 180.0,
+                "t": 341.57489999999996,
+                "r": 256.1034,
+                "b": 336.82619770992363,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                30
+              ]
+            }
+          ],
+          "orig": "CORE - BATTLE TACTIC STRATAGEM",
+          "text": "CORE - BATTLE TACTIC STRATAGEM"
+        },
+        {
+          "self_ref": "#/texts/1041",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 41,
+              "bbox": {
+                "l": 180.0,
+                "t": 329.366,
+                "r": 311.03175000000016,
+                "b": 305.330667393675,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                109
+              ]
+            }
+          ],
+          "orig": "A great commander can bend even the vagaries of fate and fortune to their will, the better to ensure victory.",
+          "text": "A great commander can bend even the vagaries of fate and fortune to their will, the better to ensure victory."
+        },
+        {
+          "self_ref": "#/texts/1042",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 41,
+              "bbox": {
+                "l": 180.0,
+                "t": 297.746,
+                "r": 324.3824999999999,
+                "b": 246.8049694656488,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                315
+              ]
+            }
+          ],
+          "orig": "WHEN: In any phase, just after you have made a Hit roll, a Wound roll, a Damage roll, a saving throw, an Advance roll, a Charge roll, a Desperate Escape test, a Hazardous test, or just after you have rolled the dice to determine the number of attacks made with a weapon, for an attack, model or unit from your army.",
+          "text": "WHEN: In any phase, just after you have made a Hit roll, a Wound roll, a Damage roll, a saving throw, an Advance roll, a Charge roll, a Desperate Escape test, a Hazardous test, or just after you have rolled the dice to determine the number of attacks made with a weapon, for an attack, model or unit from your army."
+        },
+        {
+          "self_ref": "#/texts/1043",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 41,
+              "bbox": {
+                "l": 180.0,
+                "t": 240.91099999999994,
+                "r": 310.3785,
+                "b": 234.96996946564877,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                52
+              ]
+            }
+          ],
+          "orig": "EFFECT: You re-roll that roll, test or saving throw.",
+          "text": "EFFECT: You re-roll that roll, test or saving throw."
+        }
+      ],
+      "name": "COMMAND RE-ROLL",
+      "cp_cost": 1,
+      "fields": {
+        "when": "In any phase, just after you have made a Hit roll, a Wound roll, a Damage roll, a saving throw, an Advance roll, a Charge roll, a Desperate Escape test, a Hazardous test, or just after you have rolled the dice to determine the number of attacks made with a weapon, for an attack, model or unit from your army.",
+        "effect": "You re-roll that roll, test or saving throw."
+      }
+    },
+    {
+      "type": "card",
+      "title_ref": "#/texts/1027",
+      "cp_ref": "#/texts/1025",
+      "expected_cp": 2,
+      "source_refs": [
+        "#/texts/1027",
+        "#/texts/1025"
+      ],
+      "children": [
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1028"
+          ],
+          "style": "p",
+          "source_nodes": [
+            {
+              "self_ref": "#/texts/1028",
+              "parent": {
+                "$ref": "#/body"
+              },
+              "children": [],
+              "content_layer": "body",
+              "label": "text",
+              "prov": [
+                {
+                  "page_no": 41,
+                  "bbox": {
+                    "l": 373.937,
+                    "t": 341.57489999999996,
+                    "r": 454.1983999999998,
+                    "b": 336.82619770992363,
+                    "coord_origin": "BOTTOMLEFT"
+                  },
+                  "charspan": [
+                    0,
+                    31
+                  ]
+                }
+              ],
+              "orig": "CORE - STRATEGIC PLOY STRATAGEM",
+              "text": "CORE - STRATEGIC PLOY STRATAGEM"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1029"
+          ],
+          "style": "p",
+          "source_nodes": [
+            {
+              "self_ref": "#/texts/1029",
+              "parent": {
+                "$ref": "#/body"
+              },
+              "children": [],
+              "content_layer": "body",
+              "label": "text",
+              "prov": [
+                {
+                  "page_no": 41,
+                  "bbox": {
+                    "l": 373.937,
+                    "t": 329.366,
+                    "r": 509.7620000000002,
+                    "b": 314.330667393675,
+                    "coord_origin": "BOTTOMLEFT"
+                  },
+                  "charspan": [
+                    0,
+                    99
+                  ]
+                }
+              ],
+              "orig": "In close-quarters combat, the slightest hesitation can leave an opening for a swift foe to exploit.",
+              "text": "In close-quarters combat, the slightest hesitation can leave an opening for a swift foe to exploit."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1030"
+          ],
+          "style": "p",
+          "source_nodes": [
+            {
+              "self_ref": "#/texts/1030",
+              "parent": {
+                "$ref": "#/body"
+              },
+              "children": [],
+              "content_layer": "body",
+              "label": "text",
+              "prov": [
+                {
+                  "page_no": 41,
+                  "bbox": {
+                    "l": 373.937,
+                    "t": 306.746,
+                    "r": 494.49949999999995,
+                    "b": 291.8049694656488,
+                    "coord_origin": "BOTTOMLEFT"
+                  },
+                  "charspan": [
+                    0,
+                    55
+                  ]
+                }
+              ],
+              "orig": "WHEN: Fight phase, just after an enemy unit has fought.",
+              "text": "WHEN: Fight phase, just after an enemy unit has fought."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1031"
+          ],
+          "style": "p",
+          "source_nodes": [
+            {
+              "self_ref": "#/texts/1031",
+              "parent": {
+                "$ref": "#/body"
+              },
+              "children": [],
+              "content_layer": "body",
+              "label": "text",
+              "prov": [
+                {
+                  "page_no": 41,
+                  "bbox": {
+                    "l": 373.937,
+                    "t": 285.911,
+                    "r": 504.3020000000001,
+                    "b": 252.96996946564877,
+                    "coord_origin": "BOTTOMLEFT"
+                  },
+                  "charspan": [
+                    0,
+                    150
+                  ]
+                }
+              ],
+              "orig": "TARGET: One unit from your army that is within Engagement Range of one or more enemy units and that has not already been selected to fight this phase.",
+              "text": "TARGET: One unit from your army that is within Engagement Range of one or more enemy units and that has not already been selected to fight this phase."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1032"
+          ],
+          "style": "p",
+          "source_nodes": [
+            {
+              "self_ref": "#/texts/1032",
+              "parent": {
+                "$ref": "#/groups/70"
+              },
+              "children": [],
+              "content_layer": "body",
+              "label": "text",
+              "prov": [
+                {
+                  "page_no": 41,
+                  "bbox": {
+                    "l": 373.937,
+                    "t": 247.07600000000002,
+                    "r": 453.31699999999995,
+                    "b": 241.13496946564885,
+                    "coord_origin": "BOTTOMLEFT"
+                  },
+                  "charspan": [
+                    0,
+                    30
+                  ]
+                }
+              ],
+              "orig": "EFFECT: Your unit fights next.",
+              "text": "EFFECT: Your unit fights next."
+            }
+          ]
+        }
+      ],
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1025",
+          "parent": {
+            "$ref": "#/pictures/94"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 41,
+              "bbox": {
+                "l": 346.4661,
+                "t": 316.85040000000004,
+                "r": 361.20609999999994,
+                "b": 308.9358961832061,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                3
+              ]
+            }
+          ],
+          "orig": "2CP",
+          "text": "2CP"
+        },
+        {
+          "self_ref": "#/texts/1027",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 41,
+              "bbox": {
+                "l": 373.685,
+                "t": 358.1108,
+                "r": 470.2730000000001,
+                "b": 348.61339541984734,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                17
+              ]
+            }
+          ],
+          "orig": "COUNTER-OFFENSIVE",
+          "text": "COUNTER-OFFENSIVE",
+          "level": 1
+        },
+        {
+          "self_ref": "#/texts/1028",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 41,
+              "bbox": {
+                "l": 373.937,
+                "t": 341.57489999999996,
+                "r": 454.1983999999998,
+                "b": 336.82619770992363,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                31
+              ]
+            }
+          ],
+          "orig": "CORE - STRATEGIC PLOY STRATAGEM",
+          "text": "CORE - STRATEGIC PLOY STRATAGEM"
+        },
+        {
+          "self_ref": "#/texts/1029",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 41,
+              "bbox": {
+                "l": 373.937,
+                "t": 329.366,
+                "r": 509.7620000000002,
+                "b": 314.330667393675,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                99
+              ]
+            }
+          ],
+          "orig": "In close-quarters combat, the slightest hesitation can leave an opening for a swift foe to exploit.",
+          "text": "In close-quarters combat, the slightest hesitation can leave an opening for a swift foe to exploit."
+        },
+        {
+          "self_ref": "#/texts/1030",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 41,
+              "bbox": {
+                "l": 373.937,
+                "t": 306.746,
+                "r": 494.49949999999995,
+                "b": 291.8049694656488,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                55
+              ]
+            }
+          ],
+          "orig": "WHEN: Fight phase, just after an enemy unit has fought.",
+          "text": "WHEN: Fight phase, just after an enemy unit has fought."
+        },
+        {
+          "self_ref": "#/texts/1031",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 41,
+              "bbox": {
+                "l": 373.937,
+                "t": 285.911,
+                "r": 504.3020000000001,
+                "b": 252.96996946564877,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                150
+              ]
+            }
+          ],
+          "orig": "TARGET: One unit from your army that is within Engagement Range of one or more enemy units and that has not already been selected to fight this phase.",
+          "text": "TARGET: One unit from your army that is within Engagement Range of one or more enemy units and that has not already been selected to fight this phase."
+        },
+        {
+          "self_ref": "#/texts/1032",
+          "parent": {
+            "$ref": "#/groups/70"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 41,
+              "bbox": {
+                "l": 373.937,
+                "t": 247.07600000000002,
+                "r": 453.31699999999995,
+                "b": 241.13496946564885,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                30
+              ]
+            }
+          ],
+          "orig": "EFFECT: Your unit fights next.",
+          "text": "EFFECT: Your unit fights next."
+        }
+      ],
+      "name": "COUNTER-OFFENSIVE",
+      "cp_cost": 2,
+      "fields": {
+        "when": "Fight phase, just after an enemy unit has fought.",
+        "target": "One unit from your army that is within Engagement Range of one or more enemy units and that has not already been selected to fight this phase.",
+        "effect": "Your unit fights next."
+      }
+    },
+    {
+      "type": "card",
+      "title_ref": "#/texts/1033",
+      "cp_ref": "#/texts/1026",
+      "expected_cp": 1,
+      "source_refs": [
+        "#/texts/1033",
+        "#/texts/1026"
+      ],
+      "children": [
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1034"
+          ],
+          "style": "p",
+          "source_nodes": [
+            {
+              "self_ref": "#/texts/1034",
+              "parent": {
+                "$ref": "#/body"
+              },
+              "children": [],
+              "content_layer": "body",
+              "label": "text",
+              "prov": [
+                {
+                  "page_no": 41,
+                  "bbox": {
+                    "l": 373.937,
+                    "t": 209.50649999999996,
+                    "r": 441.5497999999999,
+                    "b": 204.7577977099237,
+                    "coord_origin": "BOTTOMLEFT"
+                  },
+                  "charspan": [
+                    0,
+                    26
+                  ]
+                }
+              ],
+              "orig": "CORE - EPIC DEED STRATAGEM",
+              "text": "CORE - EPIC DEED STRATAGEM"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1035"
+          ],
+          "style": "p",
+          "source_nodes": [
+            {
+              "self_ref": "#/texts/1035",
+              "parent": {
+                "$ref": "#/body"
+              },
+              "children": [],
+              "content_layer": "body",
+              "label": "text",
+              "prov": [
+                {
+                  "page_no": 41,
+                  "bbox": {
+                    "l": 373.937,
+                    "t": 197.2976,
+                    "r": 514.2320000000001,
+                    "b": 182.26226739367507,
+                    "coord_origin": "BOTTOMLEFT"
+                  },
+                  "charspan": [
+                    0,
+                    90
+                  ]
+                }
+              ],
+              "orig": "The legends of the 41st Millennium are replete with deadly duels between mighty champions.",
+              "text": "The legends of the 41st Millennium are replete with deadly duels between mighty champions."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1036"
+          ],
+          "style": "p",
+          "source_nodes": [
+            {
+              "self_ref": "#/texts/1036",
+              "parent": {
+                "$ref": "#/body"
+              },
+              "children": [],
+              "content_layer": "body",
+              "label": "text",
+              "prov": [
+                {
+                  "page_no": 41,
+                  "bbox": {
+                    "l": 373.937,
+                    "t": 174.67759999999998,
+                    "r": 518.9112499999999,
+                    "b": 150.73656946564893,
+                    "coord_origin": "BOTTOMLEFT"
+                  },
+                  "charspan": [
+                    0,
+                    139
+                  ]
+                }
+              ],
+              "orig": "WHEN: Fight phase, when a Character unit from your army that is within Engagement Range of one or more Attached units is selected to fight.",
+              "text": "WHEN: Fight phase, when a Character unit from your army that is within Engagement Range of one or more Attached units is selected to fight."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1037"
+          ],
+          "style": "p",
+          "source_nodes": [
+            {
+              "self_ref": "#/texts/1037",
+              "parent": {
+                "$ref": "#/groups/71"
+              },
+              "children": [],
+              "content_layer": "body",
+              "label": "text",
+              "prov": [
+                {
+                  "page_no": 41,
+                  "bbox": {
+                    "l": 373.937,
+                    "t": 144.84259999999995,
+                    "r": 494.1455,
+                    "b": 138.9015694656489,
+                    "coord_origin": "BOTTOMLEFT"
+                  },
+                  "charspan": [
+                    0,
+                    41
+                  ]
+                }
+              ],
+              "orig": "TARGET: One Character model in your unit.",
+              "text": "TARGET: One Character model in your unit."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "refs": [
+            "#/texts/1038"
+          ],
+          "style": "p",
+          "source_nodes": [
+            {
+              "self_ref": "#/texts/1038",
+              "parent": {
+                "$ref": "#/body"
+              },
+              "children": [],
+              "content_layer": "body",
+              "label": "text",
+              "prov": [
+                {
+                  "page_no": 41,
+                  "bbox": {
+                    "l": 373.937,
+                    "t": 133.00760000000002,
+                    "r": 510.57329999999996,
+                    "b": 109.06846946564883,
+                    "coord_origin": "BOTTOMLEFT"
+                  },
+                  "charspan": [
+                    0,
+                    110
+                  ]
+                }
+              ],
+              "orig": "EFFECT: Until the end of the phase, all melee attacks made by that model have the [PRECISION] ability (pg 26).",
+              "text": "EFFECT: Until the end of the phase, all melee attacks made by that model have the [PRECISION] ability (pg 26)."
+            }
+          ]
+        }
+      ],
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1026",
+          "parent": {
+            "$ref": "#/pictures/95"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 41,
+              "bbox": {
+                "l": 346.4661,
+                "t": 184.78189999999995,
+                "r": 361.20609999999994,
+                "b": 176.8673961832061,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                3
+              ]
+            }
+          ],
+          "orig": "1CP",
+          "text": "1CP"
+        },
+        {
+          "self_ref": "#/texts/1033",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 41,
+              "bbox": {
+                "l": 373.685,
+                "t": 226.04240000000004,
+                "r": 450.53299999999996,
+                "b": 216.54499541984728,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                14
+              ]
+            }
+          ],
+          "orig": "EPIC CHALLENGE",
+          "text": "EPIC CHALLENGE",
+          "level": 1
+        },
+        {
+          "self_ref": "#/texts/1034",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 41,
+              "bbox": {
+                "l": 373.937,
+                "t": 209.50649999999996,
+                "r": 441.5497999999999,
+                "b": 204.7577977099237,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                26
+              ]
+            }
+          ],
+          "orig": "CORE - EPIC DEED STRATAGEM",
+          "text": "CORE - EPIC DEED STRATAGEM"
+        },
+        {
+          "self_ref": "#/texts/1035",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 41,
+              "bbox": {
+                "l": 373.937,
+                "t": 197.2976,
+                "r": 514.2320000000001,
+                "b": 182.26226739367507,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                90
+              ]
+            }
+          ],
+          "orig": "The legends of the 41st Millennium are replete with deadly duels between mighty champions.",
+          "text": "The legends of the 41st Millennium are replete with deadly duels between mighty champions."
+        },
+        {
+          "self_ref": "#/texts/1036",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 41,
+              "bbox": {
+                "l": 373.937,
+                "t": 174.67759999999998,
+                "r": 518.9112499999999,
+                "b": 150.73656946564893,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                139
+              ]
+            }
+          ],
+          "orig": "WHEN: Fight phase, when a Character unit from your army that is within Engagement Range of one or more Attached units is selected to fight.",
+          "text": "WHEN: Fight phase, when a Character unit from your army that is within Engagement Range of one or more Attached units is selected to fight."
+        },
+        {
+          "self_ref": "#/texts/1037",
+          "parent": {
+            "$ref": "#/groups/71"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 41,
+              "bbox": {
+                "l": 373.937,
+                "t": 144.84259999999995,
+                "r": 494.1455,
+                "b": 138.9015694656489,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                41
+              ]
+            }
+          ],
+          "orig": "TARGET: One Character model in your unit.",
+          "text": "TARGET: One Character model in your unit."
+        },
+        {
+          "self_ref": "#/texts/1038",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 41,
+              "bbox": {
+                "l": 373.937,
+                "t": 133.00760000000002,
+                "r": 510.57329999999996,
+                "b": 109.06846946564883,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                110
+              ]
+            }
+          ],
+          "orig": "EFFECT: Until the end of the phase, all melee attacks made by that model have the [PRECISION] ability (pg 26).",
+          "text": "EFFECT: Until the end of the phase, all melee attacks made by that model have the [PRECISION] ability (pg 26)."
+        }
+      ],
+      "name": "EPIC CHALLENGE",
+      "cp_cost": 1,
+      "fields": {
+        "when": "Fight phase, when a Character unit from your army that is within Engagement Range of one or more Attached units is selected to fight.",
+        "target": "One Character model in your unit.",
+        "effect": "Until the end of the phase, all melee attacks made by that model have the [PRECISION] ability (pg 26)."
+      }
+    }
+  ],
+  "excluded_text": [
+    {
+      "node": {
+        "self_ref": "#/texts/1008",
+        "parent": {
+          "$ref": "#/pictures/92"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 41,
+            "bbox": {
+              "l": 61.2842,
+              "t": 100.24450000000002,
+              "r": 70.68419999999999,
+              "b": 92.32999618320605,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              2
+            ]
+          }
+        ],
+        "orig": "41",
+        "text": "41"
+      },
+      "reason": "Page furniture"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/1044",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "furniture",
+        "label": "page_footer",
+        "prov": [
+          {
+            "page_no": 41,
+            "bbox": {
+              "l": 152.83079999999998,
+              "t": 50.00490000000002,
+              "r": 254.46780000000007,
+              "b": 42.09039618320617,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              23
+            ]
+          }
+        ],
+        "orig": "CORE RULES | STRATAGEMS",
+        "text": "CORE RULES | STRATAGEMS"
+      },
+      "reason": "Page furniture"
+    }
+  ],
+  "review_notes": [
+    "CP linked by visually checked card position. WHEN/TARGET/EFFECT remain verbatim; absent TARGET is not invented. Turn-color encoding is not inferred into extra fields."
+  ]
+}

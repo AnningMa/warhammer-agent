@@ -1,0 +1,912 @@
+{
+  "page": 6,
+  "body": [
+    {
+      "self_ref": "#/texts/118",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 55.2756,
+            "t": 710.3947,
+            "r": 133.08599999999996,
+            "b": 700.8972954198473,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "UNIT COHERENCY",
+      "text": "UNIT COHERENCY",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/119",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 55.2756,
+            "t": 698.3682,
+            "r": 245.82689999999982,
+            "b": 620.8484836198181,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            429
+          ]
+        }
+      ],
+      "orig": "A unit that contains more than one model must be set up and end any kind of move as a single group, with all of its models within 2\" horizontally and 5\" vertically of at least one other model from that unit. While a unit has seven or more models, all of its models must instead be set up and end any kind of move within 2\" horizontally and 5\" vertically of at least two other models from that unit. This is called Unit Coherency.",
+      "text": "A unit that contains more than one model must be set up and end any kind of move as a single group, with all of its models within 2\" horizontally and 5\" vertically of at least one other model from that unit. While a unit has seven or more models, all of its models must instead be set up and end any kind of move within 2\" horizontally and 5\" vertically of at least two other models from that unit. This is called Unit Coherency."
+    },
+    {
+      "self_ref": "#/texts/120",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 55.2756,
+            "t": 608.3957000000001,
+            "r": 245.23274999999987,
+            "b": 570.8599836198182,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            215
+          ]
+        }
+      ],
+      "orig": "If for any reason a model cannot be set up in Unit Coherency, that model is destroyed. If a unit cannot end a move in Unit Coherency, it cannot make that move and its models are returned to their previous positions.",
+      "text": "If for any reason a model cannot be set up in Unit Coherency, that model is destroyed. If a unit cannot end a move in Unit Coherency, it cannot make that move and its models are returned to their previous positions."
+    },
+    {
+      "self_ref": "#/texts/121",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 55.2756,
+            "t": 558.4072000000002,
+            "r": 238.02134999999996,
+            "b": 520.8714836198183,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            205
+          ]
+        },
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 257.2441,
+            "t": 698.4192000000003,
+            "r": 436.3960500000003,
+            "b": 660.8834836198183,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            206,
+            380
+          ]
+        }
+      ],
+      "orig": "At the end of every turn, each player must remove models, one at a time, from any of the units from their armies that are no longer in Unit Coherency, until only a single group of models from each of those units remains in play and in Unit Coherency. Models removed in this way count as having been destroyed, but they never trigger any rules that apply when a model is destroyed.",
+      "text": "At the end of every turn, each player must remove models, one at a time, from any of the units from their armies that are no longer in Unit Coherency, until only a single group of models from each of those units remains in play and in Unit Coherency. Models removed in this way count as having been destroyed, but they never trigger any rules that apply when a model is destroyed."
+    }
+  ],
+  "summary": [
+    {
+      "self_ref": "#/texts/122",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 268.5827,
+            "t": 642.6786999999999,
+            "r": 419.16325,
+            "b": 623.4343717557251,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            62
+          ]
+        }
+      ],
+      "orig": "■ Unit Coherency: Within 2\" horizontally and 5\" vertically of:",
+      "text": "■ Unit Coherency: Within 2\" horizontally and 5\" vertically of:",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/123",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 285.5906,
+            "t": 622.6786999999999,
+            "r": 406.3276500000003,
+            "b": 603.4343717557251,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            62
+          ]
+        }
+      ],
+      "orig": "● One other model from the same unit (in units of 2-6 models).",
+      "text": "One other model from the same unit (in units of 2-6 models).",
+      "enumerated": false,
+      "marker": "●"
+    },
+    {
+      "self_ref": "#/texts/124",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 285.5906,
+            "t": 602.6786999999999,
+            "r": 409.66730000000024,
+            "b": 583.4343717557251,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            62
+          ]
+        }
+      ],
+      "orig": "● Two other models from the same unit (in units of 7+ models).",
+      "text": "Two other models from the same unit (in units of 7+ models).",
+      "enumerated": false,
+      "marker": "●"
+    },
+    {
+      "self_ref": "#/texts/125",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 268.5827,
+            "t": 582.6786999999999,
+            "r": 429.41255000000024,
+            "b": 553.4343717557251,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            149
+          ]
+        }
+      ],
+      "orig": "■ At the end of every turn, if a unit is not in Unit Coherency, the controlling player must remove models until that unit is in Unit Coherency again.",
+      "text": "■ At the end of every turn, if a unit is not in Unit Coherency, the controlling player must remove models until that unit is in Unit Coherency again.",
+      "enumerated": false,
+      "marker": ""
+    }
+  ],
+  "figure": {
+    "id": "p006_unit_coherency",
+    "page": 6,
+    "bbox": [
+      46,
+      288,
+      449,
+      575
+    ],
+    "coordinate_system": "PDF points, top-left origin",
+    "image": "images/page_006_coherency.png",
+    "captions": [
+      {
+        "self_ref": "#/texts/126",
+        "parent": {
+          "$ref": "#/pictures/5"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 6,
+            "bbox": {
+              "l": 315.2303,
+              "t": 307.80760000000004,
+              "r": 430.7241000000003,
+              "b": 276.7686381679389,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              156
+            ]
+          }
+        ],
+        "orig": "A Each model in this Sternguard Veterans unit of five models is within 2\" of at least one other model in the unit. This unit is therefore in Unit Coherency.",
+        "text": "A Each model in this Sternguard Veterans unit of five models is within 2\" of at least one other model in the unit. This unit is therefore in Unit Coherency."
+      },
+      {
+        "self_ref": "#/texts/127",
+        "parent": {
+          "$ref": "#/pictures/5"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 6,
+            "bbox": {
+              "l": 314.8003,
+              "t": 268.13840000000005,
+              "r": 424.51520000000033,
+              "b": 237.09733816793891,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              152
+            ]
+          }
+        ],
+        "orig": "B Each model in this Termagants unit of ten models is within 2\" of at least two other models in the unit. This unit is therefore also in Unit Coherency.",
+        "text": "B Each model in this Termagants unit of ten models is within 2\" of at least two other models in the unit. This unit is therefore also in Unit Coherency."
+      }
+    ],
+    "annotations": [
+      {
+        "self_ref": "#/texts/128",
+        "parent": {
+          "$ref": "#/pictures/5"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 6,
+            "bbox": {
+              "l": 118.2523,
+              "t": 294.0556,
+              "r": 126.48230000000001,
+              "b": 286.1410961832061,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              2
+            ]
+          }
+        ],
+        "orig": "2\"",
+        "text": "2\""
+      },
+      {
+        "self_ref": "#/texts/129",
+        "parent": {
+          "$ref": "#/pictures/5"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 6,
+            "bbox": {
+              "l": 202.428,
+              "t": 292.6776,
+              "r": 220.218,
+              "b": 284.7630961832061,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              3
+            ]
+          }
+        ],
+        "orig": "1½\"",
+        "text": "1½\""
+      },
+      {
+        "self_ref": "#/texts/130",
+        "parent": {
+          "$ref": "#/pictures/5"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 6,
+            "bbox": {
+              "l": 244.7433,
+              "t": 306.8902,
+              "r": 252.9733,
+              "b": 298.9756961832061,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              2
+            ]
+          }
+        ],
+        "orig": "2\"",
+        "text": "2\""
+      },
+      {
+        "self_ref": "#/texts/131",
+        "parent": {
+          "$ref": "#/pictures/5"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 6,
+            "bbox": {
+              "l": 157.8142,
+              "t": 285.591,
+              "r": 166.0442,
+              "b": 277.67649618320615,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              2
+            ]
+          }
+        ],
+        "orig": "1\"",
+        "text": "1\""
+      },
+      {
+        "self_ref": "#/texts/132",
+        "parent": {
+          "$ref": "#/pictures/5"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 6,
+            "bbox": {
+              "l": 172.4481,
+              "t": 440.5747,
+              "r": 180.6781,
+              "b": 432.6601961832061,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              2
+            ]
+          }
+        ],
+        "orig": "2\"",
+        "text": "2\""
+      },
+      {
+        "self_ref": "#/texts/133",
+        "parent": {
+          "$ref": "#/pictures/5"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 6,
+            "bbox": {
+              "l": 154.3418,
+              "t": 432.3548,
+              "r": 162.5718,
+              "b": 424.4402961832061,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              2
+            ]
+          }
+        ],
+        "orig": "1\"",
+        "text": "1\""
+      },
+      {
+        "self_ref": "#/texts/134",
+        "parent": {
+          "$ref": "#/pictures/5"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 6,
+            "bbox": {
+              "l": 269.5514,
+              "t": 432.3548,
+              "r": 277.7814,
+              "b": 424.4402961832061,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              2
+            ]
+          }
+        ],
+        "orig": "1\"",
+        "text": "1\""
+      },
+      {
+        "self_ref": "#/texts/135",
+        "parent": {
+          "$ref": "#/pictures/5"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 6,
+            "bbox": {
+              "l": 309.8221,
+              "t": 415.276,
+              "r": 318.0521,
+              "b": 407.3614961832061,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              2
+            ]
+          }
+        ],
+        "orig": "1\"",
+        "text": "1\""
+      },
+      {
+        "self_ref": "#/texts/136",
+        "parent": {
+          "$ref": "#/pictures/5"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 6,
+            "bbox": {
+              "l": 224.9244,
+              "t": 468.18940000000003,
+              "r": 233.15439999999998,
+              "b": 460.2748961832061,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              2
+            ]
+          }
+        ],
+        "orig": "1\"",
+        "text": "1\""
+      },
+      {
+        "self_ref": "#/texts/137",
+        "parent": {
+          "$ref": "#/pictures/5"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 6,
+            "bbox": {
+              "l": 253.1292,
+              "t": 390.3312,
+              "r": 261.35920000000004,
+              "b": 382.4166961832061,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              2
+            ]
+          }
+        ],
+        "orig": "1\"",
+        "text": "1\""
+      },
+      {
+        "self_ref": "#/texts/138",
+        "parent": {
+          "$ref": "#/pictures/5"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 6,
+            "bbox": {
+              "l": 343.2094,
+              "t": 474.2724,
+              "r": 351.43940000000003,
+              "b": 466.3578961832061,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              2
+            ]
+          }
+        ],
+        "orig": "2\"",
+        "text": "2\""
+      },
+      {
+        "self_ref": "#/texts/139",
+        "parent": {
+          "$ref": "#/pictures/5"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 6,
+            "bbox": {
+              "l": 75.7028,
+              "t": 291.22090000000003,
+              "r": 80.2028,
+              "b": 283.3063961832061,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "A",
+        "text": "A"
+      },
+      {
+        "self_ref": "#/texts/140",
+        "parent": {
+          "$ref": "#/pictures/5"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 6,
+            "bbox": {
+              "l": 405.509,
+              "t": 481.35900000000004,
+              "r": 410.869,
+              "b": 473.4444961832061,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "B",
+        "text": "B"
+      },
+      {
+        "self_ref": "#/texts/141",
+        "parent": {
+          "$ref": "#/pictures/5"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 6,
+            "bbox": {
+              "l": 220.206,
+              "t": 426.4014,
+              "r": 237.99599999999998,
+              "b": 418.4868961832061,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              3
+            ]
+          }
+        ],
+        "orig": "1½\"",
+        "text": "1½\""
+      },
+      {
+        "self_ref": "#/texts/142",
+        "parent": {
+          "$ref": "#/pictures/5"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 6,
+            "bbox": {
+              "l": 363.0106,
+              "t": 425.5713,
+              "r": 380.80060000000003,
+              "b": 417.6567961832061,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              3
+            ]
+          }
+        ],
+        "orig": "1½\"",
+        "text": "1½\""
+      },
+      {
+        "self_ref": "#/texts/143",
+        "parent": {
+          "$ref": "#/pictures/5"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 6,
+            "bbox": {
+              "l": 267.6061,
+              "t": 474.2724,
+              "r": 285.39610000000005,
+              "b": 466.3578961832061,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              3
+            ]
+          }
+        ],
+        "orig": "1½\"",
+        "text": "1½\""
+      },
+      {
+        "self_ref": "#/texts/144",
+        "parent": {
+          "$ref": "#/pictures/5"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 6,
+            "bbox": {
+              "l": 101.4223,
+              "t": 428.6796,
+              "r": 119.2123,
+              "b": 420.7650961832061,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              3
+            ]
+          }
+        ],
+        "orig": "1½\"",
+        "text": "1½\""
+      },
+      {
+        "self_ref": "#/texts/145",
+        "parent": {
+          "$ref": "#/pictures/5"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 6,
+            "bbox": {
+              "l": 126.8231,
+              "t": 393.0713,
+              "r": 144.6131,
+              "b": 385.1567961832061,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              3
+            ]
+          }
+        ],
+        "orig": "1½\"",
+        "text": "1½\""
+      }
+    ]
+  },
+  "excluded_furniture": [
+    {
+      "self_ref": "#/texts/146",
+      "parent": {
+        "$ref": "#/pictures/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 540.9146,
+            "t": 100.24450000000002,
+            "r": 546.0146,
+            "b": 92.32999618320605,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "6",
+      "text": "6"
+    },
+    {
+      "self_ref": "#/texts/147",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 342.5216,
+            "t": 50.00040000000001,
+            "r": 456.37760000000014,
+            "b": 42.08589618320616,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            26
+          ]
+        }
+      ],
+      "orig": "CORE RULES | CORE CONCEPTS",
+      "text": "CORE RULES | CORE CONCEPTS"
+    }
+  ],
+  "source": "data/Core Rules.pdf",
+  "rules": {
+    "page": 6,
+    "source_sha256": "4d0e8019cbfddd6f46781d5b4ed31d46fb21eb2d0d10a0f6fabefac0ce054364",
+    "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+    "figure_id": "p006_unit_coherency",
+    "figure_bbox": [
+      46,
+      288,
+      449,
+      575
+    ],
+    "body_refs": [
+      "#/texts/118",
+      "#/texts/119",
+      "#/texts/120",
+      "#/texts/121"
+    ],
+    "summary_refs": [
+      "#/texts/122",
+      "#/texts/123",
+      "#/texts/124",
+      "#/texts/125"
+    ],
+    "caption_refs": [
+      "#/texts/126",
+      "#/texts/127"
+    ],
+    "annotation_refs": [
+      "#/texts/128",
+      "#/texts/129",
+      "#/texts/130",
+      "#/texts/131",
+      "#/texts/132",
+      "#/texts/133",
+      "#/texts/134",
+      "#/texts/135",
+      "#/texts/136",
+      "#/texts/137",
+      "#/texts/138",
+      "#/texts/139",
+      "#/texts/140",
+      "#/texts/141",
+      "#/texts/142",
+      "#/texts/143",
+      "#/texts/144",
+      "#/texts/145"
+    ],
+    "furniture_refs": [
+      "#/texts/146",
+      "#/texts/147"
+    ],
+    "scope": "Reviewed physical page 6 only. A/B captions remain attached to whole figure; individual measurement labels are not standalone prose."
+  }
+}

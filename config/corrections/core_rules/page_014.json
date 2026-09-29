@@ -1,0 +1,74 @@
+{
+  "page": 14,
+  "source_sha256": "4d0e8019cbfddd6f46781d5b4ed31d46fb21eb2d0d10a0f6fabefac0ce054364",
+  "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+  "figure_id": "p014_desperate_escape",
+  "figure_bbox": [
+    51,
+    507,
+    452,
+    721
+  ],
+  "image": "images/page_014_desperate_escape.png",
+  "figure_title": "Desperate Escape Tests — illustrated example",
+  "body_refs": [
+    "#/texts/304",
+    "#/texts/305",
+    "#/texts/306",
+    "#/texts/307",
+    "#/texts/308",
+    "#/texts/309",
+    "#/texts/310",
+    "#/texts/311",
+    "#/texts/312",
+    "#/texts/313",
+    "#/texts/314",
+    "#/texts/315",
+    "#/texts/316",
+    "#/texts/317",
+    "#/texts/318",
+    "#/texts/319"
+  ],
+  "summary_refs": [],
+  "caption_refs": [
+    "#/texts/320",
+    "#/texts/321",
+    "#/texts/322",
+    "#/texts/323",
+    "#/texts/324",
+    "#/texts/325",
+    "#/texts/326",
+    "#/texts/327",
+    "#/texts/328"
+  ],
+  "caption_groups": [
+    [
+      "#/texts/320",
+      "#/texts/321",
+      "#/texts/322",
+      "#/texts/323",
+      "#/texts/324"
+    ],
+    [
+      "#/texts/325",
+      "#/texts/326",
+      "#/texts/327",
+      "#/texts/328"
+    ]
+  ],
+  "annotation_refs": [
+    "#/texts/329",
+    "#/texts/330",
+    "#/texts/331"
+  ],
+  "furniture_refs": [
+    "#/texts/332",
+    "#/texts/333",
+    "#/texts/334",
+    "#/texts/335"
+  ],
+  "source_picture_ref": "#/pictures/30",
+  "scope": "Merge A/B caption fragments and attach to whole diagram. Preserve dice outcomes in captions. Keep distance annotation in image/JSON. Decorative illustrations/navigation omitted.",
+  "schema_version": 1,
+  "handler": "figure"
+}

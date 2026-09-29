@@ -1,0 +1,217 @@
+{
+  "page": 29,
+  "source_sha256": "4d0e8019cbfddd6f46781d5b4ed31d46fb21eb2d0d10a0f6fabefac0ce054364",
+  "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+  "blocks": [
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/704"
+      ],
+      "style": "h1"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/705"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/706"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/708"
+      ],
+      "style": "ordered",
+      "number": 1
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/710"
+      ],
+      "style": "ordered",
+      "number": 2
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/712"
+      ],
+      "style": "ordered",
+      "number": 3
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/714"
+      ],
+      "style": "ordered",
+      "number": 4
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/716"
+      ],
+      "style": "ordered",
+      "number": 5
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/720"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/721"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/722"
+      ],
+      "style": "li"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/723"
+      ],
+      "style": "li"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/724"
+      ],
+      "style": "li"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/725"
+      ],
+      "style": "h2"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/726"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/727"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/728"
+      ],
+      "style": "li"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/729"
+      ],
+      "style": "li"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/730"
+      ],
+      "style": "li"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/731"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/732"
+      ],
+      "style": "li"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/733"
+      ],
+      "style": "li"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/734"
+      ],
+      "style": "li"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/735"
+      ],
+      "style": "li"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/717"
+      ],
+      "style": "h2"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/718"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/719"
+      ],
+      "style": "p"
+    }
+  ],
+  "excluded_text": {
+    "#/texts/699": "Navigation/page furniture or step number merged into ordered list",
+    "#/texts/700": "Navigation/page furniture or step number merged into ordered list",
+    "#/texts/701": "Navigation/page furniture or step number merged into ordered list",
+    "#/texts/702": "Navigation/page furniture or step number merged into ordered list",
+    "#/texts/703": "Navigation/page furniture or step number merged into ordered list",
+    "#/texts/707": "Navigation/page furniture or step number merged into ordered list",
+    "#/texts/709": "Navigation/page furniture or step number merged into ordered list",
+    "#/texts/711": "Navigation/page furniture or step number merged into ordered list",
+    "#/texts/713": "Navigation/page furniture or step number merged into ordered list",
+    "#/texts/715": "Navigation/page furniture or step number merged into ordered list",
+    "#/texts/736": "Navigation/page furniture or step number merged into ordered list"
+  },
+  "review_notes": [],
+  "schema_version": 1,
+  "handler": "blocks"
+}

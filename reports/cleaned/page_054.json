@@ -1,0 +1,1083 @@
+{
+  "page": 54,
+  "source": "data/Core Rules.pdf",
+  "rules": {
+    "page": 54,
+    "source_sha256": "4d0e8019cbfddd6f46781d5b4ed31d46fb21eb2d0d10a0f6fabefac0ce054364",
+    "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+    "blocks": [
+      {
+        "type": "text",
+        "refs": [],
+        "style": "h1",
+        "text": "AIRCRAFT (continued)"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1253"
+        ],
+        "style": "h2"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1254"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1255"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1256"
+        ],
+        "style": "li"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1257"
+        ],
+        "style": "li"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1258"
+        ],
+        "style": "li"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1259"
+        ],
+        "style": "h2"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1260"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1261"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1262"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1263"
+        ],
+        "style": "li"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1264"
+        ],
+        "style": "li"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1265"
+        ],
+        "style": "li"
+      },
+      {
+        "type": "image",
+        "id": "movement",
+        "title": "Aircraft movement: A, B and C",
+        "bbox": [
+          42,
+          385,
+          462,
+          725
+        ],
+        "captions": [
+          [
+            "#/texts/1266"
+          ],
+          [
+            "#/texts/1267"
+          ],
+          [
+            "#/texts/1268"
+          ],
+          [
+            "#/texts/1269"
+          ]
+        ],
+        "source_refs": [
+          "#/pictures/123",
+          "#/texts/1270",
+          "#/texts/1271",
+          "#/texts/1272",
+          "#/texts/1273",
+          "#/texts/1274",
+          "#/texts/1275"
+        ]
+      }
+    ],
+    "excluded_text": {
+      "#/texts/1276": "Page number or running footer; not rule content.",
+      "#/texts/1277": "Page number or running footer; not rule content."
+    },
+    "review_notes": [
+      "A/B/C explanations and concluding note remain attached to the complete diagram. Diagram distances, letters and angle are retained in the image and provenance instead of isolated paragraphs. Continuation heading is editorial."
+    ]
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "refs": [],
+      "style": "h1",
+      "text": "AIRCRAFT (continued)",
+      "source_nodes": []
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1253"
+      ],
+      "style": "h2",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1253",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 54,
+              "bbox": {
+                "l": 85.0394,
+                "t": 720.3947,
+                "r": 235.82540000000006,
+                "b": 700.9012954198473,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                41
+              ]
+            }
+          ],
+          "orig": "AIRCRAFT AND THE MOVEMENT OF OTHER MODELS",
+          "text": "AIRCRAFT AND THE MOVEMENT OF OTHER MODELS",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1254"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1254",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 54,
+              "bbox": {
+                "l": 85.0394,
+                "t": 698.3682,
+                "r": 253.09035,
+                "b": 650.8364836198181,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                202
+              ]
+            }
+          ],
+          "orig": "When a unit is selected to move in the Movement phase, if the only enemy models that are within Engagement Range of that unit are Aircraft models, then that unit can still make a Normal or Advance move.",
+          "text": "When a unit is selected to move in the Movement phase, if the only enemy models that are within Engagement Range of that unit are Aircraft models, then that unit can still make a Normal or Advance move."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1255"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1255",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 54,
+              "bbox": {
+                "l": 85.0394,
+                "t": 638.3837000000001,
+                "r": 254.29734999999988,
+                "b": 570.8599836198182,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                286
+              ]
+            }
+          ],
+          "orig": "Whenever a model makes any kind of move, it can be moved over enemy Aircraft models as if they were not there, and can be moved within Engagement Range of enemy Aircraft models, but it cannot end that move on top of another model or within Engagement Range of any enemy Aircraft models.",
+          "text": "Whenever a model makes any kind of move, it can be moved over enemy Aircraft models as if they were not there, and can be moved within Engagement Range of enemy Aircraft models, but it cannot end that move on top of another model or within Engagement Range of any enemy Aircraft models."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1256"
+      ],
+      "style": "li",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1256",
+          "parent": {
+            "$ref": "#/groups/82"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 54,
+              "bbox": {
+                "l": 96.378,
+                "t": 552.6786,
+                "r": 251.56640000000002,
+                "b": 523.4342717557251,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                107
+              ]
+            }
+          ],
+          "orig": "■ Units can still make a Normal or Advance move if they are only within Engagement Range of enemy Aircraft.",
+          "text": "■ Units can still make a Normal or Advance move if they are only within Engagement Range of enemy Aircraft.",
+          "enumerated": false,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1257"
+      ],
+      "style": "li",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1257",
+          "parent": {
+            "$ref": "#/groups/82"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 54,
+              "bbox": {
+                "l": 96.378,
+                "t": 522.6786,
+                "r": 253.70840000000013,
+                "b": 493.4342717557252,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                125
+              ]
+            }
+          ],
+          "orig": "■ Models can move within Engagement Range of enemy Aircraft, but cannot end a move within Engagement Range of enemy Aircraft.",
+          "text": "■ Models can move within Engagement Range of enemy Aircraft, but cannot end a move within Engagement Range of enemy Aircraft.",
+          "enumerated": false,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1258"
+      ],
+      "style": "li",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1258",
+          "parent": {
+            "$ref": "#/groups/82"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 54,
+              "bbox": {
+                "l": 96.378,
+                "t": 492.67859999999996,
+                "r": 239.82710000000006,
+                "b": 473.4342717557252,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                64
+              ]
+            }
+          ],
+          "orig": "■ Models can move over Aircraft when they make any kind of move.",
+          "text": "■ Models can move over Aircraft when they make any kind of move.",
+          "enumerated": false,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1259"
+      ],
+      "style": "h2",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1259",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 54,
+              "bbox": {
+                "l": 276.3779,
+                "t": 720.3947,
+                "r": 390.95149999999995,
+                "b": 700.9012954198473,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                39
+              ]
+            }
+          ],
+          "orig": "AIRCRAFT IN THE CHARGE AND FIGHT PHASES",
+          "text": "AIRCRAFT IN THE CHARGE AND FIGHT PHASES",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1260"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1260",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 54,
+              "bbox": {
+                "l": 276.3779,
+                "t": 698.3682,
+                "r": 445.10035000000016,
+                "b": 650.8364836198181,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                222
+              ]
+            }
+          ],
+          "orig": "Aircraft units cannot declare a charge, and only units that can Fly can select an Aircraft unit as a target of their charge. Such units can end their Charge move within Engagement Range of one or more enemy Aircraft units.",
+          "text": "Aircraft units cannot declare a charge, and only units that can Fly can select an Aircraft unit as a target of their charge. Such units can end their Charge move within Engagement Range of one or more enemy Aircraft units."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1261"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1261",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 54,
+              "bbox": {
+                "l": 276.37789999999995,
+                "t": 638.3837000000001,
+                "r": 456.39514999999994,
+                "b": 590.8519836198182,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                252
+              ]
+            }
+          ],
+          "orig": "An Aircraft model is only eligible to fight if it is within Engagement Range of one or more enemy units that can Fly, and it can only make melee attacks against units that can Fly. Only models that can Fly can make melee attacks against Aircraft units.",
+          "text": "An Aircraft model is only eligible to fight if it is within Engagement Range of one or more enemy units that can Fly, and it can only make melee attacks against units that can Fly. Only models that can Fly can make melee attacks against Aircraft units."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1262"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1262",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 54,
+              "bbox": {
+                "l": 276.37789999999995,
+                "t": 578.3992000000002,
+                "r": 456.3637000000003,
+                "b": 530.8674836198182,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                233
+              ]
+            }
+          ],
+          "orig": "Aircraft models cannot make Pile-in or Consolidation moves. Each time a model makes a Pile-in or Consolidation move, unless that model can Fly, Aircraft models are ignored for the purposes of moving closer to the closest enemy model.",
+          "text": "Aircraft models cannot make Pile-in or Consolidation moves. Each time a model makes a Pile-in or Consolidation move, unless that model can Fly, Aircraft models are ignored for the purposes of moving closer to the closest enemy model."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1263"
+      ],
+      "style": "li",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1263",
+          "parent": {
+            "$ref": "#/groups/83"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 54,
+              "bbox": {
+                "l": 287.7165,
+                "t": 512.6786,
+                "r": 438.88245000000006,
+                "b": 493.4342717557252,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                79
+              ]
+            }
+          ],
+          "orig": "■ Only units that can Fly can charge at or make melee attacks against Aircraft.",
+          "text": "■ Only units that can Fly can charge at or make melee attacks against Aircraft.",
+          "enumerated": false,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1264"
+      ],
+      "style": "li",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1264",
+          "parent": {
+            "$ref": "#/groups/83"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 54,
+              "bbox": {
+                "l": 287.7165,
+                "t": 492.67859999999996,
+                "r": 444.65420000000023,
+                "b": 463.4382717557252,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                109
+              ]
+            }
+          ],
+          "orig": "■ Aircraft cannot charge, Pile In or Consolidate, and can only make melee attacks against units that can Fly.",
+          "text": "■ Aircraft cannot charge, Pile In or Consolidate, and can only make melee attacks against units that can Fly.",
+          "enumerated": false,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1265"
+      ],
+      "style": "li",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1265",
+          "parent": {
+            "$ref": "#/groups/83"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 54,
+              "bbox": {
+                "l": 287.7165,
+                "t": 462.67859999999996,
+                "r": 444.7128500000004,
+                "b": 433.4342717557252,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                117
+              ]
+            }
+          ],
+          "orig": "■ When a model Piles In or Consolidates, unless it can Fly, ignore Aircraft when determining the closest enemy model.",
+          "text": "■ When a model Piles In or Consolidates, unless it can Fly, ignore Aircraft when determining the closest enemy model.",
+          "enumerated": false,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "id": "movement",
+      "title": "Aircraft movement: A, B and C",
+      "bbox": [
+        42,
+        385,
+        462,
+        725
+      ],
+      "captions": [
+        [
+          "#/texts/1266"
+        ],
+        [
+          "#/texts/1267"
+        ],
+        [
+          "#/texts/1268"
+        ],
+        [
+          "#/texts/1269"
+        ]
+      ],
+      "source_refs": [
+        "#/pictures/123",
+        "#/texts/1270",
+        "#/texts/1271",
+        "#/texts/1272",
+        "#/texts/1273",
+        "#/texts/1274",
+        "#/texts/1275"
+      ],
+      "source_nodes": [
+        {
+          "self_ref": "#/pictures/123",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [
+            {
+              "$ref": "#/groups/84"
+            },
+            {
+              "$ref": "#/groups/85"
+            },
+            {
+              "$ref": "#/texts/1268"
+            },
+            {
+              "$ref": "#/texts/1269"
+            },
+            {
+              "$ref": "#/texts/1270"
+            },
+            {
+              "$ref": "#/texts/1271"
+            },
+            {
+              "$ref": "#/texts/1272"
+            },
+            {
+              "$ref": "#/texts/1273"
+            },
+            {
+              "$ref": "#/texts/1274"
+            },
+            {
+              "$ref": "#/texts/1275"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 54,
+              "bbox": {
+                "l": 45.970904350330784,
+                "t": 403.9482900149252,
+                "r": 457.0654374814393,
+                "b": 72.07123827110308,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "annotations": []
+        },
+        {
+          "self_ref": "#/texts/1266",
+          "parent": {
+            "$ref": "#/groups/84"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 54,
+              "bbox": {
+                "l": 80.4272,
+                "t": 162.1028,
+                "r": 246.44699999999997,
+                "b": 131.06183816793896,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                192
+              ]
+            }
+          ],
+          "orig": "A The Stormtalon Gunship begins the Movement phase within Engagement Range of the Tyranid Prime. The Stormtalon is an Aircraft model and is not in Hover mode, so is free to make a Normal move.",
+          "text": "A The Stormtalon Gunship begins the Movement phase within Engagement Range of the Tyranid Prime. The Stormtalon is an Aircraft model and is not in Hover mode, so is free to make a Normal move.",
+          "enumerated": false,
+          "marker": ""
+        },
+        {
+          "self_ref": "#/texts/1267",
+          "parent": {
+            "$ref": "#/groups/85"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 54,
+              "bbox": {
+                "l": 79.9972,
+                "t": 122.43349999999998,
+                "r": 245.59789999999992,
+                "b": 99.89253816793894,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                135
+              ]
+            }
+          ],
+          "orig": "B The Stormtalon must move a minimum of 20\" straight forward, even though this would bring it within Engagement Range of an enemy unit.",
+          "text": "B The Stormtalon must move a minimum of 20\" straight forward, even though this would bring it within Engagement Range of an enemy unit.",
+          "enumerated": false,
+          "marker": ""
+        },
+        {
+          "self_ref": "#/texts/1268",
+          "parent": {
+            "$ref": "#/pictures/123"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 54,
+              "bbox": {
+                "l": 263.2099,
+                "t": 162.4008,
+                "r": 419.9988000000005,
+                "b": 148.357838167939,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                87
+              ]
+            }
+          ],
+          "orig": "C After finishing its Normal move, the Stormtalon can then pivot on the spot up to 90º.",
+          "text": "C After finishing its Normal move, the Stormtalon can then pivot on the spot up to 90º."
+        },
+        {
+          "self_ref": "#/texts/1269",
+          "parent": {
+            "$ref": "#/pictures/123"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 54,
+              "bbox": {
+                "l": 258.5445,
+                "t": 139.8048,
+                "r": 426.02510000000086,
+                "b": 108.67782290076332,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                217
+              ]
+            }
+          ],
+          "orig": "Note that if at any point during its move the Stormtalon would leave the battlefield due to the minimum movement requirement, it is placed into Strategic Reserves and will arrive in its controlling player's next turn.",
+          "text": "Note that if at any point during its move the Stormtalon would leave the battlefield due to the minimum movement requirement, it is placed into Strategic Reserves and will arrive in its controlling player's next turn."
+        },
+        {
+          "self_ref": "#/texts/1270",
+          "parent": {
+            "$ref": "#/pictures/123"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 54,
+              "bbox": {
+                "l": 228.3352,
+                "t": 304.04200000000003,
+                "r": 241.42519999999996,
+                "b": 296.1274961832061,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                3
+              ]
+            }
+          ],
+          "orig": "20\"",
+          "text": "20\""
+        },
+        {
+          "self_ref": "#/texts/1271",
+          "parent": {
+            "$ref": "#/pictures/123"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 54,
+              "bbox": {
+                "l": 222.4659,
+                "t": 293.6224,
+                "r": 247.29490000000007,
+                "b": 288.08224732824425,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                7
+              ]
+            }
+          ],
+          "orig": "minimum",
+          "text": "minimum"
+        },
+        {
+          "self_ref": "#/texts/1272",
+          "parent": {
+            "$ref": "#/pictures/123"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 54,
+              "bbox": {
+                "l": 140.8996,
+                "t": 358.8981,
+                "r": 145.3996,
+                "b": 350.9835961832061,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                1
+              ]
+            }
+          ],
+          "orig": "A",
+          "text": "A"
+        },
+        {
+          "self_ref": "#/texts/1273",
+          "parent": {
+            "$ref": "#/pictures/123"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 54,
+              "bbox": {
+                "l": 266.2159,
+                "t": 323.0713,
+                "r": 271.5759,
+                "b": 315.1567961832061,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                1
+              ]
+            }
+          ],
+          "orig": "B",
+          "text": "B"
+        },
+        {
+          "self_ref": "#/texts/1274",
+          "parent": {
+            "$ref": "#/pictures/123"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 54,
+              "bbox": {
+                "l": 423.6273,
+                "t": 223.07130000000006,
+                "r": 428.46729999999997,
+                "b": 215.1567961832061,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                1
+              ]
+            }
+          ],
+          "orig": "C",
+          "text": "C"
+        },
+        {
+          "self_ref": "#/texts/1275",
+          "parent": {
+            "$ref": "#/pictures/123"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 54,
+              "bbox": {
+                "l": 402.2228,
+                "t": 251.654,
+                "r": 415.5728,
+                "b": 243.73949618320614,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                3
+              ]
+            }
+          ],
+          "orig": "90º",
+          "text": "90º"
+        }
+      ],
+      "image": "images/page_054_movement.png",
+      "caption_texts": [
+        "A The Stormtalon Gunship begins the Movement phase within Engagement Range of the Tyranid Prime. The Stormtalon is an Aircraft model and is not in Hover mode, so is free to make a Normal move.",
+        "B The Stormtalon must move a minimum of 20\" straight forward, even though this would bring it within Engagement Range of an enemy unit.",
+        "C After finishing its Normal move, the Stormtalon can then pivot on the spot up to 90º.",
+        "Note that if at any point during its move the Stormtalon would leave the battlefield due to the minimum movement requirement, it is placed into Strategic Reserves and will arrive in its controlling player's next turn."
+      ],
+      "coordinate_system": "PDF points, top-left origin"
+    }
+  ],
+  "excluded_text": [
+    {
+      "node": {
+        "self_ref": "#/texts/1276",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 54,
+            "bbox": {
+              "l": 538.5595,
+              "t": 100.24450000000002,
+              "r": 548.3695,
+              "b": 92.32999618320605,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              2
+            ]
+          }
+        ],
+        "orig": "54",
+        "text": "54"
+      },
+      "reason": "Page number or running footer; not rule content."
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/1277",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "furniture",
+        "label": "page_footer",
+        "prov": [
+          {
+            "page_no": 54,
+            "bbox": {
+              "l": 367.0953,
+              "t": 50.00040000000001,
+              "r": 456.3783000000001,
+              "b": 42.08589618320616,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              21
+            ]
+          }
+        ],
+        "orig": "CORE RULES | AIRCRAFT",
+        "text": "CORE RULES | AIRCRAFT"
+      },
+      "reason": "Page number or running footer; not rule content."
+    }
+  ],
+  "review_notes": [
+    "A/B/C explanations and concluding note remain attached to the complete diagram. Diagram distances, letters and angle are retained in the image and provenance instead of isolated paragraphs. Continuation heading is editorial."
+  ]
+}

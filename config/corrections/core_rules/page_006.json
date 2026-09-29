@@ -1,0 +1,56 @@
+{
+  "page": 6,
+  "source_sha256": "4d0e8019cbfddd6f46781d5b4ed31d46fb21eb2d0d10a0f6fabefac0ce054364",
+  "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+  "figure_id": "p006_unit_coherency",
+  "figure_bbox": [
+    46,
+    288,
+    449,
+    575
+  ],
+  "body_refs": [
+    "#/texts/118",
+    "#/texts/119",
+    "#/texts/120",
+    "#/texts/121"
+  ],
+  "summary_refs": [
+    "#/texts/122",
+    "#/texts/123",
+    "#/texts/124",
+    "#/texts/125"
+  ],
+  "caption_refs": [
+    "#/texts/126",
+    "#/texts/127"
+  ],
+  "annotation_refs": [
+    "#/texts/128",
+    "#/texts/129",
+    "#/texts/130",
+    "#/texts/131",
+    "#/texts/132",
+    "#/texts/133",
+    "#/texts/134",
+    "#/texts/135",
+    "#/texts/136",
+    "#/texts/137",
+    "#/texts/138",
+    "#/texts/139",
+    "#/texts/140",
+    "#/texts/141",
+    "#/texts/142",
+    "#/texts/143",
+    "#/texts/144",
+    "#/texts/145"
+  ],
+  "furniture_refs": [
+    "#/texts/146",
+    "#/texts/147"
+  ],
+  "scope": "Reviewed physical page 6 only. A/B captions remain attached to whole figure; individual measurement labels are not standalone prose.",
+  "schema_version": 1,
+  "handler": "figure",
+  "figure_alt": "Unit Coherency examples A and B"
+}

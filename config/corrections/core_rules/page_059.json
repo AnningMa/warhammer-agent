@@ -1,0 +1,213 @@
+{
+  "page": 59,
+  "source_sha256": "4d0e8019cbfddd6f46781d5b4ed31d46fb21eb2d0d10a0f6fabefac0ce054364",
+  "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+  "blocks": [
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1374"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1376"
+      ],
+      "style": "h1"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1377"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1378"
+      ],
+      "style": "h2",
+      "text": "1. MUSTER ARMIES"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1379"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1380"
+      ],
+      "style": "h2",
+      "text": "2. MISSION OBJECTIVES"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1381"
+      ],
+      "style": "h3"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1382"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1383"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1384"
+      ],
+      "style": "h2",
+      "text": "3. CREATE THE BATTLEFIELD"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1385"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "table",
+      "source_refs": [
+        "#/tables/6"
+      ],
+      "headers": [
+        "Battle size",
+        "Minimum battlefield size"
+      ],
+      "rows": [
+        [
+          "Incursion/Strike Force",
+          "44\" x 60\""
+        ],
+        [
+          "Onslaught",
+          "44\" x 90\""
+        ]
+      ],
+      "retrieval_records": [
+        {
+          "mission": "Only War",
+          "battle_size": "Incursion",
+          "minimum_battlefield_size_inches": [
+            44,
+            60
+          ],
+          "page": 59,
+          "source_table_ref": "#/tables/6"
+        },
+        {
+          "mission": "Only War",
+          "battle_size": "Strike Force",
+          "minimum_battlefield_size_inches": [
+            44,
+            60
+          ],
+          "page": 59,
+          "source_table_ref": "#/tables/6"
+        },
+        {
+          "mission": "Only War",
+          "battle_size": "Onslaught",
+          "minimum_battlefield_size_inches": [
+            44,
+            90
+          ],
+          "page": 59,
+          "source_table_ref": "#/tables/6"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1386"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1387"
+      ],
+      "style": "h2",
+      "text": "4. DETERMINE ATTACKER AND DEFENDER"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1388"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1389"
+      ],
+      "style": "h2",
+      "text": "5. DECLARE BATTLE FORMATIONS"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1390"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1391"
+      ],
+      "style": "li"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1392"
+      ],
+      "style": "li"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1393"
+      ],
+      "style": "li"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1394"
+      ],
+      "style": "p"
+    }
+  ],
+  "excluded_text": {
+    "#/texts/1375": "Page number or running footer; not rule content.",
+    "#/texts/1395": "Page number or running footer; not rule content."
+  },
+  "review_notes": [
+    "Only War steps 1–5 and nested mission objective restored. Minimum battlefield-size table normalized with explicit mission context in retrieval records."
+  ],
+  "schema_version": 1,
+  "handler": "blocks"
+}

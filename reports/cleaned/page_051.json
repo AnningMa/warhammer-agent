@@ -1,0 +1,300 @@
+{
+  "page": 51,
+  "source": "data/Core Rules.pdf",
+  "rules": {
+    "page": 51,
+    "source_sha256": "4d0e8019cbfddd6f46781d5b4ed31d46fb21eb2d0d10a0f6fabefac0ce054364",
+    "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+    "blocks": [
+      {
+        "type": "text",
+        "refs": [],
+        "style": "h1",
+        "text": "EXAMPLE BATTLEFIELDS (continued)"
+      },
+      {
+        "type": "image",
+        "id": "narrative",
+        "title": "Narrative Play Focused battlefield",
+        "bbox": [
+          75,
+          70,
+          542,
+          340
+        ],
+        "captions": [
+          [
+            "#/texts/1226"
+          ]
+        ],
+        "source_refs": [
+          "#/pictures/117"
+        ]
+      },
+      {
+        "type": "image",
+        "id": "matched",
+        "title": "Matched Play Focused battlefield",
+        "bbox": [
+          75,
+          430,
+          542,
+          638
+        ],
+        "captions": [
+          [
+            "#/texts/1227"
+          ]
+        ],
+        "source_refs": [
+          "#/pictures/118"
+        ]
+      }
+    ],
+    "excluded_text": {
+      "#/texts/1225": "Page number or running footer; not rule content.",
+      "#/texts/1228": "Page number or running footer; not rule content."
+    },
+    "review_notes": [
+      "Upper and lower illustrations paired with their respective source captions. Continuation heading is editorial."
+    ]
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "refs": [],
+      "style": "h1",
+      "text": "EXAMPLE BATTLEFIELDS (continued)",
+      "source_nodes": []
+    },
+    {
+      "type": "image",
+      "id": "narrative",
+      "title": "Narrative Play Focused battlefield",
+      "bbox": [
+        75,
+        70,
+        542,
+        340
+      ],
+      "captions": [
+        [
+          "#/texts/1226"
+        ]
+      ],
+      "source_refs": [
+        "#/pictures/117"
+      ],
+      "source_nodes": [
+        {
+          "self_ref": "#/pictures/117",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 51,
+              "bbox": {
+                "l": 78.50497464093067,
+                "t": 720.7191398090775,
+                "r": 538.64454473967,
+                "b": 455.7648599630976,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "annotations": []
+        },
+        {
+          "self_ref": "#/texts/1226",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 51,
+              "bbox": {
+                "l": 117.63659999999999,
+                "t": 446.70090000000005,
+                "r": 340.04910000000007,
+                "b": 395.7598694656489,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                444
+              ]
+            }
+          ],
+          "orig": "Narrative Play Focused: This Strike Force battlefield has an ideal number and mixture of terrain features. The largest pieces of Area Terrain have been set up along the two long battlefield edges, while the middle of the battlefield only has a scattering of Obstacles to provide any kind of shelter from enemy fire. While this battlefield is not ideal for a matched play game, it would make for a very thematic set-up for a narrative play game.",
+          "text": "Narrative Play Focused: This Strike Force battlefield has an ideal number and mixture of terrain features. The largest pieces of Area Terrain have been set up along the two long battlefield edges, while the middle of the battlefield only has a scattering of Obstacles to provide any kind of shelter from enemy fire. While this battlefield is not ideal for a matched play game, it would make for a very thematic set-up for a narrative play game."
+        }
+      ],
+      "image": "images/page_051_narrative.png",
+      "caption_texts": [
+        "Narrative Play Focused: This Strike Force battlefield has an ideal number and mixture of terrain features. The largest pieces of Area Terrain have been set up along the two long battlefield edges, while the middle of the battlefield only has a scattering of Obstacles to provide any kind of shelter from enemy fire. While this battlefield is not ideal for a matched play game, it would make for a very thematic set-up for a narrative play game."
+      ],
+      "coordinate_system": "PDF points, top-left origin"
+    },
+    {
+      "type": "image",
+      "id": "matched",
+      "title": "Matched Play Focused battlefield",
+      "bbox": [
+        75,
+        430,
+        542,
+        638
+      ],
+      "captions": [
+        [
+          "#/texts/1227"
+        ]
+      ],
+      "source_refs": [
+        "#/pictures/118"
+      ],
+      "source_nodes": [
+        {
+          "self_ref": "#/pictures/118",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 51,
+              "bbox": {
+                "l": 79.28518356432055,
+                "t": 358.00478224747127,
+                "r": 537.3726843687964,
+                "b": 160.66518283565335,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "annotations": []
+        },
+        {
+          "self_ref": "#/texts/1227",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 51,
+              "bbox": {
+                "l": 118.34159999999999,
+                "t": 154.3284000000001,
+                "r": 342.41085000000015,
+                "b": 103.38736946564893,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                432
+              ]
+            }
+          ],
+          "orig": "Matched Play Focused: This Strike Force battlefield is very similar to the one above in terms of number and types of terrain features, but they have been set up more evenly across the battlefield, and the middle contains terrain features that block visibility from one side of the battlefield to the other. This battlefield doesn't give an advantage to one player or the other, and is far more suited to a typical matched play game.",
+          "text": "Matched Play Focused: This Strike Force battlefield is very similar to the one above in terms of number and types of terrain features, but they have been set up more evenly across the battlefield, and the middle contains terrain features that block visibility from one side of the battlefield to the other. This battlefield doesn't give an advantage to one player or the other, and is far more suited to a typical matched play game."
+        }
+      ],
+      "image": "images/page_051_matched.png",
+      "caption_texts": [
+        "Matched Play Focused: This Strike Force battlefield is very similar to the one above in terms of number and types of terrain features, but they have been set up more evenly across the battlefield, and the middle contains terrain features that block visibility from one side of the battlefield to the other. This battlefield doesn't give an advantage to one player or the other, and is far more suited to a typical matched play game."
+      ],
+      "coordinate_system": "PDF points, top-left origin"
+    }
+  ],
+  "excluded_text": [
+    {
+      "node": {
+        "self_ref": "#/texts/1225",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "furniture",
+        "label": "page_header",
+        "prov": [
+          {
+            "page_no": 51,
+            "bbox": {
+              "l": 61.2142,
+              "t": 100.24450000000002,
+              "r": 70.7542,
+              "b": 92.32999618320605,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              2
+            ]
+          }
+        ],
+        "orig": "51",
+        "text": "51"
+      },
+      "reason": "Page number or running footer; not rule content."
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/1228",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "furniture",
+        "label": "page_footer",
+        "prov": [
+          {
+            "page_no": 51,
+            "bbox": {
+              "l": 109.8425,
+              "t": 50.00040000000001,
+              "r": 255.44350000000014,
+              "b": 42.08589618320616,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              33
+            ]
+          }
+        ],
+        "orig": "CORE RULES | EXAMPLE BATTLEFIELDS",
+        "text": "CORE RULES | EXAMPLE BATTLEFIELDS"
+      },
+      "reason": "Page number or running footer; not rule content."
+    }
+  ],
+  "review_notes": [
+    "Upper and lower illustrations paired with their respective source captions. Continuation heading is editorial."
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "page": 30,
+  "source_sha256": "4d0e8019cbfddd6f46781d5b4ed31d46fb21eb2d0d10a0f6fabefac0ce054364",
+  "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+  "blocks": [
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/737"
+      ],
+      "style": "h1"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/738"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/739"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/740"
+      ],
+      "style": "li"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/741"
+      ],
+      "style": "li"
+    },
+    {
+      "type": "image",
+      "id": "charging_terrain",
+      "title": "Charging over terrain",
+      "bbox": [
+        237.20878893067405,
+        79.75030289756137,
+        448.74907321096947,
+        391.3132680894674
+      ],
+      "captions": [
+        [
+          "#/texts/749"
+        ]
+      ],
+      "source_refs": [
+        "#/pictures/62"
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/742"
+      ],
+      "style": "h1"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/743"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/744"
+      ],
+      "style": "li"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/745"
+      ],
+      "style": "li"
+    },
+    {
+      "type": "image",
+      "id": "charging_flying",
+      "title": "Charging with flying models",
+      "bbox": [
+        236.61963042402422,
+        401.0383947602087,
+        448.295961138966,
+        712.596288315319
+      ],
+      "captions": [
+        [
+          "#/texts/750",
+          "#/texts/751"
+        ]
+      ],
+      "source_refs": [
+        "#/pictures/63"
+      ]
+    }
+  ],
+  "excluded_text": {
+    "#/texts/746": "Distance labels remain inside figure",
+    "#/texts/747": "Distance labels remain inside figure",
+    "#/texts/748": "Distance labels remain inside figure",
+    "#/texts/752": "Distance labels remain inside figure",
+    "#/texts/753": "Navigation/page furniture",
+    "#/texts/754": "Navigation/page furniture",
+    "#/texts/755": "Navigation/page furniture",
+    "#/texts/756": "Navigation/page furniture",
+    "#/texts/757": "Navigation/page furniture",
+    "#/texts/758": "Navigation/page furniture"
+  },
+  "review_notes": [],
+  "schema_version": 1,
+  "handler": "blocks"
+}

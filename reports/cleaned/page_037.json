@@ -1,0 +1,2776 @@
+{
+  "page": 37,
+  "source": "data/Core Rules.pdf",
+  "rules": {
+    "page": 37,
+    "source_sha256": "4d0e8019cbfddd6f46781d5b4ed31d46fb21eb2d0d10a0f6fabefac0ce054364",
+    "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+    "blocks": [
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/869"
+        ],
+        "style": "h1"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/870"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/871"
+        ],
+        "style": "h2"
+      },
+      {
+        "type": "image",
+        "id": "profiles_abilities",
+        "title": "EXAMPLE DATASHEET (PROFILES AND ABILITIES)",
+        "bbox": [
+          90,
+          145,
+          502,
+          435
+        ],
+        "captions": [],
+        "source_refs": [
+          "#/texts/871",
+          "#/pictures/76"
+        ]
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/937"
+        ],
+        "style": "h2"
+      },
+      {
+        "type": "image",
+        "id": "wargear_composition",
+        "title": "EXAMPLE DATASHEET (WARGEAR AND COMPOSITION)",
+        "bbox": [
+          180,
+          425,
+          596,
+          711
+        ],
+        "captions": [],
+        "source_refs": [
+          "#/texts/937",
+          "#/pictures/77"
+        ]
+      }
+    ],
+    "excluded_text": {
+      "#/texts/868": "Page furniture",
+      "#/texts/941": "Page furniture",
+      "#/texts/872": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/873": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/874": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/875": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/876": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/877": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/878": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/879": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/880": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/881": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/882": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/883": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/884": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/885": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/886": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/887": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/888": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/889": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/890": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/891": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/892": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/893": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/894": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/895": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/896": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/897": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/898": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/899": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/900": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/901": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/902": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/903": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/904": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/905": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/906": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/907": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/908": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/909": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/910": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/911": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/912": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/913": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/914": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/915": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/916": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/917": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/918": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/919": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/920": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/921": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/922": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/923": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/924": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/925": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/926": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/927": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/928": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/929": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/930": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/931": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/932": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/933": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/934": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/935": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/936": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/938": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/939": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text",
+      "#/texts/940": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    "review_notes": [
+      "Image-first presentation per user instruction. Example statistics are not rewritten or treated as actual unit rules; numbered callouts remain visible."
+    ]
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/869"
+      ],
+      "style": "h1",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/869",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 37,
+              "bbox": {
+                "l": 153.0708,
+                "t": 721.1847,
+                "r": 380.2757999999999,
+                "b": 685.4766847328244,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                10
+              ]
+            }
+          ],
+          "orig": "DATASHEETS",
+          "text": "DATASHEETS",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/870"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/870",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 37,
+              "bbox": {
+                "l": 153.0708,
+                "t": 678.8197,
+                "r": 515.8273500000001,
+                "b": 661.2974213740458,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                195
+              ]
+            }
+          ],
+          "orig": "Each unit has a datasheet that lists the characteristics, wargear, abilities and keywords of its models. This section presents a summary of these elements and how they relate to playing the game.",
+          "text": "Each unit has a datasheet that lists the characteristics, wargear, abilities and keywords of its models. This section presents a summary of these elements and how they relate to playing the game."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/871"
+      ],
+      "style": "h2",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/871",
+          "parent": {
+            "$ref": "#/pictures/76"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 37,
+              "bbox": {
+                "l": 104.82449999999992,
+                "t": 620.3349825963559,
+                "r": 263.23723095164036,
+                "b": 605.9519204732818,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                42
+              ]
+            }
+          ],
+          "orig": "EXAMPLE DATASHEET (PROFILES AND ABILITIES)",
+          "text": "EXAMPLE DATASHEET (PROFILES AND ABILITIES)"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "id": "profiles_abilities",
+      "title": "EXAMPLE DATASHEET (PROFILES AND ABILITIES)",
+      "bbox": [
+        90,
+        145,
+        502,
+        435
+      ],
+      "captions": [],
+      "source_refs": [
+        "#/texts/871",
+        "#/pictures/76"
+      ],
+      "source_nodes": [
+        {
+          "self_ref": "#/pictures/76",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [
+            {
+              "$ref": "#/texts/871"
+            },
+            {
+              "$ref": "#/texts/872"
+            },
+            {
+              "$ref": "#/texts/873"
+            },
+            {
+              "$ref": "#/texts/874"
+            },
+            {
+              "$ref": "#/texts/875"
+            },
+            {
+              "$ref": "#/texts/876"
+            },
+            {
+              "$ref": "#/texts/877"
+            },
+            {
+              "$ref": "#/texts/878"
+            },
+            {
+              "$ref": "#/texts/879"
+            },
+            {
+              "$ref": "#/texts/880"
+            },
+            {
+              "$ref": "#/texts/881"
+            },
+            {
+              "$ref": "#/texts/882"
+            },
+            {
+              "$ref": "#/texts/883"
+            },
+            {
+              "$ref": "#/texts/884"
+            },
+            {
+              "$ref": "#/texts/885"
+            },
+            {
+              "$ref": "#/texts/886"
+            },
+            {
+              "$ref": "#/texts/887"
+            },
+            {
+              "$ref": "#/texts/888"
+            },
+            {
+              "$ref": "#/texts/889"
+            },
+            {
+              "$ref": "#/texts/890"
+            },
+            {
+              "$ref": "#/texts/891"
+            },
+            {
+              "$ref": "#/texts/892"
+            },
+            {
+              "$ref": "#/texts/893"
+            },
+            {
+              "$ref": "#/texts/894"
+            },
+            {
+              "$ref": "#/texts/895"
+            },
+            {
+              "$ref": "#/texts/896"
+            },
+            {
+              "$ref": "#/texts/897"
+            },
+            {
+              "$ref": "#/texts/898"
+            },
+            {
+              "$ref": "#/texts/899"
+            },
+            {
+              "$ref": "#/texts/900"
+            },
+            {
+              "$ref": "#/texts/901"
+            },
+            {
+              "$ref": "#/texts/902"
+            },
+            {
+              "$ref": "#/texts/903"
+            },
+            {
+              "$ref": "#/texts/904"
+            },
+            {
+              "$ref": "#/texts/905"
+            },
+            {
+              "$ref": "#/texts/906"
+            },
+            {
+              "$ref": "#/texts/907"
+            },
+            {
+              "$ref": "#/texts/908"
+            },
+            {
+              "$ref": "#/texts/909"
+            },
+            {
+              "$ref": "#/texts/910"
+            },
+            {
+              "$ref": "#/texts/911"
+            },
+            {
+              "$ref": "#/texts/912"
+            },
+            {
+              "$ref": "#/texts/913"
+            },
+            {
+              "$ref": "#/texts/914"
+            },
+            {
+              "$ref": "#/texts/915"
+            },
+            {
+              "$ref": "#/texts/916"
+            },
+            {
+              "$ref": "#/texts/917"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 37,
+              "bbox": {
+                "l": 92.96251521815314,
+                "t": 645.8935985522714,
+                "r": 500.3615292823666,
+                "b": 366.2128107558858,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "annotations": []
+        },
+        {
+          "self_ref": "#/texts/871",
+          "parent": {
+            "$ref": "#/pictures/76"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 37,
+              "bbox": {
+                "l": 104.82449999999992,
+                "t": 620.3349825963559,
+                "r": 263.23723095164036,
+                "b": 605.9519204732818,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                42
+              ]
+            }
+          ],
+          "orig": "EXAMPLE DATASHEET (PROFILES AND ABILITIES)",
+          "text": "EXAMPLE DATASHEET (PROFILES AND ABILITIES)"
+        }
+      ],
+      "image": "images/page_037_profiles_abilities.png",
+      "caption_texts": [],
+      "coordinate_system": "PDF points, top-left origin"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/937"
+      ],
+      "style": "h2",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/937",
+          "parent": {
+            "$ref": "#/pictures/77"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 37,
+              "bbox": {
+                "l": 198.16780000000006,
+                "t": 343.7483314830336,
+                "r": 367.11411962224616,
+                "b": 328.99742047328243,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                43
+              ]
+            }
+          ],
+          "orig": "EXAMPLE DATASHEET (WARGEAR AND COMPOSITION)",
+          "text": "EXAMPLE DATASHEET (WARGEAR AND COMPOSITION)",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "id": "wargear_composition",
+      "title": "EXAMPLE DATASHEET (WARGEAR AND COMPOSITION)",
+      "bbox": [
+        180,
+        425,
+        596,
+        711
+      ],
+      "captions": [],
+      "source_refs": [
+        "#/texts/937",
+        "#/pictures/77"
+      ],
+      "source_nodes": [
+        {
+          "self_ref": "#/pictures/77",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [
+            {
+              "$ref": "#/texts/918"
+            },
+            {
+              "$ref": "#/groups/62"
+            },
+            {
+              "$ref": "#/texts/920"
+            },
+            {
+              "$ref": "#/texts/921"
+            },
+            {
+              "$ref": "#/groups/63"
+            },
+            {
+              "$ref": "#/texts/923"
+            },
+            {
+              "$ref": "#/texts/924"
+            },
+            {
+              "$ref": "#/texts/925"
+            },
+            {
+              "$ref": "#/groups/64"
+            },
+            {
+              "$ref": "#/texts/927"
+            },
+            {
+              "$ref": "#/texts/928"
+            },
+            {
+              "$ref": "#/texts/929"
+            },
+            {
+              "$ref": "#/texts/930"
+            },
+            {
+              "$ref": "#/texts/931"
+            },
+            {
+              "$ref": "#/groups/65"
+            },
+            {
+              "$ref": "#/texts/933"
+            },
+            {
+              "$ref": "#/texts/934"
+            },
+            {
+              "$ref": "#/texts/935"
+            },
+            {
+              "$ref": "#/texts/936"
+            },
+            {
+              "$ref": "#/texts/937"
+            },
+            {
+              "$ref": "#/texts/938"
+            },
+            {
+              "$ref": "#/texts/939"
+            },
+            {
+              "$ref": "#/texts/940"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 37,
+              "bbox": {
+                "l": 184.2494365682633,
+                "t": 367.89320799651256,
+                "r": 593.9210465628202,
+                "b": 85.42509437634067,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "annotations": []
+        },
+        {
+          "self_ref": "#/texts/937",
+          "parent": {
+            "$ref": "#/pictures/77"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 37,
+              "bbox": {
+                "l": 198.16780000000006,
+                "t": 343.7483314830336,
+                "r": 367.11411962224616,
+                "b": 328.99742047328243,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                43
+              ]
+            }
+          ],
+          "orig": "EXAMPLE DATASHEET (WARGEAR AND COMPOSITION)",
+          "text": "EXAMPLE DATASHEET (WARGEAR AND COMPOSITION)",
+          "level": 1
+        }
+      ],
+      "image": "images/page_037_wargear_composition.png",
+      "caption_texts": [],
+      "coordinate_system": "PDF points, top-left origin"
+    }
+  ],
+  "excluded_text": [
+    {
+      "node": {
+        "self_ref": "#/texts/868",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 61.1792,
+              "t": 100.24450000000002,
+              "r": 70.7892,
+              "b": 92.32999618320605,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              2
+            ]
+          }
+        ],
+        "orig": "37",
+        "text": "37"
+      },
+      "reason": "Page furniture"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/941",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "furniture",
+        "label": "page_footer",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 152.8346,
+              "t": 50.00040000000001,
+              "r": 253.37360000000012,
+              "b": 42.08589618320616,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              23
+            ]
+          }
+        ],
+        "orig": "CORE RULES | DATASHEETS",
+        "text": "CORE RULES | DATASHEETS"
+      },
+      "reason": "Page furniture"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/872",
+        "parent": {
+          "$ref": "#/pictures/76"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 121.22996999999984,
+              "t": 391.97940169999987,
+              "r": 262.2312443164124,
+              "b": 382.04851343511393,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              51
+            ]
+          }
+        ],
+        "orig": "KEYWORDS: Imperium, Infantry, Character, Terminator",
+        "text": "KEYWORDS: Imperium, Infantry, Character, Terminator"
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/873",
+        "parent": {
+          "$ref": "#/pictures/76"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 119.81037999999994,
+              "t": 550.4049172000003,
+              "r": 167.96790089931307,
+              "b": 543.4263694274808,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              14
+            ]
+          }
+        ],
+        "orig": "RANGED WEAPONS",
+        "text": "RANGED WEAPONS"
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/874",
+        "parent": {
+          "$ref": "#/pictures/76"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 229.15240259999996,
+              "t": 553.1658130000004,
+              "r": 247.02744998931294,
+              "b": 547.2447814274809,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              5
+            ]
+          }
+        ],
+        "orig": "RANGE",
+        "text": "RANGE"
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/875",
+        "parent": {
+          "$ref": "#/pictures/76"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 260.75960449999997,
+              "t": 555.9789610000001,
+              "r": 327.58326538931306,
+              "b": 548.348559427481,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              11
+            ]
+          }
+        ],
+        "orig": "A BS S AP D",
+        "text": "A BS S AP D"
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/876",
+        "parent": {
+          "$ref": "#/pictures/76"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 120.15434999999987,
+              "t": 540.6152171470667,
+              "r": 169.97575020519741,
+              "b": 534.4575409465644,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              23
+            ]
+          }
+        ],
+        "orig": "Example weapon [PISTOL]",
+        "text": "Example weapon [PISTOL]"
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/877",
+        "parent": {
+          "$ref": "#/pictures/76"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 234.7721499999999,
+              "t": 543.1325669999999,
+              "r": 242.0628409938931,
+              "b": 538.4601409465647,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              3
+            ]
+          }
+        ],
+        "orig": "12\"",
+        "text": "12\""
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/878",
+        "parent": {
+          "$ref": "#/pictures/76"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 259.7545186,
+              "t": 543.955272,
+              "r": 265.62131509389314,
+              "b": 539.3325709465647,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              2
+            ]
+          }
+        ],
+        "orig": "D3",
+        "text": "D3"
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/879",
+        "parent": {
+          "$ref": "#/pictures/76"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 276.69048729999986,
+              "t": 545.0100270000002,
+              "r": 295.8246301938932,
+              "b": 539.9240059465646,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              4
+            ]
+          }
+        ],
+        "orig": "2+ 4",
+        "text": "2+ 4"
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/880",
+        "parent": {
+          "$ref": "#/pictures/76"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 307.0724872,
+              "t": 545.5456920000001,
+              "r": 311.16360349389316,
+              "b": 540.9850009465649,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              2
+            ]
+          }
+        ],
+        "orig": "-1",
+        "text": "-1"
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/881",
+        "parent": {
+          "$ref": "#/pictures/76"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 324.5221747,
+              "t": 546.115482,
+              "r": 327.47975929389315,
+              "b": 541.5943759465649,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "1",
+        "text": "1"
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/882",
+        "parent": {
+          "$ref": "#/pictures/76"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 120.45185859999997,
+              "t": 532.4924772474972,
+              "r": 179.43907030937305,
+              "b": 526.0147141465643,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              29
+            ]
+          }
+        ],
+        "orig": "Example weapon [RAPID FIRE 1]",
+        "text": "Example weapon [RAPID FIRE 1]"
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/883",
+        "parent": {
+          "$ref": "#/pictures/76"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 235.0669499999999,
+              "t": 534.6906669999998,
+              "r": 242.35764099389309,
+              "b": 530.0182409465647,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              3
+            ]
+          }
+        ],
+        "orig": "24\"",
+        "text": "24\""
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/884",
+        "parent": {
+          "$ref": "#/pictures/76"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 261.50113259999995,
+              "t": 535.462477,
+              "r": 264.4587171938931,
+              "b": 530.9413709465649,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "2",
+        "text": "2"
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/885",
+        "parent": {
+          "$ref": "#/pictures/76"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 276.9852872999999,
+              "t": 536.5681270000002,
+              "r": 296.1194301938932,
+              "b": 531.4821059465648,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              4
+            ]
+          }
+        ],
+        "orig": "2+ 4",
+        "text": "2+ 4"
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/886",
+        "parent": {
+          "$ref": "#/pictures/76"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 307.93684499999995,
+              "t": 537.0840970000002,
+              "r": 310.8944295938931,
+              "b": 532.562990946565,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "0",
+        "text": "0"
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/887",
+        "parent": {
+          "$ref": "#/pictures/76"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 324.8225585999999,
+              "t": 537.6737770000002,
+              "r": 327.7801431938931,
+              "b": 533.1526709465651,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "1",
+        "text": "1"
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/888",
+        "parent": {
+          "$ref": "#/pictures/76"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 120.95927999999996,
+              "t": 517.3630816000006,
+              "r": 165.00659151931305,
+              "b": 510.5280694274805,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              13
+            ]
+          }
+        ],
+        "orig": "MELEE WEAPONS",
+        "text": "MELEE WEAPONS"
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/889",
+        "parent": {
+          "$ref": "#/pictures/76"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 230.3013026,
+              "t": 520.2675130000003,
+              "r": 248.17634998931294,
+              "b": 514.3464814274811,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              5
+            ]
+          }
+        ],
+        "orig": "RANGE",
+        "text": "RANGE"
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/890",
+        "parent": {
+          "$ref": "#/pictures/76"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 261.9085045,
+              "t": 523.0806610000001,
+              "r": 328.7321653893129,
+              "b": 515.4502594274812,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              11
+            ]
+          }
+        ],
+        "orig": "A WS S AP D",
+        "text": "A WS S AP D"
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/891",
+        "parent": {
+          "$ref": "#/pictures/76"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 121.30314999999997,
+              "t": 507.204327,
+              "r": 156.44633419389308,
+              "b": 501.5592409465647,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              14
+            ]
+          }
+        ],
+        "orig": "Example weapon",
+        "text": "Example weapon"
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/892",
+        "parent": {
+          "$ref": "#/pictures/76"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 233.28268060000005,
+              "t": 510.3264720000006,
+              "r": 245.85015709389322,
+              "b": 505.4697709465648,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              5
+            ]
+          }
+        ],
+        "orig": "Melee",
+        "text": "Melee"
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/893",
+        "parent": {
+          "$ref": "#/pictures/76"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 262.3580479,
+              "t": 511.00624199999993,
+              "r": 265.31563249389313,
+              "b": 506.4851359465648,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "4",
+        "text": "4"
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/894",
+        "parent": {
+          "$ref": "#/pictures/76"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 277.8422025999999,
+              "t": 512.1118919999999,
+              "r": 296.97634549389306,
+              "b": 507.02587094656457,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              4
+            ]
+          }
+        ],
+        "orig": "2+ 4",
+        "text": "2+ 4"
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/895",
+        "parent": {
+          "$ref": "#/pictures/76"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 308.1348600999999,
+              "t": 512.650677,
+              "r": 312.40466119389305,
+              "b": 508.0837459465649,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              2
+            ]
+          }
+        ],
+        "orig": "-3",
+        "text": "-3"
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/896",
+        "parent": {
+          "$ref": "#/pictures/76"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 325.67389,
+              "t": 513.217347,
+              "r": 328.63147459389313,
+              "b": 508.6962409465649,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "1",
+        "text": "1"
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/897",
+        "parent": {
+          "$ref": "#/pictures/76"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 363.1125700000001,
+              "t": 400.59994760000006,
+              "r": 413.0334394664124,
+              "b": 387.1521797595418,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              34
+            ]
+          }
+        ],
+        "orig": "FACTION KEYWORDS: Adeptus Astartes",
+        "text": "FACTION KEYWORDS: Adeptus Astartes"
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/898",
+        "parent": {
+          "$ref": "#/pictures/76"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 345.52438,
+              "t": 557.4756222000003,
+              "r": 370.4472236493129,
+              "b": 551.3084694274806,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              9
+            ]
+          }
+        ],
+        "orig": "ABILITIES",
+        "text": "ABILITIES"
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/899",
+        "parent": {
+          "$ref": "#/pictures/76"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 345.9297499999996,
+              "t": 546.2979770000006,
+              "r": 383.138977193893,
+              "b": 540.5807409465644,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              17
+            ]
+          }
+        ],
+        "orig": "CORE: Deep Strike",
+        "text": "CORE: Deep Strike"
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/900",
+        "parent": {
+          "$ref": "#/pictures/76"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 346.3474399999999,
+              "t": 534.8353127,
+              "r": 397.81850618389296,
+              "b": 528.620027146565,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              24
+            ]
+          }
+        ],
+        "orig": "FACTION: Angels of Death",
+        "text": "FACTION: Angels of Death"
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/901",
+        "parent": {
+          "$ref": "#/pictures/76"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 346.76512999999954,
+              "t": 525.206564900001,
+              "r": 465.01293950389305,
+              "b": 516.6593133465649,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              57
+            ]
+          }
+        ],
+        "orig": "Rites of Battle (Aura): While a friendly Adeptus Astartes",
+        "text": "Rites of Battle (Aura): While a friendly Adeptus Astartes"
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/902",
+        "parent": {
+          "$ref": "#/pictures/76"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 346.98606499999966,
+              "t": 519.1111007000006,
+              "r": 471.85135439389336,
+              "b": 510.332754646564,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              63
+            ]
+          }
+        ],
+        "orig": "Core unit is within 6\" of this model, each time a model in that",
+        "text": "Core unit is within 6\" of this model, each time a model in that"
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/903",
+        "parent": {
+          "$ref": "#/pictures/76"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 347.2069999999997,
+              "t": 511.376232500001,
+              "r": 431.74480520389307,
+              "b": 504.0061959465638,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              46
+            ]
+          }
+        ],
+        "orig": "unit makes an attack, re-roll a Hit roll of 1.",
+        "text": "unit makes an attack, re-roll a Hit roll of 1."
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/904",
+        "parent": {
+          "$ref": "#/pictures/76"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 348.03637999999995,
+              "t": 486.5600242000009,
+              "r": 402.1273707493135,
+              "b": 479.3742694274808,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              17
+            ]
+          }
+        ],
+        "orig": "INVULNERABLE SAVE",
+        "text": "INVULNERABLE SAVE"
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/905",
+        "parent": {
+          "$ref": "#/pictures/76"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 459.18113999999986,
+              "t": 490.0442289999999,
+              "r": 468.6750730190838,
+              "b": 482.65025385496176,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              2
+            ]
+          }
+        ],
+        "orig": "4+",
+        "text": "4+"
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/906",
+        "parent": {
+          "$ref": "#/pictures/76"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 112.765164,
+              "t": 601.9969481,
+              "r": 115.98775001098267,
+              "b": 598.2554352312139,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "M",
+        "text": "M"
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/907",
+        "parent": {
+          "$ref": "#/pictures/76"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 135.6054463,
+              "t": 602.7552641000001,
+              "r": 137.70232311098266,
+              "b": 599.053063231214,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "T",
+        "text": "T"
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/908",
+        "parent": {
+          "$ref": "#/pictures/76"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 156.52487560000006,
+              "t": 603.5805821000001,
+              "r": 161.33551566098268,
+              "b": 599.783611231214,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              2
+            ]
+          }
+        ],
+        "orig": "SV",
+        "text": "SV"
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/909",
+        "parent": {
+          "$ref": "#/pictures/76"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 179.53937480000002,
+              "t": 604.3327361,
+              "r": 182.87363831098267,
+              "b": 600.587323231214,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "W",
+        "text": "W"
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/910",
+        "parent": {
+          "$ref": "#/pictures/76"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 200.945718,
+              "t": 605.1411281000001,
+              "r": 206.02215051098267,
+              "b": 601.3348752312139,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              2
+            ]
+          }
+        ],
+        "orig": "LD",
+        "text": "LD"
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/911",
+        "parent": {
+          "$ref": "#/pictures/76"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 223.17400760000004,
+              "t": 605.9208161000001,
+              "r": 228.3487163109827,
+              "b": 602.111131231214,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              2
+            ]
+          }
+        ],
+        "orig": "OC",
+        "text": "OC"
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/912",
+        "parent": {
+          "$ref": "#/pictures/76"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 110.33947999999994,
+              "t": 596.1583078353696,
+              "r": 228.97008103893128,
+              "b": 583.775873401272,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              14
+            ]
+          }
+        ],
+        "orig": "5\" 4 2+ 7 4+ 1",
+        "text": "5\" 4 2+ 7 4+ 1"
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/913",
+        "parent": {
+          "$ref": "#/pictures/76"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 136.9896,
+              "t": 636.7188,
+              "r": 143.0736,
+              "b": 627.2213954198473,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "1",
+        "text": "1"
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/914",
+        "parent": {
+          "$ref": "#/pictures/76"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 249.9029,
+              "t": 590.5518,
+              "r": 255.9869,
+              "b": 581.0543954198473,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "2",
+        "text": "2"
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/915",
+        "parent": {
+          "$ref": "#/pictures/76"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 475.9659,
+              "t": 533.8588,
+              "r": 482.0499,
+              "b": 524.3613954198473,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "3",
+        "text": "3"
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/916",
+        "parent": {
+          "$ref": "#/pictures/76"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 100.8929,
+              "t": 503.85880000000003,
+              "r": 106.9769,
+              "b": 494.3613954198474,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "4",
+        "text": "4"
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/917",
+        "parent": {
+          "$ref": "#/pictures/76"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 275.4147,
+              "t": 389.5281,
+              "r": 281.4987,
+              "b": 380.03069541984735,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "5",
+        "text": "5"
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/918",
+        "parent": {
+          "$ref": "#/pictures/77"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "section_header",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 206.8206799999997,
+              "t": 273.30141900000035,
+              "r": 255.69986628931304,
+              "b": 266.2976694274804,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              15
+            ]
+          }
+        ],
+        "orig": "WARGEAR OPTIONS",
+        "text": "WARGEAR OPTIONS",
+        "level": 1
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/919",
+        "parent": {
+          "$ref": "#/groups/62"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "list_item",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 205.09910769999993,
+              "t": 263.8276344000012,
+              "r": 303.66002080342804,
+              "b": 249.67213724656472,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              84
+            ]
+          }
+        ],
+        "orig": "■ The Space Marine Sergeant's bolt pistol can be replaced with one of the following:",
+        "text": "■ The Space Marine Sergeant's bolt pistol can be replaced with one of the following:",
+        "enumerated": false,
+        "marker": ""
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/920",
+        "parent": {
+          "$ref": "#/pictures/77"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 211.8973003000001,
+              "t": 249.5601729,
+              "r": 277.7375223648112,
+              "b": 241.9776667127237,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              32
+            ]
+          }
+        ],
+        "orig": "◦1 weapon from the Pistols list.",
+        "text": "◦1 weapon from the Pistols list."
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/921",
+        "parent": {
+          "$ref": "#/pictures/77"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 212.12381919999996,
+              "t": 243.8796297,
+              "r": 296.45735967481136,
+              "b": 235.6513030127237,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              38
+            ]
+          }
+        ],
+        "orig": "◦1 weapon from the Melee Weapons list.",
+        "text": "◦1 weapon from the Melee Weapons list."
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/922",
+        "parent": {
+          "$ref": "#/groups/63"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "list_item",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 206.09899659999994,
+              "t": 235.19544780000103,
+              "r": 300.07608619342807,
+              "b": 221.20002614656482,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              80
+            ]
+          }
+        ],
+        "orig": "■ The Space Marine Sergeant's boltgun can be replaced with one of the following:",
+        "text": "■ The Space Marine Sergeant's boltgun can be replaced with one of the following:",
+        "enumerated": false,
+        "marker": ""
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/923",
+        "parent": {
+          "$ref": "#/pictures/77"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 212.89718920000007,
+              "t": 221.75845229999993,
+              "r": 297.9343010748114,
+              "b": 213.50555561272358,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              38
+            ]
+          }
+        ],
+        "orig": "◦1 weapon from the Combi-weapons list.",
+        "text": "◦1 weapon from the Combi-weapons list."
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/924",
+        "parent": {
+          "$ref": "#/pictures/77"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 213.12370810000004,
+              "t": 214.76189310000007,
+              "r": 278.9695140648113,
+              "b": 207.1791919127237,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              32
+            ]
+          }
+        ],
+        "orig": "◦1 weapon from the Pistols list.",
+        "text": "◦1 weapon from the Pistols list."
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/925",
+        "parent": {
+          "$ref": "#/pictures/77"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 213.35022700000013,
+              "t": 209.08115490000012,
+              "r": 297.68376747481153,
+              "b": 200.8528282127238,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              38
+            ]
+          }
+        ],
+        "orig": "◦1 weapon from the Melee Weapons list.",
+        "text": "◦1 weapon from the Melee Weapons list."
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/926",
+        "parent": {
+          "$ref": "#/groups/64"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "list_item",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 207.32540439999988,
+              "t": 200.59704300000112,
+              "r": 307.03157539342817,
+              "b": 180.07499264656508,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              110
+            ]
+          }
+        ],
+        "orig": "■ If this unit contains 9 or fewer models, 1 Space Marine's boltgun can be replaced with one of the following:",
+        "text": "■ If this unit contains 9 or fewer models, 1 Space Marine's boltgun can be replaced with one of the following:",
+        "enumerated": false,
+        "marker": ""
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/927",
+        "parent": {
+          "$ref": "#/pictures/77"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 214.34453200000007,
+              "t": 180.64318830000002,
+              "r": 299.6613972648112,
+              "b": 172.38052211272384,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              38
+            ]
+          }
+        ],
+        "orig": "◦1 weapon from the Heavy Weapons list.",
+        "text": "◦1 weapon from the Heavy Weapons list."
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/928",
+        "parent": {
+          "$ref": "#/pictures/77"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 214.57105090000022,
+              "t": 174.37764510000022,
+              "r": 301.62953457481143,
+              "b": 166.05415841272395,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              40
+            ]
+          }
+        ],
+        "orig": "◦1 weapon from the Special Weapons list.",
+        "text": "◦1 weapon from the Special Weapons list."
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/929",
+        "parent": {
+          "$ref": "#/pictures/77"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 208.54622829999997,
+              "t": 165.9153537000011,
+              "r": 311.6021809034282,
+              "b": 157.3641813182004,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              51
+            ]
+          }
+        ],
+        "orig": "■ If this unit contains 10 models, 1 Space Marine's",
+        "text": "■ If this unit contains 10 models, 1 Space Marine's"
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/930",
+        "parent": {
+          "$ref": "#/pictures/77"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 212.99268670000018,
+              "t": 159.44969310000033,
+              "r": 311.1831274038935,
+              "b": 151.60288154656496,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              46
+            ]
+          }
+        ],
+        "orig": "boltgun can be replaced with 1 weapon from the",
+        "text": "boltgun can be replaced with 1 weapon from the"
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/931",
+        "parent": {
+          "$ref": "#/pictures/77"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 213.21167170000018,
+              "t": 151.27206840000053,
+              "r": 256.79960615776474,
+              "b": 145.26195206793898,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              21
+            ]
+          }
+        ],
+        "orig": "Special Weapons list.",
+        "text": "Special Weapons list."
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/932",
+        "parent": {
+          "$ref": "#/groups/65"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "list_item",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 316.99948870000014,
+              "t": 267.92034839999997,
+              "r": 420.055999693428,
+              "b": 247.26692726793885,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              118
+            ]
+          }
+        ],
+        "orig": "■ If this unit contains 10 models, 1 Space Marine's boltgun can be replaced with 1 weapon from the Heavy Weapons list.",
+        "text": "■ If this unit contains 10 models, 1 Space Marine's boltgun can be replaced with 1 weapon from the Heavy Weapons list.",
+        "enumerated": false,
+        "marker": ""
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/933",
+        "parent": {
+          "$ref": "#/pictures/77"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "section_header",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 438.8659799999998,
+              "t": 281.39399540000045,
+              "r": 487.4409545093133,
+              "b": 274.4008694274803,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              16
+            ]
+          }
+        ],
+        "orig": "UNIT COMPOSITION",
+        "text": "UNIT COMPOSITION",
+        "level": 1
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/934",
+        "parent": {
+          "$ref": "#/pictures/77"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 439.2672076999999,
+              "t": 270.2085598999997,
+              "r": 496.5681253134276,
+              "b": 263.2552370182002,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              25
+            ]
+          }
+        ],
+        "orig": "■ 1 Space Marine Sergeant",
+        "text": "■ 1 Space Marine Sergeant"
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/935",
+        "parent": {
+          "$ref": "#/pictures/77"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 439.5249976999997,
+              "t": 262.3346786000004,
+              "r": 482.7382940034277,
+              "b": 255.8733212182001,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              18
+            ]
+          }
+        ],
+        "orig": "■4-9 Space Marines",
+        "text": "■4-9 Space Marines"
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/936",
+        "parent": {
+          "$ref": "#/pictures/77"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 439.78688270000004,
+              "t": 256.9150004000003,
+              "r": 542.5287602938929,
+              "b": 248.9092443465646,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              51
+            ]
+          }
+        ],
+        "orig": "Every model is equipped with: bolt pistol; boltgun.",
+        "text": "Every model is equipped with: bolt pistol; boltgun."
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/938",
+        "parent": {
+          "$ref": "#/pictures/77"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 198.61397999999974,
+              "t": 330.8510023999998,
+              "r": 373.0542898819192,
+              "b": 297.95505525627055,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              259
+            ]
+          }
+        ],
+        "orig": "Tactical Squads have formed the backbone of Space Marine Chapters for ten thousand years. With access to a wide range of weapons, they can purge swathes of enemy infantry, scour battlefields clean of heavily armoured foes or punch burning holes through tanks.",
+        "text": "Tactical Squads have formed the backbone of Space Marine Chapters for ten thousand years. With access to a wide range of weapons, they can purge swathes of enemy infantry, scour battlefields clean of heavily armoured foes or punch burning holes through tanks."
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/939",
+        "parent": {
+          "$ref": "#/pictures/77"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 508.5643,
+              "t": 293.85880000000003,
+              "r": 514.6483,
+              "b": 284.3613954198474,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "6",
+        "text": "6"
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/940",
+        "parent": {
+          "$ref": "#/pictures/77"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 37,
+            "bbox": {
+              "l": 327.147,
+              "t": 209.37059999999997,
+              "r": 333.231,
+              "b": 199.87319541984732,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "7",
+        "text": "7"
+      },
+      "reason": "Retained in original example-card image and audit JSON; not indexed as authoritative rule text"
+    }
+  ],
+  "review_notes": [
+    "Image-first presentation per user instruction. Example statistics are not rewritten or treated as actual unit rules; numbered callouts remain visible."
+  ]
+}

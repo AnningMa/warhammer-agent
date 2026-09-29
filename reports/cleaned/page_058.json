@@ -1,0 +1,1151 @@
+{
+  "page": 58,
+  "source": "data/Core Rules.pdf",
+  "rules": {
+    "page": 58,
+    "source_sha256": "4d0e8019cbfddd6f46781d5b4ed31d46fb21eb2d0d10a0f6fabefac0ce054364",
+    "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+    "blocks": [
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1352"
+        ],
+        "style": "h1"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1353"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1354"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1355"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1356"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1357"
+        ],
+        "style": "li"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1358"
+        ],
+        "style": "li"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1359"
+        ],
+        "style": "li"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1360"
+        ],
+        "style": "li"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1363"
+        ],
+        "style": "h2"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1364"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1365"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1361"
+        ],
+        "style": "h2"
+      },
+      {
+        "type": "image",
+        "id": "map_key",
+        "title": "Mission map key: deployment zones, markers and battlefield edges",
+        "bbox": [
+          83,
+          511,
+          457,
+          722
+        ],
+        "captions": [
+          [
+            "#/texts/1362"
+          ],
+          [
+            "#/texts/1366"
+          ],
+          [
+            "#/texts/1367",
+            "#/texts/1369"
+          ],
+          [
+            "#/texts/1368",
+            "#/texts/1370"
+          ],
+          [
+            "#/texts/1371"
+          ]
+        ],
+        "source_refs": [
+          "#/pictures/125",
+          "#/pictures/126",
+          "#/pictures/127",
+          "#/pictures/128",
+          "#/pictures/129",
+          "#/pictures/130",
+          "#/pictures/131"
+        ]
+      }
+    ],
+    "excluded_text": {
+      "#/texts/1372": "Page number or running footer; not rule content.",
+      "#/texts/1373": "Page number or running footer; not rule content."
+    },
+    "review_notes": [
+      "Sidebar separated from Objective Markers rules. Full legend preserved so symbols, labels and colours remain together. Final three map labels remain grouped with the legend; no inferred map geometry is added."
+    ]
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1352"
+      ],
+      "style": "h1",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1352",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 58,
+              "bbox": {
+                "l": 85.0394,
+                "t": 720.4747,
+                "r": 303.32460000000003,
+                "b": 698.3140893129771,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                17
+              ]
+            }
+          ],
+          "orig": "OBJECTIVE MARKERS",
+          "text": "OBJECTIVE MARKERS",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1353"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1353",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 58,
+              "bbox": {
+                "l": 85.0394,
+                "t": 688.3682,
+                "r": 301.9245500000001,
+                "b": 620.8444836198181,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                387
+              ]
+            }
+          ],
+          "orig": "Objective markers represent objects of tactical or strategic import that both sides are attempting to secure, such as valuable artefacts, vital supplies or communications nodes. If a mission uses objective markers, it will state where they are located on the battlefield. These can be represented using any suitable marker, but we recommend using round markers that are 40mm in diameter.",
+          "text": "Objective markers represent objects of tactical or strategic import that both sides are attempting to secure, such as valuable artefacts, vital supplies or communications nodes. If a mission uses objective markers, it will state where they are located on the battlefield. These can be represented using any suitable marker, but we recommend using round markers that are 40mm in diameter."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1354"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1354",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 58,
+              "bbox": {
+                "l": 85.0394,
+                "t": 608.3917000000001,
+                "r": 304.05635000000024,
+                "b": 550.8639836198182,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                349
+              ]
+            }
+          ],
+          "orig": "When setting objective markers up on the battlefield, place them so they are centred on the point specified by the mission. When measuring distances to and from objective markers, measure to and from the closest part of them. Models can move over objective markers as if they were not there, but they cannot end a move on top of an objective marker.",
+          "text": "When setting objective markers up on the battlefield, place them so they are centred on the point specified by the mission. When measuring distances to and from objective markers, measure to and from the closest part of them. Models can move over objective markers as if they were not there, but they cannot end a move on top of an objective marker."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1355"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1355",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 58,
+              "bbox": {
+                "l": 85.0394,
+                "t": 538.4112000000002,
+                "r": 302.5680000000002,
+                "b": 480.8834836198183,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                351
+              ]
+            }
+          ],
+          "orig": "At the start of the battle, each objective marker on the battlefield is said to be contested, and so is not controlled by either player. To control an objective marker, a player will first need to move models within range of it. A model is within range of an objective marker if it is within 3\" horizontally and 5\" vertically of that objective marker.",
+          "text": "At the start of the battle, each objective marker on the battlefield is said to be contested, and so is not controlled by either player. To control an objective marker, a player will first need to move models within range of it. A model is within range of an objective marker if it is within 3\" horizontally and 5\" vertically of that objective marker."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1356"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1356",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 58,
+              "bbox": {
+                "l": 85.0394,
+                "t": 468.43070000000034,
+                "r": 303.4018500000001,
+                "b": 390.91098361981847,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                517
+              ]
+            }
+          ],
+          "orig": "Every model has an Objective Control (OC) characteristic listed on its datasheet. To determine a player's Level of Control over an objective marker, add together the OC characteristics of all the models from that player's army that are within range of that objective marker. A player will control an objective marker at the end of any phase if their Level of Control over it is greater than their opponent's. If both players have the same Level of Control over an objective marker, that objective marker is contested.",
+          "text": "Every model has an Objective Control (OC) characteristic listed on its datasheet. To determine a player's Level of Control over an objective marker, add together the OC characteristics of all the models from that player's army that are within range of that objective marker. A player will control an objective marker at the end of any phase if their Level of Control over it is greater than their opponent's. If both players have the same Level of Control over an objective marker, that objective marker is contested."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1357"
+      ],
+      "style": "li",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1357",
+          "parent": {
+            "$ref": "#/groups/88"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 58,
+              "bbox": {
+                "l": 96.378,
+                "t": 372.67859999999996,
+                "r": 284.03555,
+                "b": 353.4302717557252,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                93
+              ]
+            }
+          ],
+          "orig": "■ A model is within range of an objective marker if within 3\" horizontally and 5\" vertically.",
+          "text": "■ A model is within range of an objective marker if within 3\" horizontally and 5\" vertically.",
+          "enumerated": false,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1358"
+      ],
+      "style": "li",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1358",
+          "parent": {
+            "$ref": "#/groups/88"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 58,
+              "bbox": {
+                "l": 96.378,
+                "t": 352.67859999999996,
+                "r": 285.25954999999993,
+                "b": 333.4342717557252,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                121
+              ]
+            }
+          ],
+          "orig": "■ Level of Control: Add together the OC characteristics of all of a player's models within range of the objective marker.",
+          "text": "■ Level of Control: Add together the OC characteristics of all of a player's models within range of the objective marker.",
+          "enumerated": false,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1359"
+      ],
+      "style": "li",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1359",
+          "parent": {
+            "$ref": "#/groups/88"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 58,
+              "bbox": {
+                "l": 96.3779,
+                "t": 332.67859999999996,
+                "r": 278.6372000000002,
+                "b": 313.4302717557252,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                120
+              ]
+            }
+          ],
+          "orig": "■ An objective marker is controlled by the player with the highest Level of Control over it (in a tie, it is contested).",
+          "text": "■ An objective marker is controlled by the player with the highest Level of Control over it (in a tie, it is contested).",
+          "enumerated": false,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1360"
+      ],
+      "style": "li",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1360",
+          "parent": {
+            "$ref": "#/groups/88"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 58,
+              "bbox": {
+                "l": 96.3779,
+                "t": 312.67859999999996,
+                "r": 282.5302000000001,
+                "b": 302.2581666003976,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                56
+              ]
+            }
+          ],
+          "orig": "■Models cannot end a move on top of an objective marker.",
+          "text": "■Models cannot end a move on top of an objective marker.",
+          "enumerated": false,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1363"
+      ],
+      "style": "h2",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1363",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 58,
+              "bbox": {
+                "l": 323.1496,
+                "t": 690.5146,
+                "r": 440.18200000000047,
+                "b": 660.9051954198474,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                53
+              ]
+            }
+          ],
+          "orig": "Hints and Tips OBJECTIVE MARKERS AND TERRAIN FEATURES",
+          "text": "Hints and Tips OBJECTIVE MARKERS AND TERRAIN FEATURES",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1364"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1364",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 58,
+              "bbox": {
+                "l": 323.1496,
+                "t": 658.3681,
+                "r": 447.0541000000001,
+                "b": 490.910516167665,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                588
+              ]
+            }
+          ],
+          "orig": "Many players choose to bring the narrative of their missions to life by positioning objective markers within exciting terrain features on the battlefield. When setting up terrain features, you can place them where an objective marker would be, so long as you can reposition that objective marker directly on top of that terrain feature and it lies flat, without overhanging any part of it. That objective marker should still be more than 1\" away from all impassable parts of that terrain feature (such as the walls of a ruin) so that there is sufficient room for models to move around it.",
+          "text": "Many players choose to bring the narrative of their missions to life by positioning objective markers within exciting terrain features on the battlefield. When setting up terrain features, you can place them where an objective marker would be, so long as you can reposition that objective marker directly on top of that terrain feature and it lies flat, without overhanging any part of it. That objective marker should still be more than 1\" away from all impassable parts of that terrain feature (such as the walls of a ruin) so that there is sufficient room for models to move around it."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1365"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1365",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 58,
+              "bbox": {
+                "l": 323.1496,
+                "t": 478.43160000000034,
+                "r": 444.41060000000016,
+                "b": 330.96601616766526,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                496
+              ]
+            }
+          ],
+          "orig": "If it is not possible to set up terrain features or objective markers in this way, and both players agree, you can nudge the positions of any terrain feature or objective marker so that these conditions are satisfied. Of course, the final position of an objective marker should still be as close as possible to the location indicated on your mission's deployment map, but if both players are happy to tweak the battlefield arrangement to forge a stronger narrative, you should feel free to do so.",
+          "text": "If it is not possible to set up terrain features or objective markers in this way, and both players agree, you can nudge the positions of any terrain feature or objective marker so that these conditions are satisfied. Of course, the final position of an objective marker should still be as close as possible to the location indicated on your mission's deployment map, but if both players are happy to tweak the battlefield arrangement to forge a stronger narrative, you should feel free to do so."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1361"
+      ],
+      "style": "h2",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1361",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 58,
+              "bbox": {
+                "l": 93.5433,
+                "t": 268.8047,
+                "r": 219.31379999999996,
+                "b": 253.7671427480916,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                15
+              ]
+            }
+          ],
+          "orig": "MISSION MAP KEY",
+          "text": "MISSION MAP KEY",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "id": "map_key",
+      "title": "Mission map key: deployment zones, markers and battlefield edges",
+      "bbox": [
+        83,
+        511,
+        457,
+        722
+      ],
+      "captions": [
+        [
+          "#/texts/1362"
+        ],
+        [
+          "#/texts/1366"
+        ],
+        [
+          "#/texts/1367",
+          "#/texts/1369"
+        ],
+        [
+          "#/texts/1368",
+          "#/texts/1370"
+        ],
+        [
+          "#/texts/1371"
+        ]
+      ],
+      "source_refs": [
+        "#/pictures/125",
+        "#/pictures/126",
+        "#/pictures/127",
+        "#/pictures/128",
+        "#/pictures/129",
+        "#/pictures/130",
+        "#/pictures/131"
+      ],
+      "source_nodes": [
+        {
+          "self_ref": "#/pictures/125",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 58,
+              "bbox": {
+                "l": 91.94382866397294,
+                "t": 245.73854204053907,
+                "r": 135.36986127459414,
+                "b": 201.76774082965994,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "annotations": []
+        },
+        {
+          "self_ref": "#/pictures/126",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 58,
+              "bbox": {
+                "l": 272.9747319169341,
+                "t": 245.00413852643612,
+                "r": 316.1996295392646,
+                "b": 202.40397575904979,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "annotations": []
+        },
+        {
+          "self_ref": "#/pictures/127",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 58,
+              "bbox": {
+                "l": 91.60648716847153,
+                "t": 194.32706240821665,
+                "r": 134.8947354137483,
+                "b": 150.74496974501142,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "annotations": []
+        },
+        {
+          "self_ref": "#/pictures/128",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 58,
+              "bbox": {
+                "l": 273.21288940259586,
+                "t": 193.86757974104796,
+                "r": 315.7935330661461,
+                "b": 151.36772098439405,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "annotations": []
+        },
+        {
+          "self_ref": "#/pictures/129",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 58,
+              "bbox": {
+                "l": 102.22307132038053,
+                "t": 124.2532406233396,
+                "r": 205.9317837325049,
+                "b": 98.01879983090032,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "annotations": []
+        },
+        {
+          "self_ref": "#/pictures/130",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 58,
+              "bbox": {
+                "l": 379.00945113835564,
+                "t": 130.2448799602979,
+                "r": 411.01054839237395,
+                "b": 97.16109071722917,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "annotations": []
+        },
+        {
+          "self_ref": "#/pictures/131",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 58,
+              "bbox": {
+                "l": 223.24943990856232,
+                "t": 124.82797528337528,
+                "r": 326.5620565715852,
+                "b": 97.92404792781804,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "annotations": []
+        },
+        {
+          "self_ref": "#/texts/1362",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 58,
+              "bbox": {
+                "l": 142.4547,
+                "t": 239.13470000000007,
+                "r": 261.29234999999983,
+                "b": 210.8506161676646,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                80
+              ]
+            }
+          ],
+          "orig": "Attacker's Deployment Zone The Attacker must set up their army within this area.",
+          "text": "Attacker's Deployment Zone The Attacker must set up their army within this area."
+        },
+        {
+          "self_ref": "#/texts/1366",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "caption",
+          "prov": [
+            {
+              "page_no": 58,
+              "bbox": {
+                "l": 323.3858,
+                "t": 239.13470000000007,
+                "r": 444.4428000000001,
+                "b": 210.8506161676646,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                80
+              ]
+            }
+          ],
+          "orig": "Defender's Deployment Zone The Defender must set up their army within this area.",
+          "text": "Defender's Deployment Zone The Defender must set up their army within this area."
+        },
+        {
+          "self_ref": "#/texts/1367",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "caption",
+          "prov": [
+            {
+              "page_no": 58,
+              "bbox": {
+                "l": 142.7047,
+                "t": 189.13470000000007,
+                "r": 197.61970000000005,
+                "b": 181.2201961832061,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                13
+              ]
+            }
+          ],
+          "orig": "No Man's Land",
+          "text": "No Man's Land"
+        },
+        {
+          "self_ref": "#/texts/1368",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 58,
+              "bbox": {
+                "l": 323.3071,
+                "t": 189.13470000000007,
+                "r": 392.3090999999999,
+                "b": 181.2201961832061,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                17
+              ]
+            }
+          ],
+          "orig": "Objective Markers",
+          "text": "Objective Markers",
+          "level": 1
+        },
+        {
+          "self_ref": "#/texts/1369",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 58,
+              "bbox": {
+                "l": 142.7047,
+                "t": 178.3682,
+                "r": 264.4833499999999,
+                "b": 150.85461616766463,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                107
+              ]
+            }
+          ],
+          "orig": "The region of the battlefield that is not within either player's deployment zone is known as No Man's Land.",
+          "text": "The region of the battlefield that is not within either player's deployment zone is known as No Man's Land."
+        },
+        {
+          "self_ref": "#/texts/1370",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 58,
+              "bbox": {
+                "l": 323.3071,
+                "t": 178.3682,
+                "r": 444.81460000000015,
+                "b": 130.85861616766465,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                158
+              ]
+            }
+          ],
+          "orig": "The locations of objective markers on the battlefield are typically shown on the deployment map of the mission being played, and are represented by this icon.",
+          "text": "The locations of objective markers on the battlefield are typically shown on the deployment map of the mission being played, and are represented by this icon."
+        },
+        {
+          "self_ref": "#/texts/1371",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 58,
+              "bbox": {
+                "l": 103.8404,
+                "t": 89.13469999999995,
+                "r": 328.0304999999997,
+                "b": 81.2201961832061,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                55
+              ]
+            },
+            {
+              "page_no": 58,
+              "bbox": {
+                "l": 358.7025,
+                "t": 89.13469999999995,
+                "r": 435.6344999999998,
+                "b": 81.2201961832061,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                56,
+                77
+              ]
+            }
+          ],
+          "orig": "Attacker's Battlefield Edge Defender's Battlefield Edge Centre of Battlefield",
+          "text": "Attacker's Battlefield Edge Defender's Battlefield Edge Centre of Battlefield"
+        }
+      ],
+      "image": "images/page_058_map_key.png",
+      "caption_texts": [
+        "Attacker's Deployment Zone The Attacker must set up their army within this area.",
+        "Defender's Deployment Zone The Defender must set up their army within this area.",
+        "No Man's Land The region of the battlefield that is not within either player's deployment zone is known as No Man's Land.",
+        "Objective Markers The locations of objective markers on the battlefield are typically shown on the deployment map of the mission being played, and are represented by this icon.",
+        "Attacker's Battlefield Edge Defender's Battlefield Edge Centre of Battlefield"
+      ],
+      "coordinate_system": "PDF points, top-left origin"
+    }
+  ],
+  "excluded_text": [
+    {
+      "node": {
+        "self_ref": "#/texts/1372",
+        "parent": {
+          "$ref": "#/pictures/132"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 58,
+            "bbox": {
+              "l": 538.4846,
+              "t": 100.24450000000002,
+              "r": 548.4446,
+              "b": 92.32999618320605,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              2
+            ]
+          }
+        ],
+        "orig": "58",
+        "text": "58"
+      },
+      "reason": "Page number or running footer; not rule content."
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/1373",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "furniture",
+        "label": "page_footer",
+        "prov": [
+          {
+            "page_no": 58,
+            "bbox": {
+              "l": 285.2656,
+              "t": 50.00040000000001,
+              "r": 460.6336,
+              "b": 42.08589618320616,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              41
+            ]
+          }
+        ],
+        "orig": "CORE RULES | MISSIONS | OBJECTIVE MARKERS",
+        "text": "CORE RULES | MISSIONS | OBJECTIVE MARKERS"
+      },
+      "reason": "Page number or running footer; not rule content."
+    }
+  ],
+  "review_notes": [
+    "Sidebar separated from Objective Markers rules. Full legend preserved so symbols, labels and colours remain together. Final three map labels remain grouped with the legend; no inferred map geometry is added."
+  ]
+}

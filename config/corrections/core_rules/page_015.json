@@ -1,0 +1,103 @@
+{
+  "page": 15,
+  "source_sha256": "4d0e8019cbfddd6f46781d5b4ed31d46fb21eb2d0d10a0f6fabefac0ce054364",
+  "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+  "furniture_refs": [
+    "#/texts/336",
+    "#/texts/337",
+    "#/texts/338",
+    "#/texts/339",
+    "#/texts/340",
+    "#/texts/368"
+  ],
+  "sections": [
+    {
+      "page": 15,
+      "figure_id": "p015_terrain",
+      "figure_title": "Moving over terrain — examples A and B",
+      "image": "images/page_015_terrain.png",
+      "figure_bbox": [
+        336,
+        79,
+        555,
+        374
+      ],
+      "body_refs": [
+        "#/texts/341",
+        "#/texts/342",
+        "#/texts/343",
+        "#/texts/344",
+        "#/texts/345"
+      ],
+      "summary_refs": [],
+      "caption_refs": [
+        "#/texts/351",
+        "#/texts/352",
+        "#/texts/353",
+        "#/texts/354",
+        "#/texts/355",
+        "#/texts/356",
+        "#/texts/357",
+        "#/texts/358",
+        "#/texts/359",
+        "#/texts/360",
+        "#/texts/361",
+        "#/texts/362"
+      ],
+      "caption_groups": [
+        [
+          "#/texts/351",
+          "#/texts/352",
+          "#/texts/353",
+          "#/texts/354",
+          "#/texts/355",
+          "#/texts/356",
+          "#/texts/357"
+        ],
+        [
+          "#/texts/358",
+          "#/texts/359",
+          "#/texts/360",
+          "#/texts/361",
+          "#/texts/362"
+        ]
+      ],
+      "annotation_refs": [
+        "#/texts/363",
+        "#/texts/364",
+        "#/texts/365"
+      ],
+      "furniture_refs": []
+    },
+    {
+      "page": 15,
+      "figure_id": "p015_flying",
+      "figure_title": "Flying — movement through the air",
+      "image": "images/page_015_flying.png",
+      "figure_bbox": [
+        156,
+        548,
+        558,
+        721
+      ],
+      "body_refs": [
+        "#/texts/346",
+        "#/texts/347",
+        "#/texts/348",
+        "#/texts/366",
+        "#/texts/367"
+      ],
+      "summary_refs": [],
+      "caption_refs": [
+        "#/texts/349"
+      ],
+      "caption_groups": [],
+      "annotation_refs": [
+        "#/texts/350"
+      ],
+      "furniture_refs": []
+    }
+  ],
+  "schema_version": 1,
+  "handler": "figures"
+}

@@ -1,0 +1,1038 @@
+{
+  "page": 11,
+  "rules": {
+    "page": 11,
+    "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+    "keep_refs": [
+      "#/texts/234",
+      "#/texts/235",
+      "#/texts/236",
+      "#/texts/237",
+      "#/texts/238",
+      "#/texts/239",
+      "#/texts/240",
+      "#/texts/241",
+      "#/texts/242",
+      "#/texts/243",
+      "#/texts/244",
+      "#/texts/245",
+      "#/texts/246",
+      "#/texts/247",
+      "#/texts/257",
+      "#/texts/258"
+    ],
+    "omit_reasons": {
+      "#/texts/229": "Diagram navigation number or page furniture",
+      "#/texts/230": "Diagram navigation number or page furniture",
+      "#/texts/231": "Diagram navigation number or page furniture",
+      "#/texts/232": "Diagram navigation number or page furniture",
+      "#/texts/233": "Diagram navigation number or page furniture",
+      "#/texts/248": "Redundant Battle-shock recap or two-step sidebar; full rules retained",
+      "#/texts/249": "Redundant Battle-shock recap or two-step sidebar; full rules retained",
+      "#/texts/250": "Redundant Battle-shock recap or two-step sidebar; full rules retained",
+      "#/texts/251": "Redundant Battle-shock recap or two-step sidebar; full rules retained",
+      "#/texts/252": "Redundant Battle-shock recap or two-step sidebar; full rules retained",
+      "#/texts/253": "Redundant Battle-shock recap or two-step sidebar; full rules retained",
+      "#/texts/254": "Redundant Battle-shock recap or two-step sidebar; full rules retained",
+      "#/texts/255": "Redundant Battle-shock recap or two-step sidebar; full rules retained",
+      "#/texts/256": "Redundant Battle-shock recap or two-step sidebar; full rules retained",
+      "#/texts/259": "Diagram navigation number or page furniture"
+    },
+    "heading_overrides": {},
+    "scope": "Reviewed pages only; original JSON preserved. Decorative/phase-navigation pictures are represented by ordered text, not image placeholders."
+  },
+  "kept_nodes": [
+    {
+      "self_ref": "#/texts/234",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 11,
+          "bbox": {
+            "l": 153.0708,
+            "t": 718.5147,
+            "r": 406.1148000000002,
+            "b": 689.9482877862596,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            13
+          ]
+        }
+      ],
+      "orig": "COMMAND PHASE",
+      "text": "COMMAND PHASE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/235",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 11,
+          "bbox": {
+            "l": 153.0708,
+            "t": 678.8197,
+            "r": 512.8158500000005,
+            "b": 661.2974213740458,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            189
+          ]
+        }
+      ],
+      "orig": "Commanders gauge the flow of the battle, consolidating their objectives before making alterations to their battle plans and devising new tactics and strategies with which to defeat the foe.",
+      "text": "Commanders gauge the flow of the battle, consolidating their objectives before making alterations to their battle plans and devising new tactics and strategies with which to defeat the foe."
+    },
+    {
+      "self_ref": "#/texts/236",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 11,
+          "bbox": {
+            "l": 306.1417,
+            "t": 638.8047,
+            "r": 396.5702999999999,
+            "b": 623.7671427480916,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "1. COMMAND",
+      "text": "1. COMMAND",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/237",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 11,
+          "bbox": {
+            "l": 306.1417,
+            "t": 618.3682,
+            "r": 522.2253000000001,
+            "b": 580.832483619818,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            237
+          ]
+        }
+      ],
+      "orig": "At the start of your Command phase, before doing anything else, both players gain 1CP. Command points are a strategic resource that you can spend during the battle to use Stratagems. You can find out more about Stratagems on pages 41-42.",
+      "text": "At the start of your Command phase, before doing anything else, both players gain 1CP. Command points are a strategic resource that you can spend during the battle to use Stratagems. You can find out more about Stratagems on pages 41-42."
+    },
+    {
+      "self_ref": "#/texts/238",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 11,
+          "bbox": {
+            "l": 306.1417,
+            "t": 568.3797000000001,
+            "r": 516.1495,
+            "b": 540.8399836198181,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            139
+          ]
+        }
+      ],
+      "orig": "Then, if you have any other rules that need to be resolved in the Command phase, you do so now before progressing to the Battle-shock step.",
+      "text": "Then, if you have any other rules that need to be resolved in the Command phase, you do so now before progressing to the Battle-shock step."
+    },
+    {
+      "self_ref": "#/texts/239",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 11,
+          "bbox": {
+            "l": 317.4803,
+            "t": 522.6786,
+            "r": 395.5142000000001,
+            "b": 512.2581666003975,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            24
+          ]
+        }
+      ],
+      "orig": "■ Both players gain 1CP.",
+      "text": "■ Both players gain 1CP.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/240",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 11,
+          "bbox": {
+            "l": 317.4803,
+            "t": 512.6786,
+            "r": 508.5778000000002,
+            "b": 502.2581666003976,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            58
+          ]
+        }
+      ],
+      "orig": "■ Resolve any other rules that occur in the Command phase.",
+      "text": "■ Resolve any other rules that occur in the Command phase.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/241",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 11,
+          "bbox": {
+            "l": 306.1417,
+            "t": 468.8047,
+            "r": 429.8374000000001,
+            "b": 453.7671427480916,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "2. BATTLE-SHOCK",
+      "text": "2. BATTLE-SHOCK",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/242",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 11,
+          "bbox": {
+            "l": 306.1417,
+            "t": 448.3682,
+            "r": 514.04915,
+            "b": 390.8404836198181,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            365
+          ]
+        }
+      ],
+      "orig": "In this step, you must take a Battle-shock test for each of your units on the battlefield that is Below Half-strength (pg 12). To do so, roll 2D6: if the result is greater than or equal to the best Leadership characteristic in that unit, the test is passed; otherwise, the test is failed and, until the start of your next Command phase, that unit is Battle-shocked.",
+      "text": "In this step, you must take a Battle-shock test for each of your units on the battlefield that is Below Half-strength (pg 12). To do so, roll 2D6: if the result is greater than or equal to the best Leadership characteristic in that unit, the test is passed; otherwise, the test is failed and, until the start of your next Command phase, that unit is Battle-shocked."
+    },
+    {
+      "self_ref": "#/texts/243",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 11,
+          "bbox": {
+            "l": 306.1417,
+            "t": 378.3877000000001,
+            "r": 410.01850000000013,
+            "b": 370.8399836198181,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            31
+          ]
+        }
+      ],
+      "orig": "While a unit is Battle-shocked:",
+      "text": "While a unit is Battle-shocked:"
+    },
+    {
+      "self_ref": "#/texts/244",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 11,
+          "bbox": {
+            "l": 306.1417,
+            "t": 358.9207,
+            "r": 516.6779500000004,
+            "b": 350.820483619818,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            65
+          ]
+        }
+      ],
+      "orig": "■ The Objective Control characteristic of all of its models is 0.",
+      "text": "■ The Objective Control characteristic of all of its models is 0.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/245",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 11,
+          "bbox": {
+            "l": 306.1417,
+            "t": 348.9207,
+            "r": 506.4456500000002,
+            "b": 330.820483619818,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            95
+          ]
+        }
+      ],
+      "orig": "■ If it Falls Back, you must take a Desperate Escape test for every model in that unit (pg 14).",
+      "text": "■ If it Falls Back, you must take a Desperate Escape test for every model in that unit (pg 14).",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/246",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 11,
+          "bbox": {
+            "l": 306.1417,
+            "t": 328.9207,
+            "r": 524.40555,
+            "b": 320.820483619818,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            66
+          ]
+        }
+      ],
+      "orig": "■Its controlling player cannot use Stratagems to affect that unit.",
+      "text": "■Its controlling player cannot use Stratagems to affect that unit.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/247",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 11,
+          "bbox": {
+            "l": 306.1417,
+            "t": 308.3677,
+            "r": 520.6094500000002,
+            "b": 280.82798361981804,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            144
+          ]
+        }
+      ],
+      "orig": "Once you have taken Battle-shock tests for all of your units that require them, your Command phase ends and you progress to your Movement phase.",
+      "text": "Once you have taken Battle-shock tests for all of your units that require them, your Command phase ends and you progress to your Movement phase."
+    },
+    {
+      "self_ref": "#/texts/257",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 11,
+          "bbox": {
+            "l": 161.5748,
+            "t": 410.3946,
+            "r": 282.0512,
+            "b": 400.8971954198474,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "GAINING COMMAND POINTS",
+      "text": "GAINING COMMAND POINTS",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/258",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 11,
+          "bbox": {
+            "l": 161.5748,
+            "t": 398.3681,
+            "r": 279.2386000000002,
+            "b": 350.8363836198181,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            150
+          ]
+        }
+      ],
+      "orig": "Outside of the CP players gain at the start of the Command phase, each player can only gain a total of 1CP per battle round, regardless of the source.",
+      "text": "Outside of the CP players gain at the start of the Command phase, each player can only gain a total of 1CP per battle round, regardless of the source."
+    }
+  ],
+  "omitted_nodes": [
+    {
+      "node": {
+        "self_ref": "#/texts/229",
+        "parent": {
+          "$ref": "#/pictures/22"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 11,
+            "bbox": {
+              "l": 62.2078,
+              "t": 657.3884,
+              "r": 69.8128,
+              "b": 645.5166442748092,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "2",
+        "text": "2"
+      },
+      "reason": "Diagram navigation number or page furniture"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/230",
+        "parent": {
+          "$ref": "#/pictures/22"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 11,
+            "bbox": {
+              "l": 62.2078,
+              "t": 627.3884,
+              "r": 69.8128,
+              "b": 615.5166442748092,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "3",
+        "text": "3"
+      },
+      "reason": "Diagram navigation number or page furniture"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/231",
+        "parent": {
+          "$ref": "#/pictures/22"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 11,
+            "bbox": {
+              "l": 62.2078,
+              "t": 597.3884,
+              "r": 69.8128,
+              "b": 585.5166442748092,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "4",
+        "text": "4"
+      },
+      "reason": "Diagram navigation number or page furniture"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/232",
+        "parent": {
+          "$ref": "#/pictures/22"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 11,
+            "bbox": {
+              "l": 62.2078,
+              "t": 567.3884,
+              "r": 69.8128,
+              "b": 555.5166442748092,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "5",
+        "text": "5"
+      },
+      "reason": "Diagram navigation number or page furniture"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/233",
+        "parent": {
+          "$ref": "#/pictures/22"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 11,
+            "bbox": {
+              "l": 61.1792,
+              "t": 100.24450000000002,
+              "r": 70.7892,
+              "b": 92.32999618320605,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              2
+            ]
+          }
+        ],
+        "orig": "11",
+        "text": "11"
+      },
+      "reason": "Diagram navigation number or page furniture"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/248",
+        "parent": {
+          "$ref": "#/groups/8"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "list_item",
+        "prov": [
+          {
+            "page_no": 11,
+            "bbox": {
+              "l": 317.4803,
+              "t": 262.67859999999996,
+              "r": 501.83145000000025,
+              "b": 243.43027175572524,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              103
+            ]
+          }
+        ],
+        "orig": "■ Take a Battle-shock test for each unit from your army on the battlefield that is Below Half-strength.",
+        "text": "■ Take a Battle-shock test for each unit from your army on the battlefield that is Below Half-strength.",
+        "enumerated": false,
+        "marker": ""
+      },
+      "reason": "Redundant Battle-shock recap or two-step sidebar; full rules retained"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/249",
+        "parent": {
+          "$ref": "#/groups/8"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "list_item",
+        "prov": [
+          {
+            "page_no": 11,
+            "bbox": {
+              "l": 317.4803,
+              "t": 242.67859999999996,
+              "r": 513.0676000000003,
+              "b": 213.43427175572515,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              178
+            ]
+          }
+        ],
+        "orig": "■ Roll 2D6: if the result is greater than or equal to the unit's Leadership, the test is passed. Otherwise, the unit is Battle-shocked until the start of your next Command phase.",
+        "text": "■ Roll 2D6: if the result is greater than or equal to the unit's Leadership, the test is passed. Otherwise, the unit is Battle-shocked until the start of your next Command phase.",
+        "enumerated": false,
+        "marker": ""
+      },
+      "reason": "Redundant Battle-shock recap or two-step sidebar; full rules retained"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/250",
+        "parent": {
+          "$ref": "#/groups/8"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "list_item",
+        "prov": [
+          {
+            "page_no": 11,
+            "bbox": {
+              "l": 317.4803,
+              "t": 212.67859999999996,
+              "r": 506.12310000000025,
+              "b": 193.43027175572524,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              105
+            ]
+          }
+        ],
+        "orig": "■ Battle-shocked units have an OC of 0 and their controlling player cannot use Stratagems to affect them.",
+        "text": "■ Battle-shocked units have an OC of 0 and their controlling player cannot use Stratagems to affect them.",
+        "enumerated": false,
+        "marker": ""
+      },
+      "reason": "Redundant Battle-shock recap or two-step sidebar; full rules retained"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/251",
+        "parent": {
+          "$ref": "#/groups/8"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "list_item",
+        "prov": [
+          {
+            "page_no": 11,
+            "bbox": {
+              "l": 317.4803,
+              "t": 192.67859999999996,
+              "r": 505.8341000000002,
+              "b": 173.43027175572524,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              74
+            ]
+          }
+        ],
+        "orig": "■ Battle-shocked units must take Desperate Escape tests if they Fall Back.",
+        "text": "■ Battle-shocked units must take Desperate Escape tests if they Fall Back.",
+        "enumerated": false,
+        "marker": ""
+      },
+      "reason": "Redundant Battle-shock recap or two-step sidebar; full rules retained"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/252",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 11,
+            "bbox": {
+              "l": 161.5748,
+              "t": 588.3681,
+              "r": 277.6661,
+              "b": 520.8443836198181,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              215
+            ]
+          }
+        ],
+        "orig": "Your Command phase is split into two steps. In the first, both players gain 1 Command point (CP) and you resolve any other Command phase rules; in the second, you test to see if any of your units are Battle-shocked.",
+        "text": "Your Command phase is split into two steps. In the first, both players gain 1 Command point (CP) and you resolve any other Command phase rules; in the second, you test to see if any of your units are Battle-shocked."
+      },
+      "reason": "Redundant Battle-shock recap or two-step sidebar; full rules retained"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/253",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 11,
+            "bbox": {
+              "l": 220.8233,
+              "t": 508.3897,
+              "r": 225.89329999999998,
+              "b": 500.4751961832061,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "1",
+        "text": "1"
+      },
+      "reason": "Redundant Battle-shock recap or two-step sidebar; full rules retained"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/254",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "section_header",
+        "prov": [
+          {
+            "page_no": 11,
+            "bbox": {
+              "l": 200.3785,
+              "t": 490.3946,
+              "r": 246.77169999999998,
+              "b": 480.8971954198474,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              7
+            ]
+          }
+        ],
+        "orig": "COMMAND",
+        "text": "COMMAND",
+        "level": 1
+      },
+      "reason": "Redundant Battle-shock recap or two-step sidebar; full rules retained"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/255",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 11,
+            "bbox": {
+              "l": 220.8233,
+              "t": 468.7805,
+              "r": 225.89329999999998,
+              "b": 460.8659961832061,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "2",
+        "text": "2"
+      },
+      "reason": "Redundant Battle-shock recap or two-step sidebar; full rules retained"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/256",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "section_header",
+        "prov": [
+          {
+            "page_no": 11,
+            "bbox": {
+              "l": 189.8006,
+              "t": 450.3946,
+              "r": 257.34860000000003,
+              "b": 440.8971954198474,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              12
+            ]
+          }
+        ],
+        "orig": "BATTLE-SHOCK",
+        "text": "BATTLE-SHOCK",
+        "level": 1
+      },
+      "reason": "Redundant Battle-shock recap or two-step sidebar; full rules retained"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/259",
+        "parent": {
+          "$ref": "#/pictures/23"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "caption",
+        "prov": [
+          {
+            "page_no": 11,
+            "bbox": {
+              "l": 152.8346,
+              "t": 50.00040000000001,
+              "r": 271.3896000000001,
+              "b": 42.08589618320616,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              26
+            ]
+          }
+        ],
+        "orig": "CORE RULES | COMMAND PHASE",
+        "text": "CORE RULES | COMMAND PHASE"
+      },
+      "reason": "Diagram navigation number or page furniture"
+    }
+  ],
+  "omitted_picture_nodes": [
+    {
+      "self_ref": "#/pictures/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/229"
+        },
+        {
+          "$ref": "#/texts/230"
+        },
+        {
+          "$ref": "#/texts/231"
+        },
+        {
+          "$ref": "#/texts/232"
+        },
+        {
+          "$ref": "#/texts/233"
+        }
+      ],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 11,
+          "bbox": {
+            "l": 21.210864859859278,
+            "t": 770.395505722291,
+            "r": 110.41334414520263,
+            "b": 22.769193472758957,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/259"
+        }
+      ],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 11,
+          "bbox": {
+            "l": 154.90700740216363,
+            "t": 325.90871905655945,
+            "r": 291.8453968667952,
+            "b": 70.3672903320927,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "$ref": "#/texts/259"
+        }
+      ],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    }
+  ]
+}

@@ -1,0 +1,783 @@
+{
+  "page": 53,
+  "source": "data/Core Rules.pdf",
+  "rules": {
+    "page": 53,
+    "source_sha256": "4d0e8019cbfddd6f46781d5b4ed31d46fb21eb2d0d10a0f6fabefac0ce054364",
+    "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+    "blocks": [
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1236"
+        ],
+        "style": "h1"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1237"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1238"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1239"
+        ],
+        "style": "h2"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1240"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1241"
+        ],
+        "style": "h2"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1242"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1243"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1244"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1245"
+        ],
+        "style": "h2"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1246"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1247"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1248"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1249"
+        ],
+        "style": "li"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1250"
+        ],
+        "style": "li"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1251"
+        ],
+        "style": "li"
+      }
+    ],
+    "excluded_text": {
+      "#/texts/1235": "Page number or running footer; not rule content.",
+      "#/texts/1252": "Page number or running footer; not rule content."
+    },
+    "review_notes": [
+      "Aircraft section hierarchy normalized; rule prose and source summary bullets retained. Decorative art and the Hover symbol are not standalone rule figures."
+    ]
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1236"
+      ],
+      "style": "h1",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1236",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 53,
+              "bbox": {
+                "l": 153.0708,
+                "t": 720.4747,
+                "r": 255.35479999999998,
+                "b": 698.3140893129771,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                8
+              ]
+            }
+          ],
+          "orig": "AIRCRAFT",
+          "text": "AIRCRAFT",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1237"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1237",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 53,
+              "bbox": {
+                "l": 153.0708,
+                "t": 688.3682,
+                "r": 511.50474999999994,
+                "b": 670.8506161676647,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                183
+              ]
+            }
+          ],
+          "orig": "The airspace above a battle is often thronged with activity. Fighters and bomber craft hurtle through the skies, duelling with one another and strafing enemy formations on the ground.",
+          "text": "The airspace above a battle is often thronged with activity. Fighters and bomber craft hurtle through the skies, duelling with one another and strafing enemy formations on the ground."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1238"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1238",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 53,
+              "bbox": {
+                "l": 153.0708,
+                "t": 658.3717,
+                "r": 332.52874999999995,
+                "b": 630.8319836198181,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                111
+              ]
+            }
+          ],
+          "orig": "Some models have the Aircraft keyword. The following rules describe how such models operate on the battlefield.",
+          "text": "Some models have the Aircraft keyword. The following rules describe how such models operate on the battlefield."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1239"
+      ],
+      "style": "h2",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1239",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 53,
+              "bbox": {
+                "l": 153.0708,
+                "t": 620.3947,
+                "r": 250.94520000000017,
+                "b": 610.8972954198473,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                18
+              ]
+            }
+          ],
+          "orig": "DEPLOYING AIRCRAFT",
+          "text": "DEPLOYING AIRCRAFT",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1240"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1240",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 53,
+              "bbox": {
+                "l": 153.0708,
+                "t": 608.3682,
+                "r": 330.42924999999997,
+                "b": 520.8524836198181,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                406
+              ]
+            }
+          ],
+          "orig": "When you are instructed to Declare Battle Formations, Aircraft models must start the battle in Reserves instead of being set up on the battlefield. Once the battle has started, Aircraft models are then treated as Strategic Reserves units for all rules purposes (pg 43). Only units that are themselves placed into Reserves can start the battle embarked within Aircraft Transport models that are in Reserves.",
+          "text": "When you are instructed to Declare Battle Formations, Aircraft models must start the battle in Reserves instead of being set up on the battlefield. Once the battle has started, Aircraft models are then treated as Strategic Reserves units for all rules purposes (pg 43). Only units that are themselves placed into Reserves can start the battle embarked within Aircraft Transport models that are in Reserves."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1241"
+      ],
+      "style": "h2",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1241",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 53,
+              "bbox": {
+                "l": 178.3464,
+                "t": 490.3947,
+                "r": 209.37240000000003,
+                "b": 480.89729541984735,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                5
+              ]
+            }
+          ],
+          "orig": "HOVER",
+          "text": "HOVER",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1242"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1242",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 53,
+              "bbox": {
+                "l": 161.3385,
+                "t": 468.3682,
+                "r": 321.29999999999984,
+                "b": 430.8586161676647,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                152
+              ]
+            }
+          ],
+          "orig": "Some aircraft can use vectored thrusters or anti-grav technology to hover over the battlefield, the better to hunt their prey or deploy embarked troops.",
+          "text": "Some aircraft can use vectored thrusters or anti-grav technology to hover over the battlefield, the better to hunt their prey or deploy embarked troops."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1243"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1243",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 53,
+              "bbox": {
+                "l": 161.3385,
+                "t": 418.37970000000007,
+                "r": 320.8554500000002,
+                "b": 360.85198361981816,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                234
+              ]
+            }
+          ],
+          "orig": "Some Aircraft models have 'Hover' listed in their abilities. When you are instructed to Declare Battle Formations, before doing anything else, you must first declare which models from your army with this ability will be in Hover mode.",
+          "text": "Some Aircraft models have 'Hover' listed in their abilities. When you are instructed to Declare Battle Formations, before doing anything else, you must first declare which models from your army with this ability will be in Hover mode."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1244"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1244",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 53,
+              "bbox": {
+                "l": 161.3385,
+                "t": 348.3992000000002,
+                "r": 324.2988000000001,
+                "b": 270.8794836198183,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                353
+              ]
+            }
+          ],
+          "orig": "If a model is in Hover mode, then until the end of the battle, its Move characteristic is changed to 20\", it loses the Aircraft keyword and it loses all associated rules for being an Aircraft model. Models in Hover mode do not start the battle in Reserves, but you can choose to place them into Strategic Reserves following the normal rules if you wish.",
+          "text": "If a model is in Hover mode, then until the end of the battle, its Move characteristic is changed to 20\", it loses the Aircraft keyword and it loses all associated rules for being an Aircraft model. Models in Hover mode do not start the battle in Reserves, but you can choose to place them into Strategic Reserves following the normal rules if you wish."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1245"
+      ],
+      "style": "h2",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1245",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 53,
+              "bbox": {
+                "l": 344.4094,
+                "t": 660.3947,
+                "r": 504.5061999999999,
+                "b": 650.8972954198473,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                30
+              ]
+            }
+          ],
+          "orig": "AIRCRAFT IN THE MOVEMENT PHASE",
+          "text": "AIRCRAFT IN THE MOVEMENT PHASE",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1246"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1246",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 53,
+              "bbox": {
+                "l": 344.4094,
+                "t": 648.3682,
+                "r": 522.0322000000002,
+                "b": 600.8364836198181,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                234
+              ]
+            }
+          ],
+          "orig": "Aircraft models cannot Advance, Fall Back or Remain Stationary. If, when an Aircraft model is selected to move in the Movement phase, any enemy units are within Engagement Range of it, that Aircraft model can still make a Normal move.",
+          "text": "Aircraft models cannot Advance, Fall Back or Remain Stationary. If, when an Aircraft model is selected to move in the Movement phase, any enemy units are within Engagement Range of it, that Aircraft model can still make a Normal move."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1247"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1247",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 53,
+              "bbox": {
+                "l": 344.4094,
+                "t": 588.3837000000001,
+                "r": 523.8673500000002,
+                "b": 460.8839836198183,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                640
+              ]
+            }
+          ],
+          "orig": "Each time an Aircraft model makes a Normal move, first move the model straight forward, and it must move a minimum of 20\" - all parts of the model's base must end the move at least this far from where they started. After it has moved, it can pivot on the spot up to 90° - this does not contribute to how far the model moves. If, when making a Normal move, any part of an Aircraft model's base crosses the edge of the battlefield, or it cannot move a minimum of 20\", that model's move ends and it is placed into Strategic Reserves. There is no upper limit to how far Aircraft models can move, and their Move characteristic is therefore 20+\".",
+          "text": "Each time an Aircraft model makes a Normal move, first move the model straight forward, and it must move a minimum of 20\" - all parts of the model's base must end the move at least this far from where they started. After it has moved, it can pivot on the spot up to 90° - this does not contribute to how far the model moves. If, when making a Normal move, any part of an Aircraft model's base crosses the edge of the battlefield, or it cannot move a minimum of 20\", that model's move ends and it is placed into Strategic Reserves. There is no upper limit to how far Aircraft models can move, and their Move characteristic is therefore 20+\"."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1248"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1248",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 53,
+              "bbox": {
+                "l": 344.4094,
+                "t": 448.43120000000033,
+                "r": 519.4558500000003,
+                "b": 420.89148361981836,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                114
+              ]
+            }
+          ],
+          "orig": "If placed into Strategic Reserves, an Aircraft model will always arrive from Strategic Reserves in your next turn.",
+          "text": "If placed into Strategic Reserves, an Aircraft model will always arrive from Strategic Reserves in your next turn."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1249"
+      ],
+      "style": "li",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1249",
+          "parent": {
+            "$ref": "#/groups/81"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 53,
+              "bbox": {
+                "l": 355.748,
+                "t": 402.67859999999996,
+                "r": 512.5591500000002,
+                "b": 373.4382717557252,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                104
+              ]
+            }
+          ],
+          "orig": "■ Aircraft can only make a Normal move, and can do so even when within Engagement Range of enemy models.",
+          "text": "■ Aircraft can only make a Normal move, and can do so even when within Engagement Range of enemy models.",
+          "enumerated": false,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1250"
+      ],
+      "style": "li",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1250",
+          "parent": {
+            "$ref": "#/groups/81"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 53,
+              "bbox": {
+                "l": 355.748,
+                "t": 372.67859999999996,
+                "r": 508.51065000000006,
+                "b": 353.4342717557252,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                93
+              ]
+            }
+          ],
+          "orig": "■ Aircraft must move straight forward at least 20\", and can then make one pivot of up to 90°.",
+          "text": "■ Aircraft must move straight forward at least 20\", and can then make one pivot of up to 90°.",
+          "enumerated": false,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1251"
+      ],
+      "style": "li",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1251",
+          "parent": {
+            "$ref": "#/groups/81"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 53,
+              "bbox": {
+                "l": 355.748,
+                "t": 352.67859999999996,
+                "r": 510.8081500000003,
+                "b": 323.4382717557252,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                126
+              ]
+            }
+          ],
+          "orig": "■ Aircraft that cross the edge of the battlefield, or that cannot make their minimum move, are placed into Strategic Reserves.",
+          "text": "■ Aircraft that cross the edge of the battlefield, or that cannot make their minimum move, are placed into Strategic Reserves.",
+          "enumerated": false,
+          "marker": ""
+        }
+      ]
+    }
+  ],
+  "excluded_text": [
+    {
+      "node": {
+        "self_ref": "#/texts/1235",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "furniture",
+        "label": "page_header",
+        "prov": [
+          {
+            "page_no": 53,
+            "bbox": {
+              "l": 61.0492,
+              "t": 100.24450000000002,
+              "r": 70.91919999999999,
+              "b": 92.32999618320605,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              2
+            ]
+          }
+        ],
+        "orig": "53",
+        "text": "53"
+      },
+      "reason": "Page number or running footer; not rule content."
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/1252",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "furniture",
+        "label": "page_footer",
+        "prov": [
+          {
+            "page_no": 53,
+            "bbox": {
+              "l": 152.8346,
+              "t": 50.00040000000001,
+              "r": 242.11760000000007,
+              "b": 42.08589618320616,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              21
+            ]
+          }
+        ],
+        "orig": "CORE RULES | AIRCRAFT",
+        "text": "CORE RULES | AIRCRAFT"
+      },
+      "reason": "Page number or running footer; not rule content."
+    }
+  ],
+  "review_notes": [
+    "Aircraft section hierarchy normalized; rule prose and source summary bullets retained. Decorative art and the Hover symbol are not standalone rule figures."
+  ]
+}

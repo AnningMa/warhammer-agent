@@ -1,0 +1,1055 @@
+{
+  "page": 46,
+  "source": "data/Core Rules.pdf",
+  "rules": {
+    "page": 46,
+    "source_sha256": "4d0e8019cbfddd6f46781d5b4ed31d46fb21eb2d0d10a0f6fabefac0ce054364",
+    "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+    "blocks": [
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1166"
+        ],
+        "style": "h1"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1167"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "image",
+        "id": "terrain_1166",
+        "title": "BATTLEFIELD DEBRIS AND STATUARY",
+        "bbox": [
+          45.692812571128464,
+          120.31964501456343,
+          303.60484577026364,
+          381.16328315915507
+        ],
+        "captions": [],
+        "source_refs": [
+          "#/texts/1166",
+          "#/pictures/110"
+        ]
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1168"
+        ],
+        "style": "h2"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1169"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1170"
+        ],
+        "style": "h2"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1171"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1172"
+        ],
+        "style": "h2"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1173"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1174"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1175"
+        ],
+        "style": "h1"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1176"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "image",
+        "id": "terrain_1175",
+        "title": "HILLS, INDUSTRIAL STRUCTURES, SEALED BUILDINGS AND ARMOURED CONTAINERS",
+        "bbox": [
+          45.46745326810743,
+          476.1225361079449,
+          303.5627085733382,
+          711.7605435835601
+        ],
+        "captions": [],
+        "source_refs": [
+          "#/texts/1175",
+          "#/pictures/111"
+        ]
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1177"
+        ],
+        "style": "h2"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1178"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1179"
+        ],
+        "style": "h2"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1180"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1181"
+        ],
+        "style": "h2"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1182"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1183"
+        ],
+        "style": "p"
+      }
+    ],
+    "excluded_text": {
+      "#/texts/1184": "Page furniture",
+      "#/texts/1185": "Page furniture"
+    },
+    "review_notes": [
+      "Each terrain title is H1; Movement, Visibility, Engagement Range and Benefit of Cover are H2 under their terrain type."
+    ]
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1166"
+      ],
+      "style": "h1",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1166",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 46,
+              "bbox": {
+                "l": 93.5433,
+                "t": 707.1747,
+                "r": 345.5919,
+                "b": 692.8914938931298,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                31
+              ]
+            }
+          ],
+          "orig": "BATTLEFIELD DEBRIS AND STATUARY",
+          "text": "BATTLEFIELD DEBRIS AND STATUARY",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1167"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1167",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 46,
+              "bbox": {
+                "l": 93.5433,
+                "t": 688.9547,
+                "r": 487.01370000000026,
+                "b": 682.5170118865867,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                138
+              ]
+            }
+          ],
+          "orig": "Discarded industrial machinery, power reactors, ancient statuary and other detritus of war litter the battlefields of the 41st Millennium.",
+          "text": "Discarded industrial machinery, power reactors, ancient statuary and other detritus of war litter the battlefields of the 41st Millennium."
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "id": "terrain_1166",
+      "title": "BATTLEFIELD DEBRIS AND STATUARY",
+      "bbox": [
+        45.692812571128464,
+        120.31964501456343,
+        303.60484577026364,
+        381.16328315915507
+      ],
+      "captions": [],
+      "source_refs": [
+        "#/texts/1166",
+        "#/pictures/110"
+      ],
+      "source_nodes": [
+        {
+          "self_ref": "#/pictures/110",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 46,
+              "bbox": {
+                "l": 45.692812571128464,
+                "t": 673.3813437549678,
+                "r": 303.60484577026364,
+                "b": 412.5377056103762,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "annotations": []
+        },
+        {
+          "self_ref": "#/texts/1166",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 46,
+              "bbox": {
+                "l": 93.5433,
+                "t": 707.1747,
+                "r": 345.5919,
+                "b": 692.8914938931298,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                31
+              ]
+            }
+          ],
+          "orig": "BATTLEFIELD DEBRIS AND STATUARY",
+          "text": "BATTLEFIELD DEBRIS AND STATUARY",
+          "level": 1
+        }
+      ],
+      "image": "images/page_046_terrain_1166.png",
+      "caption_texts": [],
+      "coordinate_system": "PDF points, top-left origin"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1168"
+      ],
+      "style": "h2",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1168",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 46,
+              "bbox": {
+                "l": 317.4803,
+                "t": 668.4911999999999,
+                "r": 367.8323,
+                "b": 658.9937954198473,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                8
+              ]
+            }
+          ],
+          "orig": "MOVEMENT",
+          "text": "MOVEMENT",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1169"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1169",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 46,
+              "bbox": {
+                "l": 317.4803,
+                "t": 651.4182999999999,
+                "r": 486.7147,
+                "b": 627.0812007633588,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                119
+              ]
+            }
+          ],
+          "orig": "Models can move up, over and down this terrain feature, but they cannot be set up or end any kind of move on top of it.",
+          "text": "Models can move up, over and down this terrain feature, but they cannot be set up or end any kind of move on top of it."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1170"
+      ],
+      "style": "h2",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1170",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 46,
+              "bbox": {
+                "l": 317.4803,
+                "t": 618.8653999999999,
+                "r": 363.5158999999999,
+                "b": 609.3679954198473,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                10
+              ]
+            }
+          ],
+          "orig": "VISIBILITY",
+          "text": "VISIBILITY",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1171"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1171",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 46,
+              "bbox": {
+                "l": 317.4803,
+                "t": 601.6351,
+                "r": 404.27070000000055,
+                "b": 595.2980007633588,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                30
+              ]
+            }
+          ],
+          "orig": "Normal visibility rules apply.",
+          "text": "Normal visibility rules apply."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1172"
+      ],
+      "style": "h2",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1172",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 46,
+              "bbox": {
+                "l": 317.4803,
+                "t": 586.9246999999999,
+                "r": 401.5751000000001,
+                "b": 577.4272954198473,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                16
+              ]
+            }
+          ],
+          "orig": "BENEFIT OF COVER",
+          "text": "BENEFIT OF COVER",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1173"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1173",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 46,
+              "bbox": {
+                "l": 317.4803,
+                "t": 569.8517999999999,
+                "r": 486.44509999999997,
+                "b": 536.5147007633587,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                212
+              ]
+            }
+          ],
+          "orig": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this terrain feature, that model has the Benefit of Cover against that attack.",
+          "text": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this terrain feature, that model has the Benefit of Cover against that attack."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1174"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1174",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 46,
+              "bbox": {
+                "l": 317.4803,
+                "t": 526.4733,
+                "r": 478.00929999999994,
+                "b": 518.5519259541985,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                38
+              ]
+            }
+          ],
+          "orig": "KEYWORDS: Obstacle, Battlefield Debris",
+          "text": "KEYWORDS: Obstacle, Battlefield Debris"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1175"
+      ],
+      "style": "h1",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1175",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 46,
+              "bbox": {
+                "l": 93.5433,
+                "t": 377.1747,
+                "r": 461.2976999999999,
+                "b": 347.89749389312976,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                70
+              ]
+            }
+          ],
+          "orig": "HILLS, INDUSTRIAL STRUCTURES, SEALED BUILDINGS AND ARMOURED CONTAINERS",
+          "text": "HILLS, INDUSTRIAL STRUCTURES, SEALED BUILDINGS AND ARMOURED CONTAINERS",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1176"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1176",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 46,
+              "bbox": {
+                "l": 93.5433,
+                "t": 343.9547,
+                "r": 389.3633000000002,
+                "b": 328.5170118865867,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                177
+              ]
+            }
+          ],
+          "orig": "A sealed bunker, Mechanicus gantry-way, armoured container or even a simple hill can shelter troops from the enemy's sight and provide a superior vantage point to those atop it.",
+          "text": "A sealed bunker, Mechanicus gantry-way, armoured container or even a simple hill can shelter troops from the enemy's sight and provide a superior vantage point to those atop it."
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "id": "terrain_1175",
+      "title": "HILLS, INDUSTRIAL STRUCTURES, SEALED BUILDINGS AND ARMOURED CONTAINERS",
+      "bbox": [
+        45.46745326810743,
+        476.1225361079449,
+        303.5627085733382,
+        711.7605435835601
+      ],
+      "captions": [],
+      "source_refs": [
+        "#/texts/1175",
+        "#/pictures/111"
+      ],
+      "source_nodes": [
+        {
+          "self_ref": "#/pictures/111",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 46,
+              "bbox": {
+                "l": 45.46745326810743,
+                "t": 317.57845266158637,
+                "r": 303.5627085733382,
+                "b": 81.94044518597116,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "annotations": []
+        },
+        {
+          "self_ref": "#/texts/1175",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 46,
+              "bbox": {
+                "l": 93.5433,
+                "t": 377.1747,
+                "r": 461.2976999999999,
+                "b": 347.89749389312976,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                70
+              ]
+            }
+          ],
+          "orig": "HILLS, INDUSTRIAL STRUCTURES, SEALED BUILDINGS AND ARMOURED CONTAINERS",
+          "text": "HILLS, INDUSTRIAL STRUCTURES, SEALED BUILDINGS AND ARMOURED CONTAINERS",
+          "level": 1
+        }
+      ],
+      "image": "images/page_046_terrain_1175.png",
+      "caption_texts": [],
+      "coordinate_system": "PDF points, top-left origin"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1177"
+      ],
+      "style": "h2",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1177",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 46,
+              "bbox": {
+                "l": 317.6828,
+                "t": 312.92810000000003,
+                "r": 368.03479999999996,
+                "b": 303.4306954198474,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                8
+              ]
+            }
+          ],
+          "orig": "MOVEMENT",
+          "text": "MOVEMENT",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1178"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1178",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 46,
+              "bbox": {
+                "l": 317.6828,
+                "t": 295.8552,
+                "r": 485.37560000000013,
+                "b": 217.5181007633588,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                484
+              ]
+            }
+          ],
+          "orig": "These terrain features are raised areas that models can be set up on top of or end a move on top of, provided the model's base does not overhang the terrain feature (if the model does not have a base, no part of that model that would be in contact with the battlefield at ground level can overhang that terrain feature). In addition, other terrain features can be set up on top of a Hill terrain feature, provided no part of those terrain features overhangs that Hill terrain feature.",
+          "text": "These terrain features are raised areas that models can be set up on top of or end a move on top of, provided the model's base does not overhang the terrain feature (if the model does not have a base, no part of that model that would be in contact with the battlefield at ground level can overhang that terrain feature). In addition, other terrain features can be set up on top of a Hill terrain feature, provided no part of those terrain features overhangs that Hill terrain feature."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1179"
+      ],
+      "style": "h2",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1179",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 46,
+              "bbox": {
+                "l": 317.6828,
+                "t": 209.30240000000003,
+                "r": 363.71839999999986,
+                "b": 199.80499541984727,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                10
+              ]
+            }
+          ],
+          "orig": "VISIBILITY",
+          "text": "VISIBILITY",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1180"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1180",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 46,
+              "bbox": {
+                "l": 317.6828,
+                "t": 192.072,
+                "r": 404.47320000000053,
+                "b": 185.73490076335884,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                30
+              ]
+            }
+          ],
+          "orig": "Normal visibility rules apply.",
+          "text": "Normal visibility rules apply."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1181"
+      ],
+      "style": "h2",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1181",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 46,
+              "bbox": {
+                "l": 317.6828,
+                "t": 177.36170000000004,
+                "r": 401.77760000000006,
+                "b": 167.8642954198474,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                16
+              ]
+            }
+          ],
+          "orig": "BENEFIT OF COVER",
+          "text": "BENEFIT OF COVER",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1182"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1182",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 46,
+              "bbox": {
+                "l": 317.6828,
+                "t": 160.28880000000004,
+                "r": 486.64759999999995,
+                "b": 126.95170076335876,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                212
+              ]
+            }
+          ],
+          "orig": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this terrain feature, that model has the Benefit of Cover against that attack.",
+          "text": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this terrain feature, that model has the Benefit of Cover against that attack."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1183"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1183",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 46,
+              "bbox": {
+                "l": 317.6828,
+                "t": 116.9103,
+                "r": 378.64279999999997,
+                "b": 108.98892595419852,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                14
+              ]
+            }
+          ],
+          "orig": "KEYWORDS: Hill",
+          "text": "KEYWORDS: Hill"
+        }
+      ]
+    }
+  ],
+  "excluded_text": [
+    {
+      "node": {
+        "self_ref": "#/texts/1184",
+        "parent": {
+          "$ref": "#/pictures/112"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 46,
+            "bbox": {
+              "l": 538.3646,
+              "t": 100.24450000000002,
+              "r": 548.5646,
+              "b": 92.32999618320605,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              2
+            ]
+          }
+        ],
+        "orig": "46",
+        "text": "46"
+      },
+      "reason": "Page furniture"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/1185",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "furniture",
+        "label": "page_footer",
+        "prov": [
+          {
+            "page_no": 46,
+            "bbox": {
+              "l": 373.8128,
+              "t": 50.00030000000004,
+              "r": 499.6028000000002,
+              "b": 42.08579618320607,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              29
+            ]
+          }
+        ],
+        "orig": "CORE RULES | TERRAIN FEATURES",
+        "text": "CORE RULES | TERRAIN FEATURES"
+      },
+      "reason": "Page furniture"
+    }
+  ],
+  "review_notes": [
+    "Each terrain title is H1; Movement, Visibility, Engagement Range and Benefit of Cover are H2 under their terrain type."
+  ]
+}

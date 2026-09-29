@@ -1,0 +1,43 @@
+{
+  "page": 11,
+  "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+  "keep_refs": [
+    "#/texts/234",
+    "#/texts/235",
+    "#/texts/236",
+    "#/texts/237",
+    "#/texts/238",
+    "#/texts/239",
+    "#/texts/240",
+    "#/texts/241",
+    "#/texts/242",
+    "#/texts/243",
+    "#/texts/244",
+    "#/texts/245",
+    "#/texts/246",
+    "#/texts/247",
+    "#/texts/257",
+    "#/texts/258"
+  ],
+  "omit_reasons": {
+    "#/texts/229": "Diagram navigation number or page furniture",
+    "#/texts/230": "Diagram navigation number or page furniture",
+    "#/texts/231": "Diagram navigation number or page furniture",
+    "#/texts/232": "Diagram navigation number or page furniture",
+    "#/texts/233": "Diagram navigation number or page furniture",
+    "#/texts/248": "Redundant Battle-shock recap or two-step sidebar; full rules retained",
+    "#/texts/249": "Redundant Battle-shock recap or two-step sidebar; full rules retained",
+    "#/texts/250": "Redundant Battle-shock recap or two-step sidebar; full rules retained",
+    "#/texts/251": "Redundant Battle-shock recap or two-step sidebar; full rules retained",
+    "#/texts/252": "Redundant Battle-shock recap or two-step sidebar; full rules retained",
+    "#/texts/253": "Redundant Battle-shock recap or two-step sidebar; full rules retained",
+    "#/texts/254": "Redundant Battle-shock recap or two-step sidebar; full rules retained",
+    "#/texts/255": "Redundant Battle-shock recap or two-step sidebar; full rules retained",
+    "#/texts/256": "Redundant Battle-shock recap or two-step sidebar; full rules retained",
+    "#/texts/259": "Diagram navigation number or page furniture"
+  },
+  "heading_overrides": {},
+  "scope": "Reviewed pages only; original JSON preserved. Decorative/phase-navigation pictures are represented by ordered text, not image placeholders.",
+  "schema_version": 1,
+  "handler": "text"
+}

@@ -1,0 +1,186 @@
+{
+  "backup": "/tmp/warhammer-refactor-backup/before.tar.gz",
+  "reason": "Reviewed cleaned replacement exists; raw Markdown is recoverable from retained Docling JSON",
+  "removed": [
+    {
+      "page": 4,
+      "path": "reports/docling/pages/page_004.md",
+      "sha256": "3fe0f3022cdec4e99daedf14596b8cd8250992e874ea733cc5bc69a1b90184c7"
+    },
+    {
+      "page": 6,
+      "path": "reports/docling/pages/page_006.md",
+      "sha256": "89a523e8df4b0517cb3824141dc268489e555100e9d8da5581496ac0334cc87a"
+    },
+    {
+      "page": 8,
+      "path": "reports/docling/pages/page_008.md",
+      "sha256": "580f34ff242b8fd8c691e7ecde05c14c0b408f8591b78bce6be82a23b7967213"
+    },
+    {
+      "page": 9,
+      "path": "reports/docling/pages/page_009.md",
+      "sha256": "8bf2c796cdf21778e93773bc17c1f341387d254e292762cd53e2a69d9314c853"
+    },
+    {
+      "page": 10,
+      "path": "reports/docling/pages/page_010.md",
+      "sha256": "deb063d806fe5d787539faa272126caa992a5a43068ac7ac84472b6a4d35379d"
+    },
+    {
+      "page": 11,
+      "path": "reports/docling/pages/page_011.md",
+      "sha256": "afb4fa017f6df2a889cff3b70196022147e6cb3df1cdd656e3f9280bbdcd7450"
+    },
+    {
+      "page": 13,
+      "path": "reports/docling/pages/page_013.md",
+      "sha256": "e6458df439cdddc51501422b4f113d4958001b2375a222937ad7db4376049d17"
+    },
+    {
+      "page": 14,
+      "path": "reports/docling/pages/page_014.md",
+      "sha256": "80f3ee66affac8a10cbff4e29d671d04c845b48a42cab76f7138032c59728829"
+    },
+    {
+      "page": 15,
+      "path": "reports/docling/pages/page_015.md",
+      "sha256": "6bad9256bcf856b127a74ecac3d0c0a638823172b0b1b713a44ba7c13036d8fe"
+    },
+    {
+      "page": 18,
+      "path": "reports/docling/pages/page_018.md",
+      "sha256": "05a5b437afccbcccf8eb188be01e7049da6849eaefc43fb192f495eff2660ff1"
+    },
+    {
+      "page": 19,
+      "path": "reports/docling/pages/page_019.md",
+      "sha256": "441ff12e2726d82b34323fd92e8e1d0a1d88b1901d23e852ca36acf6419e347f"
+    },
+    {
+      "page": 21,
+      "path": "reports/docling/pages/page_021.md",
+      "sha256": "485b9186b8347d92cc4a2bde327613a3a0cc5c2408962af5ee476c9915ef6fef"
+    },
+    {
+      "page": 24,
+      "path": "reports/docling/pages/page_024.md",
+      "sha256": "1664883b29ad17fc6dbd9559fd89cd4751798f969a4dc7df8edd68ceec13e280"
+    },
+    {
+      "page": 27,
+      "path": "reports/docling/pages/page_027.md",
+      "sha256": "4431c878a5511e0d21131651bcacd218b99b8a7221e78adc4f81f6c14aa64fae"
+    },
+    {
+      "page": 29,
+      "path": "reports/docling/pages/page_029.md",
+      "sha256": "33a1b45bb56bd086f832e3a4613c66cf48c272cfcafdc9ff417378372e437ab8"
+    },
+    {
+      "page": 30,
+      "path": "reports/docling/pages/page_030.md",
+      "sha256": "d3a933a43dd520c7a16980d5c42639ba7c89cbf217744adbc119a56bc6413556"
+    },
+    {
+      "page": 33,
+      "path": "reports/docling/pages/page_033.md",
+      "sha256": "427fc1f9d0d29475f8815a4cec4db51f2a686a278a0439b8e4e37bdb6dfd907e"
+    },
+    {
+      "page": 36,
+      "path": "reports/docling/pages/page_036.md",
+      "sha256": "ff91eeb436e433e58cdb684836f12133c25b4f5f5843ad0056f259ffdd299b48"
+    },
+    {
+      "page": 37,
+      "path": "reports/docling/pages/page_037.md",
+      "sha256": "ad07adc0ee437e696730340f4a71ffff4f44cf09a00bcb539fce863df4c54348"
+    },
+    {
+      "page": 41,
+      "path": "reports/docling/pages/page_041.md",
+      "sha256": "de4d80775889736edf67c552a73217c07821f139348803b73bb1ab1c46de3a21"
+    },
+    {
+      "page": 42,
+      "path": "reports/docling/pages/page_042.md",
+      "sha256": "f3212137e0a15cb909e88ad08cd305f86225c56767101ff4d5477879b04ec02c"
+    },
+    {
+      "page": 43,
+      "path": "reports/docling/pages/page_043.md",
+      "sha256": "59c40157b3a42757880be3f76022360a7068df5be3c529aa778c7e22ea6af2e6"
+    },
+    {
+      "page": 45,
+      "path": "reports/docling/pages/page_045.md",
+      "sha256": "ba5ad9b1c7758e2baf14b98232e413fec6143c151ff52302769d8e19c9adb306"
+    },
+    {
+      "page": 46,
+      "path": "reports/docling/pages/page_046.md",
+      "sha256": "2b3a0092ac0b8a0babe4c73d76bfd857acad61fc6e3268b7a449d027eae044bb"
+    },
+    {
+      "page": 49,
+      "path": "reports/docling/pages/page_049.md",
+      "sha256": "6e309c02c0e968815287a500713539313f1a6892492bdf661cf677078ee4b44c"
+    },
+    {
+      "page": 50,
+      "path": "reports/docling/pages/page_050.md",
+      "sha256": "7574bbdbe92c35478f86efc3acf4c708859c7a5e8f1690971d555341a1d3b500"
+    },
+    {
+      "page": 51,
+      "path": "reports/docling/pages/page_051.md",
+      "sha256": "42758e631b8f0995699ad7354c9e1401a2a2b4639963e7706f654f8e285dd167"
+    },
+    {
+      "page": 52,
+      "path": "reports/docling/pages/page_052.md",
+      "sha256": "f38a926eea032ac470ae5190b99120fd5e4a5eb8f685e393118822afe84acb7d"
+    },
+    {
+      "page": 53,
+      "path": "reports/docling/pages/page_053.md",
+      "sha256": "1f2a09c78421c1aee56021412636e049eb7b2635bbe85b21efc781aa1ff7195c"
+    },
+    {
+      "page": 54,
+      "path": "reports/docling/pages/page_054.md",
+      "sha256": "128bb82708e0d8689b5e07f520af9565779ad39fa42d52a587d370d0ea320d4f"
+    },
+    {
+      "page": 55,
+      "path": "reports/docling/pages/page_055.md",
+      "sha256": "94d63fa5b369ad5aa0f2d87d7903f48f23ec15f80be4e05af5823b5c8d74c976"
+    },
+    {
+      "page": 56,
+      "path": "reports/docling/pages/page_056.md",
+      "sha256": "085043b8d14f3a20b025eef498c81feec3c76e9f776f74f773ad6367568009a4"
+    },
+    {
+      "page": 57,
+      "path": "reports/docling/pages/page_057.md",
+      "sha256": "0063cccbc3a3ef0343ebb158129816693a6e46e7a7b97a7341a63b3c220e83c0"
+    },
+    {
+      "page": 58,
+      "path": "reports/docling/pages/page_058.md",
+      "sha256": "d0b8adb28298f177559c446cba8eb16c9ff43286efa9ed09036b95d196e47f83"
+    },
+    {
+      "page": 59,
+      "path": "reports/docling/pages/page_059.md",
+      "sha256": "4dabd97c76ad9e2b416d9710468b6a6869da556a6104362dc2e23a9f349ea72d"
+    },
+    {
+      "page": 60,
+      "path": "reports/docling/pages/page_060.md",
+      "sha256": "56855e399673dfa84d7dc0648b4af418b4e5c739e033c2c4c407dabae3161ee9"
+    }
+  ]
+}

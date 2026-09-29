@@ -1,0 +1,1579 @@
+{
+  "page": 43,
+  "source": "data/Core Rules.pdf",
+  "rules": {
+    "page": 43,
+    "source_sha256": "4d0e8019cbfddd6f46781d5b4ed31d46fb21eb2d0d10a0f6fabefac0ce054364",
+    "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+    "blocks": [
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1107"
+        ],
+        "style": "h1"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1108"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1109"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1110"
+        ],
+        "style": "h2"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1111"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1112"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "table",
+        "source_refs": [
+          "#/tables/2"
+        ],
+        "headers": [
+          "Battle size",
+          "Maximum Strategic Reserves points before battle"
+        ],
+        "rows": [
+          [
+            "Incursion",
+            250
+          ],
+          [
+            "Strike Force",
+            500
+          ],
+          [
+            "Onslaught",
+            750
+          ]
+        ],
+        "retrieval_records": [
+          {
+            "battle_size": "Incursion",
+            "max_strategic_reserves_points": 250,
+            "timing": "before the battle",
+            "page": 43,
+            "source_ref": "#/tables/2"
+          },
+          {
+            "battle_size": "Strike Force",
+            "max_strategic_reserves_points": 500,
+            "timing": "before the battle",
+            "page": 43,
+            "source_ref": "#/tables/2"
+          },
+          {
+            "battle_size": "Onslaught",
+            "max_strategic_reserves_points": 750,
+            "timing": "before the battle",
+            "page": 43,
+            "source_ref": "#/tables/2"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1113"
+        ],
+        "style": "li"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1114"
+        ],
+        "style": "li"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1115"
+        ],
+        "style": "li"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1116"
+        ],
+        "style": "h2"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1117"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1118"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1119"
+        ],
+        "style": "li"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1120"
+        ],
+        "style": "li"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1121"
+        ],
+        "style": "h2"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1122"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1123"
+        ],
+        "style": "li"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1124"
+        ],
+        "style": "li"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1125"
+        ],
+        "style": "p"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1126"
+        ],
+        "style": "li"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1127"
+        ],
+        "style": "li"
+      },
+      {
+        "type": "text",
+        "refs": [
+          "#/texts/1128"
+        ],
+        "style": "li"
+      }
+    ],
+    "excluded_text": {
+      "#/texts/1106": "Page furniture",
+      "#/texts/1129": "Page furniture"
+    },
+    "review_notes": [
+      "Merged title/header normalized; values 250/500/750 verified against original. The 25% rule remains in surrounding original text."
+    ]
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1107"
+      ],
+      "style": "h1",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1107",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 43,
+              "bbox": {
+                "l": 153.0709,
+                "t": 721.1847,
+                "r": 524.3931250000002,
+                "b": 685.4766847328244,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                18
+              ]
+            }
+          ],
+          "orig": "STRATEGIC RESERVES",
+          "text": "STRATEGIC RESERVES",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1108"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1108",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 43,
+              "bbox": {
+                "l": 153.0709,
+                "t": 678.8197,
+                "r": 508.2388500000005,
+                "b": 651.2939213740458,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                228
+              ]
+            }
+          ],
+          "orig": "Strategic Reserves are forces that one or both players have chosen not to deploy at the start of the battle. These rules explain how to place units into Strategic Reserves, as well as how and when they arrive on the battlefield.",
+          "text": "Strategic Reserves are forces that one or both players have chosen not to deploy at the start of the battle. These rules explain how to place units into Strategic Reserves, as well as how and when they arrive on the battlefield."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1109"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1109",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 43,
+              "bbox": {
+                "l": 153.0708,
+                "t": 628.3682,
+                "r": 332.8415500000001,
+                "b": 540.8524836198181,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                463
+              ]
+            }
+          ],
+          "orig": "These rules let you place units into Strategic Reserves - a special type of Reserves you can use to keep units off the battlefield until you require them. Note that while all Strategic Reserves units are also technically Reserves units, the reverse is not true, and so these rules do not apply to units that are using other rules that enable them to start the battle in Reserves (e.g. Deep Strike). Such units are instead set up as described by those other rules.",
+          "text": "These rules let you place units into Strategic Reserves - a special type of Reserves you can use to keep units off the battlefield until you require them. Note that while all Strategic Reserves units are also technically Reserves units, the reverse is not true, and so these rules do not apply to units that are using other rules that enable them to start the battle in Reserves (e.g. Deep Strike). Such units are instead set up as described by those other rules."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1110"
+      ],
+      "style": "h2",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1110",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 43,
+              "bbox": {
+                "l": 153.0708,
+                "t": 530.3947,
+                "r": 251.54400000000004,
+                "b": 510.9012954198474,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                37
+              ]
+            }
+          ],
+          "orig": "PLACING UNITS INTO STRATEGIC RESERVES",
+          "text": "PLACING UNITS INTO STRATEGIC RESERVES",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1111"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1111",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 43,
+              "bbox": {
+                "l": 153.0708,
+                "t": 508.3682,
+                "r": 331.1764000000001,
+                "b": 470.83248361981805,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                185
+              ]
+            }
+          ],
+          "orig": "Before the battle, when you are instructed to Declare Battle Formations, you can select one or more units from your army to be placed into Strategic Reserves (excluding Fortifications).",
+          "text": "Before the battle, when you are instructed to Declare Battle Formations, you can select one or more units from your army to be placed into Strategic Reserves (excluding Fortifications)."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1112"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1112",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 43,
+              "bbox": {
+                "l": 153.0708,
+                "t": 458.37970000000007,
+                "r": 332.15560000000016,
+                "b": 400.85198361981816,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                307
+              ]
+            }
+          ],
+          "orig": "The combined points value of all the units you wish to place into Strategic Reserves before the battle (including those embarked within Transport models that are themselves placed into Strategic Reserves) cannot exceed 25% of your total points limit for your chosen battle size, as shown in the table below.",
+          "text": "The combined points value of all the units you wish to place into Strategic Reserves before the battle (including those embarked within Transport models that are themselves placed into Strategic Reserves) cannot exceed 25% of your total points limit for your chosen battle size, as shown in the table below."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "source_refs": [
+        "#/tables/2"
+      ],
+      "headers": [
+        "Battle size",
+        "Maximum Strategic Reserves points before battle"
+      ],
+      "rows": [
+        [
+          "Incursion",
+          250
+        ],
+        [
+          "Strike Force",
+          500
+        ],
+        [
+          "Onslaught",
+          750
+        ]
+      ],
+      "retrieval_records": [
+        {
+          "battle_size": "Incursion",
+          "max_strategic_reserves_points": 250,
+          "timing": "before the battle",
+          "page": 43,
+          "source_ref": "#/tables/2"
+        },
+        {
+          "battle_size": "Strike Force",
+          "max_strategic_reserves_points": 500,
+          "timing": "before the battle",
+          "page": 43,
+          "source_ref": "#/tables/2"
+        },
+        {
+          "battle_size": "Onslaught",
+          "max_strategic_reserves_points": 750,
+          "timing": "before the battle",
+          "page": 43,
+          "source_ref": "#/tables/2"
+        }
+      ],
+      "source_nodes": [
+        {
+          "self_ref": "#/tables/2",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "table",
+          "prov": [
+            {
+              "page_no": 43,
+              "bbox": {
+                "l": 152.85791088409422,
+                "t": 392.44539067707973,
+                "r": 333.6316842412729,
+                "b": 269.098577386736,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "data": {
+            "table_cells": [
+              {
+                "bbox": {
+                  "l": 155.9055,
+                  "t": 406.04850000000005,
+                  "r": 254.37870000000004,
+                  "b": 415.5459045801527,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 2,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 2,
+                "text": "STRATEGIC RESERVES",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 155.9055,
+                  "t": 440.9953,
+                  "r": 202.82850000000008,
+                  "b": 448.9098038167939,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "BATTLE SIZE",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 219.70549999999997,
+                  "t": 420.9953,
+                  "r": 328.4785,
+                  "b": 468.9098038167939,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "MAXIMUM COMBINED POINTS VALUE OF UNITS THAT CAN BE PLACED INTO STRATEGIC RESERVES BEFORE THE BATTLE",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 155.9055,
+                  "t": 476.9803,
+                  "r": 186.42560000000014,
+                  "b": 483.71346793893133,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Incursion",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 266.4537,
+                  "t": 476.50780000000003,
+                  "r": 281.71970000000005,
+                  "b": 484.42230381679394,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "250",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 155.9055,
+                  "t": 494.6188,
+                  "r": 194.19715000000014,
+                  "b": 501.35196793893135,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Strike Force",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 266.3932,
+                  "t": 494.1463,
+                  "r": 281.7831999999999,
+                  "b": 502.0608038167939,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "500",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 155.9055,
+                  "t": 512.2573,
+                  "r": 188.7019,
+                  "b": 518.9904679389313,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 4,
+                "end_row_offset_idx": 5,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Onslaught",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 266.4993,
+                  "t": 511.7848,
+                  "r": 281.6703,
+                  "b": 519.6993038167939,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 4,
+                "end_row_offset_idx": 5,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "750",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            "num_rows": 5,
+            "num_cols": 2,
+            "orientation": "rot_0",
+            "grid": [
+              [
+                {
+                  "bbox": {
+                    "l": 155.9055,
+                    "t": 406.04850000000005,
+                    "r": 254.37870000000004,
+                    "b": 415.5459045801527,
+                    "coord_origin": "TOPLEFT"
+                  },
+                  "row_span": 1,
+                  "col_span": 2,
+                  "start_row_offset_idx": 0,
+                  "end_row_offset_idx": 1,
+                  "start_col_offset_idx": 0,
+                  "end_col_offset_idx": 2,
+                  "text": "STRATEGIC RESERVES",
+                  "column_header": false,
+                  "row_header": false,
+                  "row_section": false,
+                  "fillable": false
+                },
+                {
+                  "bbox": {
+                    "l": 155.9055,
+                    "t": 406.04850000000005,
+                    "r": 254.37870000000004,
+                    "b": 415.5459045801527,
+                    "coord_origin": "TOPLEFT"
+                  },
+                  "row_span": 1,
+                  "col_span": 2,
+                  "start_row_offset_idx": 0,
+                  "end_row_offset_idx": 1,
+                  "start_col_offset_idx": 0,
+                  "end_col_offset_idx": 2,
+                  "text": "STRATEGIC RESERVES",
+                  "column_header": false,
+                  "row_header": false,
+                  "row_section": false,
+                  "fillable": false
+                }
+              ],
+              [
+                {
+                  "bbox": {
+                    "l": 155.9055,
+                    "t": 440.9953,
+                    "r": 202.82850000000008,
+                    "b": 448.9098038167939,
+                    "coord_origin": "TOPLEFT"
+                  },
+                  "row_span": 1,
+                  "col_span": 1,
+                  "start_row_offset_idx": 1,
+                  "end_row_offset_idx": 2,
+                  "start_col_offset_idx": 0,
+                  "end_col_offset_idx": 1,
+                  "text": "BATTLE SIZE",
+                  "column_header": false,
+                  "row_header": false,
+                  "row_section": false,
+                  "fillable": false
+                },
+                {
+                  "bbox": {
+                    "l": 219.70549999999997,
+                    "t": 420.9953,
+                    "r": 328.4785,
+                    "b": 468.9098038167939,
+                    "coord_origin": "TOPLEFT"
+                  },
+                  "row_span": 1,
+                  "col_span": 1,
+                  "start_row_offset_idx": 1,
+                  "end_row_offset_idx": 2,
+                  "start_col_offset_idx": 1,
+                  "end_col_offset_idx": 2,
+                  "text": "MAXIMUM COMBINED POINTS VALUE OF UNITS THAT CAN BE PLACED INTO STRATEGIC RESERVES BEFORE THE BATTLE",
+                  "column_header": false,
+                  "row_header": false,
+                  "row_section": false,
+                  "fillable": false
+                }
+              ],
+              [
+                {
+                  "bbox": {
+                    "l": 155.9055,
+                    "t": 476.9803,
+                    "r": 186.42560000000014,
+                    "b": 483.71346793893133,
+                    "coord_origin": "TOPLEFT"
+                  },
+                  "row_span": 1,
+                  "col_span": 1,
+                  "start_row_offset_idx": 2,
+                  "end_row_offset_idx": 3,
+                  "start_col_offset_idx": 0,
+                  "end_col_offset_idx": 1,
+                  "text": "Incursion",
+                  "column_header": false,
+                  "row_header": false,
+                  "row_section": false,
+                  "fillable": false
+                },
+                {
+                  "bbox": {
+                    "l": 266.4537,
+                    "t": 476.50780000000003,
+                    "r": 281.71970000000005,
+                    "b": 484.42230381679394,
+                    "coord_origin": "TOPLEFT"
+                  },
+                  "row_span": 1,
+                  "col_span": 1,
+                  "start_row_offset_idx": 2,
+                  "end_row_offset_idx": 3,
+                  "start_col_offset_idx": 1,
+                  "end_col_offset_idx": 2,
+                  "text": "250",
+                  "column_header": false,
+                  "row_header": false,
+                  "row_section": false,
+                  "fillable": false
+                }
+              ],
+              [
+                {
+                  "bbox": {
+                    "l": 155.9055,
+                    "t": 494.6188,
+                    "r": 194.19715000000014,
+                    "b": 501.35196793893135,
+                    "coord_origin": "TOPLEFT"
+                  },
+                  "row_span": 1,
+                  "col_span": 1,
+                  "start_row_offset_idx": 3,
+                  "end_row_offset_idx": 4,
+                  "start_col_offset_idx": 0,
+                  "end_col_offset_idx": 1,
+                  "text": "Strike Force",
+                  "column_header": false,
+                  "row_header": false,
+                  "row_section": false,
+                  "fillable": false
+                },
+                {
+                  "bbox": {
+                    "l": 266.3932,
+                    "t": 494.1463,
+                    "r": 281.7831999999999,
+                    "b": 502.0608038167939,
+                    "coord_origin": "TOPLEFT"
+                  },
+                  "row_span": 1,
+                  "col_span": 1,
+                  "start_row_offset_idx": 3,
+                  "end_row_offset_idx": 4,
+                  "start_col_offset_idx": 1,
+                  "end_col_offset_idx": 2,
+                  "text": "500",
+                  "column_header": false,
+                  "row_header": false,
+                  "row_section": false,
+                  "fillable": false
+                }
+              ],
+              [
+                {
+                  "bbox": {
+                    "l": 155.9055,
+                    "t": 512.2573,
+                    "r": 188.7019,
+                    "b": 518.9904679389313,
+                    "coord_origin": "TOPLEFT"
+                  },
+                  "row_span": 1,
+                  "col_span": 1,
+                  "start_row_offset_idx": 4,
+                  "end_row_offset_idx": 5,
+                  "start_col_offset_idx": 0,
+                  "end_col_offset_idx": 1,
+                  "text": "Onslaught",
+                  "column_header": false,
+                  "row_header": false,
+                  "row_section": false,
+                  "fillable": false
+                },
+                {
+                  "bbox": {
+                    "l": 266.4993,
+                    "t": 511.7848,
+                    "r": 281.6703,
+                    "b": 519.6993038167939,
+                    "coord_origin": "TOPLEFT"
+                  },
+                  "row_span": 1,
+                  "col_span": 1,
+                  "start_row_offset_idx": 4,
+                  "end_row_offset_idx": 5,
+                  "start_col_offset_idx": 1,
+                  "end_col_offset_idx": 2,
+                  "text": "750",
+                  "column_header": false,
+                  "row_header": false,
+                  "row_section": false,
+                  "fillable": false
+                }
+              ]
+            ]
+          },
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1113"
+      ],
+      "style": "li",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1113",
+          "parent": {
+            "$ref": "#/groups/72"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 43,
+              "bbox": {
+                "l": 164.4094,
+                "t": 249.54089999999997,
+                "r": 292.0050500000002,
+                "b": 230.29657175572515,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                77
+              ]
+            }
+          ],
+          "orig": "■ Strategic Reserves: Units that are not deployed at the start of the battle.",
+          "text": "■ Strategic Reserves: Units that are not deployed at the start of the battle.",
+          "enumerated": false,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1114"
+      ],
+      "style": "li",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1114",
+          "parent": {
+            "$ref": "#/groups/72"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 43,
+              "bbox": {
+                "l": 164.4094,
+                "t": 229.54089999999997,
+                "r": 313.79155,
+                "b": 210.29257175572525,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                63
+              ]
+            }
+          ],
+          "orig": "■ Combined points value cannot exceed 25% of your army's total.",
+          "text": "■ Combined points value cannot exceed 25% of your army's total.",
+          "enumerated": false,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1115"
+      ],
+      "style": "li",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1115",
+          "parent": {
+            "$ref": "#/groups/72"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 43,
+              "bbox": {
+                "l": 164.4094,
+                "t": 209.54089999999997,
+                "r": 272.03970000000004,
+                "b": 190.29657175572515,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                52
+              ]
+            }
+          ],
+          "orig": "■ Cannot put Fortifications into Strategic Reserves.",
+          "text": "■ Cannot put Fortifications into Strategic Reserves.",
+          "enumerated": false,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1116"
+      ],
+      "style": "h2",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1116",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 43,
+              "bbox": {
+                "l": 344.4094,
+                "t": 630.3947,
+                "r": 516.1894000000005,
+                "b": 620.8972954198473,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                32
+              ]
+            }
+          ],
+          "orig": "ARRIVING FROM STRATEGIC RESERVES",
+          "text": "ARRIVING FROM STRATEGIC RESERVES",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1117"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1117",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 43,
+              "bbox": {
+                "l": 344.4094,
+                "t": 618.3682,
+                "r": 516.0303500000002,
+                "b": 570.8364836198181,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                217
+              ]
+            }
+          ],
+          "orig": "Units that are placed into Strategic Reserves are called Strategic Reserves units, and can arrive later in the battle during the Reinforcements step of any of your Movement phases except during the first battle round.",
+          "text": "Units that are placed into Strategic Reserves are called Strategic Reserves units, and can arrive later in the battle during the Reinforcements step of any of your Movement phases except during the first battle round."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1118"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1118",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 43,
+              "bbox": {
+                "l": 344.4094,
+                "t": 558.3682,
+                "r": 522.54985,
+                "b": 540.820483619818,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                105
+              ]
+            }
+          ],
+          "orig": "Any Strategic Reserves units that are not on the battlefield at the end of the battle count as destroyed.",
+          "text": "Any Strategic Reserves units that are not on the battlefield at the end of the battle count as destroyed."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1119"
+      ],
+      "style": "li",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1119",
+          "parent": {
+            "$ref": "#/groups/73"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 43,
+              "bbox": {
+                "l": 355.748,
+                "t": 522.6786,
+                "r": 509.8221500000002,
+                "b": 493.4342717557252,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                126
+              ]
+            }
+          ],
+          "orig": "■ Strategic Reserves units can arrive in the Reinforcements step of your Movement phase, from the second battle round onwards.",
+          "text": "■ Strategic Reserves units can arrive in the Reinforcements step of your Movement phase, from the second battle round onwards.",
+          "enumerated": false,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1120"
+      ],
+      "style": "li",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1120",
+          "parent": {
+            "$ref": "#/groups/73"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 43,
+              "bbox": {
+                "l": 355.748,
+                "t": 492.67859999999996,
+                "r": 502.44330000000036,
+                "b": 473.4302717557252,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                75
+              ]
+            }
+          ],
+          "orig": "■ Those not on the battlefield at the end of the battle count as destroyed.",
+          "text": "■ Those not on the battlefield at the end of the battle count as destroyed.",
+          "enumerated": false,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1121"
+      ],
+      "style": "h2",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1121",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "section_header",
+          "prov": [
+            {
+              "page_no": 43,
+              "bbox": {
+                "l": 344.4094,
+                "t": 450.3947,
+                "r": 447.2026000000001,
+                "b": 430.9012954198474,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                35
+              ]
+            }
+          ],
+          "orig": "SETTING UP STRATEGIC RESERVES UNITS",
+          "text": "SETTING UP STRATEGIC RESERVES UNITS",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1122"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1122",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 43,
+              "bbox": {
+                "l": 344.4094,
+                "t": 428.3682,
+                "r": 515.1208500000002,
+                "b": 400.82848361981803,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                121
+              ]
+            }
+          ],
+          "orig": "Where on the battlefield a Strategic Reserves unit can be set up when it arrives depends on the battle round, as follows:",
+          "text": "Where on the battlefield a Strategic Reserves unit can be set up when it arrives depends on the battle round, as follows:"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1123"
+      ],
+      "style": "li",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1123",
+          "parent": {
+            "$ref": "#/groups/74"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 43,
+              "bbox": {
+                "l": 344.4094,
+                "t": 388.9207,
+                "r": 524.4247000000003,
+                "b": 350.82848361981803,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                203
+              ]
+            }
+          ],
+          "orig": "■ During the second battle round, Strategic Reserves units that arrive must be set up wholly within 6\" of any battlefield edge, but no model in those units can be set up within the enemy deployment zone.",
+          "text": "■ During the second battle round, Strategic Reserves units that arrive must be set up wholly within 6\" of any battlefield edge, but no model in those units can be set up within the enemy deployment zone.",
+          "enumerated": false,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1124"
+      ],
+      "style": "li",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1124",
+          "parent": {
+            "$ref": "#/groups/74"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 43,
+              "bbox": {
+                "l": 344.4094,
+                "t": 348.9207,
+                "r": 514.2663500000002,
+                "b": 320.824483619818,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                133
+              ]
+            }
+          ],
+          "orig": "■ Starting from the third battle round, Strategic Reserves units that arrive must be set up wholly within 6\" of any battlefield edge.",
+          "text": "■ Starting from the third battle round, Strategic Reserves units that arrive must be set up wholly within 6\" of any battlefield edge.",
+          "enumerated": false,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1125"
+      ],
+      "style": "p",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1125",
+          "parent": {
+            "$ref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 43,
+              "bbox": {
+                "l": 344.4134,
+                "t": 308.37170000000003,
+                "r": 523.3775000000004,
+                "b": 270.8359836198181,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                209
+              ]
+            }
+          ],
+          "orig": "In any case, Strategic Reserves units cannot be set up within 9\" horizontally of any enemy models. All other rules that apply when setting up Reserves units also apply when setting up Strategic Reserves units.",
+          "text": "In any case, Strategic Reserves units cannot be set up within 9\" horizontally of any enemy models. All other rules that apply when setting up Reserves units also apply when setting up Strategic Reserves units."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1126"
+      ],
+      "style": "li",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1126",
+          "parent": {
+            "$ref": "#/groups/75"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 43,
+              "bbox": {
+                "l": 355.748,
+                "t": 252.67859999999996,
+                "r": 509.81215000000026,
+                "b": 223.43827175572517,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                113
+              ]
+            }
+          ],
+          "orig": "■ During the second battle round, set up wholly within 6\" of any battlefield edge (not in enemy deployment zone).",
+          "text": "■ During the second battle round, set up wholly within 6\" of any battlefield edge (not in enemy deployment zone).",
+          "enumerated": false,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1127"
+      ],
+      "style": "li",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1127",
+          "parent": {
+            "$ref": "#/groups/75"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 43,
+              "bbox": {
+                "l": 355.748,
+                "t": 222.67859999999996,
+                "r": 499.71480000000037,
+                "b": 203.43027175572524,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                87
+              ]
+            }
+          ],
+          "orig": "■ From the third battle round onwards, set up wholly within 6\" of any battlefield edge.",
+          "text": "■ From the third battle round onwards, set up wholly within 6\" of any battlefield edge.",
+          "enumerated": false,
+          "marker": ""
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1128"
+      ],
+      "style": "li",
+      "source_nodes": [
+        {
+          "self_ref": "#/texts/1128",
+          "parent": {
+            "$ref": "#/groups/75"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 43,
+              "bbox": {
+                "l": 355.748,
+                "t": 202.67859999999996,
+                "r": 468.1390000000001,
+                "b": 183.43027175572524,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                49
+              ]
+            }
+          ],
+          "orig": "■ Cannot be set up within 9\" of any enemy models.",
+          "text": "■ Cannot be set up within 9\" of any enemy models.",
+          "enumerated": false,
+          "marker": ""
+        }
+      ]
+    }
+  ],
+  "excluded_text": [
+    {
+      "node": {
+        "self_ref": "#/texts/1106",
+        "parent": {
+          "$ref": "#/pictures/104"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 43,
+            "bbox": {
+              "l": 61.0842,
+              "t": 100.24450000000002,
+              "r": 70.88419999999999,
+              "b": 92.32999618320605,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              2
+            ]
+          }
+        ],
+        "orig": "43",
+        "text": "43"
+      },
+      "reason": "Page furniture"
+    },
+    {
+      "node": {
+        "self_ref": "#/texts/1129",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "furniture",
+        "label": "page_footer",
+        "prov": [
+          {
+            "page_no": 43,
+            "bbox": {
+              "l": 152.8346,
+              "t": 50.15790000000004,
+              "r": 287.5036,
+              "b": 42.24339618320607,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              31
+            ]
+          }
+        ],
+        "orig": "CORE RULES | STRATEGIC RESERVES",
+        "text": "CORE RULES | STRATEGIC RESERVES"
+      },
+      "reason": "Page furniture"
+    }
+  ],
+  "review_notes": [
+    "Merged title/header normalized; values 250/500/750 verified against original. The 25% rule remains in surrounding original text."
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "page": 60,
+  "source_sha256": "4d0e8019cbfddd6f46781d5b4ed31d46fb21eb2d0d10a0f6fabefac0ce054364",
+  "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+  "blocks": [
+    {
+      "type": "text",
+      "refs": [],
+      "style": "h1",
+      "text": "ONLY WAR (continued)"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1396"
+      ],
+      "style": "h2",
+      "text": "6. DEPLOY ARMIES"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1397"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1398"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "image",
+      "id": "deployment",
+      "title": "Only War deployment map",
+      "bbox": [
+        57,
+        436,
+        486,
+        713
+      ],
+      "captions": [],
+      "source_refs": [
+        "#/pictures/143",
+        "#/texts/1403",
+        "#/texts/1404"
+      ]
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1399"
+      ],
+      "style": "h2",
+      "text": "7. DETERMINE FIRST TURN"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1400"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1401"
+      ],
+      "style": "h2",
+      "text": "8. RESOLVE PRE-BATTLE RULES"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1402"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1405"
+      ],
+      "style": "h2",
+      "text": "9. BEGIN THE BATTLE"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1406"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1407"
+      ],
+      "style": "h2",
+      "text": "10. END THE BATTLE"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1408"
+      ],
+      "style": "p"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1409"
+      ],
+      "style": "h2",
+      "text": "11. DETERMINE VICTOR"
+    },
+    {
+      "type": "text",
+      "refs": [
+        "#/texts/1410"
+      ],
+      "style": "p"
+    }
+  ],
+  "excluded_text": {
+    "#/texts/1411": "Page number or running footer; not rule content.",
+    "#/texts/1412": "Page number or running footer; not rule content."
+  },
+  "review_notes": [
+    "Deployment map attached to step 6. Both 12-inch labels are meaningful map measurements retained in the crop and source metadata, not deleted or interpreted as independent prose. Steps 6–11 retain source wording. Continuation heading is editorial."
+  ],
+  "schema_version": 1,
+  "handler": "blocks"
+}
