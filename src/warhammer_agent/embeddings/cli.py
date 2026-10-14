@@ -93,7 +93,12 @@ def rank(
 
 
 def evaluate(
-    cases: list[dict], blocks: list[dict], vectors: np.ndarray, embedder, top_k: int
+    cases: list[dict],
+    blocks: list[dict],
+    vectors: np.ndarray | None,
+    embedder,
+    top_k: int,
+    search=None,
 ) -> dict:
     if not cases:
         raise ValueError("Evaluation cases cannot be empty")
@@ -108,7 +113,8 @@ def evaluate(
         if len(relevant) != 1:
             raise ValueError(f"Evaluation target is absent or ambiguous: {case['id']}")
         target = relevant[0]["block_id"]
-        hits = rank(blocks, vectors, embedder.embed_query(case["question"]), top_k)
+        query = embedder.embed_query(case["question"])
+        hits = search(query, top_k) if search else rank(blocks, vectors, query, top_k)
         evidence = expand_evidence(hits, blocks)
         evidence_ids = {h["block_id"] for h in evidence}
         evidence_ids.update(
@@ -183,6 +189,9 @@ def main() -> None:
     parser.add_argument("--provider", choices=["gemini", "qwen"], required=True)
     parser.add_argument("--config", type=Path, default=Path("config/embeddings.json"))
     parser.add_argument(
+        "--backend", choices=["chroma", "npz"], help="Defaults to config.backend"
+    )
+    parser.add_argument(
         "--limit", type=int, help="Build only the first N blocks as a smoke test"
     )
     parser.add_argument(
@@ -195,15 +204,30 @@ def main() -> None:
         action="store_true",
         help="Evaluate an already-built provider index",
     )
+    action.add_argument(
+        "--import-npz",
+        action="store_true",
+        help="Import saved vectors into Chroma without re-embedding",
+    )
     parser.add_argument("--top-k", type=int, default=5)
+    parser.add_argument(
+        "--terrain", help="Filter Chroma queries by an exact terrain name, e.g. WOODS"
+    )
     args = parser.parse_args()
     if args.top_k < 1 or (args.limit is not None and args.limit < 1):
         parser.error("top-k and limit must be positive")
-    if args.limit and (args.query or args.evaluate):
+    if args.limit and (args.query or args.evaluate or args.import_npz):
         parser.error("limit applies only when building an index")
+    if args.terrain and not args.query:
+        parser.error("terrain applies only to a query")
     root = Path.cwd()
     try:
         config = json.loads(args.config.read_text(encoding="utf-8"))
+        backend = args.backend or config.get("backend", "npz")
+        if backend not in {"chroma", "npz"}:
+            raise ValueError("Unknown storage backend")
+        if backend != "chroma" and (args.import_npz or args.terrain):
+            raise ValueError("import-npz and terrain require the Chroma backend")
         settings = config[args.provider]
         validate_settings(args.provider, settings)
         source = root / config["input"]
@@ -212,10 +236,35 @@ def main() -> None:
         suffix = "-smoke" if args.limit else ""
         path = root / config["output_dir"] / (args.provider + suffix + ".npz")
         signature = fingerprint(args.provider, settings)
+        store = None
+        vectors = None
         if args.query is not None and not args.query.strip():
             raise ValueError("query cannot be blank")
+        if args.import_npz:
+            imported, vectors = load_index(path, signature, input_hash)
+            if imported != blocks:
+                raise ValueError(
+                    "NPZ records do not match the complete current corpus; rebuild NPZ first"
+                )
+        if backend == "chroma":
+            from .chroma_store import ChromaStore
+
+            store = ChromaStore(
+                root,
+                config["chroma"],
+                args.provider,
+                signature,
+                input_hash,
+                settings["dimensions"],
+                smoke=bool(args.limit),
+            )
         if args.query or args.evaluate:
-            blocks, vectors = load_index(path, signature, input_hash)
+            if store:
+                store.open()
+                if args.evaluate:
+                    blocks = store.get_blocks()
+            else:
+                blocks, vectors = load_index(path, signature, input_hash)
         elif args.limit:
             blocks = blocks[: args.limit]
         if args.provider == "gemini" and any(
@@ -225,70 +274,104 @@ def main() -> None:
             raise ValueError(
                 "A block exceeds the Gemini byte guard; split it before embedding"
             )
+        summary = {
+            "provider": args.provider,
+            "backend": backend,
+            "model": settings["model"],
+            "dimensions": settings["dimensions"],
+            "blocks": len(blocks),
+            "input_characters": sum(len(b["embedding_text"]) for b in blocks),
+            "output": str(store.path.relative_to(root))
+            if store
+            else str(path.relative_to(root)),
+        }
+        if store:
+            summary["collection"] = store.name
         if args.dry_run:
             print(
                 json.dumps(
                     {
-                        "provider": args.provider,
-                        "model": settings["model"],
-                        "dimensions": settings["dimensions"],
-                        "blocks": len(blocks),
-                        "input_characters": sum(
-                            len(b["embedding_text"]) for b in blocks
-                        ),
-                        "output": str(path.relative_to(root)),
+                        **summary,
                         "network_used": False,
+                        "document_reembedding": not (
+                            args.import_npz or args.query or args.evaluate
+                        ),
                         "qwen_token_check": "Runs after loading the local tokenizer",
                     },
                     ensure_ascii=False,
                 )
             )
             return
+        info = {
+            "provider": args.provider,
+            "model": settings["model"],
+            "dimensions": settings["dimensions"],
+            "fingerprint": signature,
+            "input_sha256": input_hash,
+            "block_count": len(blocks),
+            "baseline": "one_rule_block_per_vector",
+            "normalized": True,
+        }
+        if args.import_npz:
+            store.write(blocks, vectors, info)
+            print(
+                json.dumps(
+                    {**summary, "document_reembedding": False},
+                    ensure_ascii=False,
+                    indent=2,
+                )
+            )
+            return
         embedder = create_embedder(args.provider, settings, root)
         try:
             if args.query:
-                result = expand_evidence(
-                    rank(blocks, vectors, embedder.embed_query(args.query), args.top_k),
-                    blocks,
-                )
+                query = embedder.embed_query(args.query)
+                if store:
+                    hits = store.query(
+                        query,
+                        args.top_k,
+                        where={"terrain": args.terrain} if args.terrain else None,
+                    )
+                    evidence_blocks = store.evidence_blocks(hits)
+                else:
+                    hits = rank(blocks, vectors, query, args.top_k)
+                    evidence_blocks = blocks
+                result = expand_evidence(hits, evidence_blocks)
             elif args.evaluate:
                 cases = json.loads(
                     (root / "tests/eval_cases/retrieval.json").read_text(
                         encoding="utf-8"
                     )
                 )
-                result = evaluate(cases, blocks, vectors, embedder, args.top_k)
-            else:
-                vectors = embedder.embed_documents(blocks)
-                save_index(
-                    path,
+                result = evaluate(
+                    cases,
                     blocks,
                     vectors,
-                    {
-                        "provider": args.provider,
-                        "model": settings["model"],
-                        "dimensions": settings["dimensions"],
-                        "fingerprint": signature,
-                        "input_sha256": input_hash,
-                        "block_count": len(blocks),
-                        "baseline": "one_rule_block_per_vector",
-                        "normalized": True,
-                    },
+                    embedder,
+                    args.top_k,
+                    search=store.query if store else None,
                 )
-                result = {
-                    "provider": args.provider,
-                    "blocks": len(blocks),
-                    "output": str(path.relative_to(root)),
-                }
+                result.update(
+                    provider=args.provider,
+                    backend=backend,
+                    model=settings["model"],
+                    dimensions=settings["dimensions"],
+                    input_sha256=input_hash,
+                )
+            else:
+                vectors = embedder.embed_documents(blocks)
+                # NPZ remains the exact-search baseline and portable backup.
+                save_index(path, blocks, vectors, info)
+                if store:
+                    store.write(blocks, vectors, info)
+                result = {**summary, "npz_backup": str(path.relative_to(root))}
             print(json.dumps(result, ensure_ascii=False, indent=2))
         finally:
             embedder.close()
     except (ValueError, KeyError, FileNotFoundError, ImportError) as error:
         parser.exit(2, f"Embedding setup error: {error}\n")
     except Exception as error:  # noqa: BLE001 -- sanitize third-party API failures
-        # Provider exceptions can contain HTTP details. Do not echo request
-        # headers, environment values or credentials in CLI error output.
         parser.exit(
             1,
-            f"Embedding provider failed ({type(error).__name__}); check connectivity, quota and model access.\n",
+            f"Embedding provider/storage failed ({type(error).__name__}); check connectivity, quota, model access and index configuration.\n",
         )

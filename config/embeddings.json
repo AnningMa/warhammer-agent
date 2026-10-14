@@ -20,5 +20,15 @@
     "cache_dir": "storage/models",
     "local_files_only": false,
     "query_instruction": "Given a Warhammer 40,000 rules question, retrieve relevant passages that answer the question."
+  },
+  "backend": "chroma",
+  "chroma": {
+    "path": "storage/chroma",
+    "collections": {
+      "qwen": "core_rules_qwen",
+      "gemini": "core_rules_gemini"
+    },
+    "batch_size": 100,
+    "ef_search": 200
   }
 }

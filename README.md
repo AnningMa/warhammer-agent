@@ -68,29 +68,54 @@ Embedding 入口以“一规则块 → 一向量”为基线，读取 JSONL 的 
 本次更新后必须重建已有向量索引。以 Qwen 为例：
 
 ```bash
-uv run --locked --extra qwen python scripts/embed_rules.py --provider qwen
-uv run --locked --extra qwen python scripts/embed_rules.py --provider qwen --evaluate --top-k 5
-uv run --locked --extra qwen python scripts/embed_rules.py --provider qwen --query "How close must models in a unit stay to one another?" --top-k 1
+uv run --locked --extra qwen --extra chroma python scripts/embed_rules.py --provider qwen
+uv run --locked --extra qwen --extra chroma python scripts/embed_rules.py --provider qwen --evaluate --top-k 5
+uv run --locked --extra qwen --extra chroma python scripts/embed_rules.py --provider qwen --query "How close must models in a unit stay to one another?" --top-k 1
 ```
 
 `hit_rate` 和 `mrr_at_k` 仍只计算原始向量排名；新增 `evidence_hit_rate` 计算原始结果与显式补充主规则的并集中是否包含指定目标块。它是来源块覆盖指标，不是生成回答准确率。测试新增垂直距离、大单位一致性、Woods/Ruins 掩体和通用掩体例外问题，共 18 题。
+
+## ChromaDB 向量存储（默认后端）
+
+本地数据库目录为 `storage/chroma/`，包含 `chroma.sqlite3` 与索引文件。它们均被 Git 忽略，不放进 `reports/`。当前 Qwen 的 228 条、768 维向量已从匹配当前语料的 `storage/embeddings/qwen.npz` 导入，没有重新计算文档 embedding。
+
+```bash
+uv sync --locked --extra chroma --extra qwen
+# 从已有 NPZ 导入，或重复导入；不加载 embedding 模型、不调用 API
+uv run --locked --extra chroma python scripts/embed_rules.py --provider qwen --import-npz
+# 默认从 Chroma 检索并补充关联主规则
+uv run --locked --extra chroma --extra qwen python scripts/embed_rules.py --provider qwen --query "When can I use the Grenade stratagem?"
+# 可按明确的地形名称过滤
+uv run --locked --extra chroma --extra qwen python scripts/embed_rules.py --provider qwen --query "When do I gain cover?" --terrain WOODS
+# 同一组题验证 Chroma 和 NPZ；这两条命令会分别编码查询
+uv run --locked --extra chroma --extra qwen python scripts/embed_rules.py --provider qwen --evaluate
+uv run --locked --extra qwen python scripts/embed_rules.py --provider qwen --backend npz --evaluate
+```
+
+配置位于 `config/embeddings.json` 的 `backend` 和 `chroma`：默认路径 `storage/chroma`，集合基础名称 `core_rules_qwen` / `core_rules_gemini`。实际集合名自动追加语料哈希与模型配置指纹，避免旧内容或不同模型混用。旧版本集合保留，不自动删除。试运行使用独立的 `_smoke` 集合。
+
+`--import-npz` 会核对 NPZ 的配置指纹、语料哈希和完整记录内容，采用预计算向量与原 `embedding_text` 导入；重复导入使用 upsert，清除该版本集合中的多余记录。索引在写入完成前标记为 building，不供查询。新建 embedding 时，默认同时写 NPZ 备份与 Chroma；指定 `--backend npz` 则只写 NPZ。
+
+Chroma 禁用自动 embedding，查询仍通过项目的 Qwen/Gemini provider 编码，以保留检索指令和维度设置。检索使用数据库 HNSW cosine 距离，输出 `score = 1 - distance`；由于近似检索与浮点精度差异，排序不应假定永远与 NPZ 完全一致。
+
+用于过滤的地形、审查状态、文档标识和首个页码单独存储；跨页页码及完整的 `source_segments`、审计、上下文与示例关系保存在 `block_json` 中，读取时恢复原始结构。`page_number` 仅表示首个来源页，完整引用仍使用 `page_numbers`。命中示例后通过数据库按 ID 取主规则；不会把父规则伪装成向量检索第一名。
 
 ## Embedding 配置与调用
 
 公开配置：`config/embeddings.json`。密钥填写在根目录 `.env` 的 `GEMINI_API_KEY=` 后；模板是 `.env.example`，`.env` 已加入 Git 忽略。代码优先读取环境变量，不覆盖已有环境配置。Qwen 本地推理不需要 API key。
 
-默认都使用 768 维，并进行 L2 归一化，便于分别使用余弦相似度检索。**相同维度不代表相同向量空间**：两种模型的向量分别保存在 `storage/embeddings/gemini.npz` 和 `qwen.npz`，查询必须使用对应模型。来源、模型配置或检索指令变动后，程序要求重建索引。
+默认使用本地 Chroma、768 维与 cosine 距离。两种模型使用独立 collection，按语料哈希与模型配置指纹隔离版本；完整来源 JSON 和示例关联保存在每条记录中。NPZ 继续保存在 `storage/embeddings/`，作为精确检索基线和备份。**相同维度不代表相同向量空间**，查询必须使用对应模型。来源、模型配置或检索指令改变后，需要导入匹配版本或重新构建。
 
 ### Gemini：云端 `gemini-embedding-2`
 
 ```bash
-uv sync --locked --extra gemini
-uv run --locked --extra gemini python scripts/embed_rules.py --provider gemini --dry-run
+uv sync --locked --extra gemini --extra chroma
+uv run --locked --extra gemini --extra chroma python scripts/embed_rules.py --provider gemini --dry-run
 # 填写 .env 后，先实际调用 3 块；另存 gemini-smoke.npz
-uv run --locked --extra gemini python scripts/embed_rules.py --provider gemini --limit 3
+uv run --locked --extra gemini --extra chroma python scripts/embed_rules.py --provider gemini --limit 3
 # 再构建完整索引
-uv run --locked --extra gemini python scripts/embed_rules.py --provider gemini
-uv run --locked --extra gemini python scripts/embed_rules.py --provider gemini --query "When can I use the Grenade stratagem?"
+uv run --locked --extra gemini --extra chroma python scripts/embed_rules.py --provider gemini
+uv run --locked --extra gemini --extra chroma python scripts/embed_rules.py --provider gemini --query "When can I use the Grenade stratagem?"
 ```
 
 使用官方 `google-genai` SDK。文档格式为 `title: 标题路径 | text: embedding_text`，查询格式为 `task: search result | query: 问题`；Embedding 2 不使用旧版 `task_type` 参数。每块单独请求，避免多个字符串合成一个向量。默认请求超时 30 秒、最多 3 次尝试，重试由 SDK 管理；`request_interval_seconds` 可按账户配额调大。[官方输入格式与聚合说明](https://ai.google.dev/gemini-api/docs/embeddings)
@@ -100,12 +125,12 @@ uv run --locked --extra gemini python scripts/embed_rules.py --provider gemini -
 ### Qwen：本地 `Qwen/Qwen3-Embedding-0.6B`
 
 ```bash
-uv sync --locked --extra qwen
-uv run --locked --extra qwen python scripts/embed_rules.py --provider qwen --dry-run
+uv sync --locked --extra qwen --extra chroma
+uv run --locked --extra qwen --extra chroma python scripts/embed_rules.py --provider qwen --dry-run
 # 首次真实调用将下载模型到 storage/models/，之后复用缓存
-uv run --locked --extra qwen python scripts/embed_rules.py --provider qwen --limit 3
-uv run --locked --extra qwen python scripts/embed_rules.py --provider qwen
-uv run --locked --extra qwen python scripts/embed_rules.py --provider qwen --query "When can I use the Grenade stratagem?"
+uv run --locked --extra qwen --extra chroma python scripts/embed_rules.py --provider qwen --limit 3
+uv run --locked --extra qwen --extra chroma python scripts/embed_rules.py --provider qwen
+uv run --locked --extra qwen --extra chroma python scripts/embed_rules.py --provider qwen --query "When can I use the Grenade stratagem?"
 ```
 
 使用 `SentenceTransformer` 加载模型，默认 CPU、batch_size=4、max_seq_length=8192。模型本身支持 32K，但项目默认保留较小上限控制本地资源；推理前使用模型 tokenizer 检查完整输入，超限报错，不让编码器静默截断。
@@ -128,7 +153,7 @@ finally:
     embedder.close()
 ```
 
-`--dry-run` 不调用 API、不下载模型，只检查输入与配置；Qwen 精确 token 检查在加载模型 tokenizer 后执行。运行产物只写入已忽略的 `storage/`，`reports/` 仍然保留两个文件。当前保存的是可查询的 NPZ 向量基线，尚未接入 ChromaDB 或在线 Agent。
+`--dry-run` 不调用 API、不下载模型，只检查输入与配置；Qwen 精确 token 检查在加载模型 tokenizer 后执行。运行产物只写入已忽略的 `storage/`，基线语料在 `reports/` 保留原有两个文件；父子块实验另增一个 JSONL。默认写入 Chroma 持久化向量库，并保留可查询的 NPZ 基线；在线 Agent 尚未实现。
 
 ## Gemini 与 Qwen 的实际选择
 
@@ -154,8 +179,33 @@ finally:
 `tests/eval_cases/retrieval.json` 保存 18 个英文规则问题和唯一目标块（页码 + 标题）。两种索引都完整构建后运行：
 
 ```bash
-uv run --locked --extra gemini python scripts/embed_rules.py --provider gemini --evaluate --top-k 5
-uv run --locked --extra qwen python scripts/embed_rules.py --provider qwen --evaluate --top-k 5
+uv run --locked --extra gemini --extra chroma python scripts/embed_rules.py --provider gemini --evaluate --top-k 5
+uv run --locked --extra qwen --extra chroma python scripts/embed_rules.py --provider qwen --evaluate --top-k 5
 ```
 
 输出原始命中率 `hit_rate`、`mrr_at_k`、补充证据覆盖率 `evidence_hit_rate` 与逐题排名。它们只检查这 18 题的指定目标块，不代表全书召回率、回答忠实度或全部正确答案覆盖度。比较时保持相同 corpus、维度、问题、top-k 和完整索引；两模型的原始相似度分数不能直接横向比较。
+
+## 完整规则父块 + 检索子块实验
+
+独立配置为 `config/parent_child.json`，新文件为 `reports/parent_child_blocks.jsonl`；原来的 `index_blocks.jsonl` 和基线集合继续保留。新 JSONL 使用 `record_type=parent/child` 区分记录：父块保留全部 228 个现有规则块的正文、跨页关联与来源；只有子块生成向量。示例仍通过原有 `parent_rule_id` 补充主规则，检索子块通过独立的 `parent_block_id` 关联完整父块。
+
+执行规则：
+
+- 用 Qwen 模型自己的 tokenizer 计数，包含 embedding 标题前缀。完整输入不超过 **384 tokens** 时生成一个子块，直接复用原完整文本。
+- 超过 384 tokens 时按段落生成子块，目标 **256 tokens**；过长普通段落再按句子边界拆分。Markdown 表格、列表段落和不可再分的句子保持完整，允许超过目标值；编码器的 8192-token 硬上限仍会检查，超限报错。
+- 子块增加规则标题路径；有地形上下文时保留地形名称。无固定 overlap，因为检索返回完整父块；子块记录父文本哈希、准确字符区间和涉及页码。
+- 来源中的 `text_span` 是子块内区间，`parent_text_span` 是原父文本内区间；原始 Markdown 来源保持**原来源片段粒度**，不把清洗后的字符位置伪装成 PDF/Markdown 精确位置。原来源哈希仍用于核验完整来源片段。
+- Chroma 只存子块向量，并在每条子块 metadata 中保存完整父规则。使用独立 `core_rules_qwen_parent_child_<语料哈希>_<模型指纹>` 集合；向量为 Qwen 的 768 维归一化结果。文本完全一致且源文件、模型配置均验证通过时复用已有 Qwen 向量，只实际编码新增文本。
+- 检索按子块相似度取候选，按父块去重，使用最佳子块分数排序；不足 top-k 时扩大候选池。返回完整父规则及原有示例关联证据。评测的 top-k 和 MRR 按**去重后的父块**计算，避免多个子块占据名额。
+
+缓存已存在时可离线执行：
+
+```bash
+HF_HUB_OFFLINE=1 uv run --locked --extra qwen --extra chroma python scripts/embed_parent_child.py
+HF_HUB_OFFLINE=1 uv run --locked --extra qwen --extra chroma python scripts/embed_parent_child.py --query "How can I resolve multiple attacks using fast dice rolling?" --top-k 3
+HF_HUB_OFFLINE=1 uv run --locked --extra qwen --extra chroma python scripts/embed_parent_child.py --evaluate --top-k 5
+```
+
+首次无模型缓存时去掉 `HF_HUB_OFFLINE=1` 下载模型。构建、查询、评测报告分别保存为 `storage/parent_child/build.json`、`query.json`、`evaluation.json`。这是分块实验，现有 18 题不能充分覆盖全部长规则，不能仅凭该评测宣称新策略更好。
+
+本次实际构建：228 个父块、237 个子块，拆分了 5 个长规则；复用 223 条经校验的基线向量，新编码 14 条子块。18 题 Top-5 对照结果：基线与父子块方案的 hit_rate 均为 1.0、MRR 均为 0.8889、evidence_hit_rate 均为 1.0，逐题目标父块排名一致。另用快速掷骰问题确认命中局部子块后返回完整父规则。详细对照报告在 `storage/parent_child/comparison.json`。

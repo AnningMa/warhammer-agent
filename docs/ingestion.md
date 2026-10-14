@@ -64,3 +64,11 @@ uv run --locked python scripts/parse_pdf.py "data/Core Rules.pdf"
 ```
 
 仅生成 `data/core_rules.docling.json`。首次解析可能下载模型，重新解析可能改变 JSON 哈希，既有修正规则将拒绝不匹配的输入，需重新审查。
+
+## 向量入库
+
+`reports/index_blocks.jsonl` 仍是唯一语料输入。当前默认向量后端为 Chroma，配置在 `config/embeddings.json`。已有匹配语料的 NPZ 可通过 `scripts/embed_rules.py --provider qwen --import-npz` 导入，无需再次编码正文。数据库目录为 `storage/chroma/`，NPZ 基线继续保留在 `storage/embeddings/`，都不纳入 Git。
+
+Chroma 按 provider、模型配置指纹、语料哈希隔离集合版本。每条记录保存预计算向量、`embedding_text`、可过滤的地形/审查字段，以及序列化的完整来源块 JSON。原始跨页引用、审计状态与示例关联不丢失。查询始终用项目 provider 编码，数据库不自动选用另一种 embedding。
+
+集合使用 cosine 距离，向外转换为 `1 - distance` 相似度。`--backend npz` 可运行原精确检索基线，默认 `--backend chroma` 支持数据库检索与同一套评测。变更语料或模型后必须导入匹配版本或重建，不能对旧集合静默追加不同空间向量。

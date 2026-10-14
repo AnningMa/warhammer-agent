@@ -1,0 +1,9 @@
+{
+  "input": "reports/index_blocks.jsonl",
+  "output": "reports/parent_child_blocks.jsonl",
+  "embedding_config": "config/embeddings.json",
+  "collection": "core_rules_qwen_parent_child",
+  "split_above_tokens": 384,
+  "target_tokens": 256,
+  "cpu_threads": 2
+}
