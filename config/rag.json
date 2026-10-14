@@ -1,0 +1,33 @@
+{
+  "parent_child_config": "config/parent_child.json",
+  "top_k": 5,
+  "max_context_bytes": 32000,
+  "max_question_chars": 4000,
+  "cpu_threads": 2,
+  "qwen_local_files_only": true,
+  "output_dir": "storage/rag",
+  "generation": {
+    "model": "gemini-3.8-flash",
+    "api_key_env": "GEMINI_API_KEY",
+    "timeout_ms": 60000,
+    "attempts": 3,
+    "max_output_tokens": 4096,
+    "temperature": 1.0
+  },
+  "rewrite": {
+    "enabled": true,
+    "max_subquestions": 3,
+    "max_query_chars": 4000,
+    "max_history_messages": 6,
+    "max_history_chars": 12000,
+    "max_output_tokens": 2048
+  },
+  "rerank": {
+    "enabled": true,
+    "candidate_k": 20,
+    "per_query_k": 15,
+    "rrf_constant": 60,
+    "max_input_bytes": 64000,
+    "max_output_tokens": 4096
+  }
+}

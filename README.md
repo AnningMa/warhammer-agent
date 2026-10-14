@@ -209,3 +209,70 @@ HF_HUB_OFFLINE=1 uv run --locked --extra qwen --extra chroma python scripts/embe
 首次无模型缓存时去掉 `HF_HUB_OFFLINE=1` 下载模型。构建、查询、评测报告分别保存为 `storage/parent_child/build.json`、`query.json`、`evaluation.json`。这是分块实验，现有 18 题不能充分覆盖全部长规则，不能仅凭该评测宣称新策略更好。
 
 本次实际构建：228 个父块、237 个子块，拆分了 5 个长规则；复用 223 条经校验的基线向量，新编码 14 条子块。18 题 Top-5 对照结果：基线与父子块方案的 hit_rate 均为 1.0、MRR 均为 0.8889、evidence_hit_rate 均为 1.0，逐题目标父块排名一致。另用快速掷骰问题确认命中局部子块后返回完整父规则。详细对照报告在 `storage/parent_child/comparison.json`。
+
+## PDF RAG 问答闭环：Qwen + Chroma + Gemini
+
+入口 `scripts/ask_rules.py` 使用 `config/rag.json`：Qwen 编码原问题 → 检索父子块 Chroma 集合 → 按父规则去重 → 补齐示例关联主规则 → Gemini 根据证据生成答案 → 校验引用 → 输出答案及 PDF 物理页码。默认使用父子块实验索引，top-k=5；无需重新 embedding。
+
+```bash
+uv sync --locked --extra qwen --extra chroma --extra gemini
+# 在已忽略的 .env 中填写 GEMINI_API_KEY；已有配置可继续使用
+# 默认仅使用本地 Qwen 缓存，必须先完成父子块索引构建
+uv run --locked --extra qwen --extra chroma --extra gemini python scripts/ask_rules.py \
+  --question "How close must models in a unit stay to one another?"
+
+# 中文问题也可以直接输入；保留英文规则术语有助于检索
+uv run --locked --extra qwen --extra chroma --extra gemini python scripts/ask_rules.py \
+  --question "飞机在 Movement phase 中可以转向几次？" --top-k 5
+
+# 真实本地检索，不调用 Gemini、不需要 API key
+uv run --locked --extra qwen --extra chroma --extra gemini python scripts/ask_rules.py \
+  --question "How can I resolve multiple attacks using fast dice rolling?" --retrieve-only
+
+# 完整 JSON 包含答案、证据、引用、token 用量及耗时
+uv run --locked --extra qwen --extra chroma --extra gemini python scripts/ask_rules.py \
+  --question "Can Assault weapons shoot after advancing?" --json
+```
+
+Gemini 生成模型默认 `gemini-3.8-flash`，独立于 embedding 模型；通过 `config/rag.json` 的 `generation.model` 或 `--model` 切换。使用官方 `google-genai` SDK 的 `generate_content` 和 JSON schema；本地严格验证返回字段。[官方生成接口](https://ai.google.dev/api/generate-content)、[结构化输出](https://ai.google.dev/gemini-api/docs/structured-output)。模型可用性与配额以当前 API 账户为准。
+
+生成要求：只依据检索证据，保留前提、限制和例外；默认中文解释、保留英文规则名；证据不足时说明缺少的信息。证据文本作为资料处理。答案正文使用 `[S1]` 等编号，程序验证编号存在、正文与 citations 数组一致；标题、来源与页码由本地 metadata 填入。页码是 **PDF 物理页、从 1 开始**，不是模型生成的页码。
+
+`max_context_bytes=32000` 是发送的证据 JSON 的 **UTF-8 字节预算，不是 Gemini token 数**；问题由独立的 `max_question_chars=4000` 控制。超预算时跳过整个低排名规则，示例与主规则作为一个完整组合，禁止截断规则或只保留示例。没有可用完整证据时返回证据不足，不调用生成 API。此规则不会用相似度分数自动判断问题可回答，仍依赖生成模型与后续回答评测。
+
+Qwen 默认 `qwen_local_files_only=true`，模型缓存不存在时应先构建 embedding，或显式改为 false 允许下载。生成请求仍需要联网。SDK 超时默认 60 秒、最多 3 次尝试；失败不发布答案，保存检索诊断。空输出、截断、非 JSON、非法引用都会拒绝。运行记录在已忽略的 `storage/rag/`，包含原问题、检索排名、完整证据与来源、模型、引用、实际 token 用量和耗时；API key 不写入记录。
+
+引用校验只能证明编号和来源对应，**不能自动证明每个结论被证据支持**。现有 18 题仍是检索评测；回答的规则正确性、例外完整性和证据不足判断需要单独评测。部分 PDF 页尚未人工复核，来源记录保留 review_status。当前闭环读取 PDF 的已解析文本和表格；图示理解、自动持久化对话会话和 LangGraph 编排留待后续实现；对话问句重写与重排的配置见下文。
+
+## 对话问句重写、子问题检索与重排
+
+默认开启 `config/rag.json` 中的 `rewrite` 和 `rerank`。这两步复用生成配置中的 Gemini 模型和 API key；无需下载额外 reranker，也无需重建 Qwen/Chroma 索引。
+
+流程：原问题 + 必要的对话历史 → 英文独立问题与最多 3 个检索子问题 → 原问题/独立问题/子问题分别做 Qwen 检索 → 父规则去重并按 Reciprocal Rank Fusion（RRF）合并 → Gemini 对完整父规则重排 → Top-5 完整证据 → 带引用回答。
+
+- 重写自动触发：提供了历史，或英文问题包含 `and`、`both`、`compare`、`versus`、`vs`、`difference`，或包含多个问句。简单单轮问题跳过重写；这是轻量触发规则，不是可靠的语义分类器。
+- 原问题始终参与检索；改写只补全历史指代、保留原条件，不补充未知单位类型、阶段或距离。对话历史只用于理解问题，过去的 assistant 回答不能作为规则证据。未加入中文翻译/术语转换逻辑。
+- 每路默认取 15 个去重父规则，RRF 使用 `1/(60+rank)` 合并，最多保留 20 个候选。不同检索问题的 cosine 分数不直接相加。
+- 重排使用 Gemini 一次返回所有候选 ID 的相关性顺序，程序验证 ID 集合和唯一性；重排完整父规则，示例附带主规则文本。输入文档字节预算为 64000，超预算规则不截断、保留在已重排候选之后的 RRF 顺序。最后选 `top_k`，再补齐关联证据。
+- 重写失败回退原问题，重排失败回退 RRF 顺序；运行记录会明确标记 `fallback_original` / `fallback_fusion`。引用校验和完整证据预算继续生效。
+
+历史文件为只包含过去消息的 JSON 数组，每条消息使用 `role`（user/assistant）和 `content`。最新问题单独通过 `--question` 传入。默认最多使用最近 6 条历史消息；输入历史总长度超过 12000 字符会报错。可用示例：
+
+```bash
+uv run --locked --extra qwen --extra chroma --extra gemini python scripts/ask_rules.py \
+  --question "What about Aircraft?" --history config/rag_history.example.json
+
+# 不带历史的复合问题可以拆成检索子问题
+uv run --locked --extra qwen --extra chroma --extra gemini python scripts/ask_rules.py \
+  --question "Can a unit shoot after Advancing, and can it charge after Advancing?" --json
+
+# 对照开关：恢复原问题检索，不重写、不重排
+uv run --locked --extra qwen --extra chroma --extra gemini python scripts/ask_rules.py \
+  --question "Can a unit shoot after Advancing?" --no-rewrite --no-rerank
+```
+
+`--retrieve-only` 始终保持纯本地：不调用 Gemini，跳过重写和重排。完整运行记录额外包含采用的历史、query_plan、各查询对应的父规则排名、RRF 候选、重排前后顺序，以及重写/重排的状态、token 用量和耗时。最终生成同时看到原问题、独立问题和用于指代消解的历史，不把重写结果或历史回答当作新的规则事实。
+
+启用重排会增加一次 Gemini 请求；触发重写时再增加一次请求和多路本地检索。候选顺序只是模型判断，不是校准的相关性概率。应使用开关在相同问题、相同语料上对照答案质量、排名、token 用量和延迟，不能仅凭接入重排就断言检索效果更好。
+
+真实验证示例：历史问题为 `Can Infantry shoot after Advancing, and can they charge after Advancing?`，最新问题为 `What about Aircraft?`；重写得到 `Can Aircraft shoot after Advancing, and can they charge after Advancing?`，再拆成射击与冲锋两个子问题，保留原问题共同检索。已通过真实 Gemini 调用验证 20 个父规则重排及最终来源引用。验证摘要保存在 `storage/rag/refinement_validation.json`；测试期间也验证了服务端错误的回退和非法引用的拒绝。最终答案支持将 `[S1, S2]` 规范成 `[S1] [S2]`，不存在的来源和引用数组不一致仍会拒绝。
