@@ -1,0 +1,258 @@
+{
+  "schema_version": 1,
+  "source_sha256": "4d0e8019cbfddd6f46781d5b4ed31d46fb21eb2d0d10a0f6fabefac0ce054364",
+  "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+  "terrain_groups": [
+    {
+      "terrain": "CRATERS AND RUBBLE",
+      "heading": {
+        "source_block_id": "core_rules.604d8c2e57af7a2e770fb059",
+        "page_number": 45,
+        "section_title": "CRATERS AND RUBBLE",
+        "text_sha256": "91fd9f21f4e66a8e14b9486e67c62eaf1ee0dc8cc4140e3ae363a3e122aff0ba"
+      },
+      "blocks": [
+        {
+          "source_block_id": "core_rules.604d8c2e57af7a2e770fb059",
+          "page_number": 45,
+          "section_title": "CRATERS AND RUBBLE",
+          "text_sha256": "91fd9f21f4e66a8e14b9486e67c62eaf1ee0dc8cc4140e3ae363a3e122aff0ba"
+        },
+        {
+          "source_block_id": "core_rules.c24414f7696ca35fc1946cff",
+          "page_number": 45,
+          "section_title": "MOVEMENT",
+          "text_sha256": "12a5c2b812cb30576e1c1d672da7e0c15ce246a470eb59cdfd10f39b1fadecf1"
+        },
+        {
+          "source_block_id": "core_rules.9e6ebee587fd7c8aa55ec440",
+          "page_number": 45,
+          "section_title": "VISIBILITY",
+          "text_sha256": "7086f192a22b106c9177f8b694e72fb8f07613ad7ae3fe28a79e2beeb8b1a4e9"
+        },
+        {
+          "source_block_id": "core_rules.0c36af3a09bc5c09d8469895",
+          "page_number": 45,
+          "section_title": "BENEFIT OF COVER",
+          "text_sha256": "574a48c76bf1431022747d765a8343041af183c73989f61a1929c131cf00d8dd"
+        }
+      ]
+    },
+    {
+      "terrain": "BARRICADES AND FUEL PIPES",
+      "heading": {
+        "source_block_id": "core_rules.534222bfd6932b9a812ea075",
+        "page_number": 45,
+        "section_title": "BARRICADES AND FUEL PIPES",
+        "text_sha256": "c0c08228831c90ca6f6ecebdb497e725bfd7e4e350475682fa42b24af0027648"
+      },
+      "blocks": [
+        {
+          "source_block_id": "core_rules.534222bfd6932b9a812ea075",
+          "page_number": 45,
+          "section_title": "BARRICADES AND FUEL PIPES",
+          "text_sha256": "c0c08228831c90ca6f6ecebdb497e725bfd7e4e350475682fa42b24af0027648"
+        },
+        {
+          "source_block_id": "core_rules.635e25fb9c9a2f83426ab2e0",
+          "page_number": 45,
+          "section_title": "MOVEMENT",
+          "text_sha256": "5bc4e4270772a6e48e67b582e39edf600ed099dcd952fda97c19ce0fa3372532"
+        },
+        {
+          "source_block_id": "core_rules.de0c84ad8481ced413f66e90",
+          "page_number": 45,
+          "section_title": "VISIBILITY",
+          "text_sha256": "7086f192a22b106c9177f8b694e72fb8f07613ad7ae3fe28a79e2beeb8b1a4e9"
+        },
+        {
+          "source_block_id": "core_rules.f41d2af86697d3f7d587ac89",
+          "page_number": 45,
+          "section_title": "ENGAGEMENT RANGE",
+          "text_sha256": "8cc3cf3164d79f0e256f293eb3e24654af6b971a3d0893987228294c02c0ee8f"
+        },
+        {
+          "source_block_id": "core_rules.39968891f2eeeea731a1642c",
+          "page_number": 45,
+          "section_title": "BENEFIT OF COVER",
+          "text_sha256": "c1361aa77b9b7fea110deacecefff29833bc027ed7666f8b47ab23069f68db0c"
+        }
+      ]
+    },
+    {
+      "terrain": "BATTLEFIELD DEBRIS AND STATUARY",
+      "heading": {
+        "source_block_id": "core_rules.c49e4328642c93f767399732",
+        "page_number": 46,
+        "section_title": "BATTLEFIELD DEBRIS AND STATUARY",
+        "text_sha256": "8889625a570b438ee292f343a134bf8e595c05de984b4b4c980825dddf5b2690"
+      },
+      "blocks": [
+        {
+          "source_block_id": "core_rules.c49e4328642c93f767399732",
+          "page_number": 46,
+          "section_title": "BATTLEFIELD DEBRIS AND STATUARY",
+          "text_sha256": "8889625a570b438ee292f343a134bf8e595c05de984b4b4c980825dddf5b2690"
+        },
+        {
+          "source_block_id": "core_rules.14abfcf58cc7b6f6ce84aef8",
+          "page_number": 46,
+          "section_title": "MOVEMENT",
+          "text_sha256": "5bc4e4270772a6e48e67b582e39edf600ed099dcd952fda97c19ce0fa3372532"
+        },
+        {
+          "source_block_id": "core_rules.cf6cbeea75e969b2b4f5c022",
+          "page_number": 46,
+          "section_title": "VISIBILITY",
+          "text_sha256": "7086f192a22b106c9177f8b694e72fb8f07613ad7ae3fe28a79e2beeb8b1a4e9"
+        },
+        {
+          "source_block_id": "core_rules.30773b1acf7c89a35a29d5d9",
+          "page_number": 46,
+          "section_title": "BENEFIT OF COVER",
+          "text_sha256": "46b4fcc253d23f0c039f65d5a0fd8fe14e5882cbec2064d39fba0e04177007ca"
+        }
+      ]
+    },
+    {
+      "terrain": "HILLS, INDUSTRIAL STRUCTURES, SEALED BUILDINGS AND ARMOURED CONTAINERS",
+      "heading": {
+        "source_block_id": "core_rules.4cd182ba0e93052e55afad57",
+        "page_number": 46,
+        "section_title": "HILLS, INDUSTRIAL STRUCTURES, SEALED BUILDINGS AND ARMOURED CONTAINERS",
+        "text_sha256": "987e2ba005bcb8d63d017b47abc9ec4af4c4a652116db2e03ca0f6884a662065"
+      },
+      "blocks": [
+        {
+          "source_block_id": "core_rules.4cd182ba0e93052e55afad57",
+          "page_number": 46,
+          "section_title": "HILLS, INDUSTRIAL STRUCTURES, SEALED BUILDINGS AND ARMOURED CONTAINERS",
+          "text_sha256": "987e2ba005bcb8d63d017b47abc9ec4af4c4a652116db2e03ca0f6884a662065"
+        },
+        {
+          "source_block_id": "core_rules.3085eee29cd82d75350f4dc9",
+          "page_number": 46,
+          "section_title": "MOVEMENT",
+          "text_sha256": "2b881db0911ffdf9310cd888aa057282df92d1ba950b1c9b938ae6960dc6e7e4"
+        },
+        {
+          "source_block_id": "core_rules.04f573c3dde61bdb061e6d3c",
+          "page_number": 46,
+          "section_title": "VISIBILITY",
+          "text_sha256": "7086f192a22b106c9177f8b694e72fb8f07613ad7ae3fe28a79e2beeb8b1a4e9"
+        },
+        {
+          "source_block_id": "core_rules.692c2fc85d582fa343eeece5",
+          "page_number": 46,
+          "section_title": "BENEFIT OF COVER",
+          "text_sha256": "496eea1a048e89fd857c408f87722fdec1b72ba628499c0136de3ce1fa8aad2e"
+        }
+      ]
+    },
+    {
+      "terrain": "WOODS",
+      "heading": {
+        "source_block_id": "core_rules.35ff7d5bbb95396ca2cbd203",
+        "page_number": 47,
+        "section_title": "WOODS",
+        "text_sha256": "a09d06f70986df392b797f77b96c3a7657e3b2c82ac118c34d6d9922a6f3e5c7"
+      },
+      "blocks": [
+        {
+          "source_block_id": "core_rules.35ff7d5bbb95396ca2cbd203",
+          "page_number": 47,
+          "section_title": "WOODS",
+          "text_sha256": "a09d06f70986df392b797f77b96c3a7657e3b2c82ac118c34d6d9922a6f3e5c7"
+        },
+        {
+          "source_block_id": "core_rules.526180e700f41703bddcfb6c",
+          "page_number": 47,
+          "section_title": "FOOTPRINT",
+          "text_sha256": "9e0c138476642cef998bf32ca8c95e795d1bf29f119207aa85519ed0d228d78b"
+        },
+        {
+          "source_block_id": "core_rules.3aaf8334ed8b54eba0d7ceb9",
+          "page_number": 47,
+          "section_title": "MOVEMENT",
+          "text_sha256": "89a5c6e1708b59ed600e66730c0924062b17385908cedf88fc626b41adf317cb"
+        },
+        {
+          "source_block_id": "core_rules.a1e81c649e7b500028889bef",
+          "page_number": 47,
+          "section_title": "VISIBILITY",
+          "text_sha256": "087b8ff3b3510aeef417d2ba687fbd8f96152780b609a2fb41c2a4636061b3b2"
+        },
+        {
+          "source_block_id": "core_rules.d9c56d054b16c774b5a91493",
+          "page_number": 47,
+          "section_title": "BENEFIT OF COVER",
+          "text_sha256": "af120e465d2de9dc2440c2333741e83c8c36a1c115b31b8076087569e6287084"
+        }
+      ]
+    },
+    {
+      "terrain": "RUINS",
+      "heading": {
+        "source_block_id": "core_rules.a7fd701948702eb8b4d6dd55",
+        "page_number": 48,
+        "section_title": "RUINS",
+        "text_sha256": "a24b4f6f1c4d5c27cb8ed44e5477d41a57d4cf5677ca10f68f01434f7b102de2"
+      },
+      "blocks": [
+        {
+          "source_block_id": "core_rules.a7fd701948702eb8b4d6dd55",
+          "page_number": 48,
+          "section_title": "RUINS",
+          "text_sha256": "a24b4f6f1c4d5c27cb8ed44e5477d41a57d4cf5677ca10f68f01434f7b102de2"
+        },
+        {
+          "source_block_id": "core_rules.8ca80e9ec29c450415952299",
+          "page_number": 48,
+          "section_title": "FOOTPRINT",
+          "text_sha256": "9e0c138476642cef998bf32ca8c95e795d1bf29f119207aa85519ed0d228d78b"
+        },
+        {
+          "source_block_id": "core_rules.426fbd7ad721fbb06f625d04",
+          "page_number": 48,
+          "section_title": "PLUNGING FIRE",
+          "text_sha256": "1d1600ce5b9841745587127283590f61bf24ee614675264b897f743701b08655"
+        },
+        {
+          "source_block_id": "core_rules.63b243475809ace1163d790b",
+          "page_number": 48,
+          "section_title": "MOVEMENT",
+          "text_sha256": "bf0ba3e67db4689e517f3050149dced6866dbeb08d6ab5a87767585546f0ee37"
+        },
+        {
+          "source_block_id": "core_rules.5de4b99eaf0f72c18cba0ca0",
+          "page_number": 48,
+          "section_title": "VISIBILITY",
+          "text_sha256": "0564e228b3f1317614c30eacc192637b4734d679c80c6b0d2cbc2a53e4912281"
+        },
+        {
+          "source_block_id": "core_rules.1bae9a5ef8a21378d4dff532",
+          "page_number": 48,
+          "section_title": "BENEFIT OF COVER",
+          "text_sha256": "af120e465d2de9dc2440c2333741e83c8c36a1c115b31b8076087569e6287084"
+        }
+      ]
+    }
+  ],
+  "example_links": [
+    {
+      "example": {
+        "source_block_id": "core_rules.fc53ec6a6abaa0556ef5c3cb",
+        "page_number": 6,
+        "section_title": "Unit Coherency \u2014 illustrated examples",
+        "text_sha256": "e4403590706c488f0ee393f2718c492fc1a82aaebe3ffbbede7b1b516c33bf4b"
+      },
+      "parent": {
+        "source_block_id": "core_rules.b196df4ee3292d9e26760d30",
+        "page_number": 6,
+        "section_title": "UNIT COHERENCY",
+        "text_sha256": "c0977c8450d1f748bc7e60f2458b2bb771642c31555f07ca56bc89c3f43929fa"
+      },
+      "reason": "The example illustrates the main rule; retrieve the complete distance, unit-size and removal conditions as supplemental evidence."
+    }
+  ]
+}

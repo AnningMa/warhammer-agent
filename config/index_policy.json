@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "excluded_pages": [
+    1,
+    2,
+    3,
+    4,
+    31,
+    40
+  ],
+  "exclusion_reason": "Front matter/navigation and pages without substantive extracted rule text; all remain in the original 60-page test copy."
+}

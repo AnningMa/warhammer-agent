@@ -1,0 +1,24 @@
+{
+  "input": "reports/index_blocks.jsonl",
+  "output_dir": "storage/embeddings",
+  "gemini": {
+    "model": "gemini-embedding-2",
+    "dimensions": 768,
+    "api_key_env": "GEMINI_API_KEY",
+    "timeout_ms": 30000,
+    "attempts": 3,
+    "max_input_bytes": 8192,
+    "query_task": "search result",
+    "request_interval_seconds": 0.2
+  },
+  "qwen": {
+    "model": "Qwen/Qwen3-Embedding-0.6B",
+    "dimensions": 768,
+    "device": "cpu",
+    "batch_size": 4,
+    "max_seq_length": 8192,
+    "cache_dir": "storage/models",
+    "local_files_only": false,
+    "query_instruction": "Given a Warhammer 40,000 rules question, retrieve relevant passages that answer the question."
+  }
+}

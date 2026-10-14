@@ -35,7 +35,7 @@ def main() -> None:
     )
     parser.add_argument("--output-dir", type=Path, default=Path("reports/cleaned"))
     parser.add_argument(
-        "--document", type=Path, default=Path("reports/docling/document.json")
+        "--document", type=Path, default=Path("data/core_rules.docling.json")
     )
     args = parser.parse_args()
     rules = json.loads(args.rules.read_text())

@@ -400,12 +400,14 @@ A change is complete only when:
 ## Current Repository Layout
 
 The ingestion implementation lives under `src/warhammer_agent/ingestion/`.
-The four supported CLI entry points are `scripts/probe_pdf.py`,
-`scripts/parse_pdf.py`, `scripts/clean_pdf.py`, and `scripts/build_pdf_review.py`.
-Reviewed page corrections and their manifest live in
-`config/corrections/core_rules/`; historical handler formats remain supported.
-See `README.md` and `docs/ingestion.md` for current commands and retention rules.
-Tests are split between `tests/unit/` and `tests/integration/`.
-Do not assume raw per-page Markdown exists for cleaned pages: recover it from
-`reports/docling/document.json` when needed. Preserve the source PDF, original
-Docling JSON, correction hashes, and cleaned audit records.
+Supported entry points are `scripts/build_corpus.py`, `scripts/parse_pdf.py`,
+and `scripts/clean_pdf.py` (the internal correction dispatcher).
+Only `reports/core_rules.txt` and `reports/index_blocks.jsonl` are persisted as
+corpus outputs. Intermediate Markdown, HTML, PNG and audit JSON are generated
+in a temporary directory and removed after building. Use the JSONL as the sole
+chunking input; TXT is a readable copy with exact spans referenced by JSONL.
+Preserve the source PDF, `data/core_rules.docling.json`, correction configs and
+source hashes. The index exclusions live in `config/index_policy.json`.
+Do not restore old preview/export directories as runtime dependencies.
+See README.md and docs/ingestion.md for the current format and commands.
+Tests live under tests/unit/ and tests/integration/.

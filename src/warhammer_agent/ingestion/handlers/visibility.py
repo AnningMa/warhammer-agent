@@ -15,7 +15,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("pdf", type=Path)
     parser.add_argument(
-        "--document", type=Path, default=Path("reports/docling/document.json")
+        "--document", type=Path, default=Path("data/core_rules.docling.json")
     )
     parser.add_argument(
         "--rules",

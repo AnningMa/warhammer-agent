@@ -1,13 +1,14 @@
 """Unified CLI for source-specific, reviewed page corrections."""
 
-import argparse
-import importlib
+import argparse  # parse command line arguments
+import importlib  # dynamic import of modules
 import json
 import sys
 from pathlib import Path
 
-from .validation import verify_hash
+from .validation import verify_hash  # verify file hash against expected value
 
+# Set of supported correction handlers
 HANDLERS = {
     "blocks",
     "regions",
@@ -31,7 +32,7 @@ def main() -> None:
     parser.add_argument("--rules", type=Path, nargs="+")
     parser.add_argument("--pages", type=int, nargs="+")
     parser.add_argument(
-        "--document", type=Path, default=Path("reports/docling/document.json")
+        "--document", type=Path, default=Path("data/core_rules.docling.json")
     )
     parser.add_argument("--output-dir", type=Path, default=Path("reports/cleaned"))
     args = parser.parse_args()

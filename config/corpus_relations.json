@@ -1,0 +1,340 @@
+{
+  "schema_version": 1,
+  "source_sha256": "4d0e8019cbfddd6f46781d5b4ed31d46fb21eb2d0d10a0f6fabefac0ce054364",
+  "document_sha256": "c6e39e08aeefc0545726bc9564614ad5aa87f4fb6c3d1a1cefc97ebbf6dced6f",
+  "merge_rules": [
+    {
+      "id": "dice_table",
+      "target": {
+        "page_number": 9,
+        "section_title": "DICE",
+        "block_id": "core_rules.e21bd74710190e826da0c1ce",
+        "text_sha256": "f4ecca72bbea34c43d798fac9cc24893052f4d8a7e54b0eaf4b2d903187e96b8"
+      },
+      "sources": [
+        {
+          "page_number": 9,
+          "section_title": "ROLLING A D3",
+          "block_id": "core_rules.b97d89b3cebd0d2a4b2855fa",
+          "text_sha256": "77959a9337a859ecca20f6f842204ae32cc08468fd119e74dc8e813af8acdec4"
+        }
+      ],
+      "reason": "Keep D3 conversion formula and verified conversion table together."
+    },
+    {
+      "id": "wound_roll",
+      "target": {
+        "page_number": 21,
+        "section_title": "2. WOUND ROLL",
+        "block_id": "core_rules.7359bddb89c5e9f42f5cec59",
+        "text_sha256": "b98726577b5632eb3a0b75a04679aa9ad7069153733b33deaaf1364af8da34c4"
+      },
+      "sources": [
+        {
+          "page_number": 21,
+          "section_title": "WOUND ROLL",
+          "block_id": "core_rules.945aecaa2f65749bc41e2724",
+          "text_sha256": "aed68969b78c3fc29b73878d763729c383eb1c9254bf52aae06396cd5739366f"
+        },
+        {
+          "page_number": 22,
+          "section_title": null,
+          "block_id": "core_rules.a1fb664866fd1a9d38165a5d",
+          "text_sha256": "66f14b11f912c04852fc71bdbcf30b6d34f336f1aeae8f16d3c577d710f326b0"
+        }
+      ],
+      "reason": "Join wound-roll explanation, verified table and next-page success/critical-wound exceptions."
+    },
+    {
+      "id": "select_melee_weapon",
+      "target": {
+        "page_number": 33,
+        "section_title": "SELECT WEAPON",
+        "block_id": "core_rules.679566d918b1a48d82afd397",
+        "text_sha256": "fa8f280891e32f0e7eb562ff8d7272b5786b35dedb7b3665b24e89cbf36e9e21"
+      },
+      "sources": [
+        {
+          "page_number": 34,
+          "section_title": null,
+          "block_id": "core_rules.efabbdeab5fdcecded9dc734",
+          "text_sha256": "898bf6aa9142184584914d047f6481ffc49dc8526c22a618c28a7eba2c739286"
+        }
+      ],
+      "reason": "Continuation of weapon-profile selection and attack count."
+    },
+    {
+      "id": "make_melee_attacks",
+      "target": {
+        "page_number": 34,
+        "section_title": "MAKE ATTACKS",
+        "block_id": "core_rules.59e83f2cdc492644c53c1735",
+        "text_sha256": "527f061be96f5692eb413448ab658d1128d5d2eb6bb808a0c996f34b7753c640"
+      },
+      "sources": [
+        {
+          "page_number": 35,
+          "section_title": null,
+          "block_id": "core_rules.eec8bfed6bdaadf4291dd00e",
+          "text_sha256": "61db5e38c8c4d97de7ef90a7bd26b7a1378c39961c765153ebf80cf65591907d"
+        }
+      ],
+      "reason": "Continuation of the sentence about declared attacks and removed enemy models."
+    }
+  ],
+  "move_suffix_rules": [
+    {
+      "id": "aircraft_movement_figure",
+      "source": {
+        "page_number": 54,
+        "section_title": "AIRCRAFT IN THE CHARGE AND FIGHT PHASES",
+        "block_id": "core_rules.f39c46e48f2b392ff0e59472",
+        "text_sha256": "dc89f3f43b83a935bb622bf1a4649041f8f8c6e9886246277328a23e22c31aad"
+      },
+      "target": {
+        "page_number": 53,
+        "section_title": "AIRCRAFT IN THE MOVEMENT PHASE",
+        "block_id": "core_rules.e7913709d1aedf9f4e378bc0",
+        "text_sha256": "35bb65f01f720a292bdf45019392bb112e4239bfdf3d50696921a53958f257c8"
+      },
+      "anchor": "![Aircraft movement: A, B and C](../images/page_054_movement.png)",
+      "reason": "The A/B/C figure illustrates Aircraft movement, not charge/fight rules."
+    }
+  ],
+  "noise_lines": [
+    {
+      "selector": {
+        "page_number": 5,
+        "section_title": null,
+        "block_id": "core_rules.5cba6209975ed7c6708d7b13",
+        "text_sha256": "3782bd4de7c426a1abd1b2fe6c108759f7e94ca7e4df8528a1320051e1857d03"
+      },
+      "lines": [
+        "5"
+      ],
+      "reason": "Checked isolated page/navigation labels and running header; not rule values in sentences or tables."
+    },
+    {
+      "selector": {
+        "page_number": 7,
+        "section_title": null,
+        "block_id": "core_rules.43792bd334feb28050448dcc",
+        "text_sha256": "80ac9cdee23e707d6473649d9aac5d05dc0f3b4a86f8150a0ffd7b3a1817865e"
+      },
+      "lines": [
+        "7"
+      ],
+      "reason": "Checked isolated page/navigation labels and running header; not rule values in sentences or tables."
+    },
+    {
+      "selector": {
+        "page_number": 9,
+        "section_title": null,
+        "block_id": "core_rules.bceddb0b46062de8b7344276",
+        "text_sha256": "7e73e5f2ed1b91c6a714be930cad3ab655a15414093d9fcad56e0da6e0f7d96b"
+      },
+      "lines": [
+        "9"
+      ],
+      "reason": "Checked isolated page/navigation labels and running header; not rule values in sentences or tables."
+    },
+    {
+      "selector": {
+        "page_number": 12,
+        "section_title": "ATTACHED UNITS",
+        "block_id": "core_rules.1c7be9c792a947b8c9d555a6",
+        "text_sha256": "a3b9967e9902f2e8b91445da59b7ace035decd3fdb74581ae5f138847d652d95"
+      },
+      "lines": [
+        "12"
+      ],
+      "reason": "Checked isolated page/navigation labels and running header; not rule values in sentences or tables."
+    },
+    {
+      "selector": {
+        "page_number": 16,
+        "section_title": "2. REINFORCEMENTS",
+        "block_id": "core_rules.aaa5e0edad91f25eeaed711a",
+        "text_sha256": "e2cd40f1c2513f83f3a17897fc32ad8facee9869f93083f031ff212ed1c5c01e"
+      },
+      "lines": [
+        "1",
+        "3",
+        "4",
+        "5",
+        "16"
+      ],
+      "reason": "Checked isolated page/navigation labels and running header; not rule values in sentences or tables."
+    },
+    {
+      "selector": {
+        "page_number": 20,
+        "section_title": "BIG GUNS NEVER TIRE",
+        "block_id": "core_rules.65fa0ef44795e659cb37eac3",
+        "text_sha256": "0981204476196e36ccae53b305bd5869e52c96b444697a049f1c3c239ae724d0"
+      },
+      "lines": [
+        "1",
+        "2",
+        "4",
+        "5",
+        "20"
+      ],
+      "reason": "Checked isolated page/navigation labels and running header; not rule values in sentences or tables."
+    },
+    {
+      "selector": {
+        "page_number": 22,
+        "section_title": "INVULNERABLE SAVES",
+        "block_id": "core_rules.f36d1b5440de547a9ee48b9f",
+        "text_sha256": "2775e60cd8a013103c6e310200fca61959d1b8f182b248b80d616c82fcf37329"
+      },
+      "lines": [
+        "1",
+        "2",
+        "4",
+        "22"
+      ],
+      "reason": "Checked isolated page/navigation labels and running header; not rule values in sentences or tables."
+    },
+    {
+      "selector": {
+        "page_number": 23,
+        "section_title": null,
+        "block_id": "core_rules.65957a965d566427bc830663",
+        "text_sha256": "ac79be2d1b99c04edf9328afd989c42f414c3b615f43e9d40d3f9fda4ee5b657"
+      },
+      "lines": [
+        "1",
+        "2",
+        "4",
+        "23"
+      ],
+      "reason": "Checked isolated page/navigation labels and running header; not rule values in sentences or tables."
+    },
+    {
+      "selector": {
+        "page_number": 25,
+        "section_title": null,
+        "block_id": "core_rules.50fc4fc45aca75145b9ceb04",
+        "text_sha256": "d63251d360b48862fad9af81a711ea9c9eaeb327affde8e55f3eb4d17426189e"
+      },
+      "lines": [
+        "25"
+      ],
+      "reason": "Checked isolated page/navigation labels and running header; not rule values in sentences or tables."
+    },
+    {
+      "selector": {
+        "page_number": 32,
+        "section_title": "2. REMAINING COMBATS",
+        "block_id": "core_rules.19edbc1c0284d6374d67fe1b",
+        "text_sha256": "1e3fb7ce0ec3d761613dfede646db43f1fd3c6d2eee2988652f31f37e71eea46"
+      },
+      "lines": [
+        "1"
+      ],
+      "reason": "Checked isolated page/navigation labels and running header; not rule values in sentences or tables."
+    },
+    {
+      "selector": {
+        "page_number": 32,
+        "section_title": "FIGHTS FIRST",
+        "block_id": "core_rules.b2688c102cc674447788d555",
+        "text_sha256": "8287d48850f7af7d66bf6a251a9899e08ce09c97cd712376327bfa33bee03640"
+      },
+      "lines": [
+        "2"
+      ],
+      "reason": "Checked isolated page/navigation labels and running header; not rule values in sentences or tables."
+    },
+    {
+      "selector": {
+        "page_number": 32,
+        "section_title": "REMAINING COMBATS",
+        "block_id": "core_rules.a4f15c46e172f4c762403465",
+        "text_sha256": "de6509a11dee14792969fa0a921ab4f00534c480b03598dd3ed45d18a5d28758"
+      },
+      "lines": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "32"
+      ],
+      "reason": "Checked isolated page/navigation labels and running header; not rule values in sentences or tables."
+    },
+    {
+      "selector": {
+        "page_number": 34,
+        "section_title": "MAKE ATTACKS",
+        "block_id": "core_rules.59e83f2cdc492644c53c1735",
+        "text_sha256": "527f061be96f5692eb413448ab658d1128d5d2eb6bb808a0c996f34b7753c640"
+      },
+      "lines": [
+        "34"
+      ],
+      "reason": "Checked isolated page/navigation labels and running header; not rule values in sentences or tables."
+    },
+    {
+      "selector": {
+        "page_number": 35,
+        "section_title": null,
+        "block_id": "core_rules.eec8bfed6bdaadf4291dd00e",
+        "text_sha256": "61db5e38c8c4d97de7ef90a7bd26b7a1378c39961c765153ebf80cf65591907d"
+      },
+      "lines": [
+        "CORE RULES | FIGHT PHASE | FIGHT"
+      ],
+      "reason": "Checked isolated page/navigation labels and running header; not rule values in sentences or tables."
+    },
+    {
+      "selector": {
+        "page_number": 38,
+        "section_title": "PSYCHIC WEAPONS AND ABILITIES",
+        "block_id": "core_rules.98a1396abea53cff91af4a93",
+        "text_sha256": "ca737be3e874fa0a13dee12a9adc2df4844335e3ed616bc01dd430796988ee64"
+      },
+      "lines": [
+        "38"
+      ],
+      "reason": "Checked isolated page/navigation labels and running header; not rule values in sentences or tables."
+    },
+    {
+      "selector": {
+        "page_number": 39,
+        "section_title": null,
+        "block_id": "core_rules.61b983f4218a41d215acce0c",
+        "text_sha256": "3e8d70b74a70990c031eb9cda21ee1954332f54e793cecf64cf561f91fed658d"
+      },
+      "lines": [
+        "39"
+      ],
+      "reason": "Checked isolated page/navigation labels and running header; not rule values in sentences or tables."
+    },
+    {
+      "selector": {
+        "page_number": 48,
+        "section_title": "BENEFIT OF COVER",
+        "block_id": "core_rules.1bae9a5ef8a21378d4dff532",
+        "text_sha256": "2fcb7202f6e0cf3f2096c9b7e06e7b374f4c58ea54dbf1f48a07512c158c0256"
+      },
+      "lines": [
+        "48"
+      ],
+      "reason": "Checked isolated page/navigation labels and running header; not rule values in sentences or tables."
+    }
+  ],
+  "drop_preambles": [
+    {
+      "selector": {
+        "page_number": 59,
+        "section_title": null,
+        "block_id": "core_rules.4f20b3bdabfa2fde538bcd87",
+        "text_sha256": "13ca3f6d21e2873510769cd30cf8f8f4dbe9f8e3dfed6c7c1eb70943c80f4fe6"
+      },
+      "text": "MISSION",
+      "reason": "Standalone page classification label."
+    }
+  ]
+}

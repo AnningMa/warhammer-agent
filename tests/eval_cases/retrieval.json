@@ -1,0 +1,110 @@
+[
+  {
+    "id": "coherency",
+    "question": "How close must models in a unit stay to one another?",
+    "page_number": 6,
+    "section_title": "UNIT COHERENCY"
+  },
+  {
+    "id": "d3",
+    "question": "How do I convert a D6 result into a D3 result?",
+    "page_number": 9,
+    "section_title": "DICE"
+  },
+  {
+    "id": "assault",
+    "question": "Can a unit that advanced shoot an Assault weapon?",
+    "page_number": 25,
+    "section_title": "ASSAULT"
+  },
+  {
+    "id": "blast",
+    "question": "How does the target unit size affect attacks made with Blast weapons?",
+    "page_number": 26,
+    "section_title": "BLAST"
+  },
+  {
+    "id": "deep_strike",
+    "question": "How far from enemy models must a Deep Strike unit be set up?",
+    "page_number": 39,
+    "section_title": "DEEP STRIKE"
+  },
+  {
+    "id": "command_reroll",
+    "question": "What does the Command Re-roll stratagem cost and which rolls can it reroll?",
+    "page_number": 41,
+    "section_title": "COMMAND RE-ROLL"
+  },
+  {
+    "id": "grenade",
+    "question": "When can I use the Grenade stratagem and how are mortal wounds determined?",
+    "page_number": 42,
+    "section_title": "GRENADE"
+  },
+  {
+    "id": "overwatch",
+    "question": "When can I use Fire Overwatch and what hit rolls are required?",
+    "page_number": 42,
+    "section_title": "FIRE OVERWATCH"
+  },
+  {
+    "id": "cover",
+    "question": "How does the Benefit of Cover modify a saving throw?",
+    "page_number": 44,
+    "section_title": "BENEFIT OF COVER"
+  },
+  {
+    "id": "army_size",
+    "question": "What are the points limits for Incursion, Strike Force and Onslaught battles?",
+    "page_number": 55,
+    "section_title": "1. SELECT BATTLE SIZE"
+  },
+  {
+    "id": "wound_complete",
+    "question": "What is the required wound roll when Strength is twice Toughness, and what happens on an unmodified roll of 1 or 6?",
+    "page_number": 22,
+    "section_title": "2. WOUND ROLL"
+  },
+  {
+    "id": "melee_profiles",
+    "question": "How many melee weapon profiles can a model select each time it fights?",
+    "page_number": 34,
+    "section_title": "SELECT WEAPON"
+  },
+  {
+    "id": "aircraft_movement",
+    "question": "What minimum distance must an Aircraft move and when can it pivot up to 90 degrees?",
+    "page_number": 54,
+    "section_title": "AIRCRAFT IN THE MOVEMENT PHASE"
+  },
+  {
+    "id": "coherency_vertical",
+    "question": "What is the maximum vertical distance allowed between models for unit coherency?",
+    "page_number": 6,
+    "section_title": "UNIT COHERENCY"
+  },
+  {
+    "id": "coherency_large_unit",
+    "question": "In a unit with eight models, how many other models must each model stay close to?",
+    "page_number": 6,
+    "section_title": "UNIT COHERENCY"
+  },
+  {
+    "id": "woods_cover",
+    "question": "When does a model receive the Benefit of Cover from Woods?",
+    "page_number": 47,
+    "section_title": "BENEFIT OF COVER"
+  },
+  {
+    "id": "ruins_cover",
+    "question": "When does a model receive the Benefit of Cover from Ruins?",
+    "page_number": 48,
+    "section_title": "BENEFIT OF COVER"
+  },
+  {
+    "id": "cover_exceptions",
+    "question": "Can cover improve an invulnerable save or protect a model with a 3+ Save against AP 0?",
+    "page_number": 44,
+    "section_title": "BENEFIT OF COVER"
+  }
+]

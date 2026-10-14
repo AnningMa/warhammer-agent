@@ -11,7 +11,7 @@ PAGES = [24, 27, 29, 30, 33, 36, 37, 41, 42, 43, 45, 46, *range(49, 61)]
 
 @pytest.fixture(scope="module")
 def document():
-    return json.loads((ROOT / "reports/docling/document.json").read_text())
+    return json.loads((ROOT / "data/core_rules.docling.json").read_text())
 
 
 @pytest.mark.parametrize("page", PAGES)
@@ -139,7 +139,7 @@ def test_deployment_measurements_remain_attached_to_map():
     ] == ["6", "7", "8", "9", "10", "11"]
 
 
-def test_reviewed_figures_have_valid_crops_and_existing_outputs():
+def test_reviewed_figures_have_valid_crops():
     for page in range(49, 61):
         rules = json.loads(
             (ROOT / f"config/corrections/core_rules/page_{page:03d}.json").read_text()
@@ -149,6 +149,3 @@ def test_reviewed_figures_have_valid_crops_and_existing_outputs():
                 x0, y0, x1, y1 = b["bbox"]
                 assert 0 <= x0 < x1 <= 610
                 assert 0 <= y0 < y1 <= 794
-                assert (
-                    ROOT / f"reports/cleaned/images/page_{page:03d}_{b['id']}.png"
-                ).is_file()
