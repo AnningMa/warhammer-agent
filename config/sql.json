@@ -1,0 +1,15 @@
+{
+  "database_path": "data/wahadb.sqlite",
+  "max_tables": 6,
+  "max_rows": 100,
+  "timeout_seconds": 2,
+  "generation": {
+    "model": "gemini-3-flash-preview",
+    "api_key_env": "GEMINI_API_KEY",
+    "timeout_ms": 60000,
+    "attempts": 3,
+    "planning_max_output_tokens": 4096,
+    "max_output_tokens": 2048,
+    "temperature": 0.2
+  }
+}

@@ -6,6 +6,7 @@ dependencies = [
     "docling",
     "pymupdf>=1.28.2",
     "rapidocr>=3.9.2",
+    "sqlglot>=30.0,<31",
     "torch",
     "torchvision",
 ]

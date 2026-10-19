@@ -276,3 +276,91 @@ uv run --locked --extra qwen --extra chroma --extra gemini python scripts/ask_ru
 启用重排会增加一次 Gemini 请求；触发重写时再增加一次请求和多路本地检索。候选顺序只是模型判断，不是校准的相关性概率。应使用开关在相同问题、相同语料上对照答案质量、排名、token 用量和延迟，不能仅凭接入重排就断言检索效果更好。
 
 真实验证示例：历史问题为 `Can Infantry shoot after Advancing, and can they charge after Advancing?`，最新问题为 `What about Aircraft?`；重写得到 `Can Aircraft shoot after Advancing, and can they charge after Advancing?`，再拆成射击与冲锋两个子问题，保留原问题共同检索。已通过真实 Gemini 调用验证 20 个父规则重排及最终来源引用。验证摘要保存在 `storage/rag/refinement_validation.json`；测试期间也验证了服务端错误的回退和非法引用的拒绝。最终答案支持将 `[S1, S2]` 规范成 `[S1] [S2]`，不存在的来源和引用数组不一致仍会拒绝。
+
+## SQL 只读基础层
+
+`src/warhammer_agent/sql/` 提供 Text-to-SQL 使用的 schema、查询计划、Gemini SQL 生成与安全执行边界。`schema.py` 只读取表名和字段，根据问题中的明确关键词选择相关表与可用关联；`planner.py` 将模型返回的 JSON 解析为固定查询计划，并核对其中的表、字段、关联和过滤操作；`generator.py` 先生成结构化计划，再要求 Gemini 返回 SQL 与参数，并在本地复核表、字段和占位符；`safety.py` 使用 SQLGlot 的 SQLite AST 解析，要求单条 `SELECT` 或 `WITH ... SELECT`，并校验允许的表和函数；`database.py` 叠加 SQLite `mode=ro`、`query_only`、authorizer、执行超时和最大返回行数；`retriever.py` 按顺序调用这些组件，遇到歧义时停止执行并返回澄清问题。
+
+```text
+src/warhammer_agent/sql/
+├── __init__.py       # 对外公开 schema、验证与只读数据库接口
+├── schema.py         # 读取 SQLite schema 并筛选与问题相关的表
+├── planner.py        # 解析并验证结构化查询计划
+├── generator.py      # Gemini SQL 生成与本地结果校验
+├── safety.py         # AST 验证、表/函数白名单与危险操作拒绝
+├── database.py       # SQLite 只读连接、执行超时与结果行数限制
+├── retriever.py      # schema → plan → SQL → 只读执行流程
+└── cli.py            # SQL Retriever 命令行入口
+
+tests/
+├── unit/test_sql_generator.py       # SQL 生成结果与 Gemini 请求测试
+├── unit/test_sql_planner.py         # 结构化查询计划单元测试
+├── unit/test_sql_safety.py          # SQL 验证单元测试
+├── integration/test_sql_database.py # SQLite 只读执行集成测试
+├── integration/test_sql_schema.py   # schema 读取和筛选集成测试
+└── integration/test_sql_retriever.py # SQL Retriever 流程测试
+```
+
+```python
+from warhammer_agent.sql import ReadOnlyDatabase
+
+database = ReadOnlyDatabase("data/wahadb.sqlite", max_rows=100, timeout=2)
+result = database.execute(
+    """
+    SELECT d.name AS unit, m.name AS model, m.t AS toughness
+    FROM datasheets AS d
+    JOIN datasheets_models AS m ON d.Id = m.DatasheetId
+    WHERE lower(d.name) LIKE ?
+    """,
+    ("%intercessor%",),
+)
+```
+
+数据库文件继续由 `.gitignore` 排除。Gemini 设置位于 `config/sql.json`，当前模型是 `gemini-3-flash-preview`，复用 `.env` 中的 `GEMINI_API_KEY`。完整流程会调用 Gemini 两次：先生成查询计划，再生成 SQL。SQL 生成提示包含数值过滤、阵营关联和聚合计数三个 Few-Shot 示例；示例只说明 SQLite 查询结构，当前问题仍受已验证查询计划、schema 和参数约束。当前不自动修复失败结果。
+
+```bash
+# 只检查会选择哪些表，不调用 Gemini
+uv run --locked python scripts/ask_database.py \
+  --question "Which unit models have toughness 6?" --schema-only
+
+# 完整查询计划、SQL 生成和只读执行
+uv run --locked --extra gemini python scripts/ask_database.py \
+  --question "Which unit models have toughness 6?"
+
+# API 调试：15 秒超时且不重试，并在 stderr 显示当前阶段
+uv run --locked --extra gemini python scripts/ask_database.py \
+  --question "Which unit models have toughness 6?" \
+  --timeout-ms 15000 --attempts 1
+```
+
+### SQL Retriever 验证
+
+按以下顺序测试。前两步完全本地运行，不消耗 Gemini API 配额。
+
+```bash
+# 1. SQL 单元测试与集成测试
+uv run --locked --extra gemini python -m pytest -q \
+  tests/unit/test_sql_*.py tests/integration/test_sql_*.py
+
+# 2. 检查三表 schema 选择，不调用 Gemini
+uv run --locked --extra gemini python scripts/ask_database.py \
+  --question "Which Adeptus Custodes unit models have toughness 6?" \
+  --schema-only
+```
+
+第二步应选择 `datasheets_models`、`datasheets` 和 `factions`，并提供 `factions.Id = datasheets.factionId` 与 `datasheets.Id = datasheets_models.DatasheetId` 两条关联。
+
+额度可用时，分别验证多条件过滤、三表关联和聚合计数：
+
+```bash
+uv run --locked --extra gemini python scripts/ask_database.py \
+  --question "Which stratagems cost 1 CP and can be used in the Shooting phase?"
+
+uv run --locked --extra gemini python scripts/ask_database.py \
+  --question "Which Adeptus Custodes unit models have toughness 6?"
+
+uv run --locked --extra gemini python scripts/ask_database.py \
+  --question "How many unit models have toughness 6?"
+```
+
+完整查询成功时依次显示查询计划、SQL 生成、本地验证和只读执行四个阶段，最终 JSON 的 `status` 为 `executed`。每个完整问题调用 Gemini 两次；若返回 `ClientError (429)`，表示当前 API key 的生成额度已用完，应等待错误中给出的恢复时间后再试。
