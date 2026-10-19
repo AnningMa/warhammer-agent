@@ -73,10 +73,13 @@ def main() -> int:
         SQLExecutionError,
         json.JSONDecodeError,
     ) as error:
-        print(f"SQL Retriever 失败：{error}", file=sys.stderr)
+        print(f"SQL Retriever failed: {error}", file=sys.stderr)
         return 1
     except Exception as error:  # noqa: BLE001 -- report safe API details at CLI edge.
-        print(f"SQL Retriever 失败：{_unexpected_error_message(error)}", file=sys.stderr)
+        print(
+            f"SQL Retriever failed: {_unexpected_error_message(error)}",
+            file=sys.stderr,
+        )
         return 1
     finally:
         if generator is not None:
@@ -123,4 +126,4 @@ def _unexpected_error_message(error: Exception) -> str:
     message = getattr(error, "message", None)
     if code is not None and message:
         return f"{error_type} ({code}): {str(message)[:800]}"
-    return f"{error_type}；请检查网络、模型权限和 API 配额。"
+    return f"{error_type}; check the network, model access, and API quota."

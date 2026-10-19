@@ -199,7 +199,9 @@ class GeminiSQLGenerator:
         load_dotenv(root / ".env", override=False)
         key = os.environ.get(settings["api_key_env"], "").strip()
         if not key:
-            raise ValueError(f"请在 .env 中填写 {settings['api_key_env']} 后再生成 SQL")
+            raise ValueError(
+                f"Set {settings['api_key_env']} in .env before generating SQL"
+            )
 
         self.settings = settings
         self.client = genai.Client(

@@ -96,13 +96,13 @@ class SQLRetriever:
             )
             return SQLRetrievalResult(question, schema, plan)
 
-        self.progress("正在调用 Gemini 生成查询计划……")
+        self.progress("Calling Gemini to generate the query plan...")
         plan = self.model.plan(question, schema)
         if plan.ambiguities:
             return SQLRetrievalResult(question, schema, plan)
 
-        self.progress("查询计划已通过，正在调用 Gemini 生成 SQL……")
+        self.progress("Query plan validated; calling Gemini to generate SQL...")
         generated = self.model.generate(question, plan, schema)
-        self.progress("SQL 已通过本地验证，正在只读查询数据库……")
+        self.progress("SQL validated locally; querying SQLite in read-only mode...")
         result = self.database.execute(generated.sql, generated.parameters)
         return SQLRetrievalResult(question, schema, plan, generated, result)
