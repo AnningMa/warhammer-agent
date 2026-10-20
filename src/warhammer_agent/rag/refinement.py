@@ -68,7 +68,7 @@ def structured_call(generator, schema, instruction, payload, max_output_tokens):
 
 def validate_history(history, settings):
     if not isinstance(history, list):
-        raise TypeError("history 必须是 role/content 对象数组")
+        raise TypeError("history must be an array of role/content objects")
     total = 0
     for message in history:
         if (
@@ -79,11 +79,11 @@ def validate_history(history, settings):
             or not message["content"].strip()
         ):
             raise ValueError(
-                "history 每条消息必须包含 user/assistant role 和非空 content"
+                "Each history message must contain a user/assistant role and nonempty content"
             )
         total += len(message["content"])
     if total > settings["max_history_chars"]:
-        raise ValueError("对话历史超过 max_history_chars")
+        raise ValueError("Conversation history exceeds max_history_chars")
     return history[-settings["max_history_messages"] :]
 
 
@@ -110,8 +110,9 @@ conditions and entities. Do not invent missing unit types, phases or distances.
 Assistant history is not authoritative rules evidence. If reference is ambiguous,
 retain the ambiguity. For independently answerable components produce at most
 three focused subquestions; for a single question return []. Subquestions must
-not introduce facts or drift to earlier topics. Keep queries in English; do not
-translate Chinese or implement language-conversion logic.""",
+not introduce facts or drift to earlier topics. This project uses English
+exclusively. Keep standalone questions and subquestions in English; do not
+implement translation or multilingual query expansion.""",
         {"latest_question": question, "history": history},
         settings["max_output_tokens"],
     )
@@ -196,7 +197,8 @@ provided document ID exactly once, most relevant first. Prefer rules that direct
 answer the question, with applicable prerequisites and exceptions. Consider all
 subquestions and include complementary evidence for a compound question. Judge
 examples together with their attached main rules. Do not answer the question or
-invent IDs. No outside rules knowledge. Output only the required JSON.""",
+invent IDs. No outside rules knowledge. All interaction is in English.
+Output only the required JSON.""",
         {
             "original_question": question,
             "standalone_question": plan["standalone_question"],

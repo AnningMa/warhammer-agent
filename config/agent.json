@@ -1,0 +1,11 @@
+{
+  "rag_config": "config/rag.json",
+  "sql_config": "config/sql.json",
+  "checkpoints": "storage/agent/checkpoints.sqlite",
+  "output_dir": "storage/agent/runs",
+  "max_context_bytes": 64000,
+  "sql_context_bytes": 24000,
+  "max_history_messages": 6,
+  "max_history_chars": 12000,
+  "routing_max_output_tokens": 2048
+}

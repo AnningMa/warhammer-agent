@@ -30,7 +30,9 @@ def select_evidence(hits: list[dict], parents: list[dict], max_bytes: int):
         related = block.get("parent_rule_id")
         if related:
             if related not in by_id:
-                raise ValueError("示例关联的完整主规则缺失")
+                raise ValueError(
+                    "The complete main rule linked to this example is missing"
+                )
             bundle.append(by_id[related])
         additions = []
         for parent in bundle:
@@ -75,7 +77,9 @@ class RuleRetriever:
         self.parents = [b for b in records if b["record_type"] == "parent"]
         self.children = [b for b in records if b["record_type"] == "child"]
         if not self.parents or not self.children:
-            raise ValueError("父子块文件为空，请先构建父子块索引")
+            raise ValueError(
+                "The parent-child corpus is empty; build the parent-child index first"
+            )
         chroma = {**config["chroma"], "collections": {"qwen": experiment["collection"]}}
         self.store = ChromaStore(
             root,
@@ -104,33 +108,18 @@ class RuleRetriever:
         self.embedder.close()
 
 
-def answer_question(
-    question: str,
-    retriever,
-    generator,
-    settings: dict,
-    retrieve_only=False,
-    history=None,
-):
+def prepare_question(question, generator, settings, history=None, enabled=True):
     if not question.strip() or len(question) > settings["max_question_chars"]:
-        raise ValueError("问题不能为空或超过 max_question_chars")
-    start = time.perf_counter()
+        raise ValueError("The question must be nonempty and within max_question_chars")
     rewrite_settings = settings.get(
         "rewrite",
         {"enabled": False, "max_history_chars": 12000, "max_history_messages": 6},
     )
-    rerank_settings = {
-        "enabled": False,
-        "per_query_k": 15,
-        "candidate_k": 20,
-        "rrf_constant": 60,
-        **settings.get("rerank", {}),
-    }
     history = validate_history([] if history is None else history, rewrite_settings)
     rewrite_start = time.perf_counter()
     plan = {"standalone_question": question, "subquestions": [], "queries": [question]}
     rewrite_info = {"status": "disabled"}
-    if rewrite_settings["enabled"] and not retrieve_only and generator is not None:
+    if rewrite_settings["enabled"] and enabled and generator is not None:
         rewrite_info = {"status": "not_needed"}
         if needs_rewrite(question, history):
             try:
@@ -142,10 +131,41 @@ def answer_question(
                     **failure_details(error, generator),
                 }
     rewrite_info["elapsed_seconds"] = time.perf_counter() - rewrite_start
+    return plan, history, rewrite_info
+
+
+def retrieve_evidence(
+    question,
+    retriever,
+    generator,
+    settings,
+    history=None,
+    query_plan=None,
+    rewrite_info=None,
+    local_only=False,
+):
+    """Retrieve evidence without generating an answer or repeating supplied planning."""
+    if not question.strip() or len(question) > settings["max_question_chars"]:
+        raise ValueError("The question must be nonempty and within max_question_chars")
+    if query_plan is None:
+        plan, history, rewrite_info = prepare_question(
+            question, generator, settings, history, enabled=not local_only
+        )
+    else:
+        plan = query_plan
+        history = history or []
+        rewrite_info = rewrite_info or {"status": "provided"}
+    rerank_settings = {
+        "enabled": False,
+        "per_query_k": 15,
+        "candidate_k": 20,
+        "rrf_constant": 60,
+        **settings.get("rerank", {}),
+    }
     retrieval_start = time.perf_counter()
     refinement = (
         (rerank_settings["enabled"] or len(plan["queries"]) > 1)
-        and not retrieve_only
+        and not local_only
         and generator is not None
     )
     if refinement:
@@ -202,6 +222,24 @@ def answer_question(
         "context_bytes": len(make_prompt("", evidence).encode("utf-8")),
         "retrieval_seconds": retrieval_seconds,
     }
+    return record
+
+
+def answer_question(
+    question, retriever, generator, settings, retrieve_only=False, history=None
+):
+    start = time.perf_counter()
+    record = retrieve_evidence(
+        question,
+        retriever,
+        generator,
+        settings,
+        history=history,
+        local_only=retrieve_only,
+    )
+    evidence = record["evidence"]
+    history = record["history"]
+    plan = record["query_plan"]
     if retrieve_only:
         return {
             **record,
@@ -212,7 +250,7 @@ def answer_question(
         return {
             **record,
             "status": "insufficient_evidence",
-            "answer": "未检索到可用的完整规则证据，或完整证据超过上下文预算。",
+            "answer": "No usable complete rules were retrieved, or the complete evidence exceeds the context budget.",
             "citations": [],
             "insufficient_evidence": True,
             "usage": None,

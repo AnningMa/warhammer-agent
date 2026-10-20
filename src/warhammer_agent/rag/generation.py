@@ -17,8 +17,10 @@ previous assistant answers are not rules evidence. Answer the latest question,
 not unrelated earlier questions or invented assumptions in retrieval rewrites.
 If the evidence does not answer the question, explicitly
 say so and set insufficient_evidence=true. Explain missing evidence or ambiguity;
-do not present unsupported conclusions. Reply in Chinese, retaining English
-rule names, unless the user explicitly requests another language.
+do not present unsupported conclusions. This project uses English exclusively.
+Always answer in English, including clarification and insufficient-evidence
+messages. Keep rule names in their original English form, even if asked to
+respond in another language.
 Cite every substantive rules conclusion inline as [S1], [S2], etc. Use only IDs
 present in evidence. The citations array must contain exactly the unique IDs
 used inline. Do not invent titles or page numbers; the application adds them.
@@ -42,11 +44,13 @@ def validate_answer(payload: dict, evidence: list[dict]) -> dict:
     inline = {identity.strip() for group in groups for identity in group.split(",")}
     ids = answer.citations
     if len(ids) != len(set(ids)) or set(ids) != inline or not inline <= known.keys():
-        raise ValueError("生成结果引用无效：编号必须存在于本次证据，且与正文引用一致")
+        raise ValueError(
+            "Invalid answer citations: IDs must exist in the supplied evidence and match the inline citations"
+        )
     if not answer.answer.strip():
-        raise ValueError("生成结果为空")
+        raise ValueError("The generated answer is empty")
     if not answer.insufficient_evidence and not ids:
-        raise ValueError("生成结果缺少支持答案的来源引用")
+        raise ValueError("The generated answer has no supporting source citations")
     return {
         "answer": re.sub(
             citation_pattern,
@@ -100,7 +104,9 @@ class GeminiGenerator:
         load_dotenv(root / ".env", override=False)
         key = os.environ.get(settings["api_key_env"], "").strip()
         if not key:
-            raise ValueError(f"请在 .env 中填写 {settings['api_key_env']} 后再生成答案")
+            raise ValueError(
+                f"Set {settings['api_key_env']} in .env or the environment before generating an answer"
+            )
         self.settings = settings
         self.client = genai.Client(
             api_key=key,
@@ -136,14 +142,14 @@ class GeminiGenerator:
             != "STOP"
         ):
             raise ValueError(
-                "Gemini 未正常完成回答（可能被截断或阻止），结果未作为答案发布"
+                "Gemini did not finish normally (possibly truncated or blocked); no answer was published"
             )
         if not response.text:
-            raise ValueError("Gemini 返回空回答")
+            raise ValueError("Gemini returned an empty answer")
         try:
             payload = json.loads(response.text)
         except json.JSONDecodeError as error:
-            raise ValueError("Gemini 返回的内容不是有效 JSON") from error
+            raise ValueError("Gemini returned invalid JSON") from error
         try:
             output = validate_answer(payload, evidence)
         except ValueError as error:

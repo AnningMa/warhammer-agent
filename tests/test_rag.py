@@ -53,7 +53,7 @@ def test_example_main_rule_bundle_and_deduplication():
 
 
 def test_budget_skips_whole_rule_and_preserves_small_rule():
-    parents = [rule("large", "汉" * 1000), rule("small")]
+    parents = [rule("large", "€" * 1000), rule("small")]
     selected, omitted = select_evidence([hit("large"), hit("small")], parents, 400)
     assert [s["block_id"] for s in selected] == ["small"]
     assert selected[0]["text"] == "Rule text."
@@ -65,17 +65,17 @@ def test_budget_skips_whole_rule_and_preserves_small_rule():
 @pytest.mark.parametrize(
     "payload",
     [
-        {"answer": "规则 [S2]", "citations": ["S2"], "insufficient_evidence": False},
-        {"answer": "规则 [S1]", "citations": [], "insufficient_evidence": False},
+        {"answer": "Rule [S2]", "citations": ["S2"], "insufficient_evidence": False},
+        {"answer": "Rule [S1]", "citations": [], "insufficient_evidence": False},
         {
-            "answer": "规则 [S1]",
+            "answer": "Rule [S1]",
             "citations": ["S1", "S1"],
             "insufficient_evidence": False,
         },
-        {"answer": "没有引用", "citations": [], "insufficient_evidence": False},
+        {"answer": "No citations", "citations": [], "insufficient_evidence": False},
         {"answer": "  ", "citations": [], "insufficient_evidence": True},
         {
-            "answer": "规则 [S1]",
+            "answer": "Rule [S1]",
             "citations": ["S1"],
             "insufficient_evidence": False,
             "page_numbers": [999],
@@ -89,14 +89,18 @@ def test_invalid_answers_rejected(payload):
 
 def test_citations_are_resolved_from_metadata():
     result = validate_answer(
-        {"answer": "结论 [S1]", "citations": ["S1"], "insufficient_evidence": False},
+        {
+            "answer": "Conclusion [S1]",
+            "citations": ["S1"],
+            "insufficient_evidence": False,
+        },
         evidence(),
     )
     assert result["citations"][0]["page_numbers"] == [21, 22]
     assert result["citations"][0]["page_number_basis"] == "physical_pdf_1_based"
     result = validate_answer(
         {
-            "answer": "现有证据无法回答。",
+            "answer": "The supplied evidence cannot answer this question.",
             "citations": [],
             "insufficient_evidence": True,
         },
@@ -119,7 +123,7 @@ class Generator:
     def generate(self, question, selected):
         return validate_answer(
             {
-                "answer": "结论 [S1]",
+                "answer": "Conclusion [S1]",
                 "citations": ["S1"],
                 "insufficient_evidence": False,
             },
@@ -186,7 +190,7 @@ def test_actual_sdk_schema_and_request_with_mock_transport(monkeypatch, tmp_path
                         types.Part(
                             text=json.dumps(
                                 {
-                                    "answer": "结论 [S1]",
+                                    "answer": "Conclusion [S1]",
                                     "citations": ["S1"],
                                     "insufficient_evidence": False,
                                 }
@@ -223,7 +227,7 @@ def test_actual_sdk_schema_and_request_with_mock_transport(monkeypatch, tmp_path
     assert json.loads(calls[0]["contents"])["question"] == "Question?"
     assert calls[0]["config"].response_mime_type == "application/json"
     response.candidates[0].finish_reason = types.FinishReason.MAX_TOKENS
-    with pytest.raises(ValueError, match="未正常完成"):
+    with pytest.raises(ValueError, match="did not finish normally"):
         generator.generate("Question?", evidence())
     generator.close()
     assert generator.client.closed
@@ -265,13 +269,13 @@ def test_grouped_inline_citations_normalize_to_single_source_brackets():
     selected.append({**selected[0], "citation_id": "S2", "block_id": "second"})
     result = validate_answer(
         {
-            "answer": "结论 [S1, S2]",
+            "answer": "Conclusion [S1, S2]",
             "citations": ["S1", "S2"],
             "insufficient_evidence": False,
         },
         selected,
     )
-    assert result["answer"] == "结论 [S1] [S2]"
+    assert result["answer"] == "Conclusion [S1] [S2]"
     assert len(result["citations"]) == 2
 
 
@@ -279,7 +283,7 @@ def test_grouped_citations_still_reject_unknown_sources():
     with pytest.raises(ValueError):
         validate_answer(
             {
-                "answer": "结论 [S1, S99]",
+                "answer": "Conclusion [S1, S99]",
                 "citations": ["S1", "S99"],
                 "insufficient_evidence": False,
             },

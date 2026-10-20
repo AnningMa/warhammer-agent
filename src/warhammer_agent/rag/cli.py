@@ -118,7 +118,9 @@ def main():
             not args.question.strip()
             or len(args.question) > config["max_question_chars"]
         ):
-            raise ValueError("问题不能为空或超过 max_question_chars")
+            raise ValueError(
+                "The question must be nonempty and within max_question_chars"
+            )
         if not args.retrieve_only:
             generator = GeminiGenerator(root, config["generation"])
         retriever = RuleRetriever(root, config)
@@ -131,9 +133,12 @@ def main():
             history=history,
         )
         report = save_report(root, config, record)
-        for step, label in [("rewrite", "问句重写"), ("rerank", "重排")]:
+        for step, label in [("rewrite", "Query rewriting"), ("rerank", "Reranking")]:
             if record[step]["status"].startswith("fallback_"):
-                print(f"{label}失败，已使用回退结果；详情见运行记录。", file=sys.stderr)
+                print(
+                    f"{label} failed; using fallback results. See the run report for details.",
+                    file=sys.stderr,
+                )
         if args.json:
             print(
                 json.dumps(
@@ -143,16 +148,16 @@ def main():
         elif args.retrieve_only:
             for item in record["evidence"]:
                 print(
-                    f"[{item['citation_id']}] {item['section_title']} — PDF 物理页 {item['page_numbers']}"
+                    f"[{item['citation_id']}] {item['section_title']} — PDF physical pages {item['page_numbers']}"
                 )
-            print(f"检索证据已保存：{report}")
+            print(f"Retrieved evidence saved: {report}")
         else:
             print(record["answer"])
             for item in record["citations"]:
                 print(
-                    f"[{item['citation_id']}] {item['source']} · {item['section_title']} · PDF 物理页 {item['page_numbers']}"
+                    f"[{item['citation_id']}] {item['source']} · {item['section_title']} · PDF physical pages {item['page_numbers']}"
                 )
-            print(f"运行记录：{report}")
+            print(f"Run report: {report}")
         return 0
     except Exception as error:  # noqa: BLE001 -- CLI boundary: persist diagnostics without leaking SDK URLs/keys.
         record = getattr(
@@ -176,12 +181,12 @@ def main():
             record["api_error"] = {"code": error.code, "message": message[:1200]}
         if config is not None and "output_dir" in config:
             report = save_report(root, config, record)
-            print(f"失败记录：{report}", file=sys.stderr)
+            print(f"Failure report: {report}", file=sys.stderr)
         if isinstance(error, (ValueError, TypeError, FileNotFoundError)):
-            print(f"RAG 失败：{error}", file=sys.stderr)
+            print(f"RAG failed: {error}", file=sys.stderr)
         else:
             print(
-                f"RAG 失败：{type(error).__name__}；请检查网络、模型权限、配额及运行配置。",
+                f"RAG failed: {type(error).__name__}; check connectivity, model access, quota, and configuration.",
                 file=sys.stderr,
             )
             if "api_error" in record:

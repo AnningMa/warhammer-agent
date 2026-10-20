@@ -28,7 +28,7 @@ Never interpolate filter values, invent identifiers or values, query schema
 metadata, or add comments. Give every selected output a unique descriptive alias
 such as unit_name, model_name, or toughness. Numeric rule fields may be stored as TEXT, so cast
 them when numeric comparison or aggregation requires it. Return only the
-requested JSON object with sql and parameters.
+requested JSON object with sql and parameters. Use English output aliases.
 """
 
 SQL_FEW_SHOT_EXAMPLES = (
@@ -69,7 +69,9 @@ ambiguities instead of guessing. Every dimension and filter column must use the
 exact fully qualified table.column form shown in the schema. candidate_tables
 must include every table referenced by a dimension, filter, or join. Describe
 the requested result in metric; use count only when the question explicitly
-asks for a count. Return only the requested JSON object.
+asks for a count. Write metric, assumptions, and clarification questions in
+English only. Preserve source identifiers and filter values unchanged.
+Return only the requested JSON object.
 """
 
 
@@ -204,6 +206,7 @@ class GeminiSQLGenerator:
             )
 
         self.settings = settings
+        self.planning_usage = None
         self.client = genai.Client(
             api_key=key,
             http_options=types.HttpOptions(
@@ -257,6 +260,11 @@ class GeminiSQLGenerator:
                     thinking_level=types.ThinkingLevel.LOW
                 ),
             ),
+        )
+        self.planning_usage = (
+            response.usage_metadata.model_dump(mode="json")
+            if response.usage_metadata
+            else None
         )
         payload = _response_payload(response, "query plan")
         try:
