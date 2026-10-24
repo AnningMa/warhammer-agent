@@ -322,4 +322,65 @@ The combined evidence budget is 64000 serialized UTF-8 bytes; SQL has a 24000-by
 
 English node-completion messages go to stderr, and answers or `--json` run records go to stdout. They report execution stages, not private model reasoning. Per-run JSON diagnostics are saved under `storage/agent/runs/`, including selected models, history, route, query plans, source evidence, SQL results, errors, usage, timings, and the returned session ID. API keys are excluded. Exit code is 1 for `failed` and 0 for the other completed statuses.
 
-Tests use simulated Gemini responses, a temporary business database, and real SQLite checkpoints. They cover all routes, partial failures, empty/truncated results, citation rejection, process restart, session isolation, stale-evidence prevention, and the no-Qwen database path. No quality-evaluation dataset, UI, or SQL auto-repair loop is added. Neither corpus nor vector indexes need rebuilding.
+Tests use simulated Gemini responses, a temporary business database, and real SQLite checkpoints. They cover all routes, partial failures, empty/truncated results, citation rejection, process restart, session isolation, stale-evidence prevention, and the no-Qwen database path. No UI or SQL auto-repair loop is added. Neither corpus nor vector indexes need rebuilding.
+
+## End-to-end evaluation
+
+The versioned reference dataset in `tests/eval_cases/agent.json` contains 12
+rules, database, hybrid and clarification cases. The evaluation scores the real
+agent's route and tool trace, required sources, PDF Hit Rate@k, Precision@k and
+MAP@k, context coverage, SQL execution and expected values, required answer
+facts, citations, latency and Gemini token usage. Full definitions and dataset
+policy are in `docs/evaluation.md`.
+
+First run the evaluation unit tests, which use no Gemini requests:
+
+```bash
+uv run --locked --extra agent --extra qwen --extra chroma --extra gemini \
+  python -m pytest -q tests/unit/test_evaluation.py
+```
+
+Then run one real case before spending quota on the complete dataset:
+
+```bash
+uv run --locked --extra agent --extra qwen --extra chroma --extra gemini \
+  python scripts/evaluate_agent.py \
+  --case-id rules_deep_strike \
+  --model gemini-3-flash-preview
+```
+
+Other bounded selections and the complete deterministic run are:
+
+```bash
+uv run --locked --extra agent --extra qwen --extra chroma --extra gemini \
+  python scripts/evaluate_agent.py --category database --limit 1 \
+  --model gemini-3-flash-preview
+
+uv run --locked --extra agent --extra qwen --extra chroma --extra gemini \
+  python scripts/evaluate_agent.py --model gemini-3-flash-preview
+```
+
+Each case is saved immediately under `storage/evaluation/runs/<run-id>/cases/`.
+The run also stores its selected case IDs and model settings. If quota interrupts
+a run, continue the same selection without repeating completed cases:
+
+```bash
+uv run --locked --extra agent --extra qwen --extra chroma --extra gemini \
+  python scripts/evaluate_agent.py \
+  --resume storage/evaluation/runs/<run-id> \
+  --model gemini-3-flash-preview
+```
+
+The optional independent LLM judge adds faithfulness, answer relevancy and
+factual correctness. It consumes one additional Gemini request per case:
+
+```bash
+uv run --locked --extra agent --extra qwen --extra chroma --extra gemini \
+  python scripts/evaluate_agent.py \
+  --case-id rules_deep_strike \
+  --model gemini-3-flash-preview \
+  --judge --judge-model gemini-2.5-pro
+```
+
+Every run produces `evaluation.json` and `evaluation.md`. The judge is optional;
+deterministic results remain available if judge access or quota fails.

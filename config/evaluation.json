@@ -1,0 +1,22 @@
+{
+  "dataset": "tests/eval_cases/agent.json",
+  "agent_config": "config/agent.json",
+  "output_dir": "storage/evaluation",
+  "retrieval_k": 5,
+  "judge": {
+    "model": "gemini-2.5-pro",
+    "max_output_tokens": 2048
+  },
+  "thresholds": {
+    "route_accuracy": 0.9,
+    "trace_accuracy": 0.9,
+    "pdf_hit_rate_at_k": 0.8,
+    "sql_result_accuracy": 1.0,
+    "citation_validity": 1.0,
+    "required_fact_coverage": 0.8,
+    "faithfulness": 0.8,
+    "answer_relevancy": 0.8,
+    "factual_correctness": 0.8,
+    "end_to_end_pass_rate": 0.8
+  }
+}
