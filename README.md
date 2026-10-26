@@ -322,7 +322,24 @@ The combined evidence budget is 64000 serialized UTF-8 bytes; SQL has a 24000-by
 
 English node-completion messages go to stderr, and answers or `--json` run records go to stdout. They report execution stages, not private model reasoning. Per-run JSON diagnostics are saved under `storage/agent/runs/`, including selected models, history, route, query plans, source evidence, SQL results, errors, usage, timings, and the returned session ID. API keys are excluded. Exit code is 1 for `failed` and 0 for the other completed statuses.
 
-Tests use simulated Gemini responses, a temporary business database, and real SQLite checkpoints. They cover all routes, partial failures, empty/truncated results, citation rejection, process restart, session isolation, stale-evidence prevention, and the no-Qwen database path. No UI or SQL auto-repair loop is added. Neither corpus nor vector indexes need rebuilding.
+Tests use simulated Gemini responses, a temporary business database, and real SQLite checkpoints. They cover all routes, partial failures, empty/truncated results, citation rejection, process restart, session isolation, stale-evidence prevention, and the no-Qwen database path. No SQL auto-repair loop is added. Neither corpus nor vector indexes need rebuilding.
+
+## Local web chat
+
+The optional Streamlit interface uses the same LangGraph agent, persistent
+sessions, source citations and validation rules as the CLI. It does not
+duplicate retrieval or generation logic. Start it from the repository root:
+
+```bash
+uv sync --locked --extra agent --extra qwen --extra chroma --extra gemini --extra ui
+uv run --locked --extra agent --extra qwen --extra chroma --extra gemini --extra ui \
+  streamlit run scripts/chat_app.py
+```
+
+Open the local URL printed by Streamlit. The sidebar creates a new conversation
+and applies one Gemini model to routing, PDF refinement, SQL generation and
+final synthesis. The chat shows the final answer, PDF or SQLite citations,
+status and selected route. `GEMINI_API_KEY` remains server-side in `.env`.
 
 ## End-to-end evaluation
 

@@ -16,6 +16,7 @@ agent = ["langgraph>=1.0,<2", "langgraph-checkpoint-sqlite>=3.0,<4"]
 chroma = ["chromadb>=1.0,<2", "numpy>=1.26,<3"]
 gemini = ["google-genai>=1.0,<3", "python-dotenv>=1.0,<2", "numpy>=1.26,<3"]
 qwen = ["sentence-transformers>=5.0,<6", "transformers>=4.51,<6", "numpy>=1.26,<3"]
+ui = ["streamlit>=1.40,<2"]
 
 [build-system]
 requires = ["hatchling>=1.27,<2"]
