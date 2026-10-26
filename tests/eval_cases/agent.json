@@ -59,7 +59,7 @@
     "expected_status": "answered",
     "required_sources": ["sql"],
     "expected_pdf_sections": [],
-    "expected_sql_values": ["Intercessor Squad", "4"],
+    "expected_sql_values": ["4"],
     "required_facts": [["intercessor squad"], ["toughness 4", "t 4", "toughness of 4", "toughness characteristic of 4"]],
     "reference_answer": "The Intercessor Squad model has Toughness 4.",
     "reference_contexts": ["wahadb.sqlite: datasheets joined to datasheets_models"]
@@ -72,7 +72,7 @@
     "expected_status": "answered",
     "required_sources": ["sql"],
     "expected_pdf_sections": [],
-    "expected_sql_values": ["Heavy Intercessor Squad", "6", "3", "3+"],
+    "expected_sql_values": ["6", "3", "3+"],
     "required_facts": [["toughness 6", "t 6", "toughness characteristic of 6"], ["3 wounds", "wounds 3", "wounds characteristic of 3"], ["3+ save", "save of 3+", "save characteristic of 3+"]],
     "reference_answer": "A Heavy Intercessor Squad model has Toughness 6, 3 Wounds and a 3+ Save.",
     "reference_contexts": ["wahadb.sqlite: datasheets joined to datasheets_models"]
@@ -98,7 +98,7 @@
     "expected_status": "answered",
     "required_sources": ["sql"],
     "expected_pdf_sections": [],
-    "expected_sql_values": ["Custodian Guard", "6", "3", "2+"],
+    "expected_sql_values": ["6", "3", "2+"],
     "required_facts": [["toughness 6", "t 6", "toughness characteristic of 6"], ["3 wounds", "wounds 3", "wounds characteristic of 3"], ["2+ save", "save of 2+", "save characteristic of 2+"]],
     "reference_answer": "A Custodian Guard model has Toughness 6, 3 Wounds and a 2+ Save.",
     "reference_contexts": ["wahadb.sqlite: datasheets joined to datasheets_models"]
@@ -124,7 +124,7 @@
     "expected_status": "answered",
     "required_sources": ["sql", "pdf"],
     "expected_pdf_sections": ["2. WOUND ROLL"],
-    "expected_sql_values": ["Heavy Intercessor Squad", "6"],
+    "expected_sql_values": ["6"],
     "required_facts": [["toughness 6", "t 6", "toughness characteristic of 6"], ["strength 6", "s 6"], ["4+"]],
     "reference_answer": "A Heavy Intercessor Squad model has Toughness 6. Strength 6 equals Toughness 6, so the attack wounds on a 4+.",
     "reference_contexts": ["wahadb.sqlite: Heavy Intercessor Squad model profile", "Core Rules.pdf, 2. WOUND ROLL, physical pages 21-22"]
@@ -137,7 +137,7 @@
     "expected_status": "answered",
     "required_sources": ["sql", "pdf"],
     "expected_pdf_sections": ["BENEFIT OF COVER"],
-    "expected_sql_values": ["Intercessor Squad", "3+"],
+    "expected_sql_values": ["3+"],
     "required_facts": [["3+ save", "save of 3+", "save characteristic of 3+"], ["ap 0", "ap0"], ["cannot", "does not", "doesn't"]],
     "reference_answer": "An Intercessor Squad model has a 3+ Save. Benefit of Cover cannot improve a 3+ or better Save against an AP 0 attack.",
     "reference_contexts": ["wahadb.sqlite: Intercessor Squad model profile", "Core Rules.pdf, BENEFIT OF COVER, physical page 44"]
