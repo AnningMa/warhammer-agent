@@ -342,3 +342,107 @@ def test_invalid_route_never_selects_any_tool():
     result = invoke(services)
     assert result["status"] == "failed"
     assert services.pdf_calls == services.sql_calls == 0
+
+
+def test_real_router_sends_original_question_and_preserves_focused_output():
+    """Exercise the real SDK request boundary, not a simulated classification model."""
+    from types import SimpleNamespace
+
+    from warhammer_agent.agent.model import AgentModel
+
+    requests = []
+    expected = {
+        "intent": "rules",
+        "pdf_question": "What are the conditions and effects of the core Grenade Stratagem?",
+        "sql_question": "",
+        "clarification": "",
+    }
+
+    def generate(**request):
+        requests.append(request)
+        return SimpleNamespace(
+            candidates=[SimpleNamespace(finish_reason="STOP")],
+            text=json.dumps(expected),
+            model_version="offline-stub",
+            usage_metadata=None,
+        )
+
+    model = object.__new__(AgentModel)
+    model.settings = {"model": "offline-stub"}
+    model.client = SimpleNamespace(models=SimpleNamespace(generate_content=generate))
+    plan = {
+        "standalone_question": "What is the rule for Grenades?",
+        "subquestions": ["Look up the Grenade database record."],
+    }
+    history = [{"role": "user", "content": "Earlier question about unit profiles."}]
+    result, metadata = model.route(
+        "What is the rule for Grenades?", plan, history, 2048
+    )
+    assert result == expected
+    assert metadata["model_version"] == "offline-stub"
+    assert len(requests) == 1
+    request = requests[0]
+    payload = json.loads(request["contents"])
+    assert payload["latest_question"] == "What is the rule for Grenades?"
+    assert payload["query_plan"] == plan
+    assert payload["history"] == history
+    assert request["config"].max_output_tokens == 2048
+    instruction = request["config"].system_instruction
+    # Guard against regressing to the broad schema-only routing contract.
+    assert '"What is the rule for Grenades?" -> rules' in instruction
+    assert (
+        "Do not introduce a\ndatabase requirement merely because a rewrite"
+        in instruction
+    )
+
+
+def test_real_router_invalid_hybrid_response_does_not_reach_tools(monkeypatch):
+    from types import SimpleNamespace
+
+    from warhammer_agent.agent.model import AgentModel
+
+    services = FakeServices()
+    router = object.__new__(AgentModel)
+    router.settings = {"model": "offline-stub"}
+    router.client = SimpleNamespace(
+        models=SimpleNamespace(
+            generate_content=lambda **kwargs: SimpleNamespace(
+                candidates=[SimpleNamespace(finish_reason="STOP")],
+                text=json.dumps(
+                    {
+                        "intent": "hybrid",
+                        "pdf_question": "What is the rule for Grenades?",
+                        "sql_question": "",
+                        "clarification": "",
+                    }
+                ),
+                model_version="offline-stub",
+                usage_metadata=None,
+            )
+        )
+    )
+    monkeypatch.setattr(services.model, "route", router.route)
+    result = invoke(services, "What is the rule for Grenades?")
+    assert result["status"] == "failed"
+    assert services.pdf_calls == services.sql_calls == services.model.calls == 0
+    assert result["errors"][0]["stage"] == "route"
+
+
+def test_client_initialization_error_redacts_session_key_from_checkpoint_state(
+    monkeypatch,
+):
+    services = FakeServices()
+    services._api_key = "private-session-key"
+
+    class ProviderError(Exception):
+        code = 429
+        message = "Request rejected for private-session-key"
+
+    def fail(*args, **kwargs):
+        raise ProviderError()
+
+    monkeypatch.setattr(services.model, "route", fail)
+    state = invoke(services)
+    assert state["status"] == "failed"
+    assert "private-session-key" not in json.dumps(state)
+    assert "[REDACTED]" in json.dumps(state["errors"])

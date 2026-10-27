@@ -49,7 +49,9 @@ def build_graph(services, config, checkpointer):
             if stage == "sql"
             else getattr(services, "_model", None)
         )
-        detail = failure_details(error, resource)
+        detail = failure_details(
+            error, resource, api_key=getattr(services, "_api_key", None)
+        )
         return {"errors": [*state["errors"], {"stage": stage, **detail}]}
 
     def initialize(state):
@@ -93,7 +95,11 @@ def build_graph(services, config, checkpointer):
             return {
                 "rewrite": {
                     "status": "fallback_original",
-                    **failure_details(error, getattr(services, "_model", None)),
+                    **failure_details(
+                        error,
+                        getattr(services, "_model", None),
+                        api_key=getattr(services, "_api_key", None),
+                    ),
                 }
             }
 

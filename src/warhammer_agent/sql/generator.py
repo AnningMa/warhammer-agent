@@ -1,7 +1,6 @@
 """Gemini SQL generation with local structural and safety validation."""
 
 import json
-import os
 from collections.abc import Mapping
 from dataclasses import dataclass, replace
 from decimal import Decimal, InvalidOperation
@@ -12,6 +11,8 @@ from pydantic import BaseModel, ConfigDict, Field, ValidationError
 from sqlglot import exp, parse_one
 from sqlglot.errors import OptimizeError
 from sqlglot.optimizer.qualify import qualify
+
+from warhammer_agent.credentials import resolve_api_key
 
 from .planner import QueryPlan, parse_query_plan
 from .safety import SQLValidationError, ValidatedQuery, validate_readonly_sql
@@ -193,18 +194,14 @@ def validate_generated_query(
 
 
 class GeminiSQLGenerator:
-    def __init__(self, root: Path, settings: dict[str, Any]):
-        from dotenv import load_dotenv
+    def __init__(
+        self, root: Path, settings: dict[str, Any], *, api_key: str | None = None
+    ):
         from google import genai
         from google.genai import types
 
-        load_dotenv(root / ".env", override=False)
-        key = os.environ.get(settings["api_key_env"], "").strip()
-        if not key:
-            raise ValueError(
-                f"Set {settings['api_key_env']} in .env before generating SQL"
-            )
-
+        key = resolve_api_key(root, settings, api_key)
+        self._api_key = key
         self.settings = settings
         self.planning_usage = None
         self.client = genai.Client(

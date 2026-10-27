@@ -13,8 +13,9 @@ from .model import AgentModel
 
 
 class AgentServices:
-    def __init__(self, root: Path, config: dict):
+    def __init__(self, root: Path, config: dict, *, api_key: str | None = None):
         self.root, self.config = root, config
+        self._api_key = api_key
         self.rag = json.loads((root / config["rag_config"]).read_text())
         self.sql = json.loads((root / config["sql_config"]).read_text())
         self._model = self._pdf = self._sql_model = self._sql = None
@@ -22,7 +23,11 @@ class AgentServices:
     @property
     def model(self):
         if self._model is None:
-            self._model = AgentModel(self.root, self.rag["generation"])
+            self._model = AgentModel(
+                self.root,
+                self.rag["generation"],
+                **({"api_key": self._api_key} if self._api_key is not None else {}),
+            )
         return self._model
 
     def retrieve_pdf(self, original, plan, history, rewrite):
@@ -46,7 +51,11 @@ class AgentServices:
             database = ReadOnlyDatabase(
                 path, max_rows=self.sql["max_rows"], timeout=self.sql["timeout_seconds"]
             )
-            self._sql_model = GeminiSQLGenerator(self.root, self.sql["generation"])
+            self._sql_model = GeminiSQLGenerator(
+                self.root,
+                self.sql["generation"],
+                **({"api_key": self._api_key} if self._api_key is not None else {}),
+            )
             self._sql = SQLRetriever(
                 database, catalog, self._sql_model, max_tables=self.sql["max_tables"]
             )

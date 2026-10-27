@@ -18,16 +18,21 @@ class Ranking(BaseModel):
     ordered_ids: list[str]
 
 
-def failure_details(error, generator):
+def failure_details(error, generator, *, api_key=None):
     result = {"error_type": type(error).__name__}
     if hasattr(error, "code") and hasattr(error, "message"):
         message = str(error.message)
         key_name = getattr(generator, "settings", {}).get(
             "api_key_env", "GEMINI_API_KEY"
         )
-        key = os.environ.get(key_name, "")
-        if key:
-            message = message.replace(key, "[REDACTED]")
+        keys = (
+            api_key,
+            getattr(generator, "_api_key", None),
+            os.environ.get(key_name, ""),
+        )
+        for key in keys:
+            if key:
+                message = message.replace(key, "[REDACTED]")
         result["api_error"] = {"code": error.code, "message": message[:1200]}
     return result
 

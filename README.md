@@ -300,6 +300,18 @@ flowchart TD
 
 Question planning happens once before routing; the PDF evidence pipeline reuses the supplied plan and retains the original question. Routing produces focused tool questions. SQL never initializes Qwen, and rule-only requests never initialize the SQL model. Hybrid requests execute sequentially. Existing `ask_rules.py` and `ask_database.py` remain available and preserve their interfaces.
 
+Routing chooses the smallest source set needed for the requested answer. General
+Core Rules, core Stratagem conditions/costs and rule definitions use PDF rules;
+specific stored profiles, faction/detachment records and database searches use
+SQL. Hybrid questions must actually need both sources. Supplied hypothetical
+statistics do not trigger a redundant lookup, and rewrites must not invent a
+new database requirement. For example, "What is the rule for Grenades?" uses
+rules; "Which Orks Stratagems cost 1 CP?" uses database; a unit's stored Toughness
+plus its required wound roll uses hybrid. These boundaries guide the Gemini
+router; local mock tests validate request/response handling and tool dispatch,
+not the live model's classification accuracy. Recheck live routing after quota
+recovers.
+
 Without `--session-id`, the CLI generates and returns a new ID. With one, the LangGraph SQLite checkpointer restores prior completed conversation messages across processes. Checkpoints live in `storage/agent/checkpoints.sqlite`, separate from `data/wahadb.sqlite`; only JSON-compatible state is stored, with restricted checkpoint deserialization. IDs accept 1–100 ASCII letters, digits, underscores, or hyphens. A per-session file lock rejects concurrent turns; submit the same session sequentially. Different session IDs have independent histories.
 
 Every turn resets evidence, tool results, errors, citations, and final output. Only conversation messages survive between turns; history is for reference resolution, never factual evidence. The last 6 messages are retained within a 12000-character budget, dropping oldest whole messages if necessary. Failed turns are logged but not appended to conversation history. Successful answers, clarification, partial answers, and insufficient-evidence replies are retained. Checkpoints contain diagnostics and source data too; they are local ignored runtime files, not a replacement for the source database.
@@ -339,7 +351,33 @@ uv run --locked --extra agent --extra qwen --extra chroma --extra gemini --extra
 Open the local URL printed by Streamlit. The sidebar creates a new conversation
 and applies one Gemini model to routing, PDF refinement, SQL generation and
 final synthesis. The chat shows the final answer, PDF or SQLite citations,
-status and selected route. `GEMINI_API_KEY` remains server-side in `.env`.
+status and selected route. Enter your own Google API key in the sidebar's password
+field; chat and examples stay disabled until a key is entered. The key is passed
+directly to that session's Gemini clients, never placed in shared environment
+variables, configuration, checkpoints or run reports. Changing or clearing the key
+closes existing clients. Clear API key removes it from the session; New conversation
+keeps it while starting a fresh chat. Get a key at https://aistudio.google.com/apikey.
+The CLI continues to support `GEMINI_API_KEY` in `.env` or the environment.
+
+Routing, rewriting, PDF reranking, SQL planning/generation and answer synthesis
+use Gemini. PDF query embedding still uses the existing local Qwen parent-child
+index. Although the embedding CLI also supports Gemini, switching the Agent's
+retriever to Gemini embedding requires a matching rebuilt index and retriever
+support; entering a Google key does not switch embedding providers. SQLite,
+ChromaDB, parsing and LangGraph orchestration remain local components.
+
+The page adapts the supplied Core Rules handbook: pale paper, compact headings,
+serif answer text, a charcoal sidebar and antique-gold details. Start with one of
+three English example questions or enter your own. Sources and run details are
+collapsed separately; model settings are in the sidebar's Settings expander.
+New conversation clears the chat and rotates its session ID while retaining the
+selected model. Errors stay visible across reruns. Theme tokens are in
+`.streamlit/config.toml`; see [DESIGN.md](DESIGN.md) for the visual rules. No remote
+fonts or artwork are required. Run UI interaction tests without Gemini calls:
+
+```bash
+.venv/bin/python -m pytest tests/unit/test_ui.py -q
+```
 
 ## End-to-end evaluation
 

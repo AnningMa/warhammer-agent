@@ -7143,7 +7143,7 @@ requires-dist = [
     { name = "rapidocr", specifier = ">=3.9.2" },
     { name = "sentence-transformers", marker = "extra == 'qwen'", specifier = ">=5.0,<6" },
     { name = "sqlglot", specifier = ">=30.0,<31" },
-    { name = "streamlit", marker = "extra == 'ui'", specifier = ">=1.40,<2" },
+    { name = "streamlit", marker = "extra == 'ui'", specifier = ">=1.49,<2" },
     { name = "torch", index = "https://download.pytorch.org/whl/cpu" },
     { name = "torchvision", index = "https://download.pytorch.org/whl/cpu" },
     { name = "transformers", marker = "extra == 'qwen'", specifier = ">=4.51,<6" },

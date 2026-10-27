@@ -1,0 +1,98 @@
+/* Native theme owns colors. Keyed containers own the handbook composition. */
+.st-key-manual-title {
+    border-top: 3px solid #8A7D40;
+    border-bottom: 1px solid #B8B4A7;
+    padding: 1.25rem 0 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.st-key-manual-title h1 {
+    font-family: "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+    font-stretch: condensed;
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 800;
+    line-height: 1.08;
+    letter-spacing: -0.025em;
+    text-transform: uppercase;
+    text-wrap: balance;
+}
+.st-key-manual-title p { max-width: 62ch; }
+.st-key-manual-sidebar h2 {
+    color: #C6B775;
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: 500;
+    font-size: 1.75rem;
+}
+.st-key-manual-sidebar code {
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+}
+.st-key-manual-examples {
+    padding: 0.75rem 0 1.5rem;
+}
+.st-key-manual-examples button {
+    text-align: left;
+    justify-content: flex-start;
+    min-height: 3rem;
+    padding: 0.75rem 1rem;
+}
+.st-key-manual-examples button p { text-align: left; }
+div[class*="st-key-answer-"] p,
+div[class*="st-key-answer-"] li,
+div[class*="st-key-answer-"] td {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.075rem;
+    line-height: 1.7;
+}
+div[class*="st-key-answer-"] h2,
+div[class*="st-key-answer-"] h3 {
+    font-size: 1.3rem;
+    line-height: 1.3;
+}
+div[class*="st-key-answer-"] {
+    max-width: 72ch;
+    overflow-wrap: anywhere;
+}
+div[class*="st-key-answer-"] pre { overflow-x: auto; }
+div[class*="st-key-source-"] {
+    border-top: 1px solid #B8B4A7;
+    padding-top: 0.75rem;
+    overflow-wrap: anywhere;
+}
+div[class*="st-key-source-"] p { font-size: 0.9rem; }
+.st-key-manual-page a { text-underline-offset: 0.2em; }
+.st-key-manual-page ::selection {
+    background: #D7CEAA;
+    color: #242522;
+}
+.st-key-manual-page :is(button, a, textarea, input):focus-visible {
+    outline: 2px solid #245C52;
+    outline-offset: 3px;
+}
+@media (max-width: 640px) {
+    .st-key-manual-title { padding: 0.75rem 0 1rem; margin-bottom: 0.75rem; }
+    .st-key-manual-examples button { padding: 0.65rem 0.75rem; }
+    div[class*="st-key-answer-"] p,
+    div[class*="st-key-answer-"] li { font-size: 1rem; }
+}
+/* Stable Streamlit test hooks are scoped to our keyed page, never Emotion classes. */
+.st-key-manual-page [data-testid="stCaptionContainer"],
+.st-key-manual-page [data-testid="stCaptionContainer"] p { color: #5C5E54; }
+.st-key-manual-sidebar [data-testid="stCaptionContainer"],
+.st-key-manual-sidebar [data-testid="stCaptionContainer"] p { color: #C4C8BA; }
+.st-key-new-conversation button,
+.st-key-new-conversation button p { color: #232722; }
+.st-key-manual-sidebar pre { white-space: pre-wrap; overflow-wrap: anywhere; }
+.st-key-manual-sidebar :is(button, input):focus-visible {
+    outline: 2px solid #C6B775;
+    outline-offset: 3px;
+}
+.st-key-manual-page [data-testid="stChatMessageAvatarAssistant"] {
+    background-color: #245C52;
+    color: #F1F0EA;
+}
+.st-key-manual-page [data-testid="stChatMessageAvatarUser"] {
+    background-color: #E4E0D5;
+    color: #242522;
+}
+.st-key-manual-page textarea::placeholder { color: #5C5E54; opacity: 1; }
+.st-key-manual-page textarea { caret-color: #245C52; }

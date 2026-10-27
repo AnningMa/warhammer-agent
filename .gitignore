@@ -15,3 +15,6 @@ __pycache__/
 .env.*
 !.env.example
 Agent.md
+
+# Streamlit theme is versioned; credentials stay local
+/.streamlit/secrets.toml
