@@ -82,20 +82,28 @@ uv run --locked --extra agent --extra qwen --extra chroma --extra gemini \
 
 ## Repository structure
 
-| Path | Responsibility |
-|---|---|
-| `src/warhammer_agent/ingestion/` | PDF parsing, cleaning, corrections and rule blocks |
-| `src/warhammer_agent/embeddings/` | Qwen/Gemini embeddings and Chroma persistence |
-| `src/warhammer_agent/rag/` | PDF retrieval, rewriting, reranking, generation and citations |
-| `src/warhammer_agent/sql/` | Schema selection, safe Text-to-SQL and read-only execution |
-| `src/warhammer_agent/agent/` | LangGraph routing, evidence packing, synthesis and sessions |
-| `src/warhammer_agent/evaluation/` | Dataset loading, metrics, reports and resumable runs |
-| `scripts/` | User-facing build, query, chat and evaluation commands |
-| `config/` | Versioned runtime configuration and correction policies |
-| `reports/` | Versioned reviewed corpus and parent-child records |
-| `tests/unit/` | Fast isolated component tests |
-| `tests/integration/` | Cross-component and persistence tests |
-| `tests/eval_cases/` | Frozen retrieval and end-to-end evaluation datasets |
+```text
+warhammer-agent/
+├── data/                       # PDF, SQLite database and parsing snapshot
+├── config/                     # Model, agent and evaluation configuration
+├── docs/                       # Architecture, technical choices and reference docs
+├── reports/                    # Reviewed rule corpus and retrieval records
+├── scripts/                    # User-facing CLI, chat and evaluation entry points
+├── src/warhammer_agent/
+│   ├── ingestion/              # PDF parsing, cleaning and corpus construction
+│   ├── embeddings/             # Embeddings and persistent Chroma storage
+│   ├── rag/                    # PDF retrieval, reranking and generation
+│   ├── sql/                    # Safe read-only SQL retrieval
+│   ├── agent/                  # LangGraph routing and answer synthesis
+│   ├── evaluation/             # End-to-end evaluation pipeline
+│   ├── credentials.py          # Shared Google API key resolution
+│   ├── ui.py                   # Streamlit chat interface
+│   └── ui.css                  # Streamlit interface styling
+└── tests/
+    ├── unit/                   # Unit tests
+    ├── integration/            # Integration tests
+    └── eval_cases/             # Frozen evaluation datasets
+```
 
 ## Documentation
 
