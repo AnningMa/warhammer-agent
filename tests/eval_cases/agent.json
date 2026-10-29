@@ -8,7 +8,7 @@
     "required_sources": ["pdf"],
     "expected_pdf_sections": ["GRENADE"],
     "expected_sql_values": [],
-    "required_facts": [["shooting phase"], ["grenades unit"], ["engagement range"], ["has not been selected to shoot", "not been selected to shoot"]],
+    "required_facts": [["shooting phase"], ["grenades unit", "grenades keyword"], ["engagement range"], ["has not been selected to shoot", "not been selected to shoot", "has not yet been selected to shoot"]],
     "reference_answer": "The Grenade Stratagem is used in your Shooting phase on one Grenades unit that is not within Engagement Range and has not been selected to shoot that phase.",
     "reference_contexts": ["Core Rules.pdf, GRENADE, physical page 42"]
   },
@@ -21,7 +21,7 @@
     "required_sources": ["pdf"],
     "expected_pdf_sections": ["STRATAGEMS"],
     "expected_sql_values": [],
-    "required_facts": [["command points", "cp"], ["cost"], ["once in the same phase", "more than once in the same phase"]],
+    "required_facts": [["command points", "cp"], ["cost", "required number", "amount listed"], ["once in the same phase", "more than once in the same phase"]],
     "reference_answer": "A player spends the listed Command point cost to use a Stratagem and cannot use the same Stratagem more than once in the same phase.",
     "reference_contexts": ["Core Rules.pdf, STRATAGEMS, physical page 41"]
   },

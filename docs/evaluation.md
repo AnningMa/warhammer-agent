@@ -62,6 +62,11 @@ model settings, so a resumed single-case or partial run does not expand to the
 full dataset. This makes a multi-call evaluation recoverable after quota or
 transient API errors.
 
+Live cases are separated by `inter_case_delay_seconds` from
+`config/evaluation.json`. The default 65-second interval avoids exceeding the
+Gemini free-tier per-minute request limit because one agent case can make
+several model calls. Reused successful case records do not incur this delay.
+
 The CLI supports `--case-id`, `--category`, `--limit`, `--model`, `--judge`,
 `--judge-model` and `--resume`. Start with one case because a rules, database or
 hybrid turn can consume several Gemini requests. Run the complete frozen dataset

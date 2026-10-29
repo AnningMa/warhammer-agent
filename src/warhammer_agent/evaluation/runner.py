@@ -1,6 +1,7 @@
 """Run frozen cases through the real agent with resumable per-case storage."""
 
 import json
+import time
 from collections.abc import Callable
 from datetime import datetime, timezone
 from pathlib import Path
@@ -24,6 +25,9 @@ def validate_config(config: dict[str, Any]) -> None:
             raise ValueError(f"{key} must be a nonempty path")
     if type(config.get("retrieval_k")) is not int or config["retrieval_k"] < 1:
         raise ValueError("retrieval_k must be a positive integer")
+    delay = config.get("inter_case_delay_seconds", 0)
+    if not isinstance(delay, (int, float)) or delay < 0:
+        raise ValueError("inter_case_delay_seconds must be a nonnegative number")
     thresholds = config.get("thresholds")
     if not isinstance(thresholds, dict):
         raise TypeError("thresholds must be an object")
@@ -126,6 +130,7 @@ def run_evaluation(
         }
         judge = GeminiGenerator(root, settings)
     results = []
+    ran_live_case = False
     try:
         for index, case in enumerate(cases, 1):
             path = case_dir / f"{case.id}.json"
@@ -142,6 +147,14 @@ def run_evaluation(
                 action = "Reusing" if record is not None else "Running"
                 progress(f"[{index}/{len(cases)}] {action} {case.id}")
             if record is None:
+                delay = config.get("inter_case_delay_seconds", 0)
+                if ran_live_case and delay:
+                    if progress:
+                        progress(
+                            f"Waiting {delay:g}s before the next live case "
+                            "to respect API rate limits"
+                        )
+                    time.sleep(delay)
                 session_id = f"eval_{run_id}_{case.id}"
                 try:
                     record = run_turn(
@@ -163,6 +176,7 @@ def run_evaluation(
                         "errors": [{"stage": "runner", **failure_details(error, None)}],
                         "status": "failed",
                     }
+                ran_live_case = True
             if judge is not None and judged is None:
                 try:
                     judged = judge_answer(

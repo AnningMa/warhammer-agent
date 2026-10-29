@@ -416,6 +416,9 @@ uv run --locked --extra agent --extra qwen --extra chroma --extra gemini \
 ```
 
 Each case is saved immediately under `storage/evaluation/runs/<run-id>/cases/`.
+Live cases use the interval configured by `inter_case_delay_seconds` to avoid
+the Gemini free-tier per-minute request limit. Saved successful cases are reused
+without waiting or making another API request.
 The run also stores its selected case IDs and model settings. If quota interrupts
 a run, continue the same selection without repeating completed cases:
 

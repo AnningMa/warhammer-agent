@@ -3,6 +3,7 @@
   "agent_config": "config/agent.json",
   "output_dir": "storage/evaluation",
   "retrieval_k": 5,
+  "inter_case_delay_seconds": 65,
   "judge": {
     "model": "gemini-2.5-pro",
     "max_output_tokens": 2048
