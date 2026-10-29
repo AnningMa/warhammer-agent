@@ -233,7 +233,7 @@ def _render_page(st, root: Path) -> None:
             # A separate value survives Streamlit's cleanup of hidden widgets.
             model = st.text_input(
                 "Gemini model",
-                value=st.session_state.get("selected_model", "gemini-3-flash-preview"),
+                value=st.session_state.get("selected_model", "gemini-3.6-flash"),
                 key="model_input",
             ).strip()
             st.session_state.selected_model = model

@@ -25,6 +25,11 @@ Using one backend satisfies the course requirement and allows structured JSON
 responses to be validated locally. Model access and request quotas still depend
 on the user's Google AI Studio account, so live evaluation is resumable.
 
+The default runtime model is the stable `gemini-3.6-flash` release. PDF
+refinement, SQL planning, routing, and answer synthesis use the same model so a
+run has one explicit model version. The model remains configurable for accounts
+with different Google AI Studio availability.
+
 ## PDF ingestion and rule-aware chunks
 
 The Core Rules PDF is converted into source-traceable rule blocks. Headings,

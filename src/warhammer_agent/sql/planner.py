@@ -83,7 +83,13 @@ def parse_query_plan(payload: Mapping[str, Any], schema: SchemaContext) -> Query
     for reference in (*dimensions, *(item.column for item in filters)):
         _validate_column(reference, candidate_tables, allowed_tables)
 
-    relationships = {item.render(): item for item in schema.relationships}
+    relationships: dict[str, Relationship] = {}
+    for item in schema.relationships:
+        relationships[item.render()] = item
+        relationships[
+            f"{item.right_table}.{item.right_column} = "
+            f"{item.left_table}.{item.left_column}"
+        ] = item
     join_names = _string_tuple(payload.get("joins", ()), "joins")
     unknown_joins = sorted(set(join_names) - relationships.keys())
     if unknown_joins:

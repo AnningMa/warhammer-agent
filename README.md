@@ -65,7 +65,7 @@ Copy `.env.example` to `.env`, add the key, and run:
 uv run --locked --extra agent --extra qwen --extra chroma --extra gemini \
   python scripts/ask_agent.py \
   --question "How does Deep Strike work?" \
-  --model gemini-3-flash-preview
+  --model gemini-3.6-flash
 ```
 
 ## Entry points
@@ -182,7 +182,7 @@ brief. Run one live case before spending quota on the complete dataset:
 uv run --locked --extra agent --extra qwen --extra chroma --extra gemini \
   python scripts/evaluate_agent.py \
   --case-id rules_deep_strike \
-  --model gemini-3-flash-preview
+  --model gemini-3.6-flash
 ```
 
 Run the complete deterministic evaluation after the implementation and
@@ -191,7 +191,7 @@ documentation are frozen:
 ```bash
 uv run --locked --extra agent --extra qwen --extra chroma --extra gemini \
   python scripts/evaluate_agent.py \
-  --model gemini-3-flash-preview
+  --model gemini-3.6-flash
 ```
 
 Each case is saved immediately under `storage/evaluation/runs/<run-id>/cases/`.
@@ -201,7 +201,7 @@ If API quota interrupts the run, resume it without repeating successful cases:
 uv run --locked --extra agent --extra qwen --extra chroma --extra gemini \
   python scripts/evaluate_agent.py \
   --resume storage/evaluation/runs/<run-id> \
-  --model gemini-3-flash-preview
+  --model gemini-3.6-flash
 ```
 
 See [`docs/evaluation.md`](docs/evaluation.md) for metric definitions and the

@@ -67,6 +67,16 @@ def test_valid_plan_is_parsed_and_serializable(schema):
     assert plan.to_dict() == valid_payload()
 
 
+def test_reversed_equivalent_join_is_normalized(schema):
+    payload = valid_payload()
+    payload["joins"] = ["datasheets_models.DatasheetId = datasheets.Id"]
+
+    plan = parse_query_plan(payload, schema)
+
+    assert plan.joins == schema.relationships
+    assert plan.to_dict()["joins"] == ["datasheets.Id = datasheets_models.DatasheetId"]
+
+
 @pytest.mark.parametrize(
     ("field", "value", "message"),
     [

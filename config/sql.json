@@ -4,7 +4,7 @@
   "max_rows": 100,
   "timeout_seconds": 2,
   "generation": {
-    "model": "gemini-3-flash-preview",
+    "model": "gemini-3.6-flash",
     "api_key_env": "GEMINI_API_KEY",
     "timeout_ms": 60000,
     "attempts": 3,
