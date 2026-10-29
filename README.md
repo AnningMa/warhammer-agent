@@ -37,7 +37,6 @@ Requirements:
 
 The two course-provided sources, `data/Core Rules.pdf` and
 `data/wahadb.sqlite`, are versioned in the repository and ready after cloning.
-See [`data/README.md`](data/README.md) for their roles.
 
 Install all runtime dependencies:
 
