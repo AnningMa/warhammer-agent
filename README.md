@@ -29,8 +29,9 @@ Requirements:
 The two course-provided sources, `data/Core Rules.pdf` and
 `data/wahadb.sqlite`, are versioned in the repository and ready after cloning.
 
-Clone the repository, install the runtime dependencies, build the local vector
-index and start the web chat:
+### 1. First-time setup (run once)
+
+Run these commands once from a terminal:
 
 ```bash
 git clone https://github.com/AnningMa/warhammer-agent.git
@@ -40,7 +41,15 @@ uv sync --locked --extra agent --extra qwen --extra chroma --extra gemini --extr
 
 uv run --locked --extra qwen --extra chroma \
   python scripts/embed_parent_child.py
+```
 
+The first index build downloads and caches the local Qwen embedding model.
+
+### 2. Start the web chat
+
+From the repository root, run:
+
+```bash
 uv run --locked \
   --extra agent \
   --extra qwen \
@@ -50,9 +59,10 @@ uv run --locked \
   streamlit run scripts/chat_app.py
 ```
 
-Open the Streamlit URL shown in the terminal, enter a Google AI Studio API key
-in the sidebar, and start asking questions. The first index build downloads and
-caches the local Qwen embedding model.
+### 3. Enter the API key
+
+Open the local URL shown in the terminal. Enter a valid Google AI Studio API
+key in the sidebar, then ask a question in the chat box.
 
 ## Main features
 
