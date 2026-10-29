@@ -30,6 +30,11 @@ refinement, SQL planning, routing, and answer synthesis use the same model so a
 run has one explicit model version. The model remains configurable for accounts
 with different Google AI Studio availability.
 
+A shared bounded retry helper handles transient rate limits consistently across
+the PDF, SQL and agent paths. It retries one 429 response only when Gemini
+provides a short wait of at most 90 seconds; longer quota exhaustion is surfaced
+to the caller so evaluation runs can be resumed later without blocking for hours.
+
 ## PDF ingestion and rule-aware chunks
 
 The Core Rules PDF is converted into source-traceable rule blocks. Headings,

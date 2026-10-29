@@ -17,6 +17,43 @@ sessions, automated tests and a resumable end-to-end evaluation pipeline.
 - Anning Ma (student number: 22404528)
 - Yiwei ZUO (student number: 22400141)
 
+## Run the project
+
+Requirements:
+
+- Python 3.10 or later;
+- Git;
+- [`uv`](https://docs.astral.sh/uv/);
+- a Google AI Studio API key for Gemini generation.
+
+The two course-provided sources, `data/Core Rules.pdf` and
+`data/wahadb.sqlite`, are versioned in the repository and ready after cloning.
+
+Clone the repository, install the runtime dependencies, build the local vector
+index and start the web chat:
+
+```bash
+git clone https://github.com/AnningMa/warhammer-agent.git
+cd warhammer-agent
+
+uv sync --locked --extra agent --extra qwen --extra chroma --extra gemini --extra ui
+
+uv run --locked --extra qwen --extra chroma \
+  python scripts/embed_parent_child.py
+
+uv run --locked \
+  --extra agent \
+  --extra qwen \
+  --extra chroma \
+  --extra gemini \
+  --extra ui \
+  streamlit run scripts/chat_app.py
+```
+
+Open the Streamlit URL shown in the terminal, enter a Google AI Studio API key
+in the sidebar, and start asking questions. The first index build downloads and
+caches the local Qwen embedding model.
+
 ## Main features
 
 - source-traceable PDF parsing and reviewed rule blocks;
@@ -27,36 +64,7 @@ sessions, automated tests and a resumable end-to-end evaluation pipeline.
 - a local Streamlit chat with cited PDF-page previews and a Google AI Studio key;
 - deterministic and optional LLM-assisted evaluation over 12 frozen cases.
 
-## Quick start
-
-Requirements:
-
-- Python 3.10 or later;
-- [`uv`](https://docs.astral.sh/uv/);
-- a Google AI Studio API key for Gemini generation.
-
-The two course-provided sources, `data/Core Rules.pdf` and
-`data/wahadb.sqlite`, are versioned in the repository and ready after cloning.
-
-Install all runtime dependencies:
-
-```bash
-uv sync --locked --extra agent --extra qwen --extra chroma --extra gemini --extra ui
-```
-
-Build the local Qwen/Chroma parent-child index when `storage/chroma/` is not
-already available:
-
-```bash
-uv run --locked --extra qwen --extra chroma python scripts/embed_parent_child.py
-```
-
-Start the web chat and enter a Google AI Studio key in the sidebar:
-
-```bash
-uv run --locked --extra agent --extra qwen --extra chroma --extra gemini --extra ui \
-  streamlit run scripts/chat_app.py
-```
+## Command-line alternative
 
 The command-line tools read `GEMINI_API_KEY` from the environment or `.env`.
 Copy `.env.example` to `.env`, add the key, and run:
@@ -97,6 +105,7 @@ warhammer-agent/
 │   ├── agent/                  # LangGraph routing and answer synthesis
 │   ├── evaluation/             # End-to-end evaluation pipeline
 │   ├── credentials.py          # Shared Google API key resolution
+│   ├── gemini_retry.py         # Bounded retry for short Gemini rate limits
 │   ├── ui.py                   # Streamlit chat interface
 │   └── ui.css                  # Streamlit interface styling
 └── tests/
@@ -135,6 +144,8 @@ required to understand and reproduce the processing choices:
 Runtime artifacts remain local:
 
 - `storage/chroma/`: persistent vector index;
+- `storage/embeddings/`: saved embedding arrays and metadata;
+- `storage/rag/`: standalone PDF RAG run reports;
 - `storage/models/`: cached Qwen weights;
 - `storage/agent/`: LangGraph checkpoints and run diagnostics;
 - `storage/evaluation/`: resumable live evaluation records and reports.

@@ -21,7 +21,7 @@ individual tests and generated runtime files are omitted for readability.
 ```text
 warhammer-agent/
 ├── config/                                  # Versioned runtime configuration
-├── data/                                    # Local PDF, SQLite and parsing sources
+├── data/                                    # Versioned PDF, SQLite and parsing sources
 ├── docs/                                    # Architecture and technical documentation
 ├── reports/                                 # Reviewed corpus and parent-child records
 │
@@ -72,7 +72,9 @@ warhammer-agent/
 │   │   └── report.py                        # Write JSON and Markdown reports
 │   │
 │   ├── credentials.py                       # Resolve session or environment API keys
-│   └── ui.py                                # Present the agent through Streamlit
+│   ├── gemini_retry.py                      # Retry short Gemini rate limits once
+│   ├── ui.py                                # Present the agent through Streamlit
+│   └── ui.css                               # Style the Streamlit interface
 │
 └── tests/
     ├── unit/                                # Isolated component tests
@@ -124,6 +126,7 @@ shared `[S1]` numbering space.
 | `sql` | Select relevant schema, generate a structured plan and parameterized SQL, validate it, and execute it read-only |
 | `agent` | Plan once, route to the smallest required source set, combine evidence, synthesize, and persist sessions |
 | `evaluation` | Run frozen rules, database, hybrid, and clarification cases; calculate deterministic metrics and reports |
+| `gemini_retry.py` | Retry one short Gemini 429 response without waiting through long quota exhaustion |
 | `ui.py` | Present the existing agent through Streamlit without duplicating retrieval or generation logic |
 
 ## Source selection
@@ -143,9 +146,11 @@ shared `[S1]` numbering space.
 |---|---|---|
 | `reports/` | Reviewed text corpus and parent-child records | versioned |
 | `data/core_rules.docling.json` | Immutable parsing snapshot | versioned |
-| `data/Core Rules.pdf` | Original course PDF | local |
-| `data/wahadb.sqlite` | Course SQLite database | local |
+| `data/Core Rules.pdf` | Original course PDF | versioned |
+| `data/wahadb.sqlite` | Course SQLite database | versioned |
 | `storage/chroma/` | Persistent vector index | local |
+| `storage/embeddings/` | Saved embedding arrays and metadata | local |
+| `storage/rag/` | Standalone PDF RAG run reports | local |
 | `storage/models/` | Cached Qwen weights | local |
 | `storage/agent/` | LangGraph checkpoints and run diagnostics | local |
 | `storage/evaluation/` | Resumable evaluation cases and reports | local |

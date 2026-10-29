@@ -14,8 +14,22 @@ replacement for them.
 - three questions that require both sources;
 - one ambiguous database question that should request clarification.
 
+### Case selection
+
+The twelve cases were selected to cover every route supported by the agent:
+
+- four rules questions evaluate retrieval from the Core Rules PDF;
+- four database questions evaluate Text-to-SQL generation and structured results;
+- three hybrid questions require evidence from both the PDF and SQLite;
+- one clarification question checks whether the agent avoids answering an
+  underspecified query.
+
 The dataset includes the four example chatbot questions from the project brief
-verbatim, including the ambiguous Space Marine Toughness question.
+verbatim, including the ambiguous Space Marine Toughness question. The remaining
+cases were chosen to cover representative operations such as direct fact
+retrieval, filtering, counting, profile comparison and multi-source reasoning.
+Each case is answerable from the versioned project sources and has manually
+checked reference evidence or SQL values.
 
 Each case records its expected route and status, required source kinds, relevant
 PDF section titles, expected structured SQL values, acceptable answer facts, a
@@ -63,9 +77,11 @@ full dataset. This makes a multi-call evaluation recoverable after quota or
 transient API errors.
 
 Live cases are separated by `inter_case_delay_seconds` from
-`config/evaluation.json`. The default 65-second interval avoids exceeding the
-Gemini free-tier per-minute request limit because one agent case can make
-several model calls. Reused successful case records do not incur this delay.
+`config/evaluation.json`. The default 65-second interval reduces bursts between
+cases, but a single agent case can still make several model calls. The shared
+Gemini helper waits and retries once when a 429 response provides a short retry
+delay of at most 90 seconds. Longer quota failures remain saved for a later
+`--resume`. Reused successful case records do not incur the inter-case delay.
 
 The CLI supports `--case-id`, `--category`, `--limit`, `--model`, `--judge`,
 `--judge-model` and `--resume`. Start with one case because a rules, database or

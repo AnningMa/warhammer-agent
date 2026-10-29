@@ -2,7 +2,7 @@
 
 ## Database overview
 
-- Database file: `wahadb.sqlite`
+- Database file: `data/wahadb.sqlite`
 - SQLite database
 - Total tables: 21
 - Data domain: Warhammer 40,000 rules and reference data
