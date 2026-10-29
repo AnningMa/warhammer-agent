@@ -56,6 +56,18 @@ fact and citation checks pass. The context metrics based on section labels are
 transparent deterministic proxies; they are not claimed to reproduce every
 detail of RAGAS's LLM-scored metrics.
 
+The thresholds in `config/evaluation.json` are internal targets selected for
+this project, not benchmarks provided by the course:
+
+- **90%** for route and trace accuracy, to require reliable orchestration while
+  allowing one occasional failure;
+- **80%** for PDF retrieval, required fact coverage and end-to-end success;
+- **100%** for SQL result accuracy and citation validity, since incorrect
+  database results or invalid citations should not be accepted.
+
+Since the dataset contains only twelve cases, the evaluation is intended as a
+small regression check rather than a large-scale statistical assessment.
+
 ## Optional LLM judge
 
 `--judge` adds three semantic metrics taught in the course: faithfulness, answer
