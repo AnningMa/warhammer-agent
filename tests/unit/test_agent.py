@@ -396,6 +396,61 @@ def test_real_router_sends_original_question_and_preserves_focused_output():
     )
 
 
+def test_real_synthesis_requires_complete_plural_answers():
+    """Keep list-style answers complete when later evidence adds another outcome."""
+    from types import SimpleNamespace
+
+    from warhammer_agent.agent.model import AgentModel
+
+    requests = []
+
+    def generate(**request):
+        requests.append(request)
+        return SimpleNamespace(
+            candidates=[SimpleNamespace(finish_reason="STOP")],
+            text=json.dumps(
+                {
+                    "answer": "One supported way [S1].",
+                    "citations": ["S1"],
+                    "insufficient_evidence": False,
+                }
+            ),
+            model_version="offline-stub",
+            usage_metadata=None,
+        )
+
+    model = object.__new__(AgentModel)
+    model.settings = {"model": "offline-stub", "max_output_tokens": 2048}
+    model.client = SimpleNamespace(models=SimpleNamespace(generate_content=generate))
+    evidence = [
+        {
+            "kind": "pdf",
+            "citation_id": "S1",
+            "block_id": "rule-1",
+            "source": "Core Rules.pdf",
+            "source_path": "data/Core Rules.pdf",
+            "section_title": "RULE",
+            "page_numbers": [1],
+            "review_status": "reviewed",
+            "text": "One supported way.",
+        }
+    ]
+
+    model.synthesize(
+        "What are the different ways?",
+        {
+            "standalone_question": "What are the different ways?",
+            "subquestions": [],
+        },
+        evidence,
+        [],
+    )
+
+    instruction = requests[0]["config"].system_instruction
+    assert "inspect\nall supplied evidence and enumerate every distinct" in instruction
+    assert "Do\nnot replace a specific rule with a more generic summary" in instruction
+
+
 def test_real_router_invalid_hybrid_response_does_not_reach_tools(monkeypatch):
     from types import SimpleNamespace
 

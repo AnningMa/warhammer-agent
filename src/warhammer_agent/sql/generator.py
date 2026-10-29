@@ -13,6 +13,7 @@ from sqlglot.errors import OptimizeError
 from sqlglot.optimizer.qualify import qualify
 
 from warhammer_agent.credentials import resolve_api_key
+from warhammer_agent.gemini_retry import generate_content_with_retry
 
 from .planner import QueryPlan, parse_query_plan
 from .safety import SQLValidationError, ValidatedQuery, validate_readonly_sql
@@ -241,7 +242,8 @@ class GeminiSQLGenerator:
 
         response_schema = PlanResponse.model_json_schema()
         _remove_additional_properties(response_schema)
-        response = self.client.models.generate_content(
+        response = generate_content_with_retry(
+            self.client,
             model=self.settings["model"],
             contents=json.dumps(
                 {"question": question, "schema": schema.to_prompt()},
@@ -278,7 +280,8 @@ class GeminiSQLGenerator:
         if plan.ambiguities:
             raise SQLGenerationError("query plan contains unresolved ambiguities")
 
-        response = self.client.models.generate_content(
+        response = generate_content_with_retry(
+            self.client,
             model=self.settings["model"],
             contents=make_sql_prompt(question, plan, schema),
             config=self.config,

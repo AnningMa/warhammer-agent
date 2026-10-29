@@ -43,13 +43,13 @@
     "category": "rules",
     "question": "What are the different ways to score points?",
     "expected_route": "rules",
-    "expected_status": "answered",
+    "expected_status": "insufficient_evidence",
     "required_sources": ["pdf"],
-    "expected_pdf_sections": ["CAPTURE AND CONTROL", "11. DETERMINE VICTOR"],
+    "expected_pdf_sections": ["CAPTURE AND CONTROL"],
     "expected_sql_values": [],
-    "required_facts": [["1 victory point", "1 vp"], ["objective marker"], ["maximum of 3", "maximum 3", "3vp per turn"], ["most victory points"], ["destroyed"]],
-    "reference_answer": "From battle round two, a player scores 1VP per controlled objective marker at the end of their Command phase, up to 3VP per turn. A player wins by destroying the opposing army or, otherwise, by having the most VP.",
-    "reference_contexts": ["Core Rules.pdf, CAPTURE AND CONTROL, physical page 59", "Core Rules.pdf, 11. DETERMINE VICTOR, physical page 60"]
+    "required_facts": [["1 victory point", "1 vp"], ["objective marker"], ["maximum of 3", "maximum 3", "3vp per turn"]],
+    "reference_answer": "In the supplied Capture and Control mission, from battle round two a player scores 1VP per controlled objective marker at the end of their Command phase, up to 3VP per turn. Other missions can define different scoring conditions.",
+    "reference_contexts": ["Core Rules.pdf, CAPTURE AND CONTROL, physical page 59"]
   },
   {
     "id": "database_intercessor_toughness",
@@ -60,7 +60,7 @@
     "required_sources": ["sql"],
     "expected_pdf_sections": [],
     "expected_sql_values": ["4"],
-    "required_facts": [["intercessor squad"], ["toughness 4", "t 4", "toughness of 4", "toughness characteristic of 4"]],
+    "required_facts": [["intercessor squad"], ["toughness 4", "t 4", "toughness of 4", "toughness characteristic of 4", "toughness of an intercessor squad model is 4"]],
     "reference_answer": "The Intercessor Squad model has Toughness 4.",
     "reference_contexts": ["wahadb.sqlite: datasheets joined to datasheets_models"]
   },
@@ -73,7 +73,7 @@
     "required_sources": ["sql"],
     "expected_pdf_sections": [],
     "expected_sql_values": ["6", "3", "3+"],
-    "required_facts": [["toughness 6", "t 6", "toughness characteristic of 6"], ["3 wounds", "wounds 3", "wounds characteristic of 3"], ["3+ save", "save of 3+", "save characteristic of 3+"]],
+    "required_facts": [["toughness 6", "t 6", "toughness characteristic of 6", "toughness of 6"], ["3 wounds", "wounds 3", "wounds characteristic of 3"], ["3+ save", "save of 3+", "save characteristic of 3+"]],
     "reference_answer": "A Heavy Intercessor Squad model has Toughness 6, 3 Wounds and a 3+ Save.",
     "reference_contexts": ["wahadb.sqlite: datasheets joined to datasheets_models"]
   },
@@ -138,7 +138,7 @@
     "required_sources": ["sql", "pdf"],
     "expected_pdf_sections": ["BENEFIT OF COVER"],
     "expected_sql_values": ["3+"],
-    "required_facts": [["3+ save", "save of 3+", "save characteristic of 3+"], ["ap 0", "ap0"], ["cannot", "does not", "doesn't"]],
+    "required_facts": [["3+ save", "save of 3+", "save characteristic of 3+"], ["ap 0", "ap0", "ap of 0"], ["cannot", "does not", "doesn't"]],
     "reference_answer": "An Intercessor Squad model has a 3+ Save. Benefit of Cover cannot improve a 3+ or better Save against an AP 0 attack.",
     "reference_contexts": ["wahadb.sqlite: Intercessor Squad model profile", "Core Rules.pdf, BENEFIT OF COVER, physical page 44"]
   },

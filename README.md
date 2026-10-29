@@ -114,6 +114,8 @@ warhammer-agent/
 | [`docs/ingestion.md`](docs/ingestion.md) | PDF parsing, corrections, corpus building and provenance |
 | [`docs/sql_data_dictionary.md`](docs/sql_data_dictionary.md) | SQLite tables, columns and inferred relationships |
 | [`docs/evaluation.md`](docs/evaluation.md) | Evaluation dataset, metrics, storage and resume policy |
+| [`docs/evaluation_results.md`](docs/evaluation_results.md) | Final human-readable 12-case evaluation report |
+| [`docs/evaluation_results.json`](docs/evaluation_results.json) | Final machine-readable evaluation metrics |
 
 ## Data and reproducibility
 
@@ -205,7 +207,9 @@ uv run --locked --extra agent --extra qwen --extra chroma --extra gemini \
 ```
 
 See [`docs/evaluation.md`](docs/evaluation.md) for metric definitions and the
-optional independent LLM judge.
+optional independent LLM judge. The final measured results are available in
+[`docs/evaluation_results.md`](docs/evaluation_results.md) and
+[`docs/evaluation_results.json`](docs/evaluation_results.json).
 
 ## Current limitations
 

@@ -87,6 +87,15 @@ def _read_case_result(path: Path) -> dict[str, Any] | None:
     return payload if isinstance(payload.get("record"), dict) else None
 
 
+def _record_needs_retry(record: dict[str, Any] | None) -> bool:
+    if record is None or record.get("status") == "failed":
+        return True
+    errors = record.get("errors") or []
+    return record.get("status") != "answered" and any(
+        isinstance(error, dict) and "api_error" in error for error in errors
+    )
+
+
 def run_evaluation(
     root: Path,
     config: dict[str, Any],
@@ -138,7 +147,7 @@ def run_evaluation(
             record = saved["record"] if saved else None
             judged = saved.get("judge") if saved else None
             # API/quota failures remain resumable instead of becoming frozen results.
-            if record is not None and record.get("status") == "failed":
+            if _record_needs_retry(record):
                 record = None
                 judged = None
             if isinstance(judged, dict) and "error" in judged:

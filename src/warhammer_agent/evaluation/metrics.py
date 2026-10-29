@@ -46,7 +46,14 @@ def _retrieval_metrics(case: EvaluationCase, record: dict[str, Any], k: int) -> 
         }
     gold = {normalize(title) for title in case.expected_pdf_sections}
     ranked = _pdf_candidates(record)[:k]
-    relevance = [normalize(item.get("section_title", "")) in gold for item in ranked]
+    matched_titles: set[str] = set()
+    relevance = []
+    for item in ranked:
+        title = normalize(item.get("section_title", ""))
+        relevant = title in gold and title not in matched_titles
+        relevance.append(relevant)
+        if relevant:
+            matched_titles.add(title)
     hit = float(any(relevance))
     precision = sum(relevance) / k
     running, precision_sum = 0, 0.0

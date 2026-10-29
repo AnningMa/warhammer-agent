@@ -5,6 +5,7 @@ import pytest
 from warhammer_agent.evaluation.cli import _resume_settings
 from warhammer_agent.evaluation.dataset import EvaluationCase, load_cases
 from warhammer_agent.evaluation.metrics import evaluate_case, summarize
+from warhammer_agent.evaluation.runner import _record_needs_retry
 
 
 def case(**updates):
@@ -79,6 +80,80 @@ def test_case_evaluation_scores_retrieval_trace_answer_and_system_metrics():
     assert result["sql_result_correct"]
     assert result["citation_valid"]
     assert result["token_count"] == 10
+
+
+def test_retrieval_metrics_count_each_gold_section_once():
+    output = record()
+    output["pdf"]["reranked_candidates"] = [
+        {"block_id": "rule-1", "section_title": "RULE"},
+        {"block_id": "rule-2", "section_title": "RULE"},
+        {"block_id": "noise", "section_title": "NOISE"},
+    ]
+
+    result = evaluate_case(case(), output, k=3)
+
+    assert result["pdf_precision_at_k"] == pytest.approx(1 / 3)
+    assert result["pdf_average_precision_at_k"] == 1
+
+
+@pytest.mark.parametrize(
+    ("case_id", "answer"),
+    [
+        (
+            "database_intercessor_toughness",
+            "The Toughness of an Intercessor Squad model is 4 [S1].",
+        ),
+        (
+            "database_heavy_intercessor_profile",
+            (
+                "A Heavy Intercessor Squad model has a Toughness of 6, "
+                "3 Wounds, and a Save of 3+ [S1]."
+            ),
+        ),
+    ],
+)
+def test_reviewed_natural_fact_phrasings_are_accepted(case_id, answer):
+    cases = load_cases(__import__("pathlib").Path("tests/eval_cases/agent.json"))
+    item = next(case for case in cases if case.id == case_id)
+    output = record()
+    output["answer"] = answer
+
+    result = evaluate_case(item, output)
+
+    assert result["required_fact_coverage"] == 1
+
+
+def test_reviewed_scoring_case_separates_points_from_victory_conditions():
+    cases = load_cases(__import__("pathlib").Path("tests/eval_cases/agent.json"))
+    item = next(case for case in cases if case.id == "rules_scoring")
+
+    assert item.expected_status == "insufficient_evidence"
+    assert item.expected_pdf_sections == ("CAPTURE AND CONTROL",)
+    assert len(item.required_facts) == 3
+
+
+def test_reviewed_cover_wording_accepts_ap_of_zero():
+    cases = load_cases(__import__("pathlib").Path("tests/eval_cases/agent.json"))
+    item = next(case for case in cases if case.id == "hybrid_intercessor_cover")
+    output = record()
+    output["answer"] = (
+        "An Intercessor Squad model has a Save characteristic of 3+ [S1]. "
+        "Cover cannot improve it against an AP of 0 attack [S2]."
+    )
+
+    assert evaluate_case(item, output)["required_fact_coverage"] == 1
+
+
+def test_resume_retries_partial_answers_with_api_errors():
+    output = record()
+    output["status"] = "partial_answer"
+    output["errors"] = [
+        {"stage": "sql", "api_error": {"code": 403, "message": "forbidden"}}
+    ]
+
+    assert _record_needs_retry(output)
+    assert not _record_needs_retry({**output, "errors": []})
+    assert not _record_needs_retry(record())
 
 
 def test_wrong_route_missing_source_and_value_fail_end_to_end():

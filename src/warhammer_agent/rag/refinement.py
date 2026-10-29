@@ -6,6 +6,8 @@ import re
 
 from pydantic import BaseModel, ConfigDict
 
+from warhammer_agent.gemini_retry import generate_content_with_retry
+
 
 class QueryPlan(BaseModel):
     model_config = ConfigDict(extra="forbid", strict=True)
@@ -42,7 +44,8 @@ def structured_call(generator, schema, instruction, payload, max_output_tokens):
 
     spec = schema.model_json_schema()
     spec.pop("additionalProperties", None)
-    response = generator.client.models.generate_content(
+    response = generate_content_with_retry(
+        generator.client,
         model=generator.settings["model"],
         contents=json.dumps(payload, ensure_ascii=False),
         config=types.GenerateContentConfig(
