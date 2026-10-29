@@ -33,12 +33,11 @@ Requirements:
 
 - Python 3.10 or later;
 - [`uv`](https://docs.astral.sh/uv/);
-- `data/Core Rules.pdf`;
-- `data/wahadb.sqlite`;
 - a Google AI Studio API key for Gemini generation.
 
-The two course-provided source files are intentionally excluded from Git. See
-[`data/README.md`](data/README.md) for their exact local placement.
+The two course-provided sources, `data/Core Rules.pdf` and
+`data/wahadb.sqlite`, are versioned in the repository and ready after cloning.
+See [`data/README.md`](data/README.md) for their roles.
 
 Install all runtime dependencies:
 
@@ -111,10 +110,11 @@ uv run --locked --extra agent --extra qwen --extra chroma --extra gemini \
 
 ## Data and reproducibility
 
-The original PDF and SQLite database stay local and are not committed. The
-repository versions the material required to understand and reproduce the
-processing choices:
+The repository versions the two course-provided sources and the material
+required to understand and reproduce the processing choices:
 
+- `data/Core Rules.pdf`: original rulebook used for citations and page previews;
+- `data/wahadb.sqlite`: unit datasheet database queried read-only;
 - `data/core_rules.docling.json`: immutable parsing snapshot;
 - `config/corrections/core_rules/`: reviewed page corrections;
 - `config/index_policy.json`: excluded-page policy;
@@ -130,8 +130,8 @@ Runtime artifacts remain local:
 - `storage/agent/`: LangGraph checkpoints and run diagnostics;
 - `storage/evaluation/`: resumable live evaluation records and reports.
 
-API keys, original course files, model caches, vector indexes and runtime
-records are excluded from Git.
+API keys, model caches, vector indexes and runtime records are excluded from
+Git.
 
 ## How the system answers a question
 

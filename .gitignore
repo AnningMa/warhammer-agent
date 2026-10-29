@@ -7,9 +7,7 @@ __pycache__/
 .venu/
 .env
 
-# Local source inputs and runtime stores
-/data/*.pdf
-/data/*.sqlite
+# Runtime stores and SQLite temporary files
 /data/*.sqlite-*
 /storage/
 .env.*

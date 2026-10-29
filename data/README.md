@@ -1,7 +1,7 @@
-# Local course data
+# Course data
 
-Place the two course-provided source files in this directory before running the
-complete application:
+The course-provided source files are versioned in this directory, so the
+complete application has its inputs immediately after cloning:
 
 ```text
 data/
@@ -15,10 +15,9 @@ Keep the exact filenames and capitalisation shown above.
 - `Core Rules.pdf` provides the original pages used by PDF citations and the
   optional source-page previews in the Streamlit interface.
 - `wahadb.sqlite` is opened read-only by the SQL Retriever.
-- `core_rules.docling.json` is already versioned in Git and supports
+- `core_rules.docling.json` is the versioned Docling parsing snapshot used for
   reproducible corpus rebuilding.
 
-The PDF and SQLite database are ignored by Git because they are local
-course-provided inputs. They are never uploaded by the application. After
-placing them, start commands from the repository root so relative paths resolve
-consistently.
+Start commands from the repository root so relative paths resolve consistently.
+The application reads these files locally and never modifies or uploads them at
+runtime.
