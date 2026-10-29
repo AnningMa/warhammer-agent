@@ -28,7 +28,7 @@ Requirements:
 
 The required PDF and SQLite data files are included in the repository.
 
-### 1. First-time setup (run once)
+### Step 1: First-time setup (run once)
 
 These commands clone the repository, install the dependencies, download the
 Qwen embedding model and build the local Chroma search index. Run them once
@@ -47,7 +47,7 @@ uv run --locked --extra qwen --extra chroma \
 The initial setup may take several minutes. Later runs reuse the downloaded
 model and local index.
 
-### 2. Start the web chat
+### Step 2: Start the web chat
 
 From the repository root, run:
 
@@ -61,7 +61,7 @@ uv run --locked \
   streamlit run scripts/chat_app.py
 ```
 
-### 3. Enter the API key
+### Step 3: Enter the API key
 
 Open the local URL shown in the terminal. Enter a valid Google AI Studio API
 key in the sidebar, then ask a question in the chat box.
