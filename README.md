@@ -24,7 +24,7 @@ sessions, automated tests and a resumable end-to-end evaluation pipeline.
 - conversational PDF retrieval, fusion, Gemini reranking and cited generation;
 - schema-aware, validated and read-only Text-to-SQL retrieval;
 - LangGraph routing across rules, database, hybrid and clarification paths;
-- a local Streamlit chat using a Google AI Studio API key;
+- a local Streamlit chat with cited PDF-page previews and a Google AI Studio key;
 - deterministic and optional LLM-assisted evaluation over 12 frozen cases.
 
 ## Quick start
@@ -36,6 +36,9 @@ Requirements:
 - `data/Core Rules.pdf`;
 - `data/wahadb.sqlite`;
 - a Google AI Studio API key for Gemini generation.
+
+The two course-provided source files are intentionally excluded from Git. See
+[`data/README.md`](data/README.md) for their exact local placement.
 
 Install all runtime dependencies:
 
@@ -201,7 +204,8 @@ optional independent LLM judge.
 ## Current limitations
 
 - Figure understanding is limited to extracted captions and reviewed textual
-  context; users must consult the cited PDF page for complete visual detail.
+  context; cited-page previews expose the original visual source but are not
+  interpreted by the model.
 - Gemini model access, latency and quota depend on the Google AI Studio account.
 - The SQL retriever rejects unsafe or invalid queries and does not automatically
   repair them.

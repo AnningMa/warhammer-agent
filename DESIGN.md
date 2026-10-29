@@ -10,6 +10,7 @@ colors:
   sidebar-text: "#EFEEE5"
   gold: "#8A7D40"
   sidebar-gold: "#C6B775"
+  user-blue: "#2F6685"
   source-green: "#245C52"
   error-red: "#9C302B"
   border: "#B8B4A7"
@@ -45,9 +46,10 @@ tool: native controls, readable answers and inspectable references come first.
 
 Native tokens live in `.streamlit/config.toml`; narrowly scoped composition and
 contrast overrides live in `src/warhammer_agent/ui.css`. Paper and ink carry the
-conversation; gold marks the page and session action. Green identifies sources
-and completed answers, red identifies errors. The gold session button has dark
-text, not white. Main captions use #5C5E54; sidebar captions use #C4C8BA.
+conversation; gold marks the page and session action. Blue identifies user
+turns, green identifies sources and completed answers, and red identifies
+errors. The gold session button has dark text, not white. Main captions use
+#5C5E54; sidebar captions use #C4C8BA.
 
 ## Typography
 
@@ -74,9 +76,10 @@ upper rule and a 1px lower divider. No decorative shadows, textures or animation
 - Google API key: visible password field with an AI Studio link and explicit clear action. Empty keys disable chat and examples; keys stay in session memory, never theme/configuration or run records.
 - New conversation: prominent gold sidebar action; rotates the session ID and clears the visible history without resetting the selected model.
 - Example questions: Core Rules, Datasheets, and Rules + datasheets; each submits through the same Agent flow as the chat input.
-- Answer: native accessible chat message with book icon, readable prose and inline citations.
-- Sources: collapsed expander, separating PDF rules (title and physical pages) from SQL sources (database and tables).
+- Answer: native accessible chat message with a high-contrast green book avatar, an explicit assistant/status label, a restrained gold left rule, readable prose and inline citations. User turns use a matching rulebook-blue person avatar.
+- Sources: collapsed expander, separating PDF rules (title and physical pages) from SQL sources (database and tables). PDF citations offer an opt-in full-page preview rendered from the local rulebook; previews are reference material and are not interpreted by the model.
 - Run details: collapsed diagnostic expander; errors remain visible outside it and survive reruns.
+- Chat input: an ivory question box with a gold resting border, a green focus border and a green send action. Its placeholder explicitly invites a Warhammer 40K question.
 
 ## Do's and Don'ts
 

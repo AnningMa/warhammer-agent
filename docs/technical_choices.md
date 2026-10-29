@@ -102,7 +102,9 @@ the evaluation pipeline and human review.
 Streamlit provides a small local chat interface over the same agent used by the
 CLI. It exposes session creation, model selection, API-key entry, answers,
 citations, route information, and useful failure messages without duplicating
-retrieval logic.
+retrieval logic. PDF citations can optionally render their complete source pages
+from the local rulebook. These previews are never sent to Gemini and do not imply
+that the model interpreted the page image.
 
 Streamlit was selected for a lightweight course demonstration. The project does
 not require a separate web server, authentication system, or hosted deployment.

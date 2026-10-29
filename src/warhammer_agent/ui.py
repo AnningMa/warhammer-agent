@@ -1,8 +1,11 @@
 """Handbook-inspired local Streamlit interface for the unified agent."""
 
 import json
+from functools import lru_cache
 from pathlib import Path
 from uuid import uuid4
+
+import pymupdf
 
 from warhammer_agent.agent.cli import validate_config as validate_agent
 from warhammer_agent.agent.services import AgentServices
@@ -23,6 +26,7 @@ EXAMPLE_QUESTIONS = (
         ),
     ),
 )
+MAX_PDF_PREVIEW_PAGES = 6
 
 
 def citation_label(citation: dict) -> str:
@@ -47,6 +51,48 @@ def error_label(error: dict) -> str:
     return f"{stage}: {kind}{suffix}"
 
 
+def cited_pdf_pages(citations: list[dict]) -> tuple[int, ...]:
+    """Return unique, valid physical PDF pages in citation order."""
+    pages = []
+    seen = set()
+    for citation in citations:
+        if citation.get("kind") != "pdf":
+            continue
+        for page in citation.get("page_numbers", []):
+            if (
+                isinstance(page, int)
+                and not isinstance(page, bool)
+                and page > 0
+                and page not in seen
+            ):
+                pages.append(page)
+                seen.add(page)
+    return tuple(pages)
+
+
+def source_pdf_path(root: Path) -> Path:
+    """Return the documented local location of the course rulebook."""
+    return root / "data/Core Rules.pdf"
+
+
+@lru_cache(maxsize=24)
+def render_pdf_page(pdf_path: Path, physical_page: int) -> bytes:
+    """Render one 1-based physical PDF page as an in-memory PNG."""
+    if not isinstance(physical_page, int) or isinstance(physical_page, bool):
+        raise TypeError("physical_page must be an integer")
+    if physical_page < 1:
+        raise ValueError("physical_page must be positive")
+    if not pdf_path.is_file():
+        raise FileNotFoundError(pdf_path)
+    with pymupdf.open(pdf_path) as document:
+        if physical_page > document.page_count:
+            raise ValueError("physical_page is outside the PDF")
+        pixmap = document[physical_page - 1].get_pixmap(
+            matrix=pymupdf.Matrix(1.5, 1.5), alpha=False
+        )
+        return pixmap.tobytes("png")
+
+
 def _new_session() -> str:
     return f"web_{uuid4().hex}"
 
@@ -62,9 +108,9 @@ def _load_services(root: Path, model: str, api_key: str) -> tuple[dict, AgentSer
     return config, services
 
 
-def _render_assistant(st, message: dict, index: int) -> None:
-    if message["status"] == "answered":
-        st.caption(":green[Answered]")
+def _render_assistant(st, message: dict, index: int, root: Path) -> None:
+    status = message["status"].replace("_", " ").title()
+    st.caption(f":green[Warhammer Assistant] · {status}")
     with st.container(key=f"answer-{index}"):
         st.markdown(message["content"])
     errors = message.get("errors", [])
@@ -81,6 +127,40 @@ def _render_assistant(st, message: dict, index: int) -> None:
                         else ":green[Database]"
                     )
                     st.markdown(citation_label(citation))
+            pages = cited_pdf_pages(citations)
+            if pages and st.checkbox(
+                "Show cited PDF pages", key=f"pdf-page-previews-{index}"
+            ):
+                shown_pages = pages[:MAX_PDF_PREVIEW_PAGES]
+                pdf_path = source_pdf_path(root)
+                if not pdf_path.is_file():
+                    st.warning(
+                        "Source PDF not found at `data/Core Rules.pdf`. Add the "
+                        "local course PDF to enable page previews."
+                    )
+                else:
+                    for page in shown_pages:
+                        try:
+                            preview = render_pdf_page(pdf_path, page)
+                        except Exception:  # noqa: BLE001 -- optional preview boundary.
+                            st.warning(
+                                f"PDF physical page {page} could not be displayed."
+                            )
+                            continue
+                        st.image(
+                            preview,
+                            caption=f"Core Rules.pdf · physical page {page}",
+                            width="stretch",
+                        )
+                    if len(pages) > len(shown_pages):
+                        st.caption(
+                            f"{len(pages) - len(shown_pages)} additional cited "
+                            "page(s) were omitted from the preview."
+                        )
+                    st.caption(
+                        "Source page previews are shown for reference and are not "
+                        "interpreted by the model."
+                    )
     with st.expander("Run details", expanded=False):
         st.write(f"Status: `{message['status']}`")
         st.write(f"Route: `{message.get('route') or 'unavailable'}`")
@@ -205,12 +285,14 @@ def _render_page(st, root: Path) -> None:
             else ":material/person:",
         ):
             if message["role"] == "assistant":
-                _render_assistant(st, message, index)
+                _render_assistant(st, message, index, root)
             else:
                 st.markdown(message["content"])
 
     typed_question = st.chat_input(
-        "Ask a Warhammer 40K question", key="question", disabled=not api_key
+        "Type your Warhammer 40K question here…",
+        key="question",
+        disabled=not api_key,
     )
     question = st.session_state.pop("pending_question", None) or typed_question
     if not question or not api_key:

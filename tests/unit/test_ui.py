@@ -1,5 +1,9 @@
 from pathlib import Path
 
+import pymupdf
+import pytest
+
+from warhammer_agent import ui
 from warhammer_agent.ui import citation_label, error_label
 
 
@@ -36,11 +40,35 @@ def test_error_label_keeps_safe_diagnostic_fields():
     assert error_label(error) == "route: ClientError (API 429)"
 
 
+def test_cited_pdf_pages_keeps_unique_valid_pages_in_source_order():
+    citations = [
+        {"kind": "pdf", "page_numbers": [21, 22]},
+        {"kind": "sql", "page_numbers": [99]},
+        {"kind": "pdf", "page_numbers": [22, 42, 0, "43", True]},
+    ]
+
+    assert ui.cited_pdf_pages(citations) == (21, 22, 42)
+
+
+def test_render_pdf_page_uses_one_based_physical_pages(tmp_path):
+    pdf_path = tmp_path / "rules.pdf"
+    with pymupdf.open() as document:
+        document.new_page().insert_text((72, 72), "First page")
+        document.new_page().insert_text((72, 72), "Second page")
+        document.save(pdf_path)
+
+    preview = ui.render_pdf_page(pdf_path, 2)
+
+    assert preview.startswith(b"\x89PNG\r\n\x1a\n")
+    with pytest.raises(ValueError, match="positive"):
+        ui.render_pdf_page(pdf_path, 0)
+    with pytest.raises(ValueError, match="outside"):
+        ui.render_pdf_page(pdf_path, 3)
+    with pytest.raises(FileNotFoundError):
+        ui.render_pdf_page(tmp_path / "missing.pdf", 1)
+
+
 # UI tests use Streamlit's real state/rerun engine and a fake Agent: no API calls.
-import pytest
-
-from warhammer_agent import ui
-
 streamlit_testing = pytest.importorskip("streamlit.testing.v1")
 
 
@@ -120,6 +148,33 @@ def test_examples_use_same_agent_path_and_do_not_repeat(chat_app, example_index)
     assert "tables datasheets, datasheets_models" in texts
     app.run()
     assert len(calls) == 1
+
+
+def test_pdf_source_previews_are_opt_in_and_deduplicate_pages(
+    chat_app, monkeypatch, tmp_path
+):
+    app, _calls, _closed = chat_app
+    pdf_path = tmp_path / "preview.pdf"
+    with pymupdf.open() as document:
+        document.new_page().insert_text((72, 72), "Preview")
+        document.save(pdf_path)
+    preview = ui.render_pdf_page(pdf_path, 1)
+    rendered = []
+
+    def render(_path, page):
+        rendered.append(page)
+        return preview
+
+    monkeypatch.setattr(ui, "source_pdf_path", lambda _root: pdf_path)
+    monkeypatch.setattr(ui, "render_pdf_page", render)
+    app.button(key="example-2").click().run()
+    checkbox = next(
+        item for item in app.checkbox if item.label == "Show cited PDF pages"
+    )
+    checkbox.check().run()
+
+    assert not app.exception
+    assert rendered == [21, 22]
 
 
 def test_typed_followup_and_new_session_preserve_model(chat_app):
