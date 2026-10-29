@@ -78,9 +78,7 @@ def main() -> int:
         judge_model = None
         if args.judge or saved.get("judge_model"):
             judge_model = (
-                args.judge_model
-                or saved.get("judge_model")
-                or config["judge"]["model"]
+                args.judge_model or saved.get("judge_model") or config["judge"]["model"]
             )
         run, json_path, markdown_path = run_evaluation(
             root,

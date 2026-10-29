@@ -81,9 +81,7 @@ def _citation_valid(record: dict[str, Any]) -> bool:
     inline = set(re.findall(r"\[(S\d+)\]", answer))
     citations = record.get("citations", [])
     citation_ids = [item.get("citation_id") for item in citations]
-    evidence_ids = {
-        item.get("citation_id") for item in record.get("evidence", [])
-    }
+    evidence_ids = {item.get("citation_id") for item in record.get("evidence", [])}
     if record.get("status") == "clarification":
         return not inline and not citations
     return (
