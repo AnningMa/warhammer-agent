@@ -92,6 +92,7 @@ flowchart LR
     R -->|database| SQL[SQL Retriever]
     R -->|hybrid| PDF
     R -->|hybrid| SQL
+    R -->|clarification| CL[Clarification response]
 
     PDF --> Q[Local Qwen query embedding]
     Q --> C[(Chroma parent-child index)]
@@ -108,6 +109,7 @@ flowchart LR
     T --> A
     A --> CV[Local citation validation]
     CV --> U
+    CL --> U
 ```
 
 Question planning and routing use Gemini through Google AI Studio. PDF retrieval
@@ -115,6 +117,9 @@ uses the local Qwen embedding model and a persistent Chroma index. SQL generatio
 uses Gemini, while SQLGlot validation and SQLite read-only controls enforce local
 safety constraints. The final answer can cite PDF and database evidence in one
 shared `[S1]` numbering space.
+
+For a hybrid question, the two router arrows identify the required retrievers;
+the graph executes the PDF path first and the SQL path second before synthesis.
 
 ## Modules
 
