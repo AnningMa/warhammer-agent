@@ -70,32 +70,23 @@ small regression check rather than a large-scale statistical assessment.
 
 ## Optional LLM judge
 
-`--judge` adds three semantic metrics taught in the course: faithfulness, answer
-relevancy and factual correctness. The judge receives the question, retrieved
-evidence, answer and reviewed reference. Its 1-5 scores are normalized to 0-1.
-The configured judge is `gemini-2.5-pro`, intentionally different from the
-default answer model. Access and quotas vary, so the judge is opt-in and its
-failure never discards deterministic results. The judge output includes a short
-rationale and usage metadata.
+The optional `--judge` mode adds faithfulness, answer relevancy and factual
+correctness scores. It is disabled by default because it requires additional
+Gemini calls and model access. The final twelve-case evaluation uses the
+deterministic metrics only, so the judge scores are reported as `n/a`.
 
 ## Storage and resume
 
-Every case is saved immediately under
-`storage/evaluation/runs/<run-id>/cases/`. The completed run also contains
-`evaluation.json` and `evaluation.md`. A failed case is retried by `--resume`;
-completed cases are reused. `selection.json` preserves the selected case IDs and
-model settings, so a resumed single-case or partial run does not expand to the
-full dataset. This makes a multi-call evaluation recoverable after quota or
-transient API errors.
+Each case is saved immediately under
+`storage/evaluation/runs/<run-id>/cases/`. Running the evaluation again with
+`--resume` reuses completed cases and retries failed ones, so an interrupted run
+can continue without repeating successful API calls.
 
-Live cases are separated by `inter_case_delay_seconds` from
-`config/evaluation.json`. The default 65-second interval reduces bursts between
-cases, but a single agent case can still make several model calls. The shared
-Gemini helper waits and retries once when a 429 response provides a short retry
-delay of at most 90 seconds. Longer quota failures remain saved for a later
-`--resume`. Reused successful case records do not incur the inter-case delay.
+Live cases are separated by the delay configured in `config/evaluation.json`.
+Short 429 rate-limit errors are retried once when Gemini provides a wait of no
+more than 90 seconds. Longer quota errors remain saved and can be retried later
+with `--resume`.
 
-The CLI supports `--case-id`, `--category`, `--limit`, `--model`, `--judge`,
-`--judge-model` and `--resume`. Start with one case because a rules, database or
-hybrid turn can consume several Gemini requests. Run the complete frozen dataset
-only after the smoke cases work and sufficient quota is available.
+The CLI also supports selecting cases with `--case-id`, `--category` and
+`--limit`. The complete dataset should be run only when the smoke tests work and
+sufficient API quota is available.
