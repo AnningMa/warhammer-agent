@@ -108,7 +108,6 @@ uv run --locked --extra agent --extra qwen --extra chroma --extra gemini \
 | [`docs/ingestion.md`](docs/ingestion.md) | PDF parsing, corrections, corpus building and provenance |
 | [`docs/sql_data_dictionary.md`](docs/sql_data_dictionary.md) | SQLite tables, columns and inferred relationships |
 | [`docs/evaluation.md`](docs/evaluation.md) | Evaluation dataset, metrics, storage and resume policy |
-| [`DESIGN.md`](DESIGN.md) | Streamlit visual design, components and interface figures |
 
 ## Data and reproducibility
 
