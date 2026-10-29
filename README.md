@@ -21,17 +21,18 @@ sessions, automated tests and a resumable end-to-end evaluation pipeline.
 
 Requirements:
 
-- Python 3.10 or later;
 - Git;
+- Python 3.10 or later;
 - [`uv`](https://docs.astral.sh/uv/);
-- a Google AI Studio API key for Gemini generation.
+- a valid Google AI Studio API key.
 
-The two course-provided sources, `data/Core Rules.pdf` and
-`data/wahadb.sqlite`, are versioned in the repository and ready after cloning.
+The required PDF and SQLite data files are included in the repository.
 
 ### 1. First-time setup (run once)
 
-Run these commands once from a terminal:
+These commands clone the repository, install the dependencies, download the
+Qwen embedding model and build the local Chroma search index. Run them once
+during the initial setup:
 
 ```bash
 git clone https://github.com/AnningMa/warhammer-agent.git
@@ -43,7 +44,8 @@ uv run --locked --extra qwen --extra chroma \
   python scripts/embed_parent_child.py
 ```
 
-The first index build downloads and caches the local Qwen embedding model.
+The initial setup may take several minutes. Later runs reuse the downloaded
+model and local index.
 
 ### 2. Start the web chat
 
