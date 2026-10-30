@@ -60,15 +60,17 @@ Choose one way to prepare the search index.
 
 #### Option A: Download embeddings
 
-Download the matching index ZIP and `.zip.sha256` file from
-[GitHub Releases](https://github.com/AnningMa/warhammer-agent/releases), when
-available. Save them in `storage/releases/`. Index attachments are separate from
-the source-code download.
+Download the [precomputed Qwen index ZIP](https://github.com/user-attachments/files/34176724/warhammer-qwen-parent-child-index-20261030.zip)
+and save it in `storage/releases/` (create the directory if needed).
 
-Verify the checksum using the [index package guide](docs/index_package.md), then
-validate and import the ZIP without extracting it:
+**Use the latest `main` source cloned above.** The `v0.1.0-embeddings` tag predates
+the import tool, so its automatic **Source code (zip)** cannot run these commands.
+The checksum file is included in `docs/releases/`; no separate download is needed.
+
+From the project root, verify and import the ZIP without extracting it:
 
 ```bash
+(cd storage/releases && sha256sum -c ../../docs/releases/warhammer-qwen-parent-child-index-20261030.zip.sha256)
 .venv/bin/python scripts/index_package.py validate \
   --archive storage/releases/warhammer-qwen-parent-child-index-20261030.zip
 .venv/bin/python scripts/index_package.py import \

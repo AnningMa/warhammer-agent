@@ -22,6 +22,16 @@ The current index contains 228 parents and 237 child vectors of 768 dimensions.
 
 ## Testers: use a downloaded package
 
+For the current package, use the latest `main` source: tag
+`v0.1.0-embeddings` predates the import tool. The verified ZIP is linked in
+[README](../README.md#option-a-download-embeddings), and its checksum is included
+in `docs/releases/warhammer-qwen-parent-child-index-20261030.zip.sha256`.
+After saving the ZIP under `storage/releases/`, verify it from the project root:
+
+```bash
+(cd storage/releases && sha256sum -c ../../docs/releases/warhammer-qwen-parent-child-index-20261030.zip.sha256)
+```
+
 Use the source release paired with the package. It must contain
 `scripts/index_package.py` and matching `config/` and `reports/` files. Do not edit
 the embedding configuration before importing. From the project root:
