@@ -60,19 +60,14 @@ Choose one way to prepare the search index.
 
 #### Option A: Download embeddings
 
-Download the [precomputed Qwen index ZIP](https://github.com/user-attachments/files/34176724/warhammer-qwen-parent-child-index-20261030.zip)
+Download the [index ZIP](https://github.com/user-attachments/files/34176724/warhammer-qwen-parent-child-index-20261030.zip)
 and save it in `storage/releases/` (create the directory if needed).
-
-**Use the latest `main` source cloned above.** The `v0.1.0-embeddings` tag predates
-the import tool, so its automatic **Source code (zip)** cannot run these commands.
-The checksum file is included in `docs/releases/`; no separate download is needed.
+The checksum is included in `checksums/`.
 
 From the project root, verify and import the ZIP without extracting it:
 
 ```bash
-(cd storage/releases && sha256sum -c ../../docs/releases/warhammer-qwen-parent-child-index-20261030.zip.sha256)
-.venv/bin/python scripts/index_package.py validate \
-  --archive storage/releases/warhammer-qwen-parent-child-index-20261030.zip
+(cd storage/releases && sha256sum -c ../../checksums/warhammer-qwen-parent-child-index-20261030.zip.sha256)
 .venv/bin/python scripts/index_package.py import \
   --archive storage/releases/warhammer-qwen-parent-child-index-20261030.zip
 ```
@@ -80,8 +75,7 @@ From the project root, verify and import the ZIP without extracting it:
 Qwen is still needed for user questions. Download/cache it with a test query:
 
 ```bash
-uv run --locked --extra qwen --extra chroma \
-  python scripts/embed_parent_child.py --query "How does Deep Strike work?" --top-k 1
+.venv/bin/python scripts/embed_parent_child.py --query "How does Deep Strike work?" --top-k 1
 ```
 
 #### Option B: Build embeddings
@@ -89,8 +83,7 @@ uv run --locked --extra qwen --extra chroma \
 If no matching index package is available, download Qwen and build the index:
 
 ```bash
-uv run --locked --extra qwen --extra chroma \
-  python scripts/embed_parent_child.py
+.venv/bin/python scripts/embed_parent_child.py
 ```
 
 Both options reuse the model and index on later runs.
@@ -166,7 +159,8 @@ uv run --locked --extra agent --extra qwen --extra chroma --extra gemini \
 warhammer-agent/
 ├── data/                       # PDF, SQLite database and parsing snapshot
 ├── config/                     # Model, agent and evaluation configuration
-├── docs/                       # Architecture, technical choices and reference docs
+├── docs/                       # Assignment report and evaluation results
+├── checksums/                  # Downloaded index checksums
 ├── reports/                    # Reviewed rule corpus and retrieval records
 ├── scripts/                    # User-facing CLI, chat and evaluation entry points
 ├── src/warhammer_agent/
