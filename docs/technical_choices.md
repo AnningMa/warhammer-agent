@@ -209,13 +209,13 @@ not require a separate web server, authentication system, or hosted deployment.
 
 ## Evaluation strategy
 
-The frozen evaluation dataset contains rules, database, hybrid, and
-clarification questions. Deterministic metrics measure routing, execution trace,
-expected evidence or SQL values, required answer facts, and citations. Reports
-are stored as JSON and Markdown, and interrupted live runs can be resumed after
-API quota resets.
+The evaluation dataset contains rules, database, hybrid, and clarification
+questions. Deterministic metrics evaluate routing decisions, execution traces,
+retrieved evidence, SQL results, required answer facts, and citation validity.
+This makes the results reproducible and helps detect regressions.
 
-Deterministic checks make regressions reproducible, while an optional independent
-LLM judge and human review can assess semantic faithfulness and answer relevance.
-The final live evaluation should be run only after the implementation and
-documentation are frozen.
+An optional independent LLM judge and human review can also be used to assess
+faithfulness and answer relevance. The detailed dataset design, metrics,
+acceptance thresholds, and resume policy are documented in
+[`evaluation.md`](evaluation.md). Final measured results are available in
+[`evaluation_results.md`](evaluation_results.md).
