@@ -2,6 +2,16 @@
 
 Pipeline: original PDF → immutable Docling snapshot → verified corrections → final TXT/JSONL → baseline or parent-child retrieval chunks.
 
+## Contents
+
+- [Rebuild outputs](#rebuild-outputs)
+- [Content and provenance](#content-and-provenance)
+- [Noise and explicit relationships](#noise-and-explicit-relationships)
+- [Examples and terrain](#examples-and-terrain)
+- [Parent-child chunks](#parent-child-chunks)
+- [Parse a new snapshot](#parse-a-new-snapshot)
+- [Vector storage](#vector-storage)
+
 ## Rebuild outputs
 
 ```bash

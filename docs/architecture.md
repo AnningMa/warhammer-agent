@@ -1,5 +1,16 @@
 # System architecture
 
+## Contents
+
+- [Goal and sources](#goal-and-sources)
+- [Project layout](#project-layout)
+- [Runtime flow](#runtime-flow)
+- [Modules](#modules)
+- [Source selection](#source-selection)
+- [Persistence and local data](#persistence-and-local-data)
+- [Safety and grounding](#safety-and-grounding)
+- [Verification](#verification)
+
 ## Goal and sources
 
 The assistant answers English Warhammer 40,000 questions using the two sources

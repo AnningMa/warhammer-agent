@@ -5,6 +5,15 @@ reference dataset. It evaluates retrieval, SQL results, answer grounding,
 agent traces, latency and token usage. It complements unit tests; it is not a
 replacement for them.
 
+## Contents
+
+- [Dataset](#dataset)
+  - [Case selection](#case-selection)
+- [How evaluation informed the implementation](#how-evaluation-informed-the-implementation)
+- [Deterministic metrics](#deterministic-metrics)
+- [Optional LLM judge](#optional-llm-judge)
+- [Storage and resume](#storage-and-resume)
+
 ## Dataset
 
 `tests/eval_cases/agent.json` contains twelve cases:
@@ -38,6 +47,26 @@ were checked directly against `data/wahadb.sqlite`. Freeze and version this file
 so separate evaluation runs remain comparable. Review any proposed changes to
 questions or references before committing them. The project team should review
 all twelve cases before treating the current dataset version as frozen.
+
+## How evaluation informed the implementation
+
+Evaluation was used as a regression tool during development, not only as a
+final score. Failed cases were reviewed to distinguish system errors from
+incorrect or overly narrow evaluation expectations. This review led to several
+general changes before the final dataset was frozen:
+
+- equivalent join expressions are normalised instead of rejecting a valid join
+  only because Gemini writes its two sides in the opposite order;
+- repeated retrievals of the same relevant section are counted once in ranking
+  metrics, and manually checked equivalent answer phrasings are accepted;
+- reference expectations were corrected when the supplied source supported
+  only part of the original expected answer;
+- partial API failures remain resumable, and short Gemini rate limits use one
+  bounded retry instead of turning a valid case into a permanent result.
+
+These changes address reusable behaviour and do not encode individual answers.
+Each change is covered by unit tests, and the final twelve cases were then run
+again with fixed references.
 
 ## Deterministic metrics
 
