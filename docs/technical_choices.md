@@ -6,6 +6,7 @@ justifications. The complete runtime flow is documented separately in
 
 ## Contents
 
+- [Design overview](#design-overview)
 - [Feature-oriented Python package](#feature-oriented-python-package)
 - [Google AI Studio and Gemini](#google-ai-studio-and-gemini)
 - [PDF parsing and corpus construction](#pdf-parsing-and-corpus-construction)
@@ -18,6 +19,20 @@ justifications. The complete runtime flow is documented separately in
 - [Grounded answers and citations](#grounded-answers-and-citations)
 - [Streamlit interface](#streamlit-interface)
 - [Evaluation strategy](#evaluation-strategy)
+
+## Design overview
+
+| Component | Main design | Problem addressed |
+|---|---|---|
+| LLM backend | Gemini is accessed through Google AI Studio with structured JSON responses and local validation. | Keeps one configurable LLM backend across routing, retrieval refinement, SQL generation and answer synthesis. |
+| PDF parsing | Docling creates a versioned parsing snapshot, followed by reviewed corrections and provenance checks. | Handles complex rulebook layouts while keeping corpus construction reproducible. |
+| Chunking | Complete rules are stored as parents, while long rules are divided into smaller retrieval children. | Improves retrieval precision without separating conditions, effects, restrictions and exceptions in the final evidence. |
+| Embeddings and index | Local Qwen embeddings are stored in versioned Chroma collections using cosine distance. | Avoids repeated embedding API calls and prevents incompatible corpus or model versions from being mixed. |
+| PDF Retriever | Conversational rewriting, vector retrieval, parent restoration, candidate fusion and Gemini reranking are applied in sequence. | Supports follow-up and compound questions while returning complete and relevant rules. |
+| SQL Retriever | Relevant schemas are selected before Gemini produces a validated query plan and parameterised SQL for read-only execution. | Reduces schema confusion and prevents unsafe or unsupported generated queries from reaching SQLite. |
+| Agent and chat | LangGraph routes questions to the PDF Retriever, SQL Retriever, both retrievers, or a clarification response. | Provides one conversation flow for rules, database and hybrid questions without guessing missing information. |
+| Grounding and citations | Both retrievers return structured evidence, followed by grounded synthesis and local citation validation. | Makes answers traceable to PDF pages or database tables and rejects unsupported citation identifiers. |
+| Evaluation | A fixed twelve-case dataset evaluates rules, database, hybrid and clarification routes with deterministic metrics. | Detects regressions across the complete system and allows interrupted API-based runs to be resumed. |
 
 ## Feature-oriented Python package
 
