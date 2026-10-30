@@ -47,22 +47,51 @@ The required PDF and SQLite data files are included in the repository.
 
 ### Step 1: First-time setup (run once)
 
-These commands clone the repository, install the dependencies, download the
-Qwen embedding model and build the local Chroma search index. Run them once
-during the initial setup:
+Clone the repository and install the dependencies:
 
 ```bash
 git clone https://github.com/AnningMa/warhammer-agent.git
 cd warhammer-agent
 
 uv sync --locked --extra agent --extra qwen --extra chroma --extra gemini --extra ui
+```
 
+Choose one way to prepare the search index.
+
+#### Option A: Download embeddings
+
+Download the matching index ZIP and `.zip.sha256` file from
+[GitHub Releases](https://github.com/AnningMa/warhammer-agent/releases), when
+available. Save them in `storage/releases/`. Index attachments are separate from
+the source-code download.
+
+Verify the checksum using the [index package guide](docs/index_package.md), then
+validate and import the ZIP without extracting it:
+
+```bash
+.venv/bin/python scripts/index_package.py validate \
+  --archive storage/releases/warhammer-qwen-parent-child-index-20261030.zip
+.venv/bin/python scripts/index_package.py import \
+  --archive storage/releases/warhammer-qwen-parent-child-index-20261030.zip
+```
+
+Qwen is still needed for user questions. Download/cache it with a test query:
+
+```bash
+uv run --locked --extra qwen --extra chroma \
+  python scripts/embed_parent_child.py --query "How does Deep Strike work?" --top-k 1
+```
+
+#### Option B: Build embeddings
+
+If no matching index package is available, download Qwen and build the index:
+
+```bash
 uv run --locked --extra qwen --extra chroma \
   python scripts/embed_parent_child.py
 ```
 
-The initial setup may take several minutes. Later runs reuse the downloaded
-model and local index.
+Both options reuse the model and index on later runs.
 
 ### Step 2: Start the web chat
 
