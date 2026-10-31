@@ -12,9 +12,31 @@ retriever, or both. It then returns a grounded answer with PDF-page and/or
 database citations. The project also includes a Streamlit chat, persistent
 sessions, automated tests and a resumable end-to-end evaluation pipeline.
 
+## Interface preview
+
+The web interface accepts a Google AI Studio API key for the current session
+and displays grounded answers together with their cited sources and PDF page
+previews.
+
+<details>
+<summary><strong>Show interface preview</strong></summary>
+
+<br>
+
+<p align="center">
+  <img
+    src="docs/assets/chat_interface.png"
+    alt="Warhammer 40K Assistant answering a Core Rules question"
+    width="900"
+  >
+</p>
+
+</details>
+
 
 ## Table of Contents
 
+- [Interface Preview](#interface-preview)
 - [Group](#group)
 - [Run the Project](#run-the-project)
 - [Documentation](#documentation)
@@ -69,10 +91,11 @@ uv run --locked --extra qwen --extra chroma python scripts/embed_parent_child.py
 
 #### Option B: Use the precomputed index (faster)
 
-This option skips the document-embedding computation.
+This option skips the document-embedding computation. Click below to view the
+complete setup steps.
 
 <details>
-<summary>Show download and import steps</summary>
+<summary><strong>Click to expand the download and import steps</strong></summary>
 
 <br>
 
