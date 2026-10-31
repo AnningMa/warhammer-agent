@@ -95,7 +95,7 @@ This option skips the document-embedding computation. Click below to view the
 complete setup steps.
 
 <details>
-<summary><strong>Click to expand the download and import steps</strong></summary>
+<summary><strong>📦 Click to expand the download and import steps</strong></summary>
 
 <br>
 
