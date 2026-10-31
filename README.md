@@ -11,6 +11,29 @@ A LangGraph agent routes each question to the PDF retriever, the read-only SQL
 retriever, or both. It then returns a grounded answer with PDF-page and/or
 database citations. The project also includes a Streamlit chat, persistent
 sessions, automated tests and a resumable end-to-end evaluation pipeline.
+Click **Show interface preview** below to view the web interface.
+
+## Table of Contents
+
+- [Group](#group)
+- [Interface Preview](#interface-preview)
+- [Run the Project](#run-the-project)
+- [Documentation](#documentation)
+- [Main Features](#main-features)
+- [Command-line Alternative](#command-line-alternative)
+- [Entry Points](#entry-points)
+- [Repository Structure](#repository-structure)
+- [Data and Reproducibility](#data-and-reproducibility)
+- [How the System Answers a Question](#how-the-system-answers-a-question)
+- [Verification](#verification)
+- [End-to-end Evaluation](#end-to-end-evaluation)
+- [Current Limitations](#current-limitations)
+
+
+## Group
+
+- Anning Ma (student number: 22404528)
+- Yiwei ZUO (student number: 22400141)
 
 ## Interface preview
 
@@ -32,29 +55,6 @@ previews.
 </p>
 
 </details>
-
-
-## Table of Contents
-
-- [Interface Preview](#interface-preview)
-- [Group](#group)
-- [Run the Project](#run-the-project)
-- [Documentation](#documentation)
-- [Main Features](#main-features)
-- [Command-line Alternative](#command-line-alternative)
-- [Entry Points](#entry-points)
-- [Repository Structure](#repository-structure)
-- [Data and Reproducibility](#data-and-reproducibility)
-- [How the System Answers a Question](#how-the-system-answers-a-question)
-- [Verification](#verification)
-- [End-to-end Evaluation](#end-to-end-evaluation)
-- [Current Limitations](#current-limitations)
-
-
-## Group
-
-- Anning Ma (student number: 22404528)
-- Yiwei ZUO (student number: 22400141)
 
 ## Run the project
 
@@ -159,10 +159,10 @@ key in the sidebar, then ask a question in the chat box.
 | [`docs/architecture.md`](docs/architecture.md) | Complete system flow and module interaction |
 | [`docs/technical_choices.md`](docs/technical_choices.md) | Final technical choices, justifications and trade-offs |
 | [`docs/ingestion.md`](docs/ingestion.md) | PDF parsing, corrections, corpus building and provenance |
-| [`docs/sql_data_dictionary.md`](docs/sql_data_dictionary.md) | SQLite tables, columns and inferred relationships |
 | [`docs/evaluation.md`](docs/evaluation.md) | Evaluation dataset, metrics, storage and resume policy |
 | [`docs/evaluation_results.md`](docs/evaluation_results.md) | Final human-readable 12-case evaluation report |
 | [`docs/evaluation_results.json`](docs/evaluation_results.json) | Final machine-readable evaluation metrics |
+| [`docs/sql_data_dictionary.md`](docs/sql_data_dictionary.md) | SQLite tables, columns and inferred relationships |
 
 ## Main features
 

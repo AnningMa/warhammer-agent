@@ -31,6 +31,7 @@ individual tests and generated runtime files are omitted for readability.
 
 ```text
 warhammer-agent/
+├── checksums/                               # Portable index archive checksum
 ├── config/                                  # Versioned runtime configuration
 ├── data/                                    # Versioned PDF, SQLite and parsing sources
 ├── docs/                                    # Architecture and technical documentation
@@ -43,7 +44,8 @@ warhammer-agent/
 │   ├── ask_database.py                      # Query the standalone SQL Retriever
 │   ├── evaluate_agent.py                    # Run the end-to-end evaluation
 │   ├── build_corpus.py                      # Rebuild the reviewed rule corpus
-│   └── embed_parent_child.py                # Build or query the default vector index
+│   ├── embed_parent_child.py                # Build or query the default vector index
+│   └── index_package.py                     # Validate, import or export a portable index
 │
 ├── src/warhammer_agent/
 │   ├── ingestion/                           # PDF preparation and corpus construction
@@ -55,7 +57,8 @@ warhammer-agent/
 │   ├── embeddings/                          # Embeddings and vector persistence
 │   │   ├── providers.py                     # Format and validate Qwen/Gemini vectors
 │   │   ├── chroma_store.py                  # Manage versioned Chroma collections
-│   │   └── parent_child.py                  # Parent-child chunking and parent restoration
+│   │   ├── parent_child.py                  # Parent-child chunking and parent restoration
+│   │   └── package.py                       # Validate portable index archives and metadata
 │   │
 │   ├── rag/                                 # PDF Retriever and grounded generation
 │   │   ├── pipeline.py                      # Retrieve complete rules and pack evidence
@@ -137,7 +140,7 @@ the graph executes the PDF path first and the SQL path second before synthesis.
 | Module | Main responsibility |
 |---|---|
 | `ingestion` | Convert the PDF snapshot and reviewed corrections into 228 source-traceable rule blocks |
-| `embeddings` | Build and query Qwen or Gemini vectors; persist compatible collections in Chroma |
+| `embeddings` | Build and query Qwen or Gemini vectors; persist compatible Chroma collections; validate portable index packages |
 | `rag` | Retrieve complete PDF rules, rewrite conversational questions, rerank candidates, and validate PDF answers |
 | `sql` | Select relevant schema, generate a structured plan and parameterized SQL, validate it, and execute it read-only |
 | `agent` | Plan once, route to the smallest required source set, combine evidence, synthesize, and persist sessions |
@@ -164,8 +167,10 @@ the graph executes the PDF path first and the SQL path second before synthesis.
 | `data/core_rules.docling.json` | Immutable parsing snapshot | versioned |
 | `data/Core Rules.pdf` | Original course PDF | versioned |
 | `data/wahadb.sqlite` | Course SQLite database | versioned |
+| `checksums/` | Checksum for the optional portable vector index archive | versioned |
 | `storage/chroma/` | Persistent vector index | local |
 | `storage/embeddings/` | Saved embedding arrays and metadata | local |
+| `storage/releases/` | Downloaded portable index archives | local |
 | `storage/rag/` | Standalone PDF RAG run reports | local |
 | `storage/models/` | Cached Qwen weights | local |
 | `storage/agent/` | LangGraph checkpoints and run diagnostics | local |

@@ -65,7 +65,7 @@ Configuration/hash mismatches stop rebuilding. Updated context changes TXT spans
 
 ## Parent-child chunks
 
-Read only `reports/index_blocks.jsonl`, using `embedding_text` and inherited provenance. `scripts/embed_parent_child.py` writes parents and children to the separate JSONL. Child records have exact parent-relative character spans, parent hashes, and involved pages. Keep original source-segment granularity for Markdown provenance. Do not reduce cross-page citations to one page or index TXT alongside JSONL. See README for token thresholds and vector reuse rules.
+Read only `reports/index_blocks.jsonl`, using `embedding_text` and inherited provenance. `scripts/embed_parent_child.py` writes parents and children to the separate JSONL. Child records have exact parent-relative character spans, parent hashes, and involved pages. Keep original source-segment granularity for Markdown provenance. Do not reduce cross-page citations to one page or index TXT alongside JSONL. The token thresholds are versioned in [`config/parent_child.json`](../config/parent_child.json). When compatible baseline vectors are available, the builder reuses matching embedding texts and computes only the remaining child vectors.
 
 ## Parse a new snapshot
 

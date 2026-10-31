@@ -1,7 +1,7 @@
 # Technical choices
 
-This document describes the final technical choices of the project and their
-justifications. The complete runtime flow is documented separately in
+This document explains the main technical choices we made for the project and
+why we made them. The complete runtime flow is documented separately in
 [`architecture.md`](architecture.md).
 
 ## Contents
@@ -36,29 +36,32 @@ justifications. The complete runtime flow is documented separately in
 
 ## Feature-oriented Python package
 
-The source code uses the standard `src/warhammer_agent/` package layout and is
-divided by responsibility: ingestion, embeddings, PDF RAG, SQL retrieval,
-agent orchestration, and evaluation. This keeps each course requirement visible
-while avoiding a shared `base/impl` hierarchy for components that do not expose
-the same interface.
+We organised the source code as a standard `src/warhammer_agent/` package and
+divided it by responsibility: ingestion, embeddings, PDF RAG, SQL retrieval,
+agent orchestration, and evaluation. This keeps module responsibilities clear
+and makes the components easier to test and maintain. It also avoids a shared
+`base/impl` hierarchy for components that do not expose the same interface.
 
 ## Google AI Studio and Gemini
 
-Gemini is accessed through the official `google-genai` SDK. It performs question
-planning, routing, PDF reranking and answer generation, Text-to-SQL planning and
+We use Gemini through the official `google-genai` SDK for question planning,
+routing, PDF reranking and answer generation, Text-to-SQL planning and
 generation, and final hybrid synthesis. The Streamlit interface accepts a Google
 AI Studio API key for the current session; command-line tools read
 `GEMINI_API_KEY` from the environment or `.env`. Keys are never stored in Git or
 run reports.
 
-Using one backend satisfies the course requirement and allows structured JSON
-responses to be validated locally. Model access and request quotas still depend
-on the user's Google AI Studio account, so live evaluation is resumable.
+Using one backend keeps model configuration consistent and allows structured
+JSON responses to be validated locally. Model access and request quotas still
+depend on the user's Google AI Studio account, so live evaluation is resumable.
 
-The default runtime model is the stable `gemini-3.6-flash` release. PDF
-refinement, SQL planning, routing, and answer synthesis use the same model so a
-run has one explicit model version. The model remains configurable for accounts
-with different Google AI Studio availability.
+The default runtime configurations use `gemini-3.6-flash` for PDF refinement,
+SQL planning, routing, and answer synthesis. The Streamlit interface and
+evaluation runner apply their model override to both retrieval paths. In the
+unified command-line interface, `--model` overrides routing, PDF refinement, and
+synthesis, while SQL retains the model configured in `config/sql.json`. This
+keeps the default consistent while allowing each path to be configured
+explicitly.
 
 A shared bounded retry helper handles transient rate limits consistently across
 the PDF, SQL and agent paths. It retries one 429 response only when Gemini
@@ -67,13 +70,13 @@ to the caller so evaluation runs can be resumed later without blocking for hours
 
 ## PDF parsing and corpus construction
 
-The Core Rules PDF is parsed with Docling and stored as a versioned snapshot
-before the retrieval corpus is built. The corpus builder removes navigation
-noise, applies reviewed page corrections, and preserves headings, tables, lists,
-rule fields, physical page numbers, and source provenance. Hash checks connect
-the final records to the PDF, parsing snapshot, corrections, and corpus
-configuration, so incompatible inputs stop the rebuild instead of silently
-changing the index.
+We parse the Core Rules PDF with Docling and store the result as a versioned
+snapshot before building the retrieval corpus. Our corpus builder removes
+navigation noise, applies reviewed page corrections, and preserves headings,
+tables, lists, rule fields, physical page numbers, and source provenance. Hash
+checks connect the final records to the PDF, parsing snapshot, corrections, and
+corpus configuration, so incompatible inputs stop the rebuild instead of
+silently changing the index.
 
 The versioned snapshot separates the expensive PDF parsing step from later
 corpus revisions. Reviewed corrections can therefore improve difficult pages
@@ -86,31 +89,45 @@ claim to understand every visual relationship in a page. The original PDF page
 therefore remains the authoritative visual source and can be displayed beside a
 citation in the web interface.
 
+The complete rebuild procedure, generated files, and provenance checks are
+documented in [`ingestion.md`](ingestion.md).
+
 ## Rule-aware parent-child chunking
 
-Complete rules are stored as parent records, and only long rules are divided
-into smaller retrieval children. Each child keeps its parent-relative span,
-page information, and source metadata. A child can therefore provide a focused
+We store complete rules as parent records and divide only long rules into
+smaller retrieval children. Each child keeps its parent-relative span, page
+information, and source metadata. A child can therefore provide a focused
 vector match while the complete parent is restored before reranking and answer
 generation.
 
-This approach was chosen over arbitrary fixed-size chunks because rule
+We chose this approach over arbitrary fixed-size chunks because rule
 conditions, effects, restrictions, and exceptions should remain together.
 Examples can also be linked back to their main rule, so supplementary context is
 added without replacing the original retrieval ranking.
 
 ## Local Qwen embeddings and persistent Chroma
 
-The default PDF index uses `Qwen/Qwen3-Embedding-0.6B` locally and stores vectors
-in a persistent Chroma collection with cosine distance. Query instructions tell
-the embedding model to retrieve passages that answer a rules question. Chroma
-collections are versioned by corpus and model configuration to prevent
-incompatible vectors from being mixed.
+We use `Qwen/Qwen3-Embedding-0.6B` locally for the default PDF index and store
+its vectors in a persistent Chroma collection with cosine distance. Query
+instructions tell the embedding model to retrieve passages that answer a rules
+question. Chroma collections are versioned by corpus and model configuration to
+prevent incompatible vectors from being mixed.
 
 Local embeddings avoid per-query embedding API calls and remain usable after the
 model is cached. The trade-off is the initial model download and local CPU,
 memory, and storage use. Gemini embedding remains available as an alternative,
 but it is not required by the default runtime pipeline.
+
+We did not add a separate BM25 index because the rule-aware dense retrieval and
+Gemini reranking already met our evaluation targets. Keeping one persistent
+retrieval index also makes the local setup and index versioning simpler.
+
+For first-time setup, we support either building this index locally or importing
+a precomputed portable archive. A published SHA-256 checksum verifies the
+downloaded archive. The import then validates its file inventory, embedded file
+hashes, corpus hash, model configuration, record identities, and vector values
+before writing Chroma. The archive does not include Qwen model weights, so the
+same local model is still used to embed each user query.
 
 ## PDF Retriever design
 
@@ -121,9 +138,9 @@ Question rewriting -> Qwen query embedding -> Chroma child retrieval
 -> parent restoration -> candidate fusion -> Gemini reranking -> PDF evidence
 ```
 
-Conversation history is used only when a question needs to be rewritten as a
+We use conversation history only when a question needs to be rewritten as a
 self-contained retrieval query. Compound questions can produce a small set of
-focused queries. Their results are combined with reciprocal rank fusion because
+focused queries. We combine their results with reciprocal rank fusion because
 cosine scores from different queries are not directly comparable. The local
 Qwen instruction frames the task as finding passages that can answer a rules
 question, not as general text similarity.
@@ -134,7 +151,7 @@ local retrieval or fusion order instead of losing the evidence. The final PDF
 evidence contains the complete rule text, section title, provenance, and
 physical page numbers required for citations.
 
-This combination was selected to balance recall, context, and answer relevance.
+We selected this combination to balance recall, context, and answer relevance.
 Vector search finds a broad local candidate set, parent restoration prevents
 fragmentary rules from reaching the answer model, and reranking focuses the
 final evidence on the current question. The fallbacks keep the retriever usable
@@ -142,7 +159,7 @@ when an optional Gemini refinement call is unavailable.
 
 ## Two specialised retrievers
 
-The system keeps separate retrieval paths for the two required sources:
+We keep separate retrieval paths for the two data sources:
 
 - the PDF RAG pipeline retrieves and reranks Core Rules passages;
 - the SQL pipeline queries structured datasheet information.
@@ -161,13 +178,13 @@ Question -> relevant schema selection -> structured query plan
 -> read-only SQLite execution -> structured SQL evidence
 ```
 
-The schema catalogue first ranks tables from their documented topics and column
-names, then supplies only the most relevant tables and their approved inferred
-relationships. Gemini produces a structured plan containing the requested
-metric, dimensions, filters, candidate tables, joins, assumptions, and possible
-ambiguities. The plan is checked against the selected schema before it can be
-used to generate SQL. If a required entity or interpretation is missing, the
-retriever returns a focused clarification instead of guessing.
+We first use the schema catalogue to rank tables from their documented topics
+and column names, then supply only the most relevant tables and their approved
+inferred relationships. Gemini produces a structured plan containing the
+requested metric, dimensions, filters, candidate tables, joins, assumptions,
+and possible ambiguities. The plan is checked against the selected schema before
+it can be used to generate SQL. If a required entity or interpretation is
+missing, the retriever returns a focused clarification instead of guessing.
 
 The second Gemini call generates one parameterised SQLite query from the
 approved plan. Local checks verify the tables, columns, joins, operators,
@@ -177,18 +194,18 @@ SQLite is opened in read-only and query-only modes with authorisation, row, and
 execution-time limits. The returned columns and rows are converted into
 structured evidence that the agent can cite alongside PDF evidence.
 
-This design allows natural-language access to the course database without
-giving generated SQL write access. It is more complex than directly executing
-model output, but provides explicit planning, validation, and reproducible query
-evidence.
+We chose this design to allow natural-language access to the datasheet database
+without giving generated SQL write access. It is more complex than directly
+executing model output, but provides explicit planning, validation, and
+reproducible query evidence.
 
 ## LangGraph orchestration and persistent sessions
 
-LangGraph represents planning, routing, retrieval, synthesis, and clarification
-as explicit graph nodes. The router chooses the smallest sufficient source set:
-rules, database, hybrid, or clarification. Persistent checkpoints retain
-conversation context, while previous messages help resolve references but are
-never treated as factual evidence.
+We use LangGraph to represent planning, routing, retrieval, synthesis, and
+clarification as explicit graph nodes. The router chooses the smallest
+sufficient source set: rules, database, hybrid, or clarification. Persistent
+checkpoints retain conversation context, while previous messages help resolve
+references but are never treated as factual evidence.
 
 The runtime flow is `planning -> routing -> retrieval -> evidence collection ->
 grounded synthesis -> citation validation`. A hybrid question runs both
@@ -201,10 +218,10 @@ multi-source workflow and supports resumable conversations.
 
 ## Grounded answers and citations
 
-Both retrievers return structured evidence. The final answer may cite PDF pages
-and database tables in a shared `[S1]` numbering space. Local validation rejects
-unknown or inconsistent citation identifiers. Retrieved content is treated as
-untrusted evidence rather than instructions.
+We require both retrievers to return structured evidence. The final answer may
+cite PDF pages and database tables in a shared `[S1]` numbering space. Local
+validation rejects unknown or inconsistent citation identifiers. Retrieved
+content is treated as untrusted evidence rather than instructions.
 
 Citation validation proves that a citation refers to supplied evidence; it does
 not by itself prove complete semantic entailment. This is assessed separately by
@@ -212,22 +229,24 @@ the evaluation pipeline and human review.
 
 ## Streamlit interface
 
-Streamlit provides a small local chat interface over the same agent used by the
-CLI. It exposes session creation, model selection, API-key entry, answers,
-citations, route information, and useful failure messages without duplicating
-retrieval logic. PDF citations can optionally render their complete source pages
-from the local rulebook. These previews are never sent to Gemini and do not imply
-that the model interpreted the page image.
+We chose Streamlit to provide a small local chat interface over the same agent
+used by the CLI. It exposes session creation, model selection, API-key entry,
+answers, citations, route information, and useful failure messages without
+duplicating retrieval logic. PDF citations can optionally render their complete
+source pages from the local rulebook. These previews are never sent to Gemini
+and do not imply that the model interpreted the page image.
 
-Streamlit was selected for a lightweight course demonstration. The project does
-not require a separate web server, authentication system, or hosted deployment.
+This choice gives us a lightweight project demonstration. The project does not
+require a separate web server, authentication system, or hosted deployment.
 
 ## Evaluation strategy
 
-The evaluation dataset contains rules, database, hybrid, and clarification
-questions. Deterministic metrics evaluate routing decisions, execution traces,
-retrieved evidence, SQL results, required answer facts, and citation validity.
-This makes the results reproducible and helps detect regressions.
+We built a frozen twelve-case evaluation dataset containing four rules
+questions, four database questions, three hybrid questions, and one
+clarification question. Deterministic metrics evaluate routing decisions,
+execution traces, retrieved evidence, SQL results, required answer facts, and
+citation validity. This makes the results reproducible and helps detect
+regressions.
 
 An optional independent LLM judge and human review can also be used to assess
 faithfulness and answer relevance. The detailed dataset design, metrics,

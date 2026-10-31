@@ -33,9 +33,9 @@ The twelve cases were selected to cover every route supported by the agent:
 - one clarification question checks whether the agent avoids answering an
   underspecified query.
 
-The dataset includes the four example chatbot questions from the project brief
-verbatim, including the ambiguous Space Marine Toughness question. The remaining
-cases were chosen to cover representative operations such as direct fact
+The dataset includes the four example chatbot questions from the project brief,
+including the ambiguous Space Marine Toughness question. The remaining cases
+were chosen to cover representative operations such as direct fact
 retrieval, filtering, counting, profile comparison and multi-source reasoning.
 Each case is answerable from the versioned project sources and has manually
 checked reference evidence or SQL values.
