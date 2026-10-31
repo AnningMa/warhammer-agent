@@ -56,34 +56,47 @@ cd warhammer-agent
 uv sync --locked --extra agent --extra qwen --extra chroma --extra gemini --extra ui
 ```
 
-Choose one way to prepare the search index.
+Choose one way to prepare the search index. If you prefer the simplest setup,
+use Option B. Option A is faster when the precomputed index is available.
 
-#### Option A: Download embeddings
+#### Option A: Use the precomputed index (faster)
 
 Download the [index ZIP](https://github.com/user-attachments/files/34176724/warhammer-qwen-parent-child-index-20261030.zip)
 and save it in `storage/releases/` (create the directory if needed).
 The checksum is included in `checksums/`.
 
-From the project root, verify and import the ZIP without extracting it:
+Verify the ZIP with the command available on your system.
+
+Linux:
 
 ```bash
 (cd storage/releases && sha256sum -c ../../checksums/warhammer-qwen-parent-child-index-20261030.zip.sha256)
-.venv/bin/python scripts/index_package.py import \
-  --archive storage/releases/warhammer-qwen-parent-child-index-20261030.zip
+```
+
+macOS:
+
+```bash
+(cd storage/releases && shasum -a 256 -c ../../checksums/warhammer-qwen-parent-child-index-20261030.zip.sha256)
+```
+
+Then import it from the project root without extracting it:
+
+```bash
+uv run --locked --extra qwen --extra chroma python scripts/index_package.py import --archive storage/releases/warhammer-qwen-parent-child-index-20261030.zip
 ```
 
 Qwen is still needed for user questions. Download/cache it with a test query:
 
 ```bash
-.venv/bin/python scripts/embed_parent_child.py --query "How does Deep Strike work?" --top-k 1
+uv run --locked --extra qwen --extra chroma python scripts/embed_parent_child.py --query "How does Deep Strike work?" --top-k 1
 ```
 
-#### Option B: Build embeddings
+#### Option B: Build the index locally (simpler)
 
 If no matching index package is available, download Qwen and build the index:
 
 ```bash
-.venv/bin/python scripts/embed_parent_child.py
+uv run --locked --extra qwen --extra chroma python scripts/embed_parent_child.py
 ```
 
 Both options reuse the model and index on later runs.
@@ -152,6 +165,7 @@ uv run --locked --extra agent --extra qwen --extra chroma --extra gemini \
 | `scripts/evaluate_agent.py` | Resumable 12-case end-to-end evaluation |
 | `scripts/build_corpus.py` | Rebuild the reviewed PDF rule corpus |
 | `scripts/embed_parent_child.py` | Build or query the default PDF vector index |
+| `scripts/index_package.py` | Validate, import or export a portable PDF vector index |
 
 ## Repository structure
 
@@ -159,7 +173,7 @@ uv run --locked --extra agent --extra qwen --extra chroma --extra gemini \
 warhammer-agent/
 ├── data/                       # PDF, SQLite database and parsing snapshot
 ├── config/                     # Model, agent and evaluation configuration
-├── docs/                       # Assignment report and evaluation results
+├── docs/                       # Architecture, technical choices and reference documentation
 ├── checksums/                  # Downloaded index checksums
 ├── reports/                    # Reviewed rule corpus and retrieval records
 ├── scripts/                    # User-facing CLI, chat and evaluation entry points
