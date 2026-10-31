@@ -56,10 +56,25 @@ cd warhammer-agent
 uv sync --locked --extra agent --extra qwen --extra chroma --extra gemini --extra ui
 ```
 
-Choose one way to prepare the search index. If you prefer the simplest setup,
-use Option B. Option A is faster when the precomputed index is available.
+Choose one way to prepare the search index. Option A is the simplest setup.
+Option B is faster when the precomputed index is available.
 
-#### Option A: Use the precomputed index (faster)
+#### Option A: Build the index locally (simpler)
+
+Download Qwen and build the local Chroma index:
+
+```bash
+uv run --locked --extra qwen --extra chroma python scripts/embed_parent_child.py
+```
+
+#### Option B: Use the precomputed index (faster)
+
+This option skips the document-embedding computation.
+
+<details>
+<summary>Show download and import steps</summary>
+
+<br>
 
 Download the [index ZIP](https://github.com/user-attachments/files/34176724/warhammer-qwen-parent-child-index-20261030.zip)
 and save it in `storage/releases/` (create the directory if needed).
@@ -91,13 +106,7 @@ Qwen is still needed for user questions. Download/cache it with a test query:
 uv run --locked --extra qwen --extra chroma python scripts/embed_parent_child.py --query "How does Deep Strike work?" --top-k 1
 ```
 
-#### Option B: Build the index locally (simpler)
-
-If no matching index package is available, download Qwen and build the index:
-
-```bash
-uv run --locked --extra qwen --extra chroma python scripts/embed_parent_child.py
-```
+</details>
 
 Both options reuse the model and index on later runs.
 
