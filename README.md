@@ -154,6 +154,10 @@ key in the sidebar, then ask a question in the chat box.
 
 ## Documentation
 
+To keep the documentation clear, we separated it into focused files. The
+documents below cover system architecture, technical choices, PDF ingestion,
+evaluation methodology, final results, and the SQLite schema reference.
+
 | Document | Content |
 |---|---|
 | [`docs/architecture.md`](docs/architecture.md) | Complete system flow and module interaction |
