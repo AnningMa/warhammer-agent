@@ -32,8 +32,8 @@ Click **Show interface preview** below to view the web interface.
 
 ## Group
 
-- Anning Ma (student number: 22404528)
-- Yiwei ZUO (student number: 22400141)
+- Anning Ma (student number: 22404528; email: anning.ma@etu.u-paris.fr)
+- Yiwei ZUO (student number: 22400141; email: yiwei.zuo@etu.u-paris.fr)
 
 ## Interface preview
 
@@ -95,7 +95,7 @@ This option skips the document-embedding computation. Click below to view the
 complete setup steps.
 
 <details>
-<summary><strong>📦 Click to expand the download and import steps</strong></summary>
+<summary><mark><strong>📦 Click to expand the download and import steps</strong></mark></summary>
 
 <br>
 

@@ -5,6 +5,9 @@ reference dataset. It evaluates retrieval, SQL results, answer grounding,
 agent traces, latency and token usage. It complements unit tests; it is not a
 replacement for them.
 
+The final evaluation results can be viewed separately in
+[`evaluation_results.md`](evaluation_results.md).
+
 ## Contents
 
 - [Dataset](#dataset)
