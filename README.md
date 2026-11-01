@@ -42,7 +42,7 @@ and displays grounded answers together with their cited sources and PDF page
 previews.
 
 <details>
-<summary><strong>Show interface preview</strong></summary>
+<summary><mark><strong>Show interface preview</strong></mark></summary>
 
 <br>
 
