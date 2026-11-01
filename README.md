@@ -101,6 +101,7 @@ complete setup steps.
 
 Download the [index ZIP](https://github.com/user-attachments/files/34176724/warhammer-qwen-parent-child-index-20261030.zip)
 and save it in `storage/releases/` (create the directory if needed).
+**Do not extract the ZIP file.**
 The checksum is included in `checksums/`.
 
 Verify the ZIP with the command available on your system.
@@ -123,7 +124,7 @@ Then import it from the project root without extracting it:
 uv run --locked --extra qwen --extra chroma python scripts/index_package.py import --archive storage/releases/warhammer-qwen-parent-child-index-20261030.zip
 ```
 
-Qwen is still needed for user questions. Download/cache it with a test query:
+Download/cache the Qwen embedding model (required for PDF retrieval):
 
 ```bash
 uv run --locked --extra qwen --extra chroma python scripts/embed_parent_child.py --query "How does Deep Strike work?" --top-k 1
